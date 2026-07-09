@@ -1,0 +1,63 @@
+{
+  "id": "blackstone-beach",
+  "name": "Blackstone Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "east-coast",
+  "coast": "east",
+  "description": "Aruba's most visually unusual shore \u2014 black stones against turquoise water.",
+  "tags": [
+    "geology",
+    "photography"
+  ],
+  "map_link": "https://www.google.com/maps/search/Blackstone+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 7,
+    "rockiness": {
+      "beach": "Black volcanic pebbles and boulders \u2014 no classic sand beach",
+      "ocean_floor": "Rocky shore with immediate drop-off near boulders"
+    },
+    "water_quality": 2,
+    "swim": 2,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "moderate to rough",
+    "surfing": 7,
+    "snorkeling_note": "none",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "moderate to rough",
+    "snorkeling": "none",
+    "swimming": "not recommended",
+    "depth_profile": "Rocky shore with immediate drop-off near volcanic boulders.",
+    "stone_rocks": "Dominant \u2014 smooth black volcanic pebbles and boulders instead of white sand",
+    "sand": "black stone shingle \u2014 no classic sand beach",
+    "crowds": "very low",
+    "access": "4x4 or long walk",
+    "facilities": "None",
+    "fun_facts": [
+      "Aruba's most visually unusual shore \u2014 black stones against turquoise water."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "black-stones",
+    "geology",
+    "east",
+    "volcanic",
+    "photography",
+    "unique",
+    "pebbles"
+  ]
+}

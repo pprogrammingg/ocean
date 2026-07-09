@@ -1,0 +1,66 @@
+{
+  "country_id": "aruba",
+  "city_zone": "west-coast",
+  "zone_name": "West Coast",
+  "beaches": [
+    {
+      "id": "eagle-beach",
+      "name": "Eagle Beach",
+      "tags": [
+        "swimming",
+        "sunbathing",
+        "photography"
+      ],
+      "path": "aruba/west-coast/eagle-beach/beach.json"
+    },
+    {
+      "id": "palm-beach",
+      "name": "Palm Beach",
+      "tags": [
+        "water sports",
+        "resort amenities",
+        "families"
+      ],
+      "path": "aruba/west-coast/palm-beach/beach.json"
+    },
+    {
+      "id": "manchebo-beach",
+      "name": "Manchebo Beach",
+      "tags": [
+        "quiet relaxation",
+        "couples",
+        "sunsets"
+      ],
+      "path": "aruba/west-coast/manchebo-beach/beach.json"
+    },
+    {
+      "id": "druif-beach",
+      "name": "Druif Beach",
+      "tags": [
+        "quiet day",
+        "happy hour",
+        "cruise-adjacent visitors"
+      ],
+      "path": "aruba/west-coast/druif-beach/beach.json"
+    },
+    {
+      "id": "surfside-beach",
+      "name": "Surfside Beach",
+      "tags": [
+        "cruise ship visitors",
+        "quick city beach stop"
+      ],
+      "path": "aruba/west-coast/surfside-beach/beach.json"
+    },
+    {
+      "id": "flamingo-beach",
+      "name": "Flamingo Beach",
+      "tags": [
+        "unique experience",
+        "photography",
+        "flamingo encounters"
+      ],
+      "path": "aruba/west-coast/flamingo-beach/beach.json"
+    }
+  ]
+}

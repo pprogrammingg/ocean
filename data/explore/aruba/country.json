@@ -1,0 +1,12 @@
+{
+  "id": "aruba",
+  "name": "Aruba",
+  "region": "Southern Caribbean, Netherlands (Kingdom)",
+  "guide_version": "1.0",
+  "last_updated": "2026-07-05",
+  "ocean_info": "Aruba sits in the southern Caribbean Sea, roughly 15 miles off the coast of Venezuela. The island lies outside the Atlantic hurricane belt and enjoys dry, sunny trade-wind weather most of the year. For first-time tourists, the leeward west and south coasts feel like a classic Caribbean postcard: calm turquoise water, fine white sand, and gentle waves ideal for swimming and sunbathing. Snorkelers and divers should know that Aruba has two very different coastlines. The west and northwest shores (Eagle Beach, Palm Beach, Malmok, Boca Catalina, Arashi, Mangel Halto) offer protected water with reef patches, sea turtles, and colorful fish close to shore. The east and north shores face the open Atlantic \u2014 dramatic cliffs, powerful surf, and strong currents; beautiful for photos and experienced surfers, but generally not for casual swimming. Water temperature stays warm year-round (about 26\u201329\u00b0C / 79\u201384\u00b0F). Visibility is often excellent on calm mornings. All beaches in Aruba are public by law. Use reef-safe sunscreen and never take sand, coral, or shells.",
+  "coast_guide": {
+    "west_south": "Calm Caribbean side \u2014 swimming, snorkeling, resorts, families",
+    "east_north": "Wild Atlantic side \u2014 scenery, surfing, photography; swimming usually not safe"
+  }
+}

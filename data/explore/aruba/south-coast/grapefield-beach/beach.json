@@ -1,0 +1,64 @@
+{
+  "id": "grapefield-beach",
+  "name": "Grapefield Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "south-coast",
+  "coast": "south",
+  "description": "Little-known south-coast spot \u2014 locals picnic here away from resort crowds.",
+  "tags": [
+    "quiet escape",
+    "local picnics"
+  ],
+  "map_link": "https://www.google.com/maps/search/Grapefield+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 3,
+    "rockiness": {
+      "beach": "White sand cove with rock outcrops at the edges \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Sandy on calm days; gradual depth"
+    },
+    "water_quality": 4,
+    "swim": 9,
+    "snorkeling": 4,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm to moderate",
+    "surfing": 1,
+    "snorkeling_note": "limited",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm to moderate",
+    "snorkeling": "limited",
+    "swimming": "good",
+    "depth_profile": "Sandy cove with gradual depth on calm days.",
+    "stone_rocks": "Some rock outcrops at edges",
+    "sand": "white coral sand",
+    "crowds": "very low",
+    "access": "South coast; rental car recommended",
+    "facilities": "None \u2014 bring supplies",
+    "fun_facts": [
+      "Little-known south-coast spot \u2014 locals picnic here away from resort crowds."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "quiet",
+    "picnic",
+    "south",
+    "local",
+    "secluded",
+    "calm",
+    "quiet-escape",
+    "local-picnics"
+  ]
+}

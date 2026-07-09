@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beaches — ocean-love.xyz</title>
+  <link rel="stylesheet" href="css/ocean.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>ocean-love.xyz</h1>
+    <p>Ocean exploration &amp; stewardship</p>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="beaches.html" aria-current="page">Beaches</a>
+    </nav>
+  </header>
+
+  <main class="layout layout-beaches">
+    <aside class="panel sidebar">
+      <h2>Explore</h2>
+
+      <div class="field">
+        <label for="country-select">Country</label>
+        <select id="country-select">
+          <option value="">Select country…</option>
+        </select>
+      </div>
+
+      <div id="country-controls" class="country-controls" hidden>
+        <div class="field search-field">
+          <label for="beach-search">Search</label>
+          <div class="search-input-wrap">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <input type="search" id="beach-search" placeholder="Name or tag…" autocomplete="off">
+          </div>
+          <ul id="search-results" class="search-results" hidden></ul>
+        </div>
+
+        <div class="field">
+          <label for="zone-select">Zone</label>
+          <select id="zone-select"></select>
+        </div>
+
+        <div id="country-blurb" class="country-blurb"></div>
+
+        <h2 class="section-heading">Beaches</h2>
+        <ul id="beach-list" class="beach-list"></ul>
+      </div>
+
+      <p id="pick-country-hint" class="pick-country-hint">Select a country to browse zones and beaches.</p>
+    </aside>
+
+    <section id="beach-detail" class="panel">
+      <p class="empty-state">Select a beach to see details.</p>
+    </section>
+  </main>
+
+  <script type="module" src="js/beaches.js"></script>
+</body>
+</html>

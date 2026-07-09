@@ -1,0 +1,65 @@
+{
+  "id": "boca-grandi",
+  "name": "Boca Grandi",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "east-coast",
+  "coast": "east",
+  "description": "Popular with kitesurfers who want Atlantic-side wind and waves.",
+  "tags": [
+    "kitesurfing",
+    "wind sports",
+    "wild coast"
+  ],
+  "map_link": "https://www.google.com/maps/search/Boca+Grandi+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 8,
+    "rockiness": {
+      "beach": "White sand with rocky, windy shoreline \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Shallow bay \u2014 popular for kite launch, not swimming"
+    },
+    "water_quality": 2,
+    "swim": 2,
+    "snorkeling": 2,
+    "wind": "rough",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "rough",
+    "surfing": 9,
+    "snorkeling_note": "none",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "rough",
+    "snorkeling": "none",
+    "swimming": "not safe",
+    "depth_profile": "Shallow windy bay popular for kite launch \u2014 not for swimming.",
+    "stone_rocks": "Rocky and windy shoreline",
+    "sand": "white coral sand",
+    "crowds": "very low",
+    "access": "4x4 recommended",
+    "facilities": "None",
+    "fun_facts": [
+      "Popular with kitesurfers who want Atlantic-side wind and waves."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "kitesurfing",
+    "wind",
+    "east",
+    "atlantic",
+    "kite",
+    "wild",
+    "wind-sports",
+    "wild-coast"
+  ]
+}

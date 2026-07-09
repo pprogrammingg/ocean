@@ -1,0 +1,6 @@
+{
+  "type": "plant",
+  "items": [
+    { "id": "red-mangrove", "name": "Red Mangrove", "path": "plants/red-mangrove.json" }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "rodgers-beach",
+  "name": "Rodgers Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "south-coast",
+  "coast": "south",
+  "description": "Quieter neighbor to Baby Beach near the fishing village of Savaneta \u2014 more local, less touristy feel.",
+  "tags": [
+    "seclusion",
+    "local atmosphere",
+    "quiet swimming"
+  ],
+  "map_link": "https://www.google.com/maps/search/Rodgers+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 3,
+    "rockiness": {
+      "beach": "White sand with some rocky sections \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Mostly sand; moderate depth increase offshore"
+    },
+    "water_quality": 7,
+    "swim": 9,
+    "snorkeling": 7,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm to moderate",
+    "surfing": 1,
+    "snorkeling_note": "decent",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "reef-fish"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm to moderate",
+    "snorkeling": "decent",
+    "swimming": "good",
+    "depth_profile": "Sandy slope with moderate depth increase; less enclosed than Baby Beach.",
+    "stone_rocks": "Some rocky sections; mostly sand",
+    "sand": "white coral sand",
+    "crowds": "very low",
+    "access": "Free parking near Baby Beach area; short drive from San Nicolas",
+    "facilities": "Very limited \u2014 bring water and snacks",
+    "fun_facts": [
+      "Quieter neighbor to Baby Beach near the fishing village of Savaneta \u2014 more local, less touristy feel."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "quiet",
+    "local",
+    "south",
+    "secluded",
+    "swimming",
+    "savaneta",
+    "seclusion",
+    "local-atmosphere",
+    "quiet-swimming"
+  ]
+}

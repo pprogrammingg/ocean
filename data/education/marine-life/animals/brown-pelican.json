@@ -1,0 +1,15 @@
+{
+  "id": "brown-pelican",
+  "type": "animal",
+  "name": "Brown Pelican",
+  "scientific_name": "Pelecanus occidentalis",
+  "summary": "Coastal diving bird that plunge-feeds on fish near reefs and beaches. Common along Aruba's northwest coast where baitfish concentrate.",
+  "tags": ["bird", "coastal"],
+  "habitat": ["coastal waters", "reef edge"],
+  "image": null,
+  "conservation_status": "Least Concern (IUCN)",
+  "fun_facts": [
+    "Dives head-first from the air to scoop fish in its pouch.",
+    "Populations recovered after DDT bans in the 1970s."
+  ]
+}

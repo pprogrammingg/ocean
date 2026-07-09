@@ -1,0 +1,19 @@
+{
+  "id": "reef-fish",
+  "type": "animal",
+  "name": "Caribbean Reef Fish",
+  "scientific_name": null,
+  "summary": "Collective profile for common shallow-reef species — parrotfish, angelfish, trunkfish, blue tang — seen on Aruba's fringing reefs.",
+  "tags": ["fish", "reef", "snorkeling"],
+  "habitat": ["coral reef", "rocky shore"],
+  "image": null,
+  "species_examples": [
+    "Blue parrotfish (Scarus coeruleus)",
+    "French angelfish (Pomacanthus paru)",
+    "Blue tang (Acanthurus coeruleus)"
+  ],
+  "fun_facts": [
+    "Parrotfish graze algae and help keep reefs healthy.",
+    "Many reef fish are most active on calm morning snorkel sessions."
+  ]
+}

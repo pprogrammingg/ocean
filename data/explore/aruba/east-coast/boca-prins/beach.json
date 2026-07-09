@@ -1,0 +1,66 @@
+{
+  "id": "boca-prins",
+  "name": "Boca Prins",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "east-coast",
+  "coast": "east",
+  "description": "Spectacular dune landscape above crashing waves \u2014 viewpoint more than swim spot.",
+  "tags": [
+    "dune views",
+    "photography",
+    "4x4 adventure"
+  ],
+  "map_link": "https://www.google.com/maps/search/Boca+Prins+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 9,
+    "rockiness": {
+      "beach": "White sand at the base of high dunes \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Rough Atlantic \u2014 too dangerous for water entry"
+    },
+    "water_quality": 2,
+    "swim": 2,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "rough \u2014 crashing Atlantic",
+    "surfing": 9,
+    "snorkeling_note": "none",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "rough \u2014 crashing Atlantic",
+    "snorkeling": "none",
+    "swimming": "not safe",
+    "depth_profile": "Beach at base of Aruba's highest sand dunes \u2014 water too rough for entry.",
+    "stone_rocks": "Dunes and rocky coast",
+    "sand": "white coral sand",
+    "crowds": "very low",
+    "access": "4x4; often on jeep/UTV tours",
+    "facilities": "None",
+    "fun_facts": [
+      "Spectacular dune landscape above crashing waves \u2014 viewpoint more than swim spot."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "dunes",
+    "photography",
+    "east",
+    "atlantic",
+    "4x4",
+    "scenic",
+    "jeep",
+    "dune-views",
+    "4x4-adventure"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "country_id": "aruba",
+  "city_zone": "north-coast",
+  "zone_name": "North Coast",
+  "beaches": [
+    {
+      "id": "wariruri-beach",
+      "name": "Wariruri Beach",
+      "tags": [
+        "surfing",
+        "fishing",
+        "remote scenery"
+      ],
+      "path": "aruba/north-coast/wariruri-beach/beach.json"
+    }
+  ]
+}

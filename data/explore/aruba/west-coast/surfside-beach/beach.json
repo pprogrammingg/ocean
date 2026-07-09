@@ -1,0 +1,65 @@
+{
+  "id": "surfside-beach",
+  "name": "Surfside Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "west-coast",
+  "coast": "west",
+  "description": "Most convenient beach for cruise passengers with limited port time. Plane spotting possible \u2014 aircraft approach nearby.",
+  "tags": [
+    "cruise ship visitors",
+    "quick city beach stop"
+  ],
+  "map_link": "https://www.google.com/maps/search/Surfside+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 1,
+    "rockiness": {
+      "beach": "White sand near the Oranjestad waterfront \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Shallow sandy slope"
+    },
+    "water_quality": 2,
+    "swim": 9,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm",
+    "surfing": 0,
+    "snorkeling_note": "poor",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm",
+    "snorkeling": "poor",
+    "swimming": "good",
+    "depth_profile": "Shallow sandy slope near Oranjestad waterfront.",
+    "stone_rocks": "Minimal",
+    "sand": "white coral sand",
+    "crowds": "moderate",
+    "access": "~15 minute walk from Aruba cruise terminal; taxi from Oranjestad",
+    "facilities": "Restaurant, bar, restrooms",
+    "fun_facts": [
+      "Most convenient beach for cruise passengers with limited port time.",
+      "Plane spotting possible \u2014 aircraft approach nearby."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "cruise",
+    "oranjestad",
+    "west",
+    "city",
+    "airport",
+    "plane-spotting",
+    "cruise-ship-visitors",
+    "quick-city-beach-stop"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "manchebo-beach",
+  "name": "Manchebo Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "west-coast",
+  "coast": "west",
+  "description": "Effectively the southern continuation of Eagle Beach with a more peaceful, adults-oriented resort feel.",
+  "tags": [
+    "quiet relaxation",
+    "couples",
+    "sunsets"
+  ],
+  "map_link": "https://www.google.com/maps/search/Manchebo+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 1,
+    "rockiness": {
+      "beach": "Open powdery white sand \u2014 among the widest on the island \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Sandy floor; shallow for a long distance"
+    },
+    "water_quality": 2,
+    "swim": 9,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm",
+    "surfing": 0,
+    "snorkeling_note": "poor",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm",
+    "snorkeling": "poor",
+    "swimming": "excellent",
+    "depth_profile": "Very gradual; among the widest beach sections on Aruba \u2014 shallow water extends far from shore.",
+    "stone_rocks": "Minimal \u2014 open powdery sand",
+    "sand": "white coral sand",
+    "crowds": "low",
+    "access": "Free parking; continuous with Eagle Beach to the north",
+    "facilities": "Low-rise resort palapas nearby; fewer commercial vendors than Palm Beach",
+    "fun_facts": [
+      "Effectively the southern continuation of Eagle Beach with a more peaceful, adults-oriented resort feel."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "quiet",
+    "couples",
+    "west",
+    "relaxation",
+    "sunset",
+    "low-crowd",
+    "quiet-relaxation",
+    "sunsets"
+  ]
+}

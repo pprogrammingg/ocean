@@ -1,0 +1,572 @@
+{
+  "destination": "Aruba",
+  "region": "Southern Caribbean, Netherlands (Kingdom)",
+  "guide_version": "1.0",
+  "last_updated": "2026-07-05",
+  "ocean_info": "Aruba sits in the southern Caribbean Sea, roughly 15 miles off the coast of Venezuela. The island lies outside the Atlantic hurricane belt and enjoys dry, sunny trade-wind weather most of the year. For first-time tourists, the leeward west and south coasts feel like a classic Caribbean postcard: calm turquoise water, fine white sand, and gentle waves ideal for swimming and sunbathing. Snorkelers and divers should know that Aruba has two very different coastlines. The west and northwest shores (Eagle Beach, Palm Beach, Malmok, Boca Catalina, Arashi, Mangel Halto) offer protected water with reef patches, sea turtles, and colorful fish close to shore. The east and north shores face the open Atlantic — dramatic cliffs, powerful surf, and strong currents; beautiful for photos and experienced surfers, but generally not for casual swimming. Water temperature stays warm year-round (about 26–29°C / 79–84°F). Visibility is often excellent on calm mornings. All beaches in Aruba are public by law. Use reef-safe sunscreen and never take sand, coral, or shells.",
+  "coast_guide": {
+    "west_south": "Calm Caribbean side — swimming, snorkeling, resorts, families",
+    "east_north": "Wild Atlantic side — scenery, surfing, photography; swimming usually not safe"
+  },
+  "beaches": [
+    {
+      "name": "Arashi",
+      "aliases": [
+        "Arasji",
+        "Araji"
+      ],
+      "coast": "northwest",
+      "best_for": [
+        "snorkeling",
+        "sunsets",
+        "families",
+        "pelican watching"
+      ],
+      "characteristics": {
+        "wave": "calm to moderate",
+        "snorkeling": "excellent",
+        "swimming": "excellent",
+        "depth_profile": "Shallow sandy entry for roughly 50–100 cm over white sand; reef and rocky patches begin within 20–40 m of shore on the left (south) side when facing the sea. Depth increases gradually to 2–4 m over reef, then drops more quickly beyond the fringing reef edge.",
+        "stone_rocks": "Moderate and sporadic along the shoreline — mixed sand and low limestone rock. Rocky patches near the reef hold the best fish life. There are open sandy lanes with fewer rocks, ideal for easy entry.",
+        "sand": "white coral sand",
+        "crowds": "moderate; quieter on weekdays and north of the main parking area",
+        "access": "Free parking lot; Bus L10 from Oranjestad; ~15–20 min drive north from Palm Beach past California Lighthouse",
+        "facilities": "Free palapas (arrive early), snack hut, occasional chair rentals",
+        "fun_facts": [
+          "Name may derive from Papiamento 'warashi' (bonefish) — historically important in the indigenous Caquetio diet.",
+          "Part of the island's 'Gold Coast' nickname for spectacular sunsets facing west over the Caribbean.",
+          "We saw a family feeding fish in the middle of a small patch, attracting a huge concentration of different species. Suddenly pelicans would sweep in and grab one or two as dinner. Having snorkel goggles underwater where a pelican might land is definitely something not to miss — but you have to time it.",
+          "Blue parrotfish, French angelfish, and green sea turtles are regular sightings on the reef to the left of the main beach."
+        ],
+        "safety_notes": [
+          "Best snorkeling on calm mornings; currents can strengthen on windy days near the reef edge."
+        ]
+      }
+    },
+    {
+      "name": "Eagle Beach",
+      "aliases": [],
+      "coast": "west",
+      "best_for": [
+        "swimming",
+        "sunbathing",
+        "photography",
+        "wide open sand"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "poor",
+        "swimming": "excellent",
+        "depth_profile": "Very gradual sandy slope — waist-deep for a long distance on calm days. No significant reef at this beach; depth stays shallow (under 1.5 m) for tens of meters before slow deepening.",
+        "stone_rocks": "Minimal — predominantly fine white sand; occasional small shells",
+        "sand": "white coral sand",
+        "crowds": "moderate; busier near Palm Beach end, quieter toward Manchebo",
+        "access": "Free parking lots along the coast road; taxi and bus accessible",
+        "facilities": "Palapas, nearby beach bars and restaurants at adjacent resorts (public beach access)",
+        "fun_facts": [
+          "Repeatedly ranked among the best beaches in the Caribbean and top beaches worldwide on TripAdvisor.",
+          "Iconic wind-bent fofoti (divi-divi) trees line the shore — one of Aruba's most photographed scenes.",
+          "Important sea turtle nesting site (roughly May–November); nests may be marked with tape — do not disturb."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Palm Beach",
+      "aliases": [],
+      "coast": "west",
+      "best_for": [
+        "water sports",
+        "resort amenities",
+        "families",
+        "boat tours"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "limited",
+        "swimming": "excellent",
+        "depth_profile": "Gentle sandy slope; shallow and safe for long distances. Reef snorkeling is limited from shore — most snorkel tours depart from here by boat.",
+        "stone_rocks": "Minimal on main swim areas — wide groomed sand",
+        "sand": "white coral sand",
+        "crowds": "busy, especially high season and near high-rise hotels",
+        "access": "Paid lots near beach center; free side-street parking a short walk away",
+        "facilities": "Extensive — restaurants, bars, jet skis, parasailing, paddleboards, tour operators",
+        "fun_facts": [
+          "Two-mile resort strip backed by high-rise hotels — Aruba's main tourist hub.",
+          "Best launch point for sunset cruises, catamaran snorkel trips, and Antilla shipwreck tours."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Manchebo Beach",
+      "aliases": [],
+      "coast": "west",
+      "best_for": [
+        "quiet relaxation",
+        "couples",
+        "sunsets"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "poor",
+        "swimming": "excellent",
+        "depth_profile": "Very gradual; among the widest beach sections on Aruba — shallow water extends far from shore.",
+        "stone_rocks": "Minimal — open powdery sand",
+        "sand": "white coral sand",
+        "crowds": "low",
+        "access": "Free parking; continuous with Eagle Beach to the north",
+        "facilities": "Low-rise resort palapas nearby; fewer commercial vendors than Palm Beach",
+        "fun_facts": [
+          "Effectively the southern continuation of Eagle Beach with a more peaceful, adults-oriented resort feel."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Druif Beach",
+      "aliases": [],
+      "coast": "west",
+      "best_for": [
+        "quiet day",
+        "happy hour",
+        "cruise-adjacent visitors"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "poor",
+        "swimming": "excellent",
+        "depth_profile": "Shallow sandy entry similar to Eagle Beach; gradual slope.",
+        "stone_rocks": "Low rock promontories at edges add texture but main swim zone is sandy",
+        "sand": "white coral sand",
+        "crowds": "low",
+        "access": "Free parking; closer to Oranjestad and cruise terminal than Palm Beach",
+        "facilities": "Beach Bar Aruba on the sand; some palapas",
+        "fun_facts": [
+          "Walk south to reach Eagle Beach easily — popular sunset happy hour spot among locals and repeat visitors."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Baby Beach",
+      "aliases": [],
+      "coast": "south",
+      "best_for": [
+        "families with young children",
+        "beginner snorkelers",
+        "calm lagoon swimming"
+      ],
+      "characteristics": {
+        "wave": "very calm",
+        "snorkeling": "good",
+        "swimming": "excellent",
+        "depth_profile": "Enclosed lagoon: ankle to waist-deep for a very long distance inside the natural reef breakwater. Depth increases near the left-side rock barrier where reef fish gather; do not swim beyond protected areas — open ocean side can be dangerous.",
+        "stone_rocks": "Rock barrier defines the lagoon; sandy bottom inside; reef and rocks at the channel edges",
+        "sand": "white coral sand",
+        "crowds": "moderate to busy on weekends; arrive early",
+        "access": "Free large parking lot; ~45 min drive from Palm Beach through San Nicolas",
+        "facilities": "Two beach restaurants, restrooms, snorkel gear rentals",
+        "fun_facts": [
+          "Named for pool-like calm water — toddlers can splash safely in the lagoon interior.",
+          "Snorkeling improves near the left rock barrier: parrotfish, trunkfish, and sea turtles.",
+          "Drive passes San Nicolas street murals — worth combining with a south-coast culture stop."
+        ],
+        "safety_notes": [
+          "Stay inside the protected lagoon; outer reef openings can have strong current and surge."
+        ]
+      }
+    },
+    {
+      "name": "Rodgers Beach",
+      "aliases": [],
+      "coast": "south",
+      "best_for": [
+        "seclusion",
+        "local atmosphere",
+        "quiet swimming"
+      ],
+      "characteristics": {
+        "wave": "calm to moderate",
+        "snorkeling": "decent",
+        "swimming": "good",
+        "depth_profile": "Sandy slope with moderate depth increase; less enclosed than Baby Beach.",
+        "stone_rocks": "Some rocky sections; mostly sand",
+        "sand": "white coral sand",
+        "crowds": "very low",
+        "access": "Free parking near Baby Beach area; short drive from San Nicolas",
+        "facilities": "Very limited — bring water and snacks",
+        "fun_facts": [
+          "Quieter neighbor to Baby Beach near the fishing village of Savaneta — more local, less touristy feel."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Mangel Halto",
+      "aliases": [],
+      "coast": "southwest",
+      "best_for": [
+        "snorkeling",
+        "diving",
+        "mangrove ecosystem",
+        "advanced snorkelers"
+      ],
+      "characteristics": {
+        "wave": "calm surface; moderate current possible",
+        "snorkeling": "excellent",
+        "swimming": "good with caution",
+        "depth_profile": "Rocky and mangrove-fringed entry — no long sand beach. Shallow patch reef within meters of shore, then reef drops to roughly 30 m (100 ft) in places. Channels between mangrove roots hold juvenile fish.",
+        "stone_rocks": "Extensive — rocky shore, wooden staircases into water; water shoes recommended",
+        "sand": "Minimal — mangrove and limestone coastline rather than classic sand beach",
+        "crowds": "low to moderate",
+        "access": "Free roadside parking; near Savaneta",
+        "facilities": "Minimal — benches, wooden stairs; no rentals on site",
+        "fun_facts": [
+          "Often rated the #1 shore snorkeling spot in Aruba for reef diversity.",
+          "Mangroves act as fish nurseries — French angelfish, parrotfish, blue tang, eels, and turtles.",
+          "Solar-powered sea scooter tours popular when current is stronger."
+        ],
+        "safety_notes": [
+          "Current varies — visit at low tide for best visibility; use guided tour if inexperienced with drift."
+        ]
+      }
+    },
+    {
+      "name": "Boca Catalina",
+      "aliases": [],
+      "coast": "northwest",
+      "best_for": [
+        "shore snorkeling",
+        "quiet cove",
+        "beginners"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "excellent",
+        "swimming": "excellent",
+        "depth_profile": "Protected small cove — shallow reef within 10–30 m of shore; gradual depth to 2–3 m over coral heads.",
+        "stone_rocks": "Rocky in places around cove edges; sandy pocket in center",
+        "sand": "white coral sand",
+        "crowds": "very low",
+        "access": "Small roadside parking between Malmok and Arashi; arrive early",
+        "facilities": "None — bring own snorkel gear, water, and shade",
+        "fun_facts": [
+          "Small protected cove locals prefer to keep low-key — catamarans pass offshore while you snorkel.",
+          "Marine reserve protections help fish populations thrive close to shore."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Tres Trapi",
+      "aliases": [],
+      "coast": "northwest",
+      "best_for": [
+        "sea turtle snorkeling",
+        "unique rocky entry"
+      ],
+      "characteristics": {
+        "wave": "calm to moderate",
+        "snorkeling": "excellent",
+        "swimming": "good with caution",
+        "depth_profile": "Concrete steps into deep water quickly — turtles often rest on sandy bottom just beyond roped swim area.",
+        "stone_rocks": "Rocky point — not a sand beach; steps carved into limestone",
+        "sand": "none at entry — rocky coast",
+        "crowds": "low",
+        "access": "Roadside parking on northwest coast near Malmok",
+        "facilities": "None",
+        "fun_facts": [
+          "One of the most reliable places to snorkel with sea turtles from shore.",
+          "Bright blue whiptail lizards and pelicans on the rocks add to the scene.",
+          "Often combined with Boca Catalina and Arashi for a north-coast snorkel morning."
+        ],
+        "safety_notes": [
+          "Watch current; rash guard recommended; stay within marked swim zones."
+        ]
+      }
+    },
+    {
+      "name": "Malmok Beach",
+      "aliases": [],
+      "coast": "northwest",
+      "best_for": [
+        "snorkeling",
+        "quiet west-coast alternative"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "good",
+        "swimming": "good",
+        "depth_profile": "Rocky shoreline with reef patches close in; depth increases over coral within 20–50 m.",
+        "stone_rocks": "Moderate to extensive — rocky coast with sandy patches",
+        "sand": "white coral sand",
+        "crowds": "low",
+        "access": "Free roadside parking between Palm Beach and Boca Catalina",
+        "facilities": "Minimal",
+        "fun_facts": [
+          "Quieter than resort beaches; good coral formations; occasional sea glass found by beachcombers."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Hadicurari",
+      "aliases": [
+        "Fisherman's Hut",
+        "Fisherman Huts"
+      ],
+      "coast": "northwest",
+      "best_for": [
+        "windsurfing",
+        "kitesurfing",
+        "water sports"
+      ],
+      "characteristics": {
+        "wave": "calm water; steady wind",
+        "snorkeling": "poor",
+        "swimming": "good",
+        "depth_profile": "Shallow flat water ideal for board sports — sandy bottom extends far at low wind chop.",
+        "stone_rocks": "Minimal in launch zone",
+        "sand": "white coral sand",
+        "crowds": "moderate among water-sport crowd",
+        "access": "Along coast road north of Palm Beach; near Aruban wind sports schools",
+        "facilities": "Windsurf/kitesurf schools and gear rental",
+        "fun_facts": [
+          "Steady trade winds make this Aruba's premier windsurfing and kitesurfing beach."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Surfside Beach",
+      "aliases": [],
+      "coast": "west",
+      "best_for": [
+        "cruise ship visitors",
+        "quick city beach stop"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "poor",
+        "swimming": "good",
+        "depth_profile": "Shallow sandy slope near Oranjestad waterfront.",
+        "stone_rocks": "Minimal",
+        "sand": "white coral sand",
+        "crowds": "moderate",
+        "access": "~15 minute walk from Aruba cruise terminal; taxi from Oranjestad",
+        "facilities": "Restaurant, bar, restrooms",
+        "fun_facts": [
+          "Most convenient beach for cruise passengers with limited port time.",
+          "Plane spotting possible — aircraft approach nearby."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Flamingo Beach",
+      "aliases": [],
+      "coast": "private island (Renaissance Island)",
+      "best_for": [
+        "unique experience",
+        "photography",
+        "flamingo encounters"
+      ],
+      "characteristics": {
+        "wave": "calm",
+        "snorkeling": "poor",
+        "swimming": "excellent",
+        "depth_profile": "Calm protected bay on private island — shallow sandy bottom.",
+        "stone_rocks": "Minimal",
+        "sand": "white coral sand",
+        "crowds": "moderate",
+        "access": "Boat from Renaissance Wind Creek Resort; day pass for non-guests",
+        "facilities": "Full service — bar, restaurant, chairs included with access",
+        "fun_facts": [
+          "Pink flamingos roam freely among sunbathers — one of the Caribbean's most iconic photo spots.",
+          "Not a public beach — requires hotel stay or purchased day pass."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Andicuri Beach",
+      "aliases": [],
+      "coast": "east",
+      "best_for": [
+        "bodyboarding",
+        "wild scenery",
+        "photography"
+      ],
+      "characteristics": {
+        "wave": "rough — Atlantic surf",
+        "snorkeling": "none",
+        "swimming": "not safe",
+        "depth_profile": "Shallow turbulent zone near shore with powerful dumpers; rapid offshore depth but unsafe for swimmers.",
+        "stone_rocks": "Extensive — craggy cliffs and rock formations",
+        "sand": "mixed sand and rock",
+        "crowds": "very low",
+        "access": "4x4 recommended; east coast road",
+        "facilities": "None",
+        "fun_facts": [
+          "Dramatic Atlantic landscape — roar of surf and cliff scenery; favorite of bodyboarders."
+        ],
+        "safety_notes": [
+          "Do not swim — strong currents and powerful shore break."
+        ]
+      }
+    },
+    {
+      "name": "Dos Playa",
+      "aliases": [],
+      "coast": "east",
+      "best_for": [
+        "photography",
+        "experienced surfers",
+        "Arikok National Park"
+      ],
+      "characteristics": {
+        "wave": "rough — Atlantic surf",
+        "snorkeling": "none",
+        "swimming": "not safe",
+        "depth_profile": "Two connected wild coves with surf zone only — no safe wading depth for casual swimmers.",
+        "stone_rocks": "Rocky coves within Arikok National Park",
+        "sand": "white coral sand",
+        "crowds": "very low",
+        "access": "4x4 or hike; Arikok National Park entrance fee",
+        "facilities": "None",
+        "fun_facts": [
+          "'Two beaches' inside Arikok — sea turtle nests occasionally found; walk carefully."
+        ],
+        "safety_notes": [
+          "Swimming not recommended; experienced surfers only in surf zone."
+        ]
+      }
+    },
+    {
+      "name": "Boca Grandi",
+      "aliases": [],
+      "coast": "east",
+      "best_for": [
+        "kitesurfing",
+        "wind sports",
+        "wild coast"
+      ],
+      "characteristics": {
+        "wave": "rough",
+        "snorkeling": "none",
+        "swimming": "not safe",
+        "depth_profile": "Shallow windy bay popular for kite launch — not for swimming.",
+        "stone_rocks": "Rocky and windy shoreline",
+        "sand": "white coral sand",
+        "crowds": "very low",
+        "access": "4x4 recommended",
+        "facilities": "None",
+        "fun_facts": [
+          "Popular with kitesurfers who want Atlantic-side wind and waves."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Boca Prins",
+      "aliases": [],
+      "coast": "east",
+      "best_for": [
+        "dune views",
+        "photography",
+        "4x4 adventure"
+      ],
+      "characteristics": {
+        "wave": "rough — crashing Atlantic",
+        "snorkeling": "none",
+        "swimming": "not safe",
+        "depth_profile": "Beach at base of Aruba's highest sand dunes — water too rough for entry.",
+        "stone_rocks": "Dunes and rocky coast",
+        "sand": "white coral sand",
+        "crowds": "very low",
+        "access": "4x4; often on jeep/UTV tours",
+        "facilities": "None",
+        "fun_facts": [
+          "Spectacular dune landscape above crashing waves — viewpoint more than swim spot."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Blackstone Beach",
+      "aliases": [],
+      "coast": "east",
+      "best_for": [
+        "geology",
+        "photography"
+      ],
+      "characteristics": {
+        "wave": "moderate to rough",
+        "snorkeling": "none",
+        "swimming": "not recommended",
+        "depth_profile": "Rocky shore with immediate drop-off near volcanic boulders.",
+        "stone_rocks": "Dominant — smooth black volcanic pebbles and boulders instead of white sand",
+        "sand": "black stone shingle — no classic sand beach",
+        "crowds": "very low",
+        "access": "4x4 or long walk",
+        "facilities": "None",
+        "fun_facts": [
+          "Aruba's most visually unusual shore — black stones against turquoise water."
+        ],
+        "safety_notes": []
+      }
+    },
+    {
+      "name": "Wariruri Beach",
+      "aliases": [],
+      "coast": "north",
+      "best_for": [
+        "surfing",
+        "fishing",
+        "remote scenery"
+      ],
+      "characteristics": {
+        "wave": "rough",
+        "snorkeling": "none",
+        "swimming": "not safe",
+        "depth_profile": "Rocky surf coast — strong Atlantic surge.",
+        "stone_rocks": "Extensive limestone and coral rock",
+        "sand": "white coral sand",
+        "crowds": "very low",
+        "access": "4x4 north coast",
+        "facilities": "None",
+        "fun_facts": [
+          "Remote north-coast cove visited by surfers and fishermen; dramatic untamed coastline."
+        ],
+        "safety_notes": [
+          "Not for casual swimming."
+        ]
+      }
+    },
+    {
+      "name": "Grapefield Beach",
+      "aliases": [],
+      "coast": "south",
+      "best_for": [
+        "quiet escape",
+        "local picnics"
+      ],
+      "characteristics": {
+        "wave": "calm to moderate",
+        "snorkeling": "limited",
+        "swimming": "good",
+        "depth_profile": "Sandy cove with gradual depth on calm days.",
+        "stone_rocks": "Some rock outcrops at edges",
+        "sand": "white coral sand",
+        "crowds": "very low",
+        "access": "South coast; rental car recommended",
+        "facilities": "None — bring supplies",
+        "fun_facts": [
+          "Little-known south-coast spot — locals picnic here away from resort crowds."
+        ],
+        "safety_notes": []
+      }
+    }
+  ]
+}

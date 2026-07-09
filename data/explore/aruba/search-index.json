@@ -1,0 +1,399 @@
+{
+  "country_id": "aruba",
+  "last_updated": "2026-07-09",
+  "beach_count": 21,
+  "beaches": [
+    {
+      "id": "andicuri-beach",
+      "name": "Andicuri Beach",
+      "aliases": [],
+      "zone": "east-coast",
+      "path": "aruba/east-coast/andicuri-beach/beach.json",
+      "search_tags": [
+        "atlantic",
+        "surf",
+        "bodyboard",
+        "east",
+        "wild",
+        "cliffs",
+        "dangerous",
+        "4x4",
+        "bodyboarding",
+        "wild-scenery",
+        "photography"
+      ]
+    },
+    {
+      "id": "arashi",
+      "name": "Arashi",
+      "aliases": [
+        "Arasji",
+        "Araji"
+      ],
+      "zone": "northwest-coast",
+      "path": "aruba/northwest-coast/arashi/beach.json",
+      "search_tags": [
+        "turtle",
+        "pelican",
+        "snorkeling",
+        "reef",
+        "sunset",
+        "gold-coast",
+        "northwest",
+        "fish",
+        "parrotfish",
+        "families",
+        "reef-fish",
+        "calm",
+        "sunsets",
+        "pelican-watching"
+      ]
+    },
+    {
+      "id": "baby-beach",
+      "name": "Baby Beach",
+      "aliases": [],
+      "zone": "south-coast",
+      "path": "aruba/south-coast/baby-beach/beach.json",
+      "search_tags": [
+        "baby",
+        "lagoon",
+        "families",
+        "children",
+        "snorkeling",
+        "south",
+        "calm",
+        "beginner",
+        "toddler",
+        "protected",
+        "families-with-young-children",
+        "beginner-snorkelers",
+        "calm-lagoon-swimming"
+      ]
+    },
+    {
+      "id": "blackstone-beach",
+      "name": "Blackstone Beach",
+      "aliases": [],
+      "zone": "east-coast",
+      "path": "aruba/east-coast/blackstone-beach/beach.json",
+      "search_tags": [
+        "black-stones",
+        "geology",
+        "east",
+        "volcanic",
+        "photography",
+        "unique",
+        "pebbles"
+      ]
+    },
+    {
+      "id": "boca-catalina",
+      "name": "Boca Catalina",
+      "aliases": [],
+      "zone": "northwest-coast",
+      "path": "aruba/northwest-coast/boca-catalina/beach.json",
+      "search_tags": [
+        "snorkeling",
+        "cove",
+        "beginners",
+        "northwest",
+        "quiet",
+        "shore",
+        "reef",
+        "calm",
+        "shore-snorkeling",
+        "quiet-cove"
+      ]
+    },
+    {
+      "id": "boca-grandi",
+      "name": "Boca Grandi",
+      "aliases": [],
+      "zone": "east-coast",
+      "path": "aruba/east-coast/boca-grandi/beach.json",
+      "search_tags": [
+        "kitesurfing",
+        "wind",
+        "east",
+        "atlantic",
+        "kite",
+        "wild",
+        "wind-sports",
+        "wild-coast"
+      ]
+    },
+    {
+      "id": "boca-prins",
+      "name": "Boca Prins",
+      "aliases": [],
+      "zone": "east-coast",
+      "path": "aruba/east-coast/boca-prins/beach.json",
+      "search_tags": [
+        "dunes",
+        "photography",
+        "east",
+        "atlantic",
+        "4x4",
+        "scenic",
+        "jeep",
+        "dune-views",
+        "4x4-adventure"
+      ]
+    },
+    {
+      "id": "dos-playa",
+      "name": "Dos Playa",
+      "aliases": [],
+      "zone": "east-coast",
+      "path": "aruba/east-coast/dos-playa/beach.json",
+      "search_tags": [
+        "atlantic",
+        "surf",
+        "arikok",
+        "east",
+        "turtle",
+        "national-park",
+        "wild",
+        "cove",
+        "photography",
+        "experienced-surfers",
+        "arikok-national-park"
+      ]
+    },
+    {
+      "id": "druif-beach",
+      "name": "Druif Beach",
+      "aliases": [],
+      "zone": "west-coast",
+      "path": "aruba/west-coast/druif-beach/beach.json",
+      "search_tags": [
+        "quiet",
+        "happy-hour",
+        "west",
+        "sunset",
+        "cruise",
+        "local",
+        "quiet-day",
+        "cruise-adjacent-visitors"
+      ]
+    },
+    {
+      "id": "eagle-beach",
+      "name": "Eagle Beach",
+      "aliases": [],
+      "zone": "west-coast",
+      "path": "aruba/west-coast/eagle-beach/beach.json",
+      "search_tags": [
+        "swimming",
+        "wide-sand",
+        "fofoti",
+        "turtle",
+        "nesting",
+        "west",
+        "calm",
+        "photography",
+        "white-sand",
+        "sunbathing",
+        "wide-open-sand"
+      ]
+    },
+    {
+      "id": "flamingo-beach",
+      "name": "Flamingo Beach",
+      "aliases": [],
+      "zone": "west-coast",
+      "path": "aruba/west-coast/flamingo-beach/beach.json",
+      "search_tags": [
+        "flamingo",
+        "private",
+        "resort",
+        "photography",
+        "renaissance",
+        "pink",
+        "island",
+        "unique-experience",
+        "flamingo-encounters"
+      ]
+    },
+    {
+      "id": "grapefield-beach",
+      "name": "Grapefield Beach",
+      "aliases": [],
+      "zone": "south-coast",
+      "path": "aruba/south-coast/grapefield-beach/beach.json",
+      "search_tags": [
+        "quiet",
+        "picnic",
+        "south",
+        "local",
+        "secluded",
+        "calm",
+        "quiet-escape",
+        "local-picnics"
+      ]
+    },
+    {
+      "id": "hadicurari",
+      "name": "Hadicurari",
+      "aliases": [
+        "Fisherman's Hut",
+        "Fisherman Huts"
+      ],
+      "zone": "northwest-coast",
+      "path": "aruba/northwest-coast/hadicurari/beach.json",
+      "search_tags": [
+        "windsurfing",
+        "kitesurfing",
+        "wind",
+        "northwest",
+        "water-sports",
+        "trade-winds"
+      ]
+    },
+    {
+      "id": "malmok-beach",
+      "name": "Malmok Beach",
+      "aliases": [],
+      "zone": "northwest-coast",
+      "path": "aruba/northwest-coast/malmok-beach/beach.json",
+      "search_tags": [
+        "snorkeling",
+        "reef",
+        "northwest",
+        "quiet",
+        "coral",
+        "calm",
+        "quiet-west-coast-alternative"
+      ]
+    },
+    {
+      "id": "manchebo-beach",
+      "name": "Manchebo Beach",
+      "aliases": [],
+      "zone": "west-coast",
+      "path": "aruba/west-coast/manchebo-beach/beach.json",
+      "search_tags": [
+        "quiet",
+        "couples",
+        "west",
+        "relaxation",
+        "sunset",
+        "low-crowd",
+        "quiet-relaxation",
+        "sunsets"
+      ]
+    },
+    {
+      "id": "mangel-halto",
+      "name": "Mangel Halto",
+      "aliases": [],
+      "zone": "south-coast",
+      "path": "aruba/south-coast/mangel-halto/beach.json",
+      "search_tags": [
+        "mangrove",
+        "snorkeling",
+        "diving",
+        "reef",
+        "south",
+        "advanced",
+        "fish",
+        "channels",
+        "shore-dive",
+        "mangrove-ecosystem",
+        "advanced-snorkelers"
+      ]
+    },
+    {
+      "id": "palm-beach",
+      "name": "Palm Beach",
+      "aliases": [],
+      "zone": "west-coast",
+      "path": "aruba/west-coast/palm-beach/beach.json",
+      "search_tags": [
+        "resort",
+        "water-sports",
+        "busy",
+        "west",
+        "hotels",
+        "parasailing",
+        "jet-ski",
+        "tours",
+        "resort-amenities",
+        "families",
+        "boat-tours"
+      ]
+    },
+    {
+      "id": "rodgers-beach",
+      "name": "Rodgers Beach",
+      "aliases": [],
+      "zone": "south-coast",
+      "path": "aruba/south-coast/rodgers-beach/beach.json",
+      "search_tags": [
+        "quiet",
+        "local",
+        "south",
+        "secluded",
+        "swimming",
+        "savaneta",
+        "seclusion",
+        "local-atmosphere",
+        "quiet-swimming"
+      ]
+    },
+    {
+      "id": "surfside-beach",
+      "name": "Surfside Beach",
+      "aliases": [],
+      "zone": "west-coast",
+      "path": "aruba/west-coast/surfside-beach/beach.json",
+      "search_tags": [
+        "cruise",
+        "oranjestad",
+        "west",
+        "city",
+        "airport",
+        "plane-spotting",
+        "cruise-ship-visitors",
+        "quick-city-beach-stop"
+      ]
+    },
+    {
+      "id": "tres-trapi",
+      "name": "Tres Trapi",
+      "aliases": [],
+      "zone": "northwest-coast",
+      "path": "aruba/northwest-coast/tres-trapi/beach.json",
+      "search_tags": [
+        "turtle",
+        "snorkeling",
+        "rocky",
+        "northwest",
+        "sea-turtle",
+        "steps",
+        "pelican",
+        "sea-turtle-snorkeling",
+        "unique-rocky-entry"
+      ]
+    },
+    {
+      "id": "wariruri-beach",
+      "name": "Wariruri Beach",
+      "aliases": [],
+      "zone": "north-coast",
+      "path": "aruba/north-coast/wariruri-beach/beach.json",
+      "search_tags": [
+        "surf",
+        "fishing",
+        "north",
+        "remote",
+        "atlantic",
+        "wild",
+        "surfer",
+        "surfing",
+        "remote-scenery"
+      ]
+    }
+  ]
+}

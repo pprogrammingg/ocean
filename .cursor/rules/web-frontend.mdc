@@ -1,0 +1,15 @@
+---
+description: Vanilla web UI patterns for ocean-love.xyz
+globs: web/**/*
+alwaysApply: false
+---
+
+# Web UI
+
+- **Stack:** HTML + CSS + JS, no build step.
+- **Modules:** `api.js` (fetch), `ratings.js` (spectrum bars), `render-beach.js` (detail HTML), page controller per route.
+- **CSS:** Single `web/css/ocean.css` — tokens, layout, components, page sections.
+- **Lazy load:** Index JSON first, detail JSON on user action.
+- **No frameworks** unless user requests React/etc.
+
+Keep pages thin — logic in `web/js/`, markup in `web/*.html`.

@@ -1,0 +1,72 @@
+{
+  "id": "tres-trapi",
+  "name": "Tres Trapi",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "northwest-coast",
+  "coast": "northwest",
+  "description": "One of the most reliable places to snorkel with sea turtles from shore. Bright blue whiptail lizards and pelicans on the rocks add to the scene.",
+  "tags": [
+    "sea turtle snorkeling",
+    "unique rocky entry"
+  ],
+  "map_link": "https://www.google.com/maps/search/Tres+Trapi+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 3,
+    "rockiness": {
+      "beach": "Rocky limestone point \u2014 no sand beach; concrete steps into water",
+      "ocean_floor": "Sandy bottom just beyond steps; turtles often on sand patches \ud83e\udeb8"
+    },
+    "water_quality": 9,
+    "swim": 9,
+    "snorkeling": 9,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm to moderate",
+    "surfing": 1,
+    "snorkeling_note": "excellent",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "green-sea-turtle",
+      "brown-pelican"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm to moderate",
+    "snorkeling": "excellent",
+    "swimming": "good with caution",
+    "depth_profile": "Concrete steps into deep water quickly \u2014 turtles often rest on sandy bottom just beyond roped swim area.",
+    "stone_rocks": "Rocky point \u2014 not a sand beach; steps carved into limestone",
+    "sand": "none at entry \u2014 rocky coast",
+    "crowds": "low",
+    "access": "Roadside parking on northwest coast near Malmok",
+    "facilities": "None",
+    "fun_facts": [
+      "One of the most reliable places to snorkel with sea turtles from shore.",
+      "Bright blue whiptail lizards and pelicans on the rocks add to the scene.",
+      "Often combined with Boca Catalina and Arashi for a north-coast snorkel morning."
+    ],
+    "safety_notes": [
+      "Watch current; rash guard recommended; stay within marked swim zones."
+    ]
+  },
+  "search_tags": [
+    "turtle",
+    "snorkeling",
+    "rocky",
+    "northwest",
+    "sea-turtle",
+    "steps",
+    "pelican",
+    "sea-turtle-snorkeling",
+    "unique-rocky-entry"
+  ]
+}

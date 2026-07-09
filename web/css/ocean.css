@@ -1,0 +1,517 @@
+/* ocean-love.xyz — base tokens, layout, shared components, beaches page */
+
+/* --- Tokens --- */
+:root {
+  --ocean-deep: #0a3d5c;
+  --ocean-mid: #1a6b8a;
+  --ocean-light: #7ec8e3;
+  --sand: #f6f1ea;
+  --foam: #fafcff;
+  --ink: #1a2830;
+  --muted: #5a6b75;
+  --border: rgba(10, 61, 92, 0.12);
+  --radius: 12px;
+  --shadow: 0 8px 32px rgba(10, 61, 92, 0.08);
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --label-col: 110px;
+}
+
+/* --- Reset & base --- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: linear-gradient(180deg, var(--foam) 0%, var(--sand) 100%);
+  min-height: 100vh;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--ocean-mid);
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+/* --- Header --- */
+.site-header {
+  padding: 1.25rem 1.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(250, 252, 255, 0.85);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.site-header p {
+  margin: 0.25rem 0 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--ocean-deep);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* --- Layout --- */
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .layout-beaches {
+    grid-template-columns: 280px 1fr;
+    align-items: start;
+  }
+}
+
+.home-cta { margin-top: 1.25rem; }
+
+/* --- Panel & forms --- */
+.panel {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem;
+}
+
+.panel h2,
+.section-heading {
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ocean-deep);
+}
+
+.section-heading { margin-top: 1.25rem; }
+
+.field { margin-bottom: 1rem; }
+
+.field label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font: inherit;
+  background: var(--foam);
+  color: var(--ink);
+}
+
+select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* --- Shared utilities --- */
+.empty-state {
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.empty-state--compact { padding: 0.75rem; }
+.empty-state--inline { padding: 0; text-align: left; }
+
+.loading {
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.text-block {
+  font-size: 0.925rem;
+  margin-bottom: 1rem;
+}
+
+.text-block h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0 0 0.35rem;
+}
+
+.detail-list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+.detail-list div {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.detail-list dt {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.detail-list dd {
+  margin: 0;
+  line-height: 1.45;
+  color: var(--ocean-deep);
+  font-weight: 600;
+}
+
+.rockiness-list dd { font-weight: 400; color: var(--ink); }
+
+/* --- Beaches sidebar --- */
+.sidebar { overflow: visible; }
+
+.country-controls { margin-top: 0.25rem; }
+.country-controls[hidden] { display: none !important; }
+
+.pick-country-hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.country-blurb {
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.country-blurb p { margin: 0; }
+
+.beach-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.beach-list li + li { margin-top: 0.35rem; }
+
+.beach-list button {
+  width: 100%;
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.beach-list button:hover {
+  background: var(--foam);
+  border-color: var(--border);
+}
+
+.beach-list button[aria-selected="true"] {
+  background: rgba(26, 107, 138, 0.08);
+  border-color: var(--ocean-light);
+}
+
+.beach-list .name { display: block; font-weight: 600; }
+.beach-list .tags { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem; }
+
+/* --- Search --- */
+.search-field { position: relative; }
+
+.search-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--foam);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.search-input-wrap:focus-within {
+  border-color: var(--ocean-light);
+  box-shadow: 0 0 0 3px rgba(126, 200, 227, 0.25);
+}
+
+.search-icon { flex-shrink: 0; color: var(--muted); }
+
+.search-field input[type="search"] {
+  flex: 1;
+  min-width: 0;
+  padding: 0.55rem 0;
+  border: none;
+  background: transparent;
+  font: inherit;
+  font-size: 0.875rem;
+  color: var(--ink);
+}
+
+.search-field input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+.search-field input[type="search"]:focus { outline: none; }
+.search-field input[type="search"]:disabled { opacity: 0.55; cursor: not-allowed; }
+.search-field input[type="search"]::placeholder { color: var(--muted); font-size: 0.8125rem; }
+
+.search-results {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0.25rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.search-results li + li { margin-top: 0.15rem; }
+
+.search-results button {
+  width: 100%;
+  text-align: left;
+  padding: 0.55rem 0.65rem;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.search-results button:hover,
+.search-results button:focus-visible {
+  background: rgba(26, 107, 138, 0.08);
+  outline: none;
+}
+
+.search-results .result-name { display: block; font-weight: 600; color: var(--ocean-deep); }
+.search-results .result-meta { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+
+/* --- Beach detail --- */
+.beach-detail h2 {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  margin: 0 0 0.25rem;
+  color: var(--ocean-deep);
+}
+
+.beach-detail .meta {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(126, 200, 227, 0.25);
+  color: var(--ocean-deep);
+}
+
+.map-link {
+  display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.ecosystem-cards {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .ecosystem-cards { grid-template-columns: 1fr 1fr; }
+}
+
+.species-card {
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--foam);
+  font-size: 0.875rem;
+}
+
+.species-card strong { display: block; color: var(--ocean-deep); }
+.species-card span { color: var(--muted); font-size: 0.8rem; }
+
+/* --- Rating spectrum bars --- */
+.ratings {
+  display: grid;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+  overflow: visible;
+}
+
+.rating-row {
+  display: grid;
+  grid-template-columns: var(--label-col) 1fr 2.5rem;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.rating-row .label {
+  color: var(--muted);
+  padding-top: 0.15rem;
+}
+
+.rating-row .score,
+.spectrum-row .score {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--ocean-deep);
+  text-align: right;
+  padding-top: 0.15rem;
+}
+
+.spectrum-group { margin-bottom: 0.75rem; }
+.spectrum-row { align-items: start; }
+
+.spectrum-bar-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+  min-width: 0;
+  overflow: visible;
+  padding-top: 0.1rem;
+}
+
+.spectrum-bar {
+  position: relative;
+  width: 100%;
+  height: 10px;
+}
+
+.spectrum-track {
+  height: 8px;
+  margin-top: 1px;
+  border-radius: 999px;
+  box-shadow: inset 0 1px 2px rgba(10, 61, 92, 0.12);
+}
+
+.spectrum-track--calm-danger {
+  background: linear-gradient(90deg, #1a6b8a 0%, #3d9970 35%, #e8955a 65%, #c94444 100%);
+}
+
+.spectrum-track--purity {
+  background: linear-gradient(90deg, #7ec8e3 0%, #5cb8a8 25%, #8fbc8f 45%, #e8b86a 70%, #c94444 100%);
+}
+
+.spectrum-track--snorkel {
+  background: linear-gradient(90deg, #d4eef8 0%, #9fd4eb 30%, #4a9fc7 65%, #0a3d5c 100%);
+}
+
+.spectrum-marker {
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--ocean-deep);
+  box-shadow: 0 1px 4px rgba(10, 61, 92, 0.25);
+  transform: translate(-50%, -50%);
+  transition: left 0.2s ease;
+}
+
+.spectrum-scale {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.35rem;
+  min-height: 1.125rem;
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+.spectrum-scale__tick {
+  flex: 1 1 0;
+  min-width: 0;
+  color: var(--muted);
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.spectrum-scale[data-count="3"] .spectrum-scale__tick:first-child,
+.spectrum-scale[data-count="5"] .spectrum-scale__tick:first-child { text-align: left; }
+
+.spectrum-scale[data-count="3"] .spectrum-scale__tick:last-child,
+.spectrum-scale[data-count="5"] .spectrum-scale__tick:last-child { text-align: right; }
+
+.spectrum-scale__tick.is-active {
+  color: var(--ocean-deep);
+  font-weight: 600;
+}
+
+.spectrum-meta {
+  display: grid;
+  grid-template-columns: var(--label-col) 1fr;
+  gap: 0.5rem;
+  margin-top: 0.15rem;
+}
+
+.spectrum-note {
+  grid-column: 2;
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+  line-height: 1.4;
+}

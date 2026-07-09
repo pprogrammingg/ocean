@@ -1,0 +1,55 @@
+{
+  "country_id": "aruba",
+  "city_zone": "northwest-coast",
+  "zone_name": "Northwest Coast",
+  "beaches": [
+    {
+      "id": "arashi",
+      "name": "Arashi",
+      "tags": [
+        "snorkeling",
+        "sunsets",
+        "families"
+      ],
+      "path": "aruba/northwest-coast/arashi/beach.json"
+    },
+    {
+      "id": "boca-catalina",
+      "name": "Boca Catalina",
+      "tags": [
+        "shore snorkeling",
+        "quiet cove",
+        "beginners"
+      ],
+      "path": "aruba/northwest-coast/boca-catalina/beach.json"
+    },
+    {
+      "id": "tres-trapi",
+      "name": "Tres Trapi",
+      "tags": [
+        "sea turtle snorkeling",
+        "unique rocky entry"
+      ],
+      "path": "aruba/northwest-coast/tres-trapi/beach.json"
+    },
+    {
+      "id": "malmok-beach",
+      "name": "Malmok Beach",
+      "tags": [
+        "snorkeling",
+        "quiet west-coast alternative"
+      ],
+      "path": "aruba/northwest-coast/malmok-beach/beach.json"
+    },
+    {
+      "id": "hadicurari",
+      "name": "Hadicurari",
+      "tags": [
+        "windsurfing",
+        "kitesurfing",
+        "water sports"
+      ],
+      "path": "aruba/northwest-coast/hadicurari/beach.json"
+    }
+  ]
+}

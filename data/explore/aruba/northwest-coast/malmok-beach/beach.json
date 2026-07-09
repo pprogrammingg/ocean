@@ -1,0 +1,63 @@
+{
+  "id": "malmok-beach",
+  "name": "Malmok Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "northwest-coast",
+  "coast": "northwest",
+  "description": "Quieter than resort beaches; good coral formations; occasional sea glass found by beachcombers.",
+  "tags": [
+    "snorkeling",
+    "quiet west-coast alternative"
+  ],
+  "map_link": "https://www.google.com/maps/search/Malmok+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 1,
+    "rockiness": {
+      "beach": "Rocky shoreline with sandy patches between limestone \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Reef patches close to shore; depth increases over coral \ud83e\udeb8"
+    },
+    "water_quality": 9,
+    "swim": 9,
+    "snorkeling": 9,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm",
+    "surfing": 0,
+    "snorkeling_note": "good",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm",
+    "snorkeling": "good",
+    "swimming": "good",
+    "depth_profile": "Rocky shoreline with reef patches close in; depth increases over coral within 20\u201350 m.",
+    "stone_rocks": "Moderate to extensive \u2014 rocky coast with sandy patches",
+    "sand": "white coral sand",
+    "crowds": "low",
+    "access": "Free roadside parking between Palm Beach and Boca Catalina",
+    "facilities": "Minimal",
+    "fun_facts": [
+      "Quieter than resort beaches; good coral formations; occasional sea glass found by beachcombers."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "snorkeling",
+    "reef",
+    "northwest",
+    "quiet",
+    "coral",
+    "calm",
+    "quiet-west-coast-alternative"
+  ]
+}

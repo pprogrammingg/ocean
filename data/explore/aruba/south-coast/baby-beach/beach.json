@@ -1,0 +1,77 @@
+{
+  "id": "baby-beach",
+  "name": "Baby Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "south-coast",
+  "coast": "south",
+  "description": "Named for pool-like calm water \u2014 toddlers can splash safely in the lagoon interior. Snorkeling improves near the left rock barrier: parrotfish, trunkfish, and sea turtles.",
+  "tags": [
+    "families with young children",
+    "beginner snorkelers",
+    "calm lagoon swimming"
+  ],
+  "map_link": "https://www.google.com/maps/search/Baby+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 0,
+    "rockiness": {
+      "beach": "White sand inside the protected lagoon \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Sandy lagoon bottom; reef and rocks at the left rock barrier \ud83e\udeb8"
+    },
+    "water_quality": 9,
+    "swim": 9,
+    "snorkeling": 9,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "very calm",
+    "surfing": 0,
+    "snorkeling_note": "good",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "green-sea-turtle",
+      "reef-fish"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "very calm",
+    "snorkeling": "good",
+    "swimming": "excellent",
+    "depth_profile": "Enclosed lagoon: ankle to waist-deep for a very long distance inside the natural reef breakwater. Depth increases near the left-side rock barrier where reef fish gather; do not swim beyond protected areas \u2014 open ocean side can be dangerous.",
+    "stone_rocks": "Rock barrier defines the lagoon; sandy bottom inside; reef and rocks at the channel edges",
+    "sand": "white coral sand",
+    "crowds": "moderate to busy on weekends; arrive early",
+    "access": "Free large parking lot; ~45 min drive from Palm Beach through San Nicolas",
+    "facilities": "Two beach restaurants, restrooms, snorkel gear rentals",
+    "fun_facts": [
+      "Named for pool-like calm water \u2014 toddlers can splash safely in the lagoon interior.",
+      "Snorkeling improves near the left rock barrier: parrotfish, trunkfish, and sea turtles.",
+      "Drive passes San Nicolas street murals \u2014 worth combining with a south-coast culture stop."
+    ],
+    "safety_notes": [
+      "Stay inside the protected lagoon; outer reef openings can have strong current and surge."
+    ]
+  },
+  "search_tags": [
+    "baby",
+    "lagoon",
+    "families",
+    "children",
+    "snorkeling",
+    "south",
+    "calm",
+    "beginner",
+    "toddler",
+    "protected",
+    "families-with-young-children",
+    "beginner-snorkelers",
+    "calm-lagoon-swimming"
+  ]
+}

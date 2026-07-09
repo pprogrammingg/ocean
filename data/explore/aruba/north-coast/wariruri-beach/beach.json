@@ -1,0 +1,70 @@
+{
+  "id": "wariruri-beach",
+  "name": "Wariruri Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "north-coast",
+  "coast": "north",
+  "description": "Remote north-coast cove visited by surfers and fishermen; dramatic untamed coastline.",
+  "tags": [
+    "surfing",
+    "fishing",
+    "remote scenery"
+  ],
+  "map_link": "https://www.google.com/maps/search/Wariruri+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 8,
+    "rockiness": {
+      "beach": "White sand with extensive limestone and coral rock",
+      "ocean_floor": "Rocky surf coast with strong Atlantic surge \ud83e\udeb8"
+    },
+    "water_quality": 2,
+    "swim": 2,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "rough",
+    "surfing": 8,
+    "snorkeling_note": "none",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "reef-fish"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "rough",
+    "snorkeling": "none",
+    "swimming": "not safe",
+    "depth_profile": "Rocky surf coast \u2014 strong Atlantic surge.",
+    "stone_rocks": "Extensive limestone and coral rock",
+    "sand": "white coral sand",
+    "crowds": "very low",
+    "access": "4x4 north coast",
+    "facilities": "None",
+    "fun_facts": [
+      "Remote north-coast cove visited by surfers and fishermen; dramatic untamed coastline."
+    ],
+    "safety_notes": [
+      "Not for casual swimming."
+    ]
+  },
+  "search_tags": [
+    "surf",
+    "fishing",
+    "north",
+    "remote",
+    "atlantic",
+    "wild",
+    "surfer",
+    "surfing",
+    "remote-scenery"
+  ]
+}

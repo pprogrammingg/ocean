@@ -1,0 +1,9 @@
+{
+  "type": "animal",
+  "items": [
+    { "id": "green-sea-turtle", "name": "Green Sea Turtle", "path": "animals/green-sea-turtle.json" },
+    { "id": "brown-pelican", "name": "Brown Pelican", "path": "animals/brown-pelican.json" },
+    { "id": "reef-fish", "name": "Caribbean Reef Fish", "path": "animals/reef-fish.json" },
+    { "id": "caribbean-flamingo", "name": "Caribbean Flamingo", "path": "animals/caribbean-flamingo.json" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-07-09",
+  "description": "Country index → city_zone folders. Fetch path: data/explore/{country_id}/{city_zone}/city-beaches.json",
+  "countries": [
+    {
+      "id": "aruba",
+      "name": "Aruba",
+      "region": "Southern Caribbean",
+      "city_zones": [
+        { "id": "west-coast", "name": "West Coast", "beach_count": 6 },
+        { "id": "northwest-coast", "name": "Northwest Coast", "beach_count": 5 },
+        { "id": "south-coast", "name": "South Coast", "beach_count": 4 },
+        { "id": "east-coast", "name": "East Coast", "beach_count": 5 },
+        { "id": "north-coast", "name": "North Coast", "beach_count": 1 }
+      ]
+    },
+    {
+      "id": "bonaire",
+      "name": "Bonaire",
+      "region": "Southern Caribbean",
+      "city_zones": [
+        { "id": "west-coast", "name": "West Coast (Lee Side)", "beach_count": 0 },
+        { "id": "south-coast", "name": "South Coast", "beach_count": 0 },
+        { "id": "east-coast", "name": "East Coast (Wind Side)", "beach_count": 0 }
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "region": "Indo-Pacific",
+      "city_zones": [
+        { "id": "queensland-gbr", "name": "Queensland — Great Barrier Reef", "beach_count": 0 },
+        { "id": "queensland-gold-coast", "name": "Queensland — Gold Coast", "beach_count": 0 },
+        { "id": "nsw-sydney", "name": "New South Wales — Sydney", "beach_count": 0 },
+        { "id": "wa-ningaloo", "name": "Western Australia — Ningaloo", "beach_count": 0 }
+      ]
+    }
+  ]
+}

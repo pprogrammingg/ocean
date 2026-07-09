@@ -1,0 +1,84 @@
+{
+  "id": "arashi",
+  "name": "Arashi",
+  "aliases": [
+    "Arasji",
+    "Araji"
+  ],
+  "country_id": "aruba",
+  "city_zone": "northwest-coast",
+  "coast": "northwest",
+  "description": "Name may derive from Papiamento 'warashi' (bonefish) \u2014 historically important in the indigenous Caquetio diet. Part of the island's 'Gold Coast' nickname for spectacular sunsets facing west over the Caribbean.",
+  "tags": [
+    "snorkeling",
+    "sunsets",
+    "families",
+    "pelican watching"
+  ],
+  "map_link": "https://www.google.com/maps/search/Arashi+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 3,
+    "rockiness": {
+      "beach": "White sand with mixed limestone rock patches along the shore \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Rocky patches and small reefs within 20\u201340 m \u2014 best fish life near reef \ud83e\udeb8"
+    },
+    "water_quality": 9,
+    "swim": 9,
+    "snorkeling": 9,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm to moderate",
+    "surfing": 1,
+    "snorkeling_note": "excellent",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "green-sea-turtle",
+      "brown-pelican",
+      "reef-fish"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm to moderate",
+    "snorkeling": "excellent",
+    "swimming": "excellent",
+    "depth_profile": "Shallow sandy entry for roughly 50\u2013100 cm over white sand; reef and rocky patches begin within 20\u201340 m of shore on the left (south) side when facing the sea. Depth increases gradually to 2\u20134 m over reef, then drops more quickly beyond the fringing reef edge.",
+    "stone_rocks": "Moderate and sporadic along the shoreline \u2014 mixed sand and low limestone rock. Rocky patches near the reef hold the best fish life. There are open sandy lanes with fewer rocks, ideal for easy entry.",
+    "sand": "white coral sand",
+    "crowds": "moderate; quieter on weekdays and north of the main parking area",
+    "access": "Free parking lot; Bus L10 from Oranjestad; ~15\u201320 min drive north from Palm Beach past California Lighthouse",
+    "facilities": "Free palapas (arrive early), snack hut, occasional chair rentals",
+    "fun_facts": [
+      "Name may derive from Papiamento 'warashi' (bonefish) \u2014 historically important in the indigenous Caquetio diet.",
+      "Part of the island's 'Gold Coast' nickname for spectacular sunsets facing west over the Caribbean.",
+      "We saw a family feeding fish in the middle of a small patch, attracting a huge concentration of different species. Suddenly pelicans would sweep in and grab one or two as dinner. Having snorkel goggles underwater where a pelican might land is definitely something not to miss \u2014 but you have to time it.",
+      "Blue parrotfish, French angelfish, and green sea turtles are regular sightings on the reef to the left of the main beach."
+    ],
+    "safety_notes": [
+      "Best snorkeling on calm mornings; currents can strengthen on windy days near the reef edge."
+    ]
+  },
+  "search_tags": [
+    "turtle",
+    "pelican",
+    "snorkeling",
+    "reef",
+    "sunset",
+    "gold-coast",
+    "northwest",
+    "fish",
+    "parrotfish",
+    "families",
+    "reef-fish",
+    "calm",
+    "sunsets",
+    "pelican-watching"
+  ]
+}

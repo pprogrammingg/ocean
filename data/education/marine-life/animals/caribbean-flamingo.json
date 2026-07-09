@@ -1,0 +1,15 @@
+{
+  "id": "caribbean-flamingo",
+  "type": "animal",
+  "name": "Caribbean Flamingo",
+  "scientific_name": "Phoenicopterus ruber",
+  "summary": "Large pink wading bird. On Aruba, a small flock roams the private Renaissance Island beach — not a wild population on public shores.",
+  "tags": ["bird", "wading"],
+  "habitat": ["lagoon", "shallow bay"],
+  "image": null,
+  "conservation_status": "Least Concern (IUCN)",
+  "fun_facts": [
+    "Pink color comes from carotenoid pigments in their diet.",
+    "Filter-feed with specialized beaks upside-down in shallow water."
+  ]
+}

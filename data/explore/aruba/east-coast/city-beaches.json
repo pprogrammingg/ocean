@@ -1,0 +1,56 @@
+{
+  "country_id": "aruba",
+  "city_zone": "east-coast",
+  "zone_name": "East Coast",
+  "beaches": [
+    {
+      "id": "andicuri-beach",
+      "name": "Andicuri Beach",
+      "tags": [
+        "bodyboarding",
+        "wild scenery",
+        "photography"
+      ],
+      "path": "aruba/east-coast/andicuri-beach/beach.json"
+    },
+    {
+      "id": "dos-playa",
+      "name": "Dos Playa",
+      "tags": [
+        "photography",
+        "experienced surfers",
+        "Arikok National Park"
+      ],
+      "path": "aruba/east-coast/dos-playa/beach.json"
+    },
+    {
+      "id": "boca-grandi",
+      "name": "Boca Grandi",
+      "tags": [
+        "kitesurfing",
+        "wind sports",
+        "wild coast"
+      ],
+      "path": "aruba/east-coast/boca-grandi/beach.json"
+    },
+    {
+      "id": "boca-prins",
+      "name": "Boca Prins",
+      "tags": [
+        "dune views",
+        "photography",
+        "4x4 adventure"
+      ],
+      "path": "aruba/east-coast/boca-prins/beach.json"
+    },
+    {
+      "id": "blackstone-beach",
+      "name": "Blackstone Beach",
+      "tags": [
+        "geology",
+        "photography"
+      ],
+      "path": "aruba/east-coast/blackstone-beach/beach.json"
+    }
+  ]
+}

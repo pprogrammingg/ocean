@@ -1,0 +1,12 @@
+{
+  "id": "australia",
+  "name": "Australia",
+  "region": "Indo-Pacific",
+  "guide_version": "1.0",
+  "last_updated": "2026-07-09",
+  "ocean_info": "Australia spans tropical coral reefs, temperate surf coasts, and vast marine parks. From the Great Barrier Reef to Ningaloo and Sydney's eastern beaches, each region has distinct seasons, hazards, and ecosystems.",
+  "coast_guide": {
+    "east": "Pacific surf and reef",
+    "west": "Indian Ocean tropical and temperate"
+  }
+}

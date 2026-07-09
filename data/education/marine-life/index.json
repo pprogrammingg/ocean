@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-07-09",
+  "description": "Marine life cards for education pages. Fetch: data/education/marine-life/{path}",
+  "categories": [
+    { "type": "animal", "index": "animals/index.json", "folder": "animals" },
+    { "type": "plant", "index": "plants/index.json", "folder": "plants" }
+  ]
+}

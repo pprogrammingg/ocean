@@ -1,0 +1,73 @@
+{
+  "id": "eagle-beach",
+  "name": "Eagle Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "west-coast",
+  "coast": "west",
+  "description": "Repeatedly ranked among the best beaches in the Caribbean and top beaches worldwide on TripAdvisor. Iconic wind-bent fofoti (divi-divi) trees line the shore \u2014 one of Aruba's most photographed scenes.",
+  "tags": [
+    "swimming",
+    "sunbathing",
+    "photography",
+    "wide open sand"
+  ],
+  "map_link": "https://www.google.com/maps/search/Eagle+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 1,
+    "rockiness": {
+      "beach": "Fine white coral sand \u2014 wide and powdery, great for sand castles \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Mostly sand; very gradual slope, no reef at shore"
+    },
+    "water_quality": 2,
+    "swim": 9,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm",
+    "surfing": 0,
+    "snorkeling_note": "poor",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "green-sea-turtle"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm",
+    "snorkeling": "poor",
+    "swimming": "excellent",
+    "depth_profile": "Very gradual sandy slope \u2014 waist-deep for a long distance on calm days. No significant reef at this beach; depth stays shallow (under 1.5 m) for tens of meters before slow deepening.",
+    "stone_rocks": "Minimal \u2014 predominantly fine white sand; occasional small shells",
+    "sand": "white coral sand",
+    "crowds": "moderate; busier near Palm Beach end, quieter toward Manchebo",
+    "access": "Free parking lots along the coast road; taxi and bus accessible",
+    "facilities": "Palapas, nearby beach bars and restaurants at adjacent resorts (public beach access)",
+    "fun_facts": [
+      "Repeatedly ranked among the best beaches in the Caribbean and top beaches worldwide on TripAdvisor.",
+      "Iconic wind-bent fofoti (divi-divi) trees line the shore \u2014 one of Aruba's most photographed scenes.",
+      "Important sea turtle nesting site (roughly May\u2013November); nests may be marked with tape \u2014 do not disturb."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "swimming",
+    "wide-sand",
+    "fofoti",
+    "turtle",
+    "nesting",
+    "west",
+    "calm",
+    "photography",
+    "white-sand",
+    "sunbathing",
+    "wide-open-sand"
+  ]
+}

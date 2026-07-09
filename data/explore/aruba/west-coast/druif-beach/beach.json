@@ -1,0 +1,65 @@
+{
+  "id": "druif-beach",
+  "name": "Druif Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "west-coast",
+  "coast": "west",
+  "description": "Walk south to reach Eagle Beach easily \u2014 popular sunset happy hour spot among locals and repeat visitors.",
+  "tags": [
+    "quiet day",
+    "happy hour",
+    "cruise-adjacent visitors"
+  ],
+  "map_link": "https://www.google.com/maps/search/Druif+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 1,
+    "rockiness": {
+      "beach": "White sand with low rock promontories at the edges \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Mostly sandy; gradual slope similar to Eagle Beach"
+    },
+    "water_quality": 2,
+    "swim": 9,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm",
+    "surfing": 0,
+    "snorkeling_note": "poor",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm",
+    "snorkeling": "poor",
+    "swimming": "excellent",
+    "depth_profile": "Shallow sandy entry similar to Eagle Beach; gradual slope.",
+    "stone_rocks": "Low rock promontories at edges add texture but main swim zone is sandy",
+    "sand": "white coral sand",
+    "crowds": "low",
+    "access": "Free parking; closer to Oranjestad and cruise terminal than Palm Beach",
+    "facilities": "Beach Bar Aruba on the sand; some palapas",
+    "fun_facts": [
+      "Walk south to reach Eagle Beach easily \u2014 popular sunset happy hour spot among locals and repeat visitors."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "quiet",
+    "happy-hour",
+    "west",
+    "sunset",
+    "cruise",
+    "local",
+    "quiet-day",
+    "cruise-adjacent-visitors"
+  ]
+}

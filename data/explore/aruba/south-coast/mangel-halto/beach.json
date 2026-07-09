@@ -1,0 +1,78 @@
+{
+  "id": "mangel-halto",
+  "name": "Mangel Halto",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "south-coast",
+  "coast": "southwest",
+  "description": "Often rated the #1 shore snorkeling spot in Aruba for reef diversity. Mangroves act as fish nurseries \u2014 French angelfish, parrotfish, blue tang, eels, and turtles.",
+  "tags": [
+    "snorkeling",
+    "diving",
+    "mangrove ecosystem",
+    "advanced snorkelers"
+  ],
+  "map_link": "https://www.google.com/maps/search/Mangel+Halto+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 3,
+    "rockiness": {
+      "beach": "Minimal sand \u2014 mangrove and limestone coast; wooden stairs to water",
+      "ocean_floor": "Patch reef within meters of shore; drops to ~30 m in places \ud83e\udeb8"
+    },
+    "water_quality": 9,
+    "swim": 9,
+    "snorkeling": 9,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm surface; moderate current possible",
+    "surfing": 1,
+    "snorkeling_note": "excellent",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "green-sea-turtle",
+      "reef-fish"
+    ],
+    "plants": [
+      "red-mangrove"
+    ]
+  },
+  "characteristics": {
+    "wave": "calm surface; moderate current possible",
+    "snorkeling": "excellent",
+    "swimming": "good with caution",
+    "depth_profile": "Rocky and mangrove-fringed entry \u2014 no long sand beach. Shallow patch reef within meters of shore, then reef drops to roughly 30 m (100 ft) in places. Channels between mangrove roots hold juvenile fish.",
+    "stone_rocks": "Extensive \u2014 rocky shore, wooden staircases into water; water shoes recommended",
+    "sand": "Minimal \u2014 mangrove and limestone coastline rather than classic sand beach",
+    "crowds": "low to moderate",
+    "access": "Free roadside parking; near Savaneta",
+    "facilities": "Minimal \u2014 benches, wooden stairs; no rentals on site",
+    "fun_facts": [
+      "Often rated the #1 shore snorkeling spot in Aruba for reef diversity.",
+      "Mangroves act as fish nurseries \u2014 French angelfish, parrotfish, blue tang, eels, and turtles.",
+      "Solar-powered sea scooter tours popular when current is stronger."
+    ],
+    "safety_notes": [
+      "Current varies \u2014 visit at low tide for best visibility; use guided tour if inexperienced with drift."
+    ]
+  },
+  "search_tags": [
+    "mangrove",
+    "snorkeling",
+    "diving",
+    "reef",
+    "south",
+    "advanced",
+    "fish",
+    "channels",
+    "shore-dive",
+    "mangrove-ecosystem",
+    "advanced-snorkelers"
+  ]
+}

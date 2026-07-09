@@ -1,0 +1,15 @@
+{
+  "id": "red-mangrove",
+  "type": "plant",
+  "name": "Red Mangrove",
+  "scientific_name": "Rhizophora mangle",
+  "summary": "Coastal tree with prop roots that shelter juvenile fish. Key nursery habitat at sites like Mangel Halto, Aruba.",
+  "tags": ["mangrove", "nursery", "coastal"],
+  "habitat": ["mangrove lagoon", "tidal flat"],
+  "image": null,
+  "ecological_role": "Fish nursery, erosion buffer, carbon storage",
+  "fun_facts": [
+    "Prop roots create underwater arches where juvenile fish hide from predators.",
+    "Salt is excluded at the roots or excreted through leaves."
+  ]
+}

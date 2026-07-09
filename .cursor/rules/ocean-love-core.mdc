@@ -1,0 +1,46 @@
+---
+description: Core standards for ocean-love.xyz — code, data, commits
+alwaysApply: true
+---
+
+# ocean-love.xyz
+
+Audience-first ocean exploration & stewardship site. Hub paths: `/shop`, `/explore`, `/cleanup`, `/community`.
+
+## Output
+
+1. **Concise only.** No filler comments, redundant docstrings, or verbose explanations.
+2. **No redundancy.** Reuse existing logic and data paths — never duplicate blocks or near-duplicate JSON.
+3. **Verify against spec.** Read `ocean-love.json` and `data/**/README.md` before inventing paths, fields, or hub URLs.
+4. **Match existing patterns.** Read surrounding code/data before generating. Mirror naming, schema, and fetch conventions.
+5. **Scope.** Implement exactly what was asked — no extra flags, helpers, or unrequested features.
+
+## Data layout (lazy-load)
+
+```
+data/explore/countries.json
+data/explore/{country}/country.json
+data/explore/{country}/search-index.json
+data/explore/{country}/{city_zone}/city-beaches.json
+data/explore/{country}/{city_zone}/{beach}/beach.json
+data/explore/{country}/scuba-zones/          (later)
+data/education/marine-life/{animals|plants}/{slug}.json
+data/eco_shop/{category}/catalog.json
+```
+
+Beach `ecosystem` arrays hold marine-life **slugs** — fetch cards from `data/education/marine-life/`.
+
+## Frontend
+
+- Vanilla HTML, CSS, JS only unless explicitly asked otherwise.
+- One CSS file; JS split: `api.js`, `ratings.js`, `render-beach.js`, page controller.
+- Lazy-load: index JSON first, detail JSON on user action.
+- Requires a local server (`fetch` + ES modules block `file://`). Run `npm start` → `http://localhost:8765/web/beaches.html`
+
+## Commits
+
+Conventional commits (`feat:`, `fix:`, `docs:`, `chore:`). Subject ≤72 chars. Body explains **why**, not what.
+
+## Tests
+
+Assert meaningful behavior derived from fixtures or schema — not "does not throw."

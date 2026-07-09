@@ -1,0 +1,15 @@
+{
+  "id": "green-sea-turtle",
+  "type": "animal",
+  "name": "Green Sea Turtle",
+  "scientific_name": "Chelonia mydas",
+  "summary": "Large herbivorous sea turtle common on Caribbean reef flats and seagrass beds. Often seen grazing or resting on sandy bottoms near shore snorkel sites.",
+  "tags": ["reptile", "endangered", "reef"],
+  "habitat": ["coral reef", "seagrass", "shallow lagoon"],
+  "image": null,
+  "conservation_status": "Endangered (IUCN)",
+  "fun_facts": [
+    "Named for green fat beneath the carapace, not shell color.",
+    "Can hold breath for hours while resting underwater."
+  ]
+}

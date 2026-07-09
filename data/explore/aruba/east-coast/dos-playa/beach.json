@@ -1,0 +1,72 @@
+{
+  "id": "dos-playa",
+  "name": "Dos Playa",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "east-coast",
+  "coast": "east",
+  "description": "'Two beaches' inside Arikok \u2014 sea turtle nests occasionally found; walk carefully.",
+  "tags": [
+    "photography",
+    "experienced surfers",
+    "Arikok National Park"
+  ],
+  "map_link": "https://www.google.com/maps/search/Dos+Playa+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 9,
+    "rockiness": {
+      "beach": "White sand in two wild coves inside Arikok National Park \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Rocky surf zone \u2014 no safe wading"
+    },
+    "water_quality": 2,
+    "swim": 2,
+    "snorkeling": 2,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "rough \u2014 Atlantic surf",
+    "surfing": 9,
+    "snorkeling_note": "none",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "green-sea-turtle"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "rough \u2014 Atlantic surf",
+    "snorkeling": "none",
+    "swimming": "not safe",
+    "depth_profile": "Two connected wild coves with surf zone only \u2014 no safe wading depth for casual swimmers.",
+    "stone_rocks": "Rocky coves within Arikok National Park",
+    "sand": "white coral sand",
+    "crowds": "very low",
+    "access": "4x4 or hike; Arikok National Park entrance fee",
+    "facilities": "None",
+    "fun_facts": [
+      "'Two beaches' inside Arikok \u2014 sea turtle nests occasionally found; walk carefully."
+    ],
+    "safety_notes": [
+      "Swimming not recommended; experienced surfers only in surf zone."
+    ]
+  },
+  "search_tags": [
+    "atlantic",
+    "surf",
+    "arikok",
+    "east",
+    "turtle",
+    "national-park",
+    "wild",
+    "cove",
+    "photography",
+    "experienced-surfers",
+    "arikok-national-park"
+  ]
+}

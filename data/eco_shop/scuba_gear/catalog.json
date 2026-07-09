@@ -1,0 +1,819 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-07-05",
+  "description": "Eco-conscious scuba gear catalog with competitive evaluation scores (0–10) for ocean-love.xyz/shop",
+  "score_scale": "0 = poor, 5 = average, 10 = best-in-class for category",
+  "evaluation_categories_by_gear_type": {
+    "mask": [
+      "comfort",
+      "weight",
+      "field_of_view",
+      "seal_and_fit",
+      "fog_resistance",
+      "ease_of_clearing",
+      "sustainable_materials",
+      "biodegradability",
+      "durability",
+      "travel_friendliness",
+      "value_for_money",
+      "community_reputation"
+    ],
+    "fins": [
+      "comfort",
+      "weight",
+      "power_and_thrust",
+      "kick_efficiency",
+      "buoyancy",
+      "sustainable_materials",
+      "biodegradability",
+      "durability",
+      "travel_friendliness",
+      "value_for_money",
+      "beginner_friendly",
+      "community_reputation"
+    ],
+    "regulator": [
+      "ease_of_breathing",
+      "weight",
+      "cold_water_performance",
+      "serviceability",
+      "sustainable_materials",
+      "biodegradability",
+      "durability",
+      "ergonomics_and_hose_routing",
+      "value_for_money",
+      "work_of_breathing_under_load",
+      "community_reputation"
+    ],
+    "bcd": [
+      "comfort_and_fit",
+      "weight",
+      "lift_and_trim",
+      "pockets_and_rigging",
+      "sustainable_materials",
+      "biodegradability",
+      "durability",
+      "travel_friendliness",
+      "value_for_money",
+      "beginner_friendly",
+      "community_reputation"
+    ],
+    "dive_computer": [
+      "display_and_readability",
+      "battery_life",
+      "ease_of_use",
+      "tech_and_nitrox_capability",
+      "sustainable_materials",
+      "biodegradability",
+      "durability",
+      "value_for_money",
+      "beginner_friendly",
+      "community_reputation"
+    ]
+  },
+  "size_options": [
+    "adult",
+    "teenager",
+    "child"
+  ],
+  "products": [
+    {
+      "brand": "Hollis",
+      "model": "M1",
+      "gear_type": "mask",
+      "style": "frameless single-lens",
+      "colors": [
+        "clear skirt / black frame",
+        "all-black"
+      ],
+      "sizes": [
+        "adult"
+      ],
+      "evaluation": {
+        "comfort": {
+          "score": 9,
+          "detail": "Soft silicone skirt with double edge seals comfortably for long dive days; low internal volume reduces cheek pressure."
+        },
+        "weight": {
+          "score": 9,
+          "detail": "Among the lightest masks in class — excellent for travel and minimal face fatigue."
+        },
+        "field_of_view": {
+          "score": 9,
+          "detail": "Panoramic single lens with tempered glass; wide horizontal and vertical FOV for a frameless design."
+        },
+        "seal_and_fit": {
+          "score": 8,
+          "detail": "Excellent on medium/narrow faces; frameless designs are face-shape dependent — try before buying."
+        },
+        "fog_resistance": {
+          "score": 7,
+          "detail": "Standard tempered glass; fogs like most quality masks until pre-treated; some users report persistent fog on M1-class skirts."
+        },
+        "ease_of_clearing": {
+          "score": 10,
+          "detail": "Very low volume — clears in one breath consistently in DIVEIN testing."
+        },
+        "sustainable_materials": {
+          "score": 6,
+          "detail": "Silicone skirt and tempered glass are durable but not biodegradable in ocean or landfill conditions; no recycled-material claims from manufacturer. Eco benefit is long usable life, not material breakdown."
+        },
+        "biodegradability": {
+          "score": 2,
+          "detail": "Silicone and tempered glass do not biodegrade in marine or soil environments."
+        },
+        "durability": {
+          "score": 8,
+          "detail": "Solid build; frameless design has fewer failure points than framed masks."
+        },
+        "travel_friendliness": {
+          "score": 10,
+          "detail": "Ultra-compact; ideal travel mask."
+        },
+        "value_for_money": {
+          "score": 8,
+          "detail": "Premium price justified by weight and FOV for frequent travelers."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "ScubaBoard and DIVEIN favorite; often compared favorably to Dive Rite ES155."
+        }
+      }
+    },
+    {
+      "brand": "Cressi",
+      "model": "F1",
+      "gear_type": "mask",
+      "style": "frameless single-lens",
+      "colors": [
+        "black",
+        "blue",
+        "clear",
+        "white"
+      ],
+      "sizes": [
+        "adult"
+      ],
+      "evaluation": {
+        "comfort": {
+          "score": 9,
+          "detail": "Soft hypoallergenic silicone skirt; comfortable on wide range of face shapes."
+        },
+        "weight": {
+          "score": 8,
+          "detail": "Light frameless build though slightly heavier than ultra-light travel masks like M1."
+        },
+        "field_of_view": {
+          "score": 8,
+          "detail": "Wide single-lens view; not as panoramic as lowest-volume competition but strong for price."
+        },
+        "seal_and_fit": {
+          "score": 9,
+          "detail": "DIVEIN best overall mask — seals well on narrow and wide faces when fit tested without strap."
+        },
+        "fog_resistance": {
+          "score": 7,
+          "detail": "Good with proper prep; no proprietary fog-stop system unlike Cressi Prisma."
+        },
+        "ease_of_clearing": {
+          "score": 9,
+          "detail": "Low volume frameless — easy one-breath clear."
+        },
+        "sustainable_materials": {
+          "score": 6,
+          "detail": "Standard silicone and glass — neither is biodegradable; Cressi has broader eco initiatives but the F1 line carries no compostable or marine-degradable material claims."
+        },
+        "biodegradability": {
+          "score": 2,
+          "detail": "Not biodegradable; standard dive-mask materials persist for decades if discarded improperly."
+        },
+        "durability": {
+          "score": 8,
+          "detail": "Proven Cressi mask platform with long service life."
+        },
+        "travel_friendliness": {
+          "score": 9,
+          "detail": "Compact frameless profile packs flat in regulator bag."
+        },
+        "value_for_money": {
+          "score": 10,
+          "detail": "Best-in-class value — top pick performance below $70 MSRP."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "DIVEIN best overall mask; widely recommended for beginners and travelers."
+        }
+      }
+    },
+    {
+      "brand": "Scubapro",
+      "model": "Jet Fin",
+      "gear_type": "fins",
+      "style": "open-heel stiff rubber paddle",
+      "colors": [
+        "black",
+        "white",
+        "orange",
+        "yellow"
+      ],
+      "sizes": [
+        "adult",
+        "teenager"
+      ],
+      "evaluation": {
+        "comfort": {
+          "score": 7,
+          "detail": "Stiff rubber foot pocket runs large; many divers size up to XL. Can feel harsh on toes compared to Hollis F1 pocket."
+        },
+        "weight": {
+          "score": 4,
+          "detail": "Heavy — negatively buoyant; excellent for drysuit trim but tiring in wetsuit travel diving."
+        },
+        "power_and_thrust": {
+          "score": 10,
+          "detail": "Industry reference for stiff paddle fins; exceptional power in current, caves, and heavy gear configs."
+        },
+        "kick_efficiency": {
+          "score": 8,
+          "detail": "Frog kick and modified flutter excel; less efficient for long surface swims than lighter fins."
+        },
+        "buoyancy": {
+          "score": 9,
+          "detail": "Sinks in fresh and salt water — preferred by tech divers for trim weighting."
+        },
+        "sustainable_materials": {
+          "score": 5,
+          "detail": "Traditional vulcanized rubber is petroleum-derived and not biodegradable; decades-long lifespan and repairability reduce replacement waste versus cheap disposable fins."
+        },
+        "biodegradability": {
+          "score": 1,
+          "detail": "Vulcanized rubber is not biodegradable; petroleum-based and long-lasting in environment."
+        },
+        "durability": {
+          "score": 10,
+          "detail": "Legendary indestructibility — decades of abuse in military and tech diving."
+        },
+        "travel_friendliness": {
+          "score": 3,
+          "detail": "Heavy and bulky; poor choice for carry-on-only travel."
+        },
+        "value_for_money": {
+          "score": 9,
+          "detail": "Higher upfront cost but effectively buy-once gear for serious divers."
+        },
+        "beginner_friendly": {
+          "score": 5,
+          "detail": "Overkill for casual warm-water snorkelers; better after 25+ dives when kick style develops."
+        },
+        "community_reputation": {
+          "score": 10,
+          "detail": "ScubaBoard consensus standard — 'Jet-Fin type' is the category name for stiff paddle fins."
+        }
+      }
+    },
+    {
+      "brand": "Hollis",
+      "model": "F1 LT",
+      "gear_type": "fins",
+      "style": "open-heel vented paddle",
+      "colors": [
+        "gray",
+        "blue",
+        "white"
+      ],
+      "sizes": [
+        "adult",
+        "teenager"
+      ],
+      "evaluation": {
+        "comfort": {
+          "score": 9,
+          "detail": "Wide comfortable foot pocket with included spring straps — frequently preferred over Jet Fin pocket."
+        },
+        "weight": {
+          "score": 7,
+          "detail": "Lighter than F1 standard and much lighter than Jet Fins; better wetsuit trim."
+        },
+        "power_and_thrust": {
+          "score": 8,
+          "detail": "Strong vented blade; slightly less stiff than Jets but sufficient for doubles and drysuit."
+        },
+        "kick_efficiency": {
+          "score": 8,
+          "detail": "Good frog kick; shorter blade helps in confined spaces vs full F1."
+        },
+        "buoyancy": {
+          "score": 7,
+          "detail": "Negative but less so than Jets — easier trim for recreational divers."
+        },
+        "sustainable_materials": {
+          "score": 6,
+          "detail": "SEBS thermoplastic elastomer blade is not biodegradable; no published recycled or marine-degradable content. Durability extends product life."
+        },
+        "biodegradability": {
+          "score": 2,
+          "detail": "SEBS thermoplastic is not marine-degradable or compostable."
+        },
+        "durability": {
+          "score": 8,
+          "detail": "Vented blade robust for tech use; spring straps hold up well."
+        },
+        "travel_friendliness": {
+          "score": 7,
+          "detail": "Shorter and lighter than Jets; still open-heel bulk."
+        },
+        "value_for_money": {
+          "score": 8,
+          "detail": "Mid-premium pricing with spring straps included."
+        },
+        "beginner_friendly": {
+          "score": 6,
+          "detail": "Still a stiff tech-oriented fin — not ideal first fin for resort course."
+        },
+        "community_reputation": {
+          "score": 8,
+          "detail": "Strong ScubaBoard alternative to Jet Fins; popular wet-to-dry transition fin."
+        }
+      }
+    },
+    {
+      "brand": "Apeks",
+      "model": "MTX-R",
+      "gear_type": "regulator",
+      "style": "environmentally sealed balanced diaphragm",
+      "colors": [
+        "black",
+        "yellow accent"
+      ],
+      "sizes": [
+        "adult"
+      ],
+      "evaluation": {
+        "ease_of_breathing": {
+          "score": 10,
+          "detail": "Outstanding breathing performance at depth and under load; DIVEIN best overall regulator."
+        },
+        "weight": {
+          "score": 6,
+          "detail": "Robust sealed first stage adds weight vs recreational regs; not a travel-first choice."
+        },
+        "cold_water_performance": {
+          "score": 10,
+          "detail": "Environmentally sealed — designed for near-freezing and contaminated water."
+        },
+        "serviceability": {
+          "score": 8,
+          "detail": "Apeks global service network; sealed design requires authorized service intervals."
+        },
+        "sustainable_materials": {
+          "score": 5,
+          "detail": "Marine-grade brass, chromed metals, and polymer components are not biodegradable; built for decades of service and rebuild rather than landfill disposal — sustainability here is longevity and serviceability, not material breakdown."
+        },
+        "biodegradability": {
+          "score": 1,
+          "detail": "Brass, chrome, and polymer regulator parts are not biodegradable; never abandon at sea — service and recycle via authorized centers."
+        },
+        "durability": {
+          "score": 10,
+          "detail": "Rugged MTX platform used in commercial and military diving."
+        },
+        "ergonomics_and_hose_routing": {
+          "score": 8,
+          "detail": "Good port layout; turret options on some configs; slightly bulkier than XTX50."
+        },
+        "value_for_money": {
+          "score": 7,
+          "detail": "Premium price; ScubaBoard often recommends XTX50 unless diving near-freezing water."
+        },
+        "work_of_breathing_under_load": {
+          "score": 10,
+          "detail": "Excellent at high breathing rates and depth in simulator and field testing."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "Top tech and sidemount choice; gold standard for cold-water sealed regs."
+        }
+      }
+    },
+    {
+      "brand": "Scubapro",
+      "model": "MK11 EVO / C370",
+      "gear_type": "regulator",
+      "style": "balanced diaphragm",
+      "colors": [
+        "black"
+      ],
+      "sizes": [
+        "adult"
+      ],
+      "evaluation": {
+        "ease_of_breathing": {
+          "score": 9,
+          "detail": "ScubaLab Best Buy — easy dry breathing; excellent simulator scores at all depths."
+        },
+        "weight": {
+          "score": 7,
+          "detail": "Mid-weight recreational reg; lighter than full sealed tech regs."
+        },
+        "cold_water_performance": {
+          "score": 7,
+          "detail": "Handles moderate cold (6–8°C) for short dives; not a true ice-diving reg like MTX-R."
+        },
+        "serviceability": {
+          "score": 9,
+          "detail": "Scubapro worldwide service — among the easiest brands to maintain abroad."
+        },
+        "sustainable_materials": {
+          "score": 5,
+          "detail": "Brass/chromed first stage and polymer second stages are not biodegradable; long service intervals and global rebuild programs extend life and reduce turnover waste."
+        },
+        "biodegradability": {
+          "score": 1,
+          "detail": "Metal first stage and polymer second stages are not biodegradable."
+        },
+        "durability": {
+          "score": 9,
+          "detail": "MK11 EVO workhorse platform with decades of field proof."
+        },
+        "ergonomics_and_hose_routing": {
+          "score": 8,
+          "detail": "Compact first stage; comfortable C370 second stage mouthpiece."
+        },
+        "value_for_money": {
+          "score": 9,
+          "detail": "ScubaLab Best Buy — top breathing performance at mid-premium price."
+        },
+        "work_of_breathing_under_load": {
+          "score": 9,
+          "detail": "Consistent under high breathing rates in ScubaLab testing."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "ScubaBoard recreational workhorse; MK11/C370 combo repeatedly recommended."
+        }
+      }
+    },
+    {
+      "brand": "Cressi",
+      "model": "Start Pro",
+      "gear_type": "bcd",
+      "style": "jacket",
+      "colors": [
+        "black",
+        "blue"
+      ],
+      "sizes": [
+        "adult",
+        "teenager"
+      ],
+      "evaluation": {
+        "comfort_and_fit": {
+          "score": 8,
+          "detail": "Simple jacket cut fits wide range of body types; designed for dive school rental fleets."
+        },
+        "weight": {
+          "score": 6,
+          "detail": "Not lightweight travel BCD; adequate for local diving and training."
+        },
+        "lift_and_trim": {
+          "score": 7,
+          "detail": "Reliable lift for OW students; upright surface float typical of jacket style."
+        },
+        "pockets_and_rigging": {
+          "score": 7,
+          "detail": "Basic pockets and D-rings sufficient for recreational diving."
+        },
+        "sustainable_materials": {
+          "score": 5,
+          "detail": "420-denier nylon and synthetic bladder materials are not biodegradable; no eco-certification on this model. Rental-fleet durability reduces per-diver waste over time."
+        },
+        "biodegradability": {
+          "score": 2,
+          "detail": "Nylon shell and synthetic bladder are not biodegradable."
+        },
+        "durability": {
+          "score": 9,
+          "detail": "Built for dive shop abuse — simple design, few failure points."
+        },
+        "travel_friendliness": {
+          "score": 5,
+          "detail": "Bulky jacket BCD; not ideal for one-bag travel."
+        },
+        "value_for_money": {
+          "score": 10,
+          "detail": "DIVEIN best beginner BCD — excellent entry price for OW divers."
+        },
+        "beginner_friendly": {
+          "score": 10,
+          "detail": "Purpose-built for training; intuitive inflate/deflate for new divers."
+        },
+        "community_reputation": {
+          "score": 8,
+          "detail": "Standard recommendation for first BCD purchase and dive school fleets."
+        }
+      }
+    },
+    {
+      "brand": "Scubapro",
+      "model": "Hydros Pro 2",
+      "gear_type": "bcd",
+      "style": "hybrid back-inflate",
+      "colors": [
+        "black",
+        "white",
+        "blue",
+        "pink"
+      ],
+      "sizes": [
+        "adult"
+      ],
+      "evaluation": {
+        "comfort_and_fit": {
+          "score": 8,
+          "detail": "Modular Monprene components customize fit; some divers dislike rubbery weight pockets vs zip pockets."
+        },
+        "weight": {
+          "score": 9,
+          "detail": "Among lightest travel-capable BCDs when stripped down — popular for frequent flyers."
+        },
+        "lift_and_trim": {
+          "score": 9,
+          "detail": "Back-inflate improves horizontal trim vs jacket style; good for advancing divers."
+        },
+        "pockets_and_rigging": {
+          "score": 7,
+          "detail": "Adequate but less pocket space than Seahawk 2; weight integration can feel rubbery."
+        },
+        "sustainable_materials": {
+          "score": 7,
+          "detail": "Monprene components are not biodegradable but avoid traditional PVC bladder materials Scubapro cites as higher-impact; modular replaceable parts extend total product lifespan."
+        },
+        "biodegradability": {
+          "score": 2,
+          "detail": "Monprene and synthetic components are not biodegradable; lower PVC impact but still persistent plastics."
+        },
+        "durability": {
+          "score": 8,
+          "detail": "Modular parts replaceable individually — extends total product lifespan."
+        },
+        "travel_friendliness": {
+          "score": 10,
+          "detail": "Folds compact; favorite travel BCD on ScubaBoard for warm-water trips."
+        },
+        "value_for_money": {
+          "score": 7,
+          "detail": "Premium pricing; value increases for travelers who dive 3+ trips per year."
+        },
+        "beginner_friendly": {
+          "score": 6,
+          "detail": "Back-inflate learning curve vs jacket BCD in OW courses."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "ScubaBoard premium hybrid pick; split opinions vs Seahawk 2 on pockets."
+        }
+      }
+    },
+    {
+      "brand": "Shearwater",
+      "model": "Peregrine TX",
+      "gear_type": "dive_computer",
+      "style": "wrist color screen",
+      "colors": [
+        "black"
+      ],
+      "sizes": [
+        "adult",
+        "teenager"
+      ],
+      "evaluation": {
+        "display_and_readability": {
+          "score": 9,
+          "detail": "Bright color screen readable in bright Caribbean surface glare."
+        },
+        "battery_life": {
+          "score": 8,
+          "detail": "Rechargeable USB; multi-day dive trip per charge with typical use."
+        },
+        "ease_of_use": {
+          "score": 9,
+          "detail": "Intuitive Shearwater UI — easier entry point than Perdix for new computer owners."
+        },
+        "tech_and_nitrox_capability": {
+          "score": 8,
+          "detail": "Full recreational + nitrox; path to Perdix 2 for deco/trimix later."
+        },
+        "sustainable_materials": {
+          "score": 5,
+          "detail": "Housing plastics and electronics are not biodegradable; rechargeable battery reduces disposable button-cell waste common in lower-end computers."
+        },
+        "biodegradability": {
+          "score": 1,
+          "detail": "Electronics and housing plastics are not biodegradable; e-waste recycling required at end of life."
+        },
+        "durability": {
+          "score": 9,
+          "detail": "Shearwater build quality proven in tech diving community."
+        },
+        "value_for_money": {
+          "score": 8,
+          "detail": "Mid-premium Shearwater entry — ScubaBoard rec before stepping to Perdix 2."
+        },
+        "beginner_friendly": {
+          "score": 9,
+          "detail": "Recommended first serious computer after OW/AOW progression."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "Shearwater ecosystem standard for advancing recreational divers."
+        }
+      }
+    },
+    {
+      "brand": "Garmin",
+      "model": "Descent Mk2i",
+      "gear_type": "dive_computer",
+      "style": "wrist GPS dive watch",
+      "colors": [
+        "black",
+        "titanium"
+      ],
+      "sizes": [
+        "adult"
+      ],
+      "evaluation": {
+        "display_and_readability": {
+          "score": 9,
+          "detail": "Garmin transflective/display excellent outdoors; dive mode clear underwater."
+        },
+        "battery_life": {
+          "score": 8,
+          "detail": "Multi-mode watch; dive battery adequate for vacation week; GPS modes drain faster."
+        },
+        "ease_of_use": {
+          "score": 7,
+          "detail": "Feature-rich — steeper learning curve than Peregrine if new to Garmin ecosystem."
+        },
+        "tech_and_nitrox_capability": {
+          "score": 9,
+          "detail": "Full recreational through advanced nitrox; air integration with transmitter on Mk2i."
+        },
+        "sustainable_materials": {
+          "score": 5,
+          "detail": "Watch housing and electronics are not biodegradable; multi-use as dive computer + daily sports watch reduces total devices purchased over time."
+        },
+        "biodegradability": {
+          "score": 1,
+          "detail": "Electronic watch components are not biodegradable; responsible e-waste disposal required."
+        },
+        "durability": {
+          "score": 9,
+          "detail": "Garmin outdoor watch build; sapphire lens on premium models."
+        },
+        "value_for_money": {
+          "score": 7,
+          "detail": "Expensive but replaces dive computer + sports watch + GPS for Garmin users."
+        },
+        "beginner_friendly": {
+          "score": 6,
+          "detail": "Over-featured for brand-new OW student; better after 20+ dives."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "DIVEIN best overall dive computer; strong for Garmin ecosystem owners."
+        }
+      }
+    },
+    {
+      "brand": "Oceanic",
+      "model": "Viper 2",
+      "gear_type": "fins",
+      "style": "open-heel",
+      "colors": [
+        "black",
+        "blue",
+        "yellow",
+        "white"
+      ],
+      "sizes": [
+        "adult",
+        "teenager",
+        "child"
+      ],
+      "evaluation": {
+        "comfort": {
+          "score": 8,
+          "detail": "Comfortable foot pocket with adjustable heel strap; fits wide size range including child sizes."
+        },
+        "weight": {
+          "score": 7,
+          "detail": "Mid-weight recreational fin — balanced for travel and power."
+        },
+        "power_and_thrust": {
+          "score": 8,
+          "detail": "DIVEIN best overall fins — good thrust without Jet Fin stiffness."
+        },
+        "kick_efficiency": {
+          "score": 8,
+          "detail": "Efficient flutter kick for reef diving and moderate current."
+        },
+        "buoyancy": {
+          "score": 7,
+          "detail": "Near-neutral to slightly negative depending on size — easy trim for most divers."
+        },
+        "sustainable_materials": {
+          "score": 5,
+          "detail": "Composite blade and rubber foot pocket are not biodegradable; standard recreational fin polymers with no marine-degradable claims."
+        },
+        "biodegradability": {
+          "score": 2,
+          "detail": "Composite and rubber fin materials are not biodegradable."
+        },
+        "durability": {
+          "score": 8,
+          "detail": "Solid Oceanic recreational build quality."
+        },
+        "travel_friendliness": {
+          "score": 8,
+          "detail": "Lighter and more packable than tech paddle fins."
+        },
+        "value_for_money": {
+          "score": 9,
+          "detail": "Top all-around recreational fin at accessible price point."
+        },
+        "beginner_friendly": {
+          "score": 10,
+          "detail": "Excellent first fin for OW students and Caribbean resort diving."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "DIVEIN top pick for recreational divers."
+        }
+      }
+    },
+    {
+      "brand": "Fourth Element",
+      "model": "Scout",
+      "gear_type": "mask",
+      "style": "frameless",
+      "colors": [
+        "black",
+        "clear"
+      ],
+      "sizes": [
+        "adult"
+      ],
+      "evaluation": {
+        "comfort": {
+          "score": 9,
+          "detail": "Premium silicone skirt; ScubaLab Testers Choice for easy don and doff."
+        },
+        "weight": {
+          "score": 8,
+          "detail": "Light frameless construction suitable for travel."
+        },
+        "field_of_view": {
+          "score": 9,
+          "detail": "Lenses close to eyes maximize FOV for frameless design."
+        },
+        "seal_and_fit": {
+          "score": 8,
+          "detail": "Good on varied faces; still recommend fit test before purchase."
+        },
+        "fog_resistance": {
+          "score": 7,
+          "detail": "Standard glass treatment; proper prep required."
+        },
+        "ease_of_clearing": {
+          "score": 9,
+          "detail": "Low volume — quick clear."
+        },
+        "sustainable_materials": {
+          "score": 8,
+          "detail": "Silicone skirt and tempered glass are not biodegradable; Fourth Element emphasizes conservation mission and reduced-impact packaging rather than compostable mask materials."
+        },
+        "biodegradability": {
+          "score": 2,
+          "detail": "Silicone and glass are not biodegradable despite brand's strong conservation mission."
+        },
+        "durability": {
+          "score": 8,
+          "detail": "Quality construction from conservation-focused brand."
+        },
+        "travel_friendliness": {
+          "score": 9,
+          "detail": "Compact frameless profile."
+        },
+        "value_for_money": {
+          "score": 7,
+          "detail": "Premium price aligned with Fourth Element brand positioning."
+        },
+        "community_reputation": {
+          "score": 9,
+          "detail": "ScubaLab 2026 Testers Choice frameless mask."
+        }
+      }
+    }
+  ],
+  "evaluation_note": "sustainable_materials scores consider recycled content, PVC-free design, longevity, serviceability, and packaging — plus explicit biodegradability: most scuba life-support gear uses metals, silicone, rubber, and synthetics that are NOT biodegradable; ocean-safe disposal still requires proper recycling or authorized service, never abandonment at sea."
+}

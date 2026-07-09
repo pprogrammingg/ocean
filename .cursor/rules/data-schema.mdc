@@ -1,0 +1,35 @@
+---
+description: JSON data schemas and fetch paths for explore, education, eco shop
+globs: data/**/*.json
+alwaysApply: false
+---
+
+# Data conventions
+
+## Explore / beaches
+
+| File | Purpose |
+|------|---------|
+| `countries.json` | Country list + `city_zones[]` with ids |
+| `{country}/country.json` | Ocean overview, coast guide |
+| `{country}/search-index.json` | Country trie source: names, aliases, `search_tags` |
+| `{city_zone}/city-beaches.json` | Beach index: `{ id, name, tags, path }` |
+| `{beach}/beach.json` | Full record: `live_rating`, `live_rating.tide.{next_high,next_low}`, `ecosystem`, `map_link` |
+
+Use kebab-case slugs for ids. `live_rating` scores are 0–10 integers where numeric.
+
+## Education / marine life
+
+| File | Purpose |
+|------|---------|
+| `marine-life/index.json` | Category registry |
+| `animals/index.json` / `plants/index.json` | Card index with `path` |
+| `{slug}.json` | Species card for UI pages |
+
+Cross-ref beaches → species via slug only (no embedded duplicates).
+
+## Eco Shop
+
+`data/eco_shop/{category}/catalog.json` — product evaluations 0–10.
+
+Do not hardcode product or beach counts — read the index JSON.

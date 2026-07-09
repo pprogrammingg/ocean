@@ -1,0 +1,46 @@
+{
+  "country_id": "aruba",
+  "city_zone": "south-coast",
+  "zone_name": "South Coast",
+  "beaches": [
+    {
+      "id": "baby-beach",
+      "name": "Baby Beach",
+      "tags": [
+        "families with young children",
+        "beginner snorkelers",
+        "calm lagoon swimming"
+      ],
+      "path": "aruba/south-coast/baby-beach/beach.json"
+    },
+    {
+      "id": "rodgers-beach",
+      "name": "Rodgers Beach",
+      "tags": [
+        "seclusion",
+        "local atmosphere",
+        "quiet swimming"
+      ],
+      "path": "aruba/south-coast/rodgers-beach/beach.json"
+    },
+    {
+      "id": "mangel-halto",
+      "name": "Mangel Halto",
+      "tags": [
+        "snorkeling",
+        "diving",
+        "mangrove ecosystem"
+      ],
+      "path": "aruba/south-coast/mangel-halto/beach.json"
+    },
+    {
+      "id": "grapefield-beach",
+      "name": "Grapefield Beach",
+      "tags": [
+        "quiet escape",
+        "local picnics"
+      ],
+      "path": "aruba/south-coast/grapefield-beach/beach.json"
+    }
+  ]
+}

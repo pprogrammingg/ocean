@@ -1,0 +1,70 @@
+{
+  "id": "palm-beach",
+  "name": "Palm Beach",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "west-coast",
+  "coast": "west",
+  "description": "Two-mile resort strip backed by high-rise hotels \u2014 Aruba's main tourist hub. Best launch point for sunset cruises, catamaran snorkel trips, and Antilla shipwreck tours.",
+  "tags": [
+    "water sports",
+    "resort amenities",
+    "families",
+    "boat tours"
+  ],
+  "map_link": "https://www.google.com/maps/search/Palm+Beach+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 1,
+    "rockiness": {
+      "beach": "Groomed white sand along the resort strip \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Sandy bottom; limited reef from shore \u2014 snorkel tours go by boat"
+    },
+    "water_quality": 4,
+    "swim": 9,
+    "snorkeling": 4,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm",
+    "surfing": 0,
+    "snorkeling_note": "limited",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm",
+    "snorkeling": "limited",
+    "swimming": "excellent",
+    "depth_profile": "Gentle sandy slope; shallow and safe for long distances. Reef snorkeling is limited from shore \u2014 most snorkel tours depart from here by boat.",
+    "stone_rocks": "Minimal on main swim areas \u2014 wide groomed sand",
+    "sand": "white coral sand",
+    "crowds": "busy, especially high season and near high-rise hotels",
+    "access": "Paid lots near beach center; free side-street parking a short walk away",
+    "facilities": "Extensive \u2014 restaurants, bars, jet skis, parasailing, paddleboards, tour operators",
+    "fun_facts": [
+      "Two-mile resort strip backed by high-rise hotels \u2014 Aruba's main tourist hub.",
+      "Best launch point for sunset cruises, catamaran snorkel trips, and Antilla shipwreck tours."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "resort",
+    "water-sports",
+    "busy",
+    "west",
+    "hotels",
+    "parasailing",
+    "jet-ski",
+    "tours",
+    "resort-amenities",
+    "families",
+    "boat-tours"
+  ]
+}

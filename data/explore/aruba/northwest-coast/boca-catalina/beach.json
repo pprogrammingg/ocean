@@ -1,0 +1,70 @@
+{
+  "id": "boca-catalina",
+  "name": "Boca Catalina",
+  "aliases": [],
+  "country_id": "aruba",
+  "city_zone": "northwest-coast",
+  "coast": "northwest",
+  "description": "Small protected cove locals prefer to keep low-key \u2014 catamarans pass offshore while you snorkel. Marine reserve protections help fish populations thrive close to shore.",
+  "tags": [
+    "shore snorkeling",
+    "quiet cove",
+    "beginners"
+  ],
+  "map_link": "https://www.google.com/maps/search/Boca+Catalina+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 1,
+    "rockiness": {
+      "beach": "White sand pocket in a protected cove; rocky at the edges \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Shallow reef and coral heads within 10\u201330 m of shore \ud83e\udeb8"
+    },
+    "water_quality": 9,
+    "swim": 9,
+    "snorkeling": 9,
+    "wind": "",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm",
+    "surfing": 0,
+    "snorkeling_note": "excellent",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [
+      "reef-fish"
+    ],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm",
+    "snorkeling": "excellent",
+    "swimming": "excellent",
+    "depth_profile": "Protected small cove \u2014 shallow reef within 10\u201330 m of shore; gradual depth to 2\u20133 m over coral heads.",
+    "stone_rocks": "Rocky in places around cove edges; sandy pocket in center",
+    "sand": "white coral sand",
+    "crowds": "very low",
+    "access": "Small roadside parking between Malmok and Arashi; arrive early",
+    "facilities": "None \u2014 bring own snorkel gear, water, and shade",
+    "fun_facts": [
+      "Small protected cove locals prefer to keep low-key \u2014 catamarans pass offshore while you snorkel.",
+      "Marine reserve protections help fish populations thrive close to shore."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "snorkeling",
+    "cove",
+    "beginners",
+    "northwest",
+    "quiet",
+    "shore",
+    "reef",
+    "calm",
+    "shore-snorkeling",
+    "quiet-cove"
+  ]
+}

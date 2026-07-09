@@ -1,0 +1,66 @@
+{
+  "id": "hadicurari",
+  "name": "Hadicurari",
+  "aliases": [
+    "Fisherman's Hut",
+    "Fisherman Huts"
+  ],
+  "country_id": "aruba",
+  "city_zone": "northwest-coast",
+  "coast": "northwest",
+  "description": "Steady trade winds make this Aruba's premier windsurfing and kitesurfing beach.",
+  "tags": [
+    "windsurfing",
+    "kitesurfing",
+    "water sports"
+  ],
+  "map_link": "https://www.google.com/maps/search/Hadicurari+Aruba",
+  "map_snapshot": null,
+  "live_rating": {
+    "wave": 2,
+    "rockiness": {
+      "beach": "Wide white sand in the windsurf launch zone \ud83c\udfd6\ufe0f",
+      "ocean_floor": "Flat sandy bottom extending far \u2014 ideal for board sports"
+    },
+    "water_quality": 2,
+    "swim": 9,
+    "snorkeling": 2,
+    "wind": "calm water; steady wind",
+    "tide": {
+      "next_high": "2026-07-09T14:18:00-04:00",
+      "next_low": "2026-07-09T07:42:00-04:00",
+      "source": "sample"
+    },
+    "wave_note": "calm water; steady wind",
+    "surfing": 3,
+    "snorkeling_note": "poor",
+    "water_quality_note": ""
+  },
+  "ecosystem": {
+    "animals": [],
+    "plants": []
+  },
+  "characteristics": {
+    "wave": "calm water; steady wind",
+    "snorkeling": "poor",
+    "swimming": "good",
+    "depth_profile": "Shallow flat water ideal for board sports \u2014 sandy bottom extends far at low wind chop.",
+    "stone_rocks": "Minimal in launch zone",
+    "sand": "white coral sand",
+    "crowds": "moderate among water-sport crowd",
+    "access": "Along coast road north of Palm Beach; near Aruban wind sports schools",
+    "facilities": "Windsurf/kitesurf schools and gear rental",
+    "fun_facts": [
+      "Steady trade winds make this Aruba's premier windsurfing and kitesurfing beach."
+    ],
+    "safety_notes": []
+  },
+  "search_tags": [
+    "windsurfing",
+    "kitesurfing",
+    "wind",
+    "northwest",
+    "water-sports",
+    "trade-winds"
+  ]
+}
