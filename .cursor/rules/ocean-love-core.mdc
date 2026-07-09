@@ -35,7 +35,9 @@ Beach `ecosystem` arrays hold marine-life **slugs** — fetch cards from `data/e
 - Vanilla HTML, CSS, JS only unless explicitly asked otherwise.
 - One CSS file; JS split: `api.js`, `ratings.js`, `render-beach.js`, page controller.
 - Lazy-load: index JSON first, detail JSON on user action.
-- Requires a local server (`fetch` + ES modules block `file://`). Run `npm start` → `http://localhost:8765/web/beaches.html`
+- Static site: `web/` + `data/` — no Node in production (GitHub Pages).
+- Local preview: `python3 -m http.server 8765` from repo root → `/web/beaches.html`
+- Optional Node dev server: `dev/server.js.example` (see `dev/README.md`)
 
 ## Commits
 

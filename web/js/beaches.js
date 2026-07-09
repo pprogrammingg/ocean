@@ -29,7 +29,7 @@ function resetDetail() {
 
 function showError(message) {
   setDetail(
-    `<p class="empty-state">Error: ${message}. Run <code>npm start</code> from the repo root (file:// won't work).</p>`
+    `<p class="empty-state">Error: ${message}. Open via a static server (see web/README.md) — file:// won't work.</p>`
   );
 }
 

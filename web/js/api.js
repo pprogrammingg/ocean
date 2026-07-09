@@ -1,5 +1,6 @@
 const DATA_ROOT = "../data";
 
+/** Lazy-load JSON relative to the HTML page (works on GitHub Pages + local static server). */
 export async function fetchJSON(path) {
   const res = await fetch(`${DATA_ROOT}/${path}`);
   if (!res.ok) throw new Error(`Failed to load ${path}`);
