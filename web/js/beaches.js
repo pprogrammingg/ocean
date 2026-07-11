@@ -1,26 +1,45 @@
 import { fetchJSON, explorePath } from "./api.js";
-import { renderBeachDetail, hydrateEcosystem } from "./render-beach.js";
+import { escapeHtml } from "./html.js";
+import { renderBeachDetail } from "./render-beach.js";
+import { renderCountryOverview, hydrateCountrySpecies } from "./render-country.js";
 import { CountryTrie } from "./trie.js";
 
-const els = {
-  country: document.getElementById("country-select"),
-  countryControls: document.getElementById("country-controls"),
-  pickHint: document.getElementById("pick-country-hint"),
-  zone: document.getElementById("zone-select"),
-  beachList: document.getElementById("beach-list"),
-  detail: document.getElementById("beach-detail"),
-  countryBlurb: document.getElementById("country-blurb"),
-  search: document.getElementById("beach-search"),
-  searchResults: document.getElementById("search-results"),
-};
+let els = {};
+
+function bindElements() {
+  els = {
+    country: document.getElementById("country-select"),
+    countryStatus: document.getElementById("country-load-status"),
+    countryControls: document.getElementById("country-controls"),
+    pickHint: document.getElementById("pick-country-hint"),
+    zone: document.getElementById("zone-select"),
+    beachList: document.getElementById("beach-list"),
+    detail: document.getElementById("beach-detail"),
+    countryBlurb: document.getElementById("country-blurb"),
+    search: document.getElementById("beach-search"),
+    searchResults: document.getElementById("search-results"),
+  };
+}
 
 const state = {
   countries: null,
   trie: new CountryTrie(),
+  loadGen: { country: 0, zone: 0, beach: 0 },
 };
 
+function isStale(kind, gen) {
+  return gen !== state.loadGen[kind];
+}
+
 function setDetail(html) {
+  if (!els.detail) return;
   els.detail.innerHTML = html;
+}
+
+function setCountryStatus(message, isError = false) {
+  if (!els.countryStatus) return;
+  els.countryStatus.textContent = message || "";
+  els.countryStatus.classList.toggle("country-load-status--error", Boolean(isError && message));
 }
 
 function resetDetail() {
@@ -29,8 +48,15 @@ function resetDetail() {
 
 function showError(message) {
   setDetail(
-    `<p class="empty-state">Error: ${message}. Open via a static server (see web/README.md) — file:// won't work.</p>`
+    `<p class="empty-state">Error: ${escapeHtml(message)}. Open via a static server (see web/README.md) — file:// won't work.</p>`
   );
+}
+
+function showSidebarError(message) {
+  if (!els.pickHint) return;
+  els.pickHint.hidden = false;
+  els.pickHint.textContent = message;
+  els.pickHint.classList.add("pick-country-hint--error");
 }
 
 function setCountryControlsVisible(visible) {
@@ -75,7 +101,8 @@ function renderBeachList(beaches) {
     const button = document.createElement("button");
     button.type = "button";
     button.dataset.path = beach.path;
-    button.innerHTML = `<span class="name">${beach.name}</span><span class="tags">${(beach.tags || []).join(" · ")}</span>`;
+    const tags = (beach.tags || []).map(escapeHtml).join(" · ");
+    button.innerHTML = `<span class="name">${escapeHtml(beach.name)}</span><span class="tags">${tags}</span>`;
     button.addEventListener("click", () => selectBeach(button, beach.path));
     item.appendChild(button);
     els.beachList.appendChild(item);
@@ -94,6 +121,8 @@ function searchMatchLabel(hit) {
 }
 
 async function selectBeach(button, path) {
+  const gen = ++state.loadGen.beach;
+
   if (button) {
     els.beachList.querySelectorAll("button").forEach((btn) => {
       btn.setAttribute("aria-selected", "false");
@@ -102,31 +131,49 @@ async function selectBeach(button, path) {
   }
 
   setDetail('<p class="loading">Loading beach…</p>');
-  const beach = await fetchJSON(explorePath(path));
-  setDetail(renderBeachDetail(beach));
-  await hydrateEcosystem(document.getElementById("ecosystem"), beach);
+
+  try {
+    const beach = await fetchJSON(explorePath(path));
+    if (isStale("beach", gen)) return;
+
+    setDetail(renderBeachDetail(beach));
+  } catch (error) {
+    if (isStale("beach", gen)) return;
+    showError(error.message);
+  }
 }
 
 async function onZoneChange() {
   const countryId = els.country.value;
   const zoneId = els.zone.value;
+  const gen = ++state.loadGen.zone;
+
   resetDetail();
   els.beachList.innerHTML = "";
 
   if (!countryId || !zoneId) return;
 
-  const data = await fetchJSON(explorePath(countryId, zoneId, "city-beaches.json"));
-  if (!data.beaches.length) {
-    els.beachList.innerHTML = '<li class="empty-state">No beaches in this zone yet.</li>';
-    return;
-  }
+  try {
+    const data = await fetchJSON(explorePath(countryId, zoneId, "city-beaches.json"));
+    if (isStale("zone", gen)) return;
 
-  renderBeachList(data.beaches);
-  els.beachList.querySelector("button")?.click();
+    if (!data.beaches.length) {
+      els.beachList.innerHTML = '<li class="empty-state">No beaches in this zone yet.</li>';
+      return;
+    }
+
+    renderBeachList(data.beaches);
+    els.beachList.querySelector("button")?.click();
+  } catch (error) {
+    if (isStale("zone", gen)) return;
+    els.beachList.innerHTML = `<li class="empty-state">${escapeHtml(error.message)}</li>`;
+  }
 }
 
 async function onCountryChange() {
   const countryId = els.country.value;
+  const gen = ++state.loadGen.country;
+
   resetDetail();
   els.beachList.innerHTML = "";
   els.zone.innerHTML = '<option value="">Select zone…</option>';
@@ -142,29 +189,50 @@ async function onCountryChange() {
 
   setCountryControlsVisible(true);
 
-  const country = state.countries.find((entry) => entry.id === countryId);
-  const [meta, searchIndex] = await Promise.all([
-    fetchJSON(explorePath(countryId, "country.json")),
-    fetchJSON(explorePath(countryId, "search-index.json")),
-  ]);
+  try {
+    const country = state.countries?.find((entry) => entry.id === countryId);
+    if (!country) {
+      throw new Error(`Unknown country: ${countryId}`);
+    }
 
-  state.trie.load(searchIndex);
-  const hasBeaches = searchIndex.beach_count > 0;
+    const [meta, searchIndex] = await Promise.all([
+      fetchJSON(explorePath(countryId, "country.json")),
+      fetchJSON(explorePath(countryId, "search-index.json")),
+    ]);
 
-  setSearchEnabled(hasBeaches, hasBeaches ? "Name or tag…" : "No beaches indexed yet");
-  els.zone.disabled = !hasBeaches;
-  els.countryBlurb.innerHTML = `<p>${meta.ocean_info.slice(0, 220)}…</p>`;
-  populateZones(country);
+    if (isStale("country", gen)) return;
 
-  if (!hasBeaches) {
-    els.beachList.innerHTML = '<li class="empty-state">Beaches coming soon for this country.</li>';
-    return;
-  }
+    state.trie.load(searchIndex);
+    const hasBeaches = searchIndex.beach_count > 0;
 
-  const firstZone = country.city_zones.find((zone) => zone.beach_count > 0);
-  if (firstZone) {
-    els.zone.value = firstZone.id;
-    await onZoneChange();
+    setSearchEnabled(hasBeaches, hasBeaches ? "Name or tag…" : "No beaches indexed yet");
+    els.zone.disabled = !hasBeaches;
+    els.countryBlurb.innerHTML = renderCountryOverview(meta, {
+      beachCount: searchIndex.beach_count,
+    });
+    await hydrateCountrySpecies(
+      document.getElementById("country-species"),
+      meta.marine_overview?.species
+    );
+
+    if (isStale("country", gen)) return;
+
+    populateZones(country);
+
+    if (!hasBeaches) {
+      els.beachList.innerHTML = '<li class="empty-state">Beaches coming soon for this country.</li>';
+      return;
+    }
+
+    const firstZone = country.city_zones.find((zone) => zone.beach_count > 0);
+    if (firstZone) {
+      els.zone.value = firstZone.id;
+      await onZoneChange();
+    }
+  } catch (error) {
+    if (isStale("country", gen)) return;
+    els.countryBlurb.innerHTML = `<p class="empty-state empty-state--inline">Could not load country: ${escapeHtml(error.message)}</p>`;
+    showError(error.message);
   }
 }
 
@@ -186,9 +254,9 @@ function onSearchInput() {
     .map(
       (hit) => `
       <li>
-        <button type="button" data-path="${hit.path}" data-zone="${hit.zone}">
-          <span class="result-name">${hit.name}</span>
-          <span class="result-meta">${hit.zone.replace(/-/g, " ")} · matched ${searchMatchLabel(hit)}</span>
+        <button type="button" data-path="${escapeHtml(hit.path)}" data-zone="${escapeHtml(hit.zone)}">
+          <span class="result-name">${escapeHtml(hit.name)}</span>
+          <span class="result-meta">${escapeHtml(hit.zone.replace(/-/g, " "))} · matched ${escapeHtml(searchMatchLabel(hit))}</span>
         </button>
       </li>`
     )
@@ -207,7 +275,7 @@ async function openSearchResult({ path, zone }) {
     await onZoneChange();
   }
 
-  const button = els.beachList.querySelector(`button[data-path="${path}"]`);
+  const button = els.beachList.querySelector(`button[data-path="${path.replace(/"/g, '\\"')}"]`);
   if (button) {
     selectBeach(button, path);
     button.scrollIntoView({ block: "nearest" });
@@ -217,11 +285,21 @@ async function openSearchResult({ path, zone }) {
 }
 
 async function init() {
+  bindElements();
+
+  if (!els.country) {
+    setCountryStatus("Country dropdown not found on page.", true);
+    return;
+  }
+
+  setCountryStatus("Loading countries…");
+
   try {
     const index = await fetchJSON(explorePath("countries.json"));
     state.countries = index.countries;
     populateCountries(state.countries);
     setCountryControlsVisible(false);
+    setCountryStatus("");
 
     els.country.addEventListener("change", onCountryChange);
     els.zone.addEventListener("change", onZoneChange);
@@ -233,8 +311,24 @@ async function init() {
       if (!event.target.closest(".search-field")) hideSearchResults();
     });
   } catch (error) {
+    setCountryStatus(error.message, true);
     showError(error.message);
+    showSidebarError(
+      `Could not load countries. From repo root run: python3 -m http.server 8765 then open http://127.0.0.1:8765/web/beaches.html`
+    );
   }
 }
 
-init();
+let pageStarted = false;
+
+function startBeachesPage() {
+  if (pageStarted) return;
+  pageStarted = true;
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init, { once: true });
+  } else {
+    init();
+  }
+}
+
+startBeachesPage();

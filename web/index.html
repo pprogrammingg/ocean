@@ -6,22 +6,41 @@
   <title>ocean-love.xyz</title>
   <link rel="stylesheet" href="css/ocean.css">
 </head>
-<body>
+<body data-page="home">
   <header class="site-header">
     <h1>ocean-love.xyz</h1>
-    <p>Ocean exploration &amp; stewardship</p>
-    <nav class="site-nav" aria-label="Main">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="beaches.html">Beaches</a>
-    </nav>
+    <p>Curiosity · Connection · Conservation</p>
+    <nav class="site-nav" aria-label="Main"></nav>
   </header>
 
   <main class="layout">
     <section class="panel">
       <h2>Explore the ocean</h2>
-      <p>Beach guides, marine life, and eco-conscious gear — built for lazy-loaded JSON data and simple static pages.</p>
-      <p class="home-cta"><a href="beaches.html">Browse beaches →</a></p>
+      <p>The ecosystem behind every beach. Discover first, care second, act third.</p>
+
+      <div class="pillar-cards">
+        <a class="pillar-card pillar-card--curiosity" href="beaches.html">
+          <span class="pillar-card__verb">Learn</span>
+          <strong>Curiosity</strong>
+          <span>Beaches, species, conditions, maps</span>
+        </a>
+        <a class="pillar-card pillar-card--connection" href="connection.html">
+          <span class="pillar-card__verb">Feel</span>
+          <strong>Connection</strong>
+          <span>Favorites, sightings, stories, belonging</span>
+        </a>
+        <a class="pillar-card pillar-card--conservation" href="conservation.html">
+          <span class="pillar-card__verb">Act</span>
+          <strong>Conservation</strong>
+          <span>Cleanups, citizen science, impact</span>
+        </a>
+      </div>
     </section>
   </main>
+
+  <script type="module">
+    import { initPage } from "./js/page.js";
+    initPage("home");
+  </script>
 </body>
 </html>

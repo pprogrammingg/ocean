@@ -7,9 +7,9 @@ alwaysApply: false
 # Web UI
 
 - **Stack:** HTML + CSS + JS, no build step.
-- **Modules:** `api.js` (fetch), `ratings.js` (spectrum bars), `render-beach.js` (detail HTML), page controller per route.
+- **Modules:** `api.js` (cached fetch), `species.js` (lazy species), `render-*.js`, `beaches.js` page controller, `page.js` (nav bootstrap), `verify.js` (?verify=1).
 - **CSS:** Single `web/css/ocean.css` — tokens, layout, components, page sections.
-- **Lazy load:** Index JSON first, detail JSON on user action.
+- **Lazy load:** `fetch()` one JSON file per user action — see `web/README.md`.
+- **No npm, no build, no test libraries** in this project.
 - **No frameworks** unless user requests React/etc.
-
-Keep pages thin — logic in `web/js/`, markup in `web/*.html`.
+- **Pages:** Home, beaches (Curiosity), connection, conservation — shared nav via `js/nav.js`.

@@ -1,26 +1,21 @@
-# Optional local dev server (not used on GitHub Pages)
+# Local dev (not used on GitHub Pages)
 
-GitHub Pages serves `web/` + `data/` as static files. Lazy-loading uses browser `fetch()` — no Node in production.
+GitHub Pages serves `web/` + `data/` as static files. Lazy-loading uses browser `fetch()` — no build step in production.
 
 ## Local preview
 
-From repo root:
+From **repo root**:
 
 ```bash
 python3 -m http.server 8765
 ```
 
-Open http://localhost:8765/web/beaches.html
+Open http://127.0.0.1:8765/web/beaches.html — not `file://`. Server must run from repo root (so `../data/` works from `web/`).
 
-## Restore Node server (optional)
+## Check (no server)
 
-If you prefer Node for local dev, add `package.json`:
+Stdlib Python only — verifies HTML, JS modules, data graph, and Aruba lazy-load chain:
 
-```json
-{
-  "private": true,
-  "scripts": { "start": "node dev/server.js" }
-}
+```bash
+python3 dev/check.py
 ```
-
-Copy `server.js.example` to `server.js` and run `npm start`.

@@ -3,10 +3,17 @@
   "name": "Bonaire",
   "region": "Southern Caribbean, Netherlands (Kingdom)",
   "guide_version": "1.0",
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "ocean_info": "Bonaire is a world-renowned shore-diving destination in the southern Caribbean. The leeward west coast offers calm, protected water with fringing reefs accessible from shore. The east coast faces trade winds and open Atlantic swell \u2014 dramatic scenery, not casual swimming.",
   "coast_guide": {
-    "west": "Calm lee side \u2014 shore diving, snorkeling, kayaking",
-    "east": "Wild windward side \u2014 scenery and wind sports"
+    "west": "Calm lee side — shore diving, snorkeling, kayaking",
+    "east": "Wild windward side — scenery and wind sports"
+  },
+  "marine_overview": {
+    "known_beach_count": 0,
+    "aggregate_ratings": null,
+    "ocean_character": "World-renowned shore-diving destination — fringing reefs along the calm leeward west coast; east coast is wild Atlantic scenery.",
+    "best_seasons": ["Year-round diving", "February–June peak visibility"],
+    "species": []
   }
 }

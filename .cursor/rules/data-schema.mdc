@@ -6,17 +6,49 @@ alwaysApply: false
 
 # Data conventions
 
+## Lazy-load policy (required)
+
+All JSON follows a **fetch-on-demand** graph. Design every new file as part of a lazy-load chain:
+
+| Layer | Load when | Contains |
+|-------|-----------|----------|
+| Root index | Page init | Country/category ids, names, zone ids — no detail records |
+| Country/zone index | User selects country/zone | Beach list with `path` refs only |
+| Detail record | User selects item | Full `beach.json`, species card, product |
+| Shard file | Slug resolved via index | Up to ~50 species/items per shard |
+
+**Never:**
+- Embed full beach, species, or product objects inside index files
+- Ship a single JSON file with all countries/beaches/species
+- Duplicate the same record in two files — use slug/path refs
+
+**Always:**
+- Put `path` or slug on index entries; UI calls `fetchJSON()` when needed
+- Keep aggregates precomputed in parent records (e.g. `marine_overview.aggregate_ratings`) — do not compute by fetching all children at runtime
+
 ## Explore / beaches
 
 | File | Purpose |
 |------|---------|
 | `countries.json` | Country list + `city_zones[]` with ids |
-| `{country}/country.json` | Ocean overview, coast guide |
+| `{country}/country.json` | Ocean overview, coast guide, `marine_overview` |
 | `{country}/search-index.json` | Country trie source: names, aliases, `search_tags` |
 | `{city_zone}/city-beaches.json` | Beach index: `{ id, name, tags, path }` |
 | `{beach}/beach.json` | Full record: `live_rating`, `live_rating.tide.{next_high,next_low}`, `ecosystem`, `map_link` |
 
 Use kebab-case slugs for ids. `live_rating` scores are 0–10 integers where numeric.
+
+### `marine_overview` (in country.json)
+
+| Field | Type | Notes |
+|-------|------|-------|
+| `known_beach_count` | number | Matches search-index when beaches exist |
+| `aggregate_ratings` | object \| null | `swim`, `wave`, `snorkeling`, `scuba`, `water_quality`, `surfing` — 0–10 |
+| `aggregate_scope` | string | e.g. `leeward_coast` — which beaches were averaged (exclude non-visitor coasts) |
+| `aggregate_notes` | string | Explains scope; shown on country card |
+| `ocean_character` | string | Short summary for country card |
+| `best_seasons` | string[] | Visiting seasons |
+| `species` | string[] | Slug refs only — resolve via marine-life paths |
 
 ## Education / marine life
 
@@ -26,10 +58,10 @@ Use kebab-case slugs for ids. `live_rating` scores are 0–10 integers where num
 | `animals/index.json` / `plants/index.json` | Card index with `path` |
 | `{slug}.json` | Species card for UI pages |
 
-Cross-ref beaches → species via slug only (no embedded duplicates).
+Cross-ref beaches → species via slug only (no embedded duplicates). UI lazy-loads each `{slug}.json` when rendering ecosystem or country species chips.
 
 ## Eco Shop
 
-`data/eco_shop/{category}/catalog.json` — product evaluations 0–10.
+`data/eco_shop/{category}/catalog.json` — product index with refs; fetch item detail only when opened.
 
 Do not hardcode product or beach counts — read the index JSON.

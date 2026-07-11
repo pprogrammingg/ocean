@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Beaches — ocean-love.xyz</title>
+  <meta name="ocean-data-base" content="../data/">
+  <title>Curiosity — Beaches — ocean-love.xyz</title>
   <link rel="stylesheet" href="css/ocean.css">
 </head>
-<body>
+<body data-page="beaches">
   <header class="site-header">
     <h1>ocean-love.xyz</h1>
-    <p>Ocean exploration &amp; stewardship</p>
-    <nav class="site-nav" aria-label="Main">
-      <a href="index.html">Home</a>
-      <a href="beaches.html" aria-current="page">Beaches</a>
-    </nav>
+    <p>Curiosity · Connection · Conservation</p>
+    <nav class="site-nav" aria-label="Main"></nav>
   </header>
 
   <main class="layout layout-beaches">
     <aside class="panel sidebar">
-      <h2>Explore</h2>
+      <p class="pillar-label">Curiosity</p>
+      <h2>Discover beaches</h2>
 
       <div class="field">
         <label for="country-select">Country</label>
         <select id="country-select">
           <option value="">Select country…</option>
         </select>
+        <p id="country-load-status" class="country-load-status" aria-live="polite"></p>
       </div>
 
       <div id="country-controls" class="country-controls" hidden>
@@ -47,8 +47,10 @@
 
         <div id="country-blurb" class="country-blurb"></div>
 
-        <h2 class="section-heading">Beaches</h2>
-        <ul id="beach-list" class="beach-list"></ul>
+        <section class="country-overview__section sidebar-beaches">
+          <h2 class="country-section-heading">Beaches</h2>
+          <ul id="beach-list" class="beach-list"></ul>
+        </section>
       </div>
 
       <p id="pick-country-hint" class="pick-country-hint">Select a country to browse zones and beaches.</p>
@@ -59,6 +61,30 @@
     </section>
   </main>
 
-  <script type="module" src="js/beaches.js"></script>
+  <script>
+    (function () {
+      var el = document.getElementById("country-load-status");
+      if (location.protocol === "file:") {
+        el.textContent = "Use a local server — not file://. From repo root: python3 -m http.server 8765 then open http://127.0.0.1:8765/web/beaches.html";
+        el.classList.add("country-load-status--error");
+      }
+      window.addEventListener("error", function (e) {
+        el.textContent = "JS error: " + e.message;
+        el.classList.add("country-load-status--error");
+      });
+    })();
+  </script>
+  <script type="module">
+    const status = document.getElementById("country-load-status");
+    try {
+      const { initPage } = await import("./js/page.js");
+      initPage("curiosity");
+      await import("./js/beaches.js");
+    } catch (err) {
+      status.textContent = "Failed to load app: " + err.message;
+      status.classList.add("country-load-status--error");
+      console.error(err);
+    }
+  </script>
 </body>
 </html>

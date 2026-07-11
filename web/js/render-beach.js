@@ -1,5 +1,5 @@
-import { fetchJSON, marineLifePath } from "./api.js";
 import { buildRatingRows } from "./ratings.js";
+import { escapeHtml } from "./html.js";
 
 function beachMeta(beach) {
   const zone = beach.city_zone.replace(/-/g, " ");
@@ -17,16 +17,16 @@ function renderTags(beach) {
     .filter((tag, index, all) => all.indexOf(tag) === index)
     .slice(0, 8);
 
-  return tags.map((tag) => `<span class="tag">${tag}</span>`).join("");
+  return tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
 }
 
-function renderTextBlock(label, value) {
-  if (!value) return "";
+function renderSection(title, bodyHtml) {
+  if (!bodyHtml) return "";
   return `
-    <div class="text-block">
-      <h3>${label}</h3>
-      <p>${value}</p>
-    </div>`;
+    <section class="beach-detail__section">
+      <h3 class="country-section-heading">${escapeHtml(title)}</h3>
+      ${bodyHtml}
+    </section>`;
 }
 
 function formatTideTime(iso) {
@@ -44,45 +44,45 @@ function formatTideTime(iso) {
   }
 }
 
-function renderTideBlock(tide) {
+function renderTideSection(tide) {
   if (!tide || typeof tide !== "object") return "";
   const { next_high, next_low, source } = tide;
   if (!next_high && !next_low) return "";
 
   const sourceNote =
     source === "sample"
-      ? '<p class="spectrum-note">Source: live data coming soon</p>'
+      ? '<p class="country-overview__note">Source: live data coming soon</p>'
       : "";
 
-  return `
-    <div class="text-block tide-block">
-      <h3>Tide</h3>
-      <dl class="tide-times">
-        <div><dt>Next high</dt><dd>${formatTideTime(next_high)}</dd></div>
-        <div><dt>Next low</dt><dd>${formatTideTime(next_low)}</dd></div>
+  return renderSection(
+    "Tide",
+    `
+      <dl class="detail-list tide-list">
+        <div><dt>Next high</dt><dd>${escapeHtml(formatTideTime(next_high))}</dd></div>
+        <div><dt>Next low</dt><dd>${escapeHtml(formatTideTime(next_low))}</dd></div>
       </dl>
-      ${sourceNote}
-    </div>`;
+      ${sourceNote}`
+  );
 }
 
-function renderRockinessBlock(rockiness) {
+function renderRockinessSection(rockiness) {
   if (!rockiness) return "";
 
   if (typeof rockiness === "string") {
-    return renderTextBlock("Rockiness", rockiness);
+    return renderSection("Rockiness", `<p class="country-overview__body">${escapeHtml(rockiness)}</p>`);
   }
 
   const { beach, ocean_floor } = rockiness;
   if (!beach && !ocean_floor) return "";
 
-  return `
-    <div class="text-block rockiness-block">
-      <h3>Rockiness</h3>
+  return renderSection(
+    "Rockiness",
+    `
       <dl class="detail-list rockiness-list">
-        ${beach ? `<div><dt>Beach</dt><dd>${beach}</dd></div>` : ""}
-        ${ocean_floor ? `<div><dt>Ocean floor</dt><dd>${ocean_floor}</dd></div>` : ""}
-      </dl>
-    </div>`;
+        ${beach ? `<div><dt>Beach</dt><dd>${escapeHtml(beach)}</dd></div>` : ""}
+        ${ocean_floor ? `<div><dt>Ocean floor</dt><dd>${escapeHtml(ocean_floor)}</dd></div>` : ""}
+      </dl>`
+  );
 }
 
 export function renderBeachDetail(beach) {
@@ -90,47 +90,18 @@ export function renderBeachDetail(beach) {
 
   return `
     <article class="beach-detail">
-      <h2>${beach.name}</h2>
-      <p class="meta">${beachMeta(beach)}</p>
-      <div class="tag-row">${renderTags(beach)}</div>
+      <header class="beach-detail__header">
+        <h2>${escapeHtml(beach.name)}</h2>
+        <p class="meta">${escapeHtml(beachMeta(beach))}</p>
+        <div class="tag-row">${renderTags(beach)}</div>
+      </header>
       <div class="ratings">${buildRatingRows(rating)}</div>
-      ${renderTideBlock(rating.tide)}
-      ${renderRockinessBlock(rating.rockiness)}
-      ${renderTextBlock("Wind", rating.wind)}
-      ${beach.description ? renderTextBlock("About", beach.description) : ""}
-      <a class="map-link" href="${beach.map_link}" target="_blank" rel="noopener">View on map →</a>
-      <div id="ecosystem" class="text-block ecosystem-block">
-        <h3>Marine life</h3>
-        <p class="loading">Loading…</p>
-      </div>
+      ${renderTideSection(rating.tide)}
+      ${renderRockinessSection(rating.rockiness)}
+      ${rating.wind ? renderSection("Wind", `<p class="country-overview__body">${escapeHtml(rating.wind)}</p>`) : ""}
+      ${beach.description ? renderSection("About", `<p class="country-overview__body">${escapeHtml(beach.description)}</p>`) : ""}
+      <p class="beach-detail__map">
+        <a class="map-link" href="${escapeHtml(beach.map_link)}" target="_blank" rel="noopener">View on map →</a>
+      </p>
     </article>`;
-}
-
-async function loadSpeciesCard(type, slug) {
-  try {
-    const species = await fetchJSON(marineLifePath(type, slug));
-    return `<div class="species-card"><strong>${species.name}</strong><span>${species.summary.slice(0, 100)}…</span></div>`;
-  } catch {
-    return `<div class="species-card"><strong>${slug}</strong></div>`;
-  }
-}
-
-export async function hydrateEcosystem(container, beach) {
-  if (!container) return;
-
-  const animals = beach.ecosystem?.animals || [];
-  const plants = beach.ecosystem?.plants || [];
-  const cards = [];
-
-  for (const slug of animals) {
-    cards.push(await loadSpeciesCard("animals", slug));
-  }
-  for (const slug of plants) {
-    cards.push(await loadSpeciesCard("plants", slug));
-  }
-
-  container.innerHTML =
-    cards.length > 0
-      ? `<h3>Marine life</h3><div class="ecosystem-cards">${cards.join("")}</div>`
-      : `<h3>Marine life</h3><p class="empty-state empty-state--inline">No species linked yet.</p>`;
 }

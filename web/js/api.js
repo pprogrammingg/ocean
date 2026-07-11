@@ -1,10 +1,20 @@
-const DATA_ROOT = "../data";
+/** Lazy-load JSON from data/ — path set by <meta name="ocean-data-base"> on beaches.html */
+function dataRoot() {
+  const base = document.querySelector('meta[name="ocean-data-base"]')?.content?.trim() || "../data/";
+  return new URL(base, document.baseURI);
+}
 
-/** Lazy-load JSON relative to the HTML page (works on GitHub Pages + local static server). */
+const cache = new Map();
+
 export async function fetchJSON(path) {
-  const res = await fetch(`${DATA_ROOT}/${path}`);
-  if (!res.ok) throw new Error(`Failed to load ${path}`);
-  return res.json();
+  const url = new URL(path, dataRoot()).href;
+  if (cache.has(url)) return cache.get(url);
+
+  const res = await fetch(new URL(path, dataRoot()));
+  if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
+  const data = await res.json();
+  cache.set(url, data);
+  return data;
 }
 
 export function explorePath(...segments) {

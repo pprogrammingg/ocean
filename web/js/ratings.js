@@ -59,21 +59,23 @@ export function renderSpectrumRow({
   note = null,
   variant = "calm-danger",
   scaleLabels = CALM_DANGER_SCALE,
+  compact = false,
 }) {
   const noteHtml =
     noteAddsDetail(note, tierLabel) ? `<p class="spectrum-note">${note}</p>` : "";
   const metaHtml = noteHtml ? `<div class="spectrum-meta">${noteHtml}</div>` : "";
+  const scaleHtml = compact ? "" : renderScaleLabels(scaleLabels, tierLabel);
 
   return `
     <div class="spectrum-group">
       <div class="rating-row spectrum-row">
         <span class="label">${label}</span>
         <div class="spectrum-bar-wrap">
-          <div class="spectrum-bar" role="img" aria-label="${label} ${score} out of 10, ${tierLabel}">
+          <div class="spectrum-bar" role="img" aria-label="${label} ${score} out of 10${compact ? "" : `, ${tierLabel}`}">
             <div class="spectrum-track spectrum-track--${variant}"></div>
             <div class="spectrum-marker" style="left:${percent}%"></div>
           </div>
-          ${renderScaleLabels(scaleLabels, tierLabel)}
+          ${scaleHtml}
         </div>
         <span class="score">${score}/10</span>
       </div>
@@ -81,8 +83,13 @@ export function renderSpectrumRow({
     </div>`;
 }
 
-export function buildRatingRows(liveRating = {}) {
+export function buildCompactRatingRows(liveRating = {}) {
+  return buildRatingRows(liveRating, { compact: true });
+}
+
+export function buildRatingRows(liveRating = {}, { compact = false } = {}) {
   const r = liveRating;
+  const rowOpts = compact ? { compact: true } : {};
   return [
     renderSpectrumRow({
       label: "Wave",
@@ -92,6 +99,7 @@ export function buildRatingRows(liveRating = {}) {
       note: r.wave_note,
       variant: "calm-danger",
       scaleLabels: CALM_DANGER_SCALE,
+      ...rowOpts,
     }),
     renderSpectrumRow({
       label: "Swim",
@@ -100,6 +108,7 @@ export function buildRatingRows(liveRating = {}) {
       tierLabel: calmModerateDangerous(r.swim, true),
       variant: "calm-danger",
       scaleLabels: CALM_DANGER_SCALE,
+      ...rowOpts,
     }),
     renderSpectrumRow({
       label: "Water quality",
@@ -109,6 +118,7 @@ export function buildRatingRows(liveRating = {}) {
       note: r.water_quality_note,
       variant: "purity",
       scaleLabels: CALM_DANGER_SCALE,
+      ...rowOpts,
     }),
     renderSpectrumRow({
       label: "Surfing",
@@ -118,6 +128,7 @@ export function buildRatingRows(liveRating = {}) {
       note: r.surfing_note,
       variant: "calm-danger",
       scaleLabels: CALM_DANGER_SCALE,
+      ...rowOpts,
     }),
     renderSpectrumRow({
       label: "Snorkeling",
@@ -127,6 +138,7 @@ export function buildRatingRows(liveRating = {}) {
       note: r.snorkeling_note,
       variant: "snorkel",
       scaleLabels: SNORKEL_SCALE,
+      ...rowOpts,
     }),
   ].join("");
 }

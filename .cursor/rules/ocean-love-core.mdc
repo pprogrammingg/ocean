@@ -11,30 +11,40 @@ Audience-first ocean exploration & stewardship site. Hub paths: `/shop`, `/explo
 
 1. **Concise only.** No filler comments, redundant docstrings, or verbose explanations.
 2. **No redundancy.** Reuse existing logic and data paths — never duplicate blocks or near-duplicate JSON.
-3. **Verify against spec.** Read `ocean-love.json` and `data/**/README.md` before inventing paths, fields, or hub URLs.
+3. **Verify against spec.** Read `readmap.json` for epic/story AI prompts and data paths. Read `ocean-love.json` for mission, distribution phases, and brand.
 4. **Match existing patterns.** Read surrounding code/data before generating. Mirror naming, schema, and fetch conventions.
 5. **Scope.** Implement exactly what was asked — no extra flags, helpers, or unrequested features.
 
-## Data layout (lazy-load)
+## Data layout (lazy-load only)
+
+**All data is lazy-loaded.** No monolithic bundles, no embedding full records in indexes, no preloading detail JSON the user has not asked for.
 
 ```
-data/explore/countries.json
-data/explore/{country}/country.json
-data/explore/{country}/search-index.json
-data/explore/{country}/{city_zone}/city-beaches.json
-data/explore/{country}/{city_zone}/{beach}/beach.json
-data/explore/{country}/scuba-zones/          (later)
-data/education/marine-life/{animals|plants}/{slug}.json
-data/eco_shop/{category}/catalog.json
+data/explore/countries.json              ← entry index only
+data/explore/{country}/country.json      ← on country select
+data/explore/{country}/search-index.json ← on country select (with country.json)
+data/explore/{country}/{city_zone}/city-beaches.json  ← on zone select
+data/explore/{country}/{city_zone}/{beach}/beach.json ← on beach select
+data/explore/{country}/scuba-zones/      (later)
+data/education/marine-life/{animals|plants}/{slug}.json  ← one card per fetch
+data/education/species/index.json → species/data/{shard}.json  ← shard on slug resolve
+data/eco_shop/{category}/catalog.json    ← category index; item detail by ref
 ```
 
-Beach `ecosystem` arrays hold marine-life **slugs** — fetch cards from `data/education/marine-life/`.
+**Rules:**
+- Indexes hold **ids, names, paths, slugs** — never duplicate full beach/species/product objects.
+- Cross-refs (`ecosystem`, `marine_overview.species`, habitat links) use **slugs only**; UI fetches each card/file on demand.
+- Shard large catalogs (species, beaches) — max ~50 entries per shard file; resolve via index.
+- Do not hardcode counts — read from index JSON at runtime.
+
+Beach `ecosystem` arrays hold marine-life **slugs** — fetch cards from `data/education/marine-life/` (or species shards when migrated).
 
 ## Frontend
 
 - Vanilla HTML, CSS, JS only unless explicitly asked otherwise.
-- One CSS file; JS split: `api.js`, `ratings.js`, `render-beach.js`, page controller.
-- Lazy-load: index JSON first, detail JSON on user action.
+- One CSS file; JS split: `api.js`, `ratings.js`, `render-*.js`, page controller.
+- **Lazy-load everything:** `fetch()` index JSON first; load detail JSON only on user action (country → zone → beach → species card).
+- Never `fetch()` all beaches, all species, or all countries' detail in one page load.
 - Static site: `web/` + `data/` — no Node in production (GitHub Pages).
 - Local preview: `python3 -m http.server 8765` from repo root → `/web/beaches.html`
 - Optional Node dev server: `dev/server.js.example` (see `dev/README.md`)
