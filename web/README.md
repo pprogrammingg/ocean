@@ -7,10 +7,12 @@ Static HTML, CSS, JS. **No build step. No npm. No Node in production.**
 From **repo root**:
 
 ```bash
-python3 -m http.server 8765
+python3 dev/serve.py
 ```
 
 Open **http://127.0.0.1:8765/web/beaches.html** (use `127.0.0.1`, not `file://`)
+
+Use `dev/serve.py` instead of `python3 -m http.server` — Chrome caches old JS after restarts and the page can look broken until you hard-refresh. `serve.py` sends no-cache headers so a normal refresh is enough.
 
 Data lives in `data/` — the server must serve the **repo root** so `../data/` resolves from `web/beaches.html`.
 
@@ -24,7 +26,7 @@ python3 dev/check.py
 
 Hard refresh often does not help if the page is opened wrong. Check the line under **Country**:
 
-- **file:// message** → you opened the HTML file directly; use `python3 -m http.server 8765` from repo root
+- **file:// message** → you opened the HTML file directly; use `python3 dev/serve.py` from repo root
 - **Failed to load app** → open DevTools → Console and share the error
 - **No message, still empty** → confirm the server was started from repo root, not from `web/`
 

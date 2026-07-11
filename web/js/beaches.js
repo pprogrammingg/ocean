@@ -314,7 +314,7 @@ async function init() {
     setCountryStatus(error.message, true);
     showError(error.message);
     showSidebarError(
-      `Could not load countries. From repo root run: python3 -m http.server 8765 then open http://127.0.0.1:8765/web/beaches.html`
+      `Could not load countries. From repo root run: python3 dev/serve.py then open http://127.0.0.1:8765/web/beaches.html`
     );
   }
 }

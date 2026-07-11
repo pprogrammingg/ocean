@@ -65,7 +65,7 @@
     (function () {
       var el = document.getElementById("country-load-status");
       if (location.protocol === "file:") {
-        el.textContent = "Use a local server — not file://. From repo root: python3 -m http.server 8765 then open http://127.0.0.1:8765/web/beaches.html";
+        el.textContent = "Use a local server — not file://. From repo root: python3 dev/serve.py then open http://127.0.0.1:8765/web/beaches.html";
         el.classList.add("country-load-status--error");
       }
       window.addEventListener("error", function (e) {

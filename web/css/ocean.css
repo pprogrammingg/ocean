@@ -15,6 +15,25 @@
   --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
   --label-col: 110px;
+  --layout-max: 1100px;
+  --sidebar-width: 280px;
+  --list-max-height: 420px;
+  --search-results-max: 220px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 17.6px; /* ~10% larger type/spacing on tablet+; mobile stays 16px */
+  }
+
+  :root {
+    --label-col: 121px;
+    --layout-max: 1210px;
+    --sidebar-width: 308px;
+    --list-max-height: 462px;
+    --search-results-max: 242px;
+    --radius: 13px;
+  }
 }
 
 /* --- Reset & base --- */
@@ -150,7 +169,7 @@ a:hover { text-decoration: underline; }
 
 /* --- Layout --- */
 .layout {
-  max-width: 1100px;
+  max-width: var(--layout-max);
   margin: 0 auto;
   padding: 1.5rem;
   display: grid;
@@ -159,7 +178,7 @@ a:hover { text-decoration: underline; }
 
 @media (min-width: 900px) {
   .layout-beaches {
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: var(--sidebar-width) 1fr;
     align-items: start;
   }
 }
@@ -448,7 +467,7 @@ select:disabled {
   list-style: none;
   margin: 0;
   padding: 0;
-  max-height: 420px;
+  max-height: var(--list-max-height);
   overflow-y: auto;
 }
 
@@ -528,7 +547,7 @@ select:disabled {
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: var(--shadow);
-  max-height: 220px;
+  max-height: var(--search-results-max);
   overflow-y: auto;
 }
 
