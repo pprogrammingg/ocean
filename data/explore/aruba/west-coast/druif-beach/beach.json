@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "west-coast",
   "coast": "west",
-  "description": "Walk south to reach Eagle Beach easily \u2014 popular sunset happy hour spot among locals and repeat visitors.",
+  "description": "Walk south to reach Eagle Beach easily — popular sunset happy hour spot among locals and repeat visitors.",
   "tags": [
     "quiet day",
     "happy hour",
@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 1,
     "rockiness": {
-      "beach": "White sand with low rock promontories at the edges \ud83c\udfd6\ufe0f",
+      "beach": "White sand with low rock promontories at the edges 🏖️",
       "ocean_floor": "Mostly sandy; gradual slope similar to Eagle Beach"
     },
-    "water_quality": 2,
+    "water_quality": 8,
     "swim": 9,
     "snorkeling": 2,
     "wind": "",
@@ -31,7 +31,7 @@
     "wave_note": "calm",
     "surfing": 0,
     "snorkeling_note": "poor",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -48,7 +48,7 @@
     "access": "Free parking; closer to Oranjestad and cruise terminal than Palm Beach",
     "facilities": "Beach Bar Aruba on the sand; some palapas",
     "fun_facts": [
-      "Walk south to reach Eagle Beach easily \u2014 popular sunset happy hour spot among locals and repeat visitors."
+      "Walk south to reach Eagle Beach easily — popular sunset happy hour spot among locals and repeat visitors."
     ],
     "safety_notes": []
   },

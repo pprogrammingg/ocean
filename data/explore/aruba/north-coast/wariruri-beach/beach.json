@@ -17,9 +17,9 @@
     "wave": 8,
     "rockiness": {
       "beach": "White sand with extensive limestone and coral rock",
-      "ocean_floor": "Rocky surf coast with strong Atlantic surge \ud83e\udeb8"
+      "ocean_floor": "Rocky surf coast with strong Atlantic surge 🪸"
     },
-    "water_quality": 2,
+    "water_quality": 7,
     "swim": 2,
     "snorkeling": 2,
     "wind": "",
@@ -31,7 +31,7 @@
     "wave_note": "rough",
     "surfing": 8,
     "snorkeling_note": "none",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [
@@ -43,7 +43,7 @@
     "wave": "rough",
     "snorkeling": "none",
     "swimming": "not safe",
-    "depth_profile": "Rocky surf coast \u2014 strong Atlantic surge.",
+    "depth_profile": "Rocky surf coast — strong Atlantic surge.",
     "stone_rocks": "Extensive limestone and coral rock",
     "sand": "white coral sand",
     "crowds": "very low",

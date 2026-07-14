@@ -15,8 +15,8 @@
   "live_rating": {
     "wave": 3,
     "rockiness": {
-      "beach": "Rocky limestone point \u2014 no sand beach; concrete steps into water",
-      "ocean_floor": "Sandy bottom just beyond steps; turtles often on sand patches \ud83e\udeb8"
+      "beach": "Rocky limestone point — no sand beach; concrete steps into water",
+      "ocean_floor": "Sandy bottom just beyond steps; turtles often on sand patches 🪸"
     },
     "water_quality": 9,
     "swim": 9,
@@ -30,7 +30,7 @@
     "wave_note": "calm to moderate",
     "surfing": 1,
     "snorkeling_note": "excellent",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [
@@ -43,9 +43,9 @@
     "wave": "calm to moderate",
     "snorkeling": "excellent",
     "swimming": "good with caution",
-    "depth_profile": "Concrete steps into deep water quickly \u2014 turtles often rest on sandy bottom just beyond roped swim area.",
-    "stone_rocks": "Rocky point \u2014 not a sand beach; steps carved into limestone",
-    "sand": "none at entry \u2014 rocky coast",
+    "depth_profile": "Concrete steps into deep water quickly — turtles often rest on sandy bottom just beyond roped swim area.",
+    "stone_rocks": "Rocky point — not a sand beach; steps carved into limestone",
+    "sand": "none at entry — rocky coast",
     "crowds": "low",
     "access": "Roadside parking on northwest coast near Malmok",
     "facilities": "None",

@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "south-coast",
   "coast": "south",
-  "description": "Named for pool-like calm water \u2014 toddlers can splash safely in the lagoon interior. Snorkeling improves near the left rock barrier: parrotfish, trunkfish, and sea turtles.",
+  "description": "Named for pool-like calm water — toddlers can splash safely in the lagoon interior. Snorkeling improves near the left rock barrier: parrotfish, trunkfish, and sea turtles.",
   "tags": [
     "families with young children",
     "beginner snorkelers",
@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 0,
     "rockiness": {
-      "beach": "White sand inside the protected lagoon \ud83c\udfd6\ufe0f",
-      "ocean_floor": "Sandy lagoon bottom; reef and rocks at the left rock barrier \ud83e\udeb8"
+      "beach": "White sand inside the protected lagoon 🏖️",
+      "ocean_floor": "Sandy lagoon bottom; reef and rocks at the left rock barrier 🪸"
     },
-    "water_quality": 9,
+    "water_quality": 8,
     "swim": 9,
     "snorkeling": 9,
     "wind": "",
@@ -31,7 +31,7 @@
     "wave_note": "very calm",
     "surfing": 0,
     "snorkeling_note": "good",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [
@@ -44,16 +44,16 @@
     "wave": "very calm",
     "snorkeling": "good",
     "swimming": "excellent",
-    "depth_profile": "Enclosed lagoon: ankle to waist-deep for a very long distance inside the natural reef breakwater. Depth increases near the left-side rock barrier where reef fish gather; do not swim beyond protected areas \u2014 open ocean side can be dangerous.",
+    "depth_profile": "Enclosed lagoon: ankle to waist-deep for a very long distance inside the natural reef breakwater. Depth increases near the left-side rock barrier where reef fish gather; do not swim beyond protected areas — open ocean side can be dangerous.",
     "stone_rocks": "Rock barrier defines the lagoon; sandy bottom inside; reef and rocks at the channel edges",
     "sand": "white coral sand",
     "crowds": "moderate to busy on weekends; arrive early",
     "access": "Free large parking lot; ~45 min drive from Palm Beach through San Nicolas",
     "facilities": "Two beach restaurants, restrooms, snorkel gear rentals",
     "fun_facts": [
-      "Named for pool-like calm water \u2014 toddlers can splash safely in the lagoon interior.",
+      "Named for pool-like calm water — toddlers can splash safely in the lagoon interior.",
       "Snorkeling improves near the left rock barrier: parrotfish, trunkfish, and sea turtles.",
-      "Drive passes San Nicolas street murals \u2014 worth combining with a south-coast culture stop."
+      "Drive passes San Nicolas street murals — worth combining with a south-coast culture stop."
     ],
     "safety_notes": [
       "Stay inside the protected lagoon; outer reef openings can have strong current and surge."

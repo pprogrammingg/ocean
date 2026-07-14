@@ -21,18 +21,27 @@
   --search-results-max: 220px;
 }
 
+/* Tablet+ ~25% larger than mobile base (another ~13% on top of prior bump) */
 @media (min-width: 768px) {
   html {
-    font-size: 17.6px; /* ~10% larger type/spacing on tablet+; mobile stays 16px */
+    font-size: 20px;
   }
 
   :root {
-    --label-col: 121px;
-    --layout-max: 1210px;
-    --sidebar-width: 308px;
-    --list-max-height: 462px;
-    --search-results-max: 242px;
-    --radius: 13px;
+    --label-col: 7rem;
+    --layout-max: 1360px;
+    --sidebar-width: 20rem;
+    --list-max-height: 30rem;
+    --search-results-max: 16rem;
+    --radius: 14px;
+  }
+}
+
+/* Wide desktops: a bit more room without forcing overflow on smaller laptops */
+@media (min-width: 1200px) {
+  :root {
+    --layout-max: 1480px;
+    --sidebar-width: 21rem;
   }
 }
 
@@ -169,18 +178,27 @@ a:hover { text-decoration: underline; }
 
 /* --- Layout --- */
 .layout {
-  max-width: var(--layout-max);
+  width: min(100%, var(--layout-max));
+  max-width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
   display: grid;
   gap: 1.5rem;
+  box-sizing: border-box;
 }
 
 @media (min-width: 900px) {
   .layout-beaches {
-    grid-template-columns: var(--sidebar-width) 1fr;
+    grid-template-columns: minmax(0, var(--sidebar-width)) minmax(0, 1fr);
     align-items: start;
   }
+}
+
+.panel,
+.beach-detail,
+.country-overview {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .home-cta { margin-top: 1.25rem; }
@@ -270,7 +288,7 @@ select:disabled {
 
 .detail-list div {
   display: grid;
-  grid-template-columns: 5.5rem 1fr;
+  grid-template-columns: minmax(4.5rem, 5.5rem) minmax(0, 1fr);
   gap: 0.5rem;
   font-size: 0.875rem;
 }
@@ -401,7 +419,7 @@ select:disabled {
 }
 
 .ratings--compact .label {
-  min-width: 3.25rem;
+  min-width: 0;
   font-size: 0.75rem;
 }
 
@@ -681,7 +699,7 @@ select:disabled {
 
 .rating-row {
   display: grid;
-  grid-template-columns: var(--label-col) 1fr 2.5rem;
+  grid-template-columns: minmax(4.5rem, var(--label-col)) minmax(0, 1fr) 2.5rem;
   gap: 0.5rem;
   align-items: center;
   font-size: 0.875rem;
@@ -785,7 +803,7 @@ select:disabled {
 
 .spectrum-meta {
   display: grid;
-  grid-template-columns: var(--label-col) 1fr;
+  grid-template-columns: minmax(4.5rem, var(--label-col)) minmax(0, 1fr);
   gap: 0.5rem;
   margin-top: 0.15rem;
 }

@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "south-coast",
   "coast": "southwest",
-  "description": "Often rated the #1 shore snorkeling spot in Aruba for reef diversity. Mangroves act as fish nurseries \u2014 French angelfish, parrotfish, blue tang, eels, and turtles.",
+  "description": "Often rated the #1 shore snorkeling spot in Aruba for reef diversity. Mangroves act as fish nurseries — French angelfish, parrotfish, blue tang, eels, and turtles.",
   "tags": [
     "snorkeling",
     "diving",
@@ -17,8 +17,8 @@
   "live_rating": {
     "wave": 3,
     "rockiness": {
-      "beach": "Minimal sand \u2014 mangrove and limestone coast; wooden stairs to water",
-      "ocean_floor": "Patch reef within meters of shore; drops to ~30 m in places \ud83e\udeb8"
+      "beach": "Minimal sand — mangrove and limestone coast; wooden stairs to water",
+      "ocean_floor": "Patch reef within meters of shore; drops to ~30 m in places 🪸"
     },
     "water_quality": 9,
     "swim": 9,
@@ -32,7 +32,7 @@
     "wave_note": "calm surface; moderate current possible",
     "surfing": 1,
     "snorkeling_note": "excellent",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [
@@ -47,19 +47,19 @@
     "wave": "calm surface; moderate current possible",
     "snorkeling": "excellent",
     "swimming": "good with caution",
-    "depth_profile": "Rocky and mangrove-fringed entry \u2014 no long sand beach. Shallow patch reef within meters of shore, then reef drops to roughly 30 m (100 ft) in places. Channels between mangrove roots hold juvenile fish.",
-    "stone_rocks": "Extensive \u2014 rocky shore, wooden staircases into water; water shoes recommended",
-    "sand": "Minimal \u2014 mangrove and limestone coastline rather than classic sand beach",
+    "depth_profile": "Rocky and mangrove-fringed entry — no long sand beach. Shallow patch reef within meters of shore, then reef drops to roughly 30 m (100 ft) in places. Channels between mangrove roots hold juvenile fish.",
+    "stone_rocks": "Extensive — rocky shore, wooden staircases into water; water shoes recommended",
+    "sand": "Minimal — mangrove and limestone coastline rather than classic sand beach",
     "crowds": "low to moderate",
     "access": "Free roadside parking; near Savaneta",
-    "facilities": "Minimal \u2014 benches, wooden stairs; no rentals on site",
+    "facilities": "Minimal — benches, wooden stairs; no rentals on site",
     "fun_facts": [
       "Often rated the #1 shore snorkeling spot in Aruba for reef diversity.",
-      "Mangroves act as fish nurseries \u2014 French angelfish, parrotfish, blue tang, eels, and turtles.",
+      "Mangroves act as fish nurseries — French angelfish, parrotfish, blue tang, eels, and turtles.",
       "Solar-powered sea scooter tours popular when current is stronger."
     ],
     "safety_notes": [
-      "Current varies \u2014 visit at low tide for best visibility; use guided tour if inexperienced with drift."
+      "Current varies — visit at low tide for best visibility; use guided tour if inexperienced with drift."
     ]
   },
   "search_tags": [

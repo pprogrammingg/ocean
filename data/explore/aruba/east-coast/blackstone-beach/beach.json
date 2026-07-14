@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "east-coast",
   "coast": "east",
-  "description": "Aruba's most visually unusual shore \u2014 black stones against turquoise water.",
+  "description": "Aruba's most visually unusual shore — black stones against turquoise water.",
   "tags": [
     "geology",
     "photography"
@@ -15,10 +15,10 @@
   "live_rating": {
     "wave": 7,
     "rockiness": {
-      "beach": "Black volcanic pebbles and boulders \u2014 no classic sand beach",
+      "beach": "Black volcanic pebbles and boulders — no classic sand beach",
       "ocean_floor": "Rocky shore with immediate drop-off near boulders"
     },
-    "water_quality": 2,
+    "water_quality": 7,
     "swim": 2,
     "snorkeling": 2,
     "wind": "",
@@ -30,7 +30,7 @@
     "wave_note": "moderate to rough",
     "surfing": 7,
     "snorkeling_note": "none",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -41,13 +41,13 @@
     "snorkeling": "none",
     "swimming": "not recommended",
     "depth_profile": "Rocky shore with immediate drop-off near volcanic boulders.",
-    "stone_rocks": "Dominant \u2014 smooth black volcanic pebbles and boulders instead of white sand",
-    "sand": "black stone shingle \u2014 no classic sand beach",
+    "stone_rocks": "Dominant — smooth black volcanic pebbles and boulders instead of white sand",
+    "sand": "black stone shingle — no classic sand beach",
     "crowds": "very low",
     "access": "4x4 or long walk",
     "facilities": "None",
     "fun_facts": [
-      "Aruba's most visually unusual shore \u2014 black stones against turquoise water."
+      "Aruba's most visually unusual shore — black stones against turquoise water."
     ],
     "safety_notes": []
   },

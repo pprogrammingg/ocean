@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "west-coast",
   "coast": "west",
-  "description": "Most convenient beach for cruise passengers with limited port time. Plane spotting possible \u2014 aircraft approach nearby.",
+  "description": "Most convenient beach for cruise passengers with limited port time. Plane spotting possible — aircraft approach nearby.",
   "tags": [
     "cruise ship visitors",
     "quick city beach stop"
@@ -15,10 +15,10 @@
   "live_rating": {
     "wave": 1,
     "rockiness": {
-      "beach": "White sand near the Oranjestad waterfront \ud83c\udfd6\ufe0f",
+      "beach": "White sand near the Oranjestad waterfront 🏖️",
       "ocean_floor": "Shallow sandy slope"
     },
-    "water_quality": 2,
+    "water_quality": 7,
     "swim": 9,
     "snorkeling": 2,
     "wind": "",
@@ -30,7 +30,7 @@
     "wave_note": "calm",
     "surfing": 0,
     "snorkeling_note": "poor",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -48,7 +48,7 @@
     "facilities": "Restaurant, bar, restrooms",
     "fun_facts": [
       "Most convenient beach for cruise passengers with limited port time.",
-      "Plane spotting possible \u2014 aircraft approach nearby."
+      "Plane spotting possible — aircraft approach nearby."
     ],
     "safety_notes": []
   },

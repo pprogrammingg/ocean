@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "east-coast",
   "coast": "east",
-  "description": "'Two beaches' inside Arikok \u2014 sea turtle nests occasionally found; walk carefully.",
+  "description": "'Two beaches' inside Arikok — sea turtle nests occasionally found; walk carefully.",
   "tags": [
     "photography",
     "experienced surfers",
@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 9,
     "rockiness": {
-      "beach": "White sand in two wild coves inside Arikok National Park \ud83c\udfd6\ufe0f",
-      "ocean_floor": "Rocky surf zone \u2014 no safe wading"
+      "beach": "White sand in two wild coves inside Arikok National Park 🏖️",
+      "ocean_floor": "Rocky surf zone — no safe wading"
     },
-    "water_quality": 2,
+    "water_quality": 7,
     "swim": 2,
     "snorkeling": 2,
     "wind": "",
@@ -28,10 +28,10 @@
       "next_low": "2026-07-09T07:42:00-04:00",
       "source": "sample"
     },
-    "wave_note": "rough \u2014 Atlantic surf",
+    "wave_note": "rough — Atlantic surf",
     "surfing": 9,
     "snorkeling_note": "none",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [
@@ -40,17 +40,17 @@
     "plants": []
   },
   "characteristics": {
-    "wave": "rough \u2014 Atlantic surf",
+    "wave": "rough — Atlantic surf",
     "snorkeling": "none",
     "swimming": "not safe",
-    "depth_profile": "Two connected wild coves with surf zone only \u2014 no safe wading depth for casual swimmers.",
+    "depth_profile": "Two connected wild coves with surf zone only — no safe wading depth for casual swimmers.",
     "stone_rocks": "Rocky coves within Arikok National Park",
     "sand": "white coral sand",
     "crowds": "very low",
     "access": "4x4 or hike; Arikok National Park entrance fee",
     "facilities": "None",
     "fun_facts": [
-      "'Two beaches' inside Arikok \u2014 sea turtle nests occasionally found; walk carefully."
+      "'Two beaches' inside Arikok — sea turtle nests occasionally found; walk carefully."
     ],
     "safety_notes": [
       "Swimming not recommended; experienced surfers only in surf zone."

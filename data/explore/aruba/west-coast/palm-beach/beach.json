@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "west-coast",
   "coast": "west",
-  "description": "Two-mile resort strip backed by high-rise hotels \u2014 Aruba's main tourist hub. Best launch point for sunset cruises, catamaran snorkel trips, and Antilla shipwreck tours.",
+  "description": "Two-mile resort strip backed by high-rise hotels — Aruba's main tourist hub. Best launch point for sunset cruises, catamaran snorkel trips, and Antilla shipwreck tours.",
   "tags": [
     "water sports",
     "resort amenities",
@@ -17,10 +17,10 @@
   "live_rating": {
     "wave": 1,
     "rockiness": {
-      "beach": "Groomed white sand along the resort strip \ud83c\udfd6\ufe0f",
-      "ocean_floor": "Sandy bottom; limited reef from shore \u2014 snorkel tours go by boat"
+      "beach": "Groomed white sand along the resort strip 🏖️",
+      "ocean_floor": "Sandy bottom; limited reef from shore — snorkel tours go by boat"
     },
-    "water_quality": 4,
+    "water_quality": 8,
     "swim": 9,
     "snorkeling": 4,
     "wind": "",
@@ -32,7 +32,7 @@
     "wave_note": "calm",
     "surfing": 0,
     "snorkeling_note": "limited",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -42,14 +42,14 @@
     "wave": "calm",
     "snorkeling": "limited",
     "swimming": "excellent",
-    "depth_profile": "Gentle sandy slope; shallow and safe for long distances. Reef snorkeling is limited from shore \u2014 most snorkel tours depart from here by boat.",
-    "stone_rocks": "Minimal on main swim areas \u2014 wide groomed sand",
+    "depth_profile": "Gentle sandy slope; shallow and safe for long distances. Reef snorkeling is limited from shore — most snorkel tours depart from here by boat.",
+    "stone_rocks": "Minimal on main swim areas — wide groomed sand",
     "sand": "white coral sand",
     "crowds": "busy, especially high season and near high-rise hotels",
     "access": "Paid lots near beach center; free side-street parking a short walk away",
-    "facilities": "Extensive \u2014 restaurants, bars, jet skis, parasailing, paddleboards, tour operators",
+    "facilities": "Extensive — restaurants, bars, jet skis, parasailing, paddleboards, tour operators",
     "fun_facts": [
-      "Two-mile resort strip backed by high-rise hotels \u2014 Aruba's main tourist hub.",
+      "Two-mile resort strip backed by high-rise hotels — Aruba's main tourist hub.",
       "Best launch point for sunset cruises, catamaran snorkel trips, and Antilla shipwreck tours."
     ],
     "safety_notes": []

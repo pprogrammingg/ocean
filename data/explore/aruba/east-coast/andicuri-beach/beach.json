@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "east-coast",
   "coast": "east",
-  "description": "Dramatic Atlantic landscape \u2014 roar of surf and cliff scenery; favorite of bodyboarders.",
+  "description": "Dramatic Atlantic landscape — roar of surf and cliff scenery; favorite of bodyboarders.",
   "tags": [
     "bodyboarding",
     "wild scenery",
@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 9,
     "rockiness": {
-      "beach": "Mixed sand and rock \u2014 craggy cliffs and Atlantic surf",
-      "ocean_floor": "Rocky turbulent zone; powerful shore break \u2014 not for entry"
+      "beach": "Mixed sand and rock — craggy cliffs and Atlantic surf",
+      "ocean_floor": "Rocky turbulent zone; powerful shore break — not for entry"
     },
-    "water_quality": 2,
+    "water_quality": 7,
     "swim": 2,
     "snorkeling": 2,
     "wind": "",
@@ -28,30 +28,30 @@
       "next_low": "2026-07-09T07:42:00-04:00",
       "source": "sample"
     },
-    "wave_note": "rough \u2014 Atlantic surf",
+    "wave_note": "rough — Atlantic surf",
     "surfing": 9,
     "snorkeling_note": "none",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
     "plants": []
   },
   "characteristics": {
-    "wave": "rough \u2014 Atlantic surf",
+    "wave": "rough — Atlantic surf",
     "snorkeling": "none",
     "swimming": "not safe",
     "depth_profile": "Shallow turbulent zone near shore with powerful dumpers; rapid offshore depth but unsafe for swimmers.",
-    "stone_rocks": "Extensive \u2014 craggy cliffs and rock formations",
+    "stone_rocks": "Extensive — craggy cliffs and rock formations",
     "sand": "mixed sand and rock",
     "crowds": "very low",
     "access": "4x4 recommended; east coast road",
     "facilities": "None",
     "fun_facts": [
-      "Dramatic Atlantic landscape \u2014 roar of surf and cliff scenery; favorite of bodyboarders."
+      "Dramatic Atlantic landscape — roar of surf and cliff scenery; favorite of bodyboarders."
     ],
     "safety_notes": [
-      "Do not swim \u2014 strong currents and powerful shore break."
+      "Do not swim — strong currents and powerful shore break."
     ]
   },
   "search_tags": [

@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 1,
     "rockiness": {
-      "beach": "Open powdery white sand \u2014 among the widest on the island \ud83c\udfd6\ufe0f",
+      "beach": "Open powdery white sand — among the widest on the island 🏖️",
       "ocean_floor": "Sandy floor; shallow for a long distance"
     },
-    "water_quality": 2,
+    "water_quality": 9,
     "swim": 9,
     "snorkeling": 2,
     "wind": "",
@@ -31,7 +31,7 @@
     "wave_note": "calm",
     "surfing": 0,
     "snorkeling_note": "poor",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -41,8 +41,8 @@
     "wave": "calm",
     "snorkeling": "poor",
     "swimming": "excellent",
-    "depth_profile": "Very gradual; among the widest beach sections on Aruba \u2014 shallow water extends far from shore.",
-    "stone_rocks": "Minimal \u2014 open powdery sand",
+    "depth_profile": "Very gradual; among the widest beach sections on Aruba — shallow water extends far from shore.",
+    "stone_rocks": "Minimal — open powdery sand",
     "sand": "white coral sand",
     "crowds": "low",
     "access": "Free parking; continuous with Eagle Beach to the north",

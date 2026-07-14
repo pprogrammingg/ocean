@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "south-coast",
   "coast": "south",
-  "description": "Quieter neighbor to Baby Beach near the fishing village of Savaneta \u2014 more local, less touristy feel.",
+  "description": "Quieter neighbor to Baby Beach near the fishing village of Savaneta — more local, less touristy feel.",
   "tags": [
     "seclusion",
     "local atmosphere",
@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 3,
     "rockiness": {
-      "beach": "White sand with some rocky sections \ud83c\udfd6\ufe0f",
+      "beach": "White sand with some rocky sections 🏖️",
       "ocean_floor": "Mostly sand; moderate depth increase offshore"
     },
-    "water_quality": 7,
+    "water_quality": 8,
     "swim": 9,
     "snorkeling": 7,
     "wind": "",
@@ -31,7 +31,7 @@
     "wave_note": "calm to moderate",
     "surfing": 1,
     "snorkeling_note": "decent",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [
@@ -48,9 +48,9 @@
     "sand": "white coral sand",
     "crowds": "very low",
     "access": "Free parking near Baby Beach area; short drive from San Nicolas",
-    "facilities": "Very limited \u2014 bring water and snacks",
+    "facilities": "Very limited — bring water and snacks",
     "fun_facts": [
-      "Quieter neighbor to Baby Beach near the fishing village of Savaneta \u2014 more local, less touristy feel."
+      "Quieter neighbor to Baby Beach near the fishing village of Savaneta — more local, less touristy feel."
     ],
     "safety_notes": []
   },

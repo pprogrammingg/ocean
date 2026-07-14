@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "east-coast",
   "coast": "east",
-  "description": "Spectacular dune landscape above crashing waves \u2014 viewpoint more than swim spot.",
+  "description": "Spectacular dune landscape above crashing waves — viewpoint more than swim spot.",
   "tags": [
     "dune views",
     "photography",
@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 9,
     "rockiness": {
-      "beach": "White sand at the base of high dunes \ud83c\udfd6\ufe0f",
-      "ocean_floor": "Rough Atlantic \u2014 too dangerous for water entry"
+      "beach": "White sand at the base of high dunes 🏖️",
+      "ocean_floor": "Rough Atlantic — too dangerous for water entry"
     },
-    "water_quality": 2,
+    "water_quality": 7,
     "swim": 2,
     "snorkeling": 2,
     "wind": "",
@@ -28,27 +28,27 @@
       "next_low": "2026-07-09T07:42:00-04:00",
       "source": "sample"
     },
-    "wave_note": "rough \u2014 crashing Atlantic",
+    "wave_note": "rough — crashing Atlantic",
     "surfing": 9,
     "snorkeling_note": "none",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
     "plants": []
   },
   "characteristics": {
-    "wave": "rough \u2014 crashing Atlantic",
+    "wave": "rough — crashing Atlantic",
     "snorkeling": "none",
     "swimming": "not safe",
-    "depth_profile": "Beach at base of Aruba's highest sand dunes \u2014 water too rough for entry.",
+    "depth_profile": "Beach at base of Aruba's highest sand dunes — water too rough for entry.",
     "stone_rocks": "Dunes and rocky coast",
     "sand": "white coral sand",
     "crowds": "very low",
     "access": "4x4; often on jeep/UTV tours",
     "facilities": "None",
     "fun_facts": [
-      "Spectacular dune landscape above crashing waves \u2014 viewpoint more than swim spot."
+      "Spectacular dune landscape above crashing waves — viewpoint more than swim spot."
     ],
     "safety_notes": []
   },

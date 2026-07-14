@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "west-coast",
   "coast": "private island (Renaissance Island)",
-  "description": "Pink flamingos roam freely among sunbathers \u2014 one of the Caribbean's most iconic photo spots. Not a public beach \u2014 requires hotel stay or purchased day pass.",
+  "description": "Pink flamingos roam freely among sunbathers — one of the Caribbean's most iconic photo spots. Not a public beach — requires hotel stay or purchased day pass.",
   "tags": [
     "unique experience",
     "photography",
@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 1,
     "rockiness": {
-      "beach": "White sand in a protected private-island bay \ud83c\udfd6\ufe0f",
+      "beach": "White sand in a protected private-island bay 🏖️",
       "ocean_floor": "Shallow sandy bottom"
     },
-    "water_quality": 2,
+    "water_quality": 8,
     "swim": 9,
     "snorkeling": 2,
     "wind": "",
@@ -31,7 +31,7 @@
     "wave_note": "calm",
     "surfing": 0,
     "snorkeling_note": "poor",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [
@@ -43,15 +43,15 @@
     "wave": "calm",
     "snorkeling": "poor",
     "swimming": "excellent",
-    "depth_profile": "Calm protected bay on private island \u2014 shallow sandy bottom.",
+    "depth_profile": "Calm protected bay on private island — shallow sandy bottom.",
     "stone_rocks": "Minimal",
     "sand": "white coral sand",
     "crowds": "moderate",
     "access": "Boat from Renaissance Wind Creek Resort; day pass for non-guests",
-    "facilities": "Full service \u2014 bar, restaurant, chairs included with access",
+    "facilities": "Full service — bar, restaurant, chairs included with access",
     "fun_facts": [
-      "Pink flamingos roam freely among sunbathers \u2014 one of the Caribbean's most iconic photo spots.",
-      "Not a public beach \u2014 requires hotel stay or purchased day pass."
+      "Pink flamingos roam freely among sunbathers — one of the Caribbean's most iconic photo spots.",
+      "Not a public beach — requires hotel stay or purchased day pass."
     ],
     "safety_notes": []
   },

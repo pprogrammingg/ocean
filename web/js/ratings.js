@@ -1,4 +1,5 @@
 export const CALM_DANGER_SCALE = ["Calm", "Moderate", "Dangerous"];
+export const WATER_QUALITY_SCALE = ["Clean", "Moderate", "Polluted"];
 export const SNORKEL_SCALE = ["Barely", "Some", "Moderate", "Great", "Abundant"];
 
 export function scorePercent(score) {
@@ -18,6 +19,14 @@ export function calmModerateDangerous(score, inverted = false) {
   return "Dangerous";
 }
 
+/** High score = Clean; low = Polluted */
+export function waterQualityLabel(score) {
+  if (typeof score !== "number") return "";
+  if (score >= 7) return "Clean";
+  if (score >= 4) return "Moderate";
+  return "Polluted";
+}
+
 export function snorkelingLabel(score) {
   if (typeof score !== "number") return "";
   if (score >= 9) return "Abundant";
@@ -34,7 +43,7 @@ function noteAddsDetail(note, tierLabel) {
   const redundant = [
     "calm", "moderate", "dangerous", "excellent", "good", "poor", "none",
     "limited", "fair", "minimal", "flat", "barely", "some", "great",
-    "abundant", "pristine", "clear", "cloudy",
+    "abundant", "pristine", "clear", "cloudy", "clean", "polluted",
   ];
   return !redundant.includes(n) && n !== t;
 }
@@ -114,10 +123,10 @@ export function buildRatingRows(liveRating = {}, { compact = false } = {}) {
       label: "Water quality",
       score: r.water_quality,
       percent: goodScorePercent(r.water_quality),
-      tierLabel: calmModerateDangerous(r.water_quality, true),
+      tierLabel: waterQualityLabel(r.water_quality),
       note: r.water_quality_note,
       variant: "purity",
-      scaleLabels: CALM_DANGER_SCALE,
+      scaleLabels: WATER_QUALITY_SCALE,
       ...rowOpts,
     }),
     renderSpectrumRow({

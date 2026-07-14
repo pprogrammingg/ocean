@@ -4,7 +4,7 @@
   "region": "Southern Caribbean, Netherlands (Kingdom)",
   "guide_version": "1.0",
   "last_updated": "2026-07-10",
-  "ocean_info": "Aruba sits in the southern Caribbean Sea, roughly 15 miles off the coast of Venezuela. The island lies outside the Atlantic hurricane belt and enjoys dry, sunny trade-wind weather most of the year. For first-time tourists, the leeward west and south coasts feel like a classic Caribbean postcard: calm turquoise water, fine white sand, and gentle waves ideal for swimming and sunbathing. Snorkelers and divers should know that Aruba has two very different coastlines. The west and northwest shores (Eagle Beach, Palm Beach, Malmok, Boca Catalina, Arashi, Mangel Halto) offer protected water with reef patches, sea turtles, and colorful fish close to shore. The east and north shores face the open Atlantic \u2014 dramatic cliffs, powerful surf, and strong currents; beautiful for photos and experienced surfers, but generally not for casual swimming. Water temperature stays warm year-round (about 26\u201329\u00b0C / 79\u201384\u00b0F). Visibility is often excellent on calm mornings. All beaches in Aruba are public by law. Use reef-safe sunscreen and never take sand, coral, or shells.",
+  "ocean_info": "Aruba sits in the southern Caribbean Sea, roughly 15 miles off the coast of Venezuela. The island lies outside the Atlantic hurricane belt and enjoys dry, sunny trade-wind weather most of the year. For first-time tourists, the leeward west and south coasts feel like a classic Caribbean postcard: calm turquoise water, fine white sand, and gentle waves ideal for swimming and sunbathing. Snorkelers and divers should know that Aruba has two very different coastlines. The west and northwest shores (Eagle Beach, Palm Beach, Malmok, Boca Catalina, Arashi, Mangel Halto) offer protected water with reef patches, sea turtles, and colorful fish close to shore. The east and north shores face the open Atlantic — dramatic cliffs, powerful surf, and strong currents; beautiful for photos and experienced surfers, but generally not for casual swimming. Water temperature stays warm year-round (about 26–29°C / 79–84°F). Visibility is often excellent on calm mornings. All beaches in Aruba are public by law. Use reef-safe sunscreen and never take sand, coral, or shells.",
   "coast_guide": {
     "west_south": "Calm Caribbean side — swimming, snorkeling, resorts, families",
     "east_north": "Wild Atlantic side — scenery, surfing, photography; swimming usually not safe"
@@ -17,12 +17,16 @@
       "wave": 2.0,
       "snorkeling": 8.7,
       "scuba": 7.5,
-      "water_quality": 8.0,
+      "water_quality": 8.3,
       "surfing": 0.5
     },
-    "aggregate_notes": "West, northwest, and south coasts only — where visitors swim and snorkel. Snorkeling is a top draw at shore sites like Arashi, Boca Catalina, Malmok, Tres Trapi, Baby Beach, and Mangel Halto (not averaged with sandy swim beaches or the wild east coast).",
+    "aggregate_notes": "West, northwest, and south coasts only — where visitors swim and snorkel. Snorkeling is a top draw at shore sites like Arashi, Boca Catalina, Malmok, Tres Trapi, Baby Beach, and Mangel Halto (not averaged with sandy swim beaches or the wild east coast). Water quality scores are provisional estimates, not lab measurements.",
     "ocean_character": "Dry trade-wind island outside the hurricane belt — calm turquoise leeward beaches for swimming and snorkeling, plus a wild Atlantic coast for surf and scenery.",
-    "best_seasons": ["January–April", "May–August", "Year-round warm water"],
+    "best_seasons": [
+      "January–April",
+      "May–August",
+      "Year-round warm water"
+    ],
     "species": [
       "brown-pelican",
       "caribbean-flamingo",

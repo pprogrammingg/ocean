@@ -16,10 +16,10 @@
   "live_rating": {
     "wave": 8,
     "rockiness": {
-      "beach": "White sand with rocky, windy shoreline \ud83c\udfd6\ufe0f",
-      "ocean_floor": "Shallow bay \u2014 popular for kite launch, not swimming"
+      "beach": "White sand with rocky, windy shoreline 🏖️",
+      "ocean_floor": "Shallow bay — popular for kite launch, not swimming"
     },
-    "water_quality": 2,
+    "water_quality": 7,
     "swim": 2,
     "snorkeling": 2,
     "wind": "rough",
@@ -31,7 +31,7 @@
     "wave_note": "rough",
     "surfing": 9,
     "snorkeling_note": "none",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -41,7 +41,7 @@
     "wave": "rough",
     "snorkeling": "none",
     "swimming": "not safe",
-    "depth_profile": "Shallow windy bay popular for kite launch \u2014 not for swimming.",
+    "depth_profile": "Shallow windy bay popular for kite launch — not for swimming.",
     "stone_rocks": "Rocky and windy shoreline",
     "sand": "white coral sand",
     "crowds": "very low",

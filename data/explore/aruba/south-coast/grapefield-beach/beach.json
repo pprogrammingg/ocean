@@ -5,7 +5,7 @@
   "country_id": "aruba",
   "city_zone": "south-coast",
   "coast": "south",
-  "description": "Little-known south-coast spot \u2014 locals picnic here away from resort crowds.",
+  "description": "Little-known south-coast spot — locals picnic here away from resort crowds.",
   "tags": [
     "quiet escape",
     "local picnics"
@@ -15,10 +15,10 @@
   "live_rating": {
     "wave": 3,
     "rockiness": {
-      "beach": "White sand cove with rock outcrops at the edges \ud83c\udfd6\ufe0f",
+      "beach": "White sand cove with rock outcrops at the edges 🏖️",
       "ocean_floor": "Sandy on calm days; gradual depth"
     },
-    "water_quality": 4,
+    "water_quality": 7,
     "swim": 9,
     "snorkeling": 4,
     "wind": "",
@@ -30,7 +30,7 @@
     "wave_note": "calm to moderate",
     "surfing": 1,
     "snorkeling_note": "limited",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -45,9 +45,9 @@
     "sand": "white coral sand",
     "crowds": "very low",
     "access": "South coast; rental car recommended",
-    "facilities": "None \u2014 bring supplies",
+    "facilities": "None — bring supplies",
     "fun_facts": [
-      "Little-known south-coast spot \u2014 locals picnic here away from resort crowds."
+      "Little-known south-coast spot — locals picnic here away from resort crowds."
     ],
     "safety_notes": []
   },

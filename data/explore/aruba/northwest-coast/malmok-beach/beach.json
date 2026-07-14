@@ -15,8 +15,8 @@
   "live_rating": {
     "wave": 1,
     "rockiness": {
-      "beach": "Rocky shoreline with sandy patches between limestone \ud83c\udfd6\ufe0f",
-      "ocean_floor": "Reef patches close to shore; depth increases over coral \ud83e\udeb8"
+      "beach": "Rocky shoreline with sandy patches between limestone 🏖️",
+      "ocean_floor": "Reef patches close to shore; depth increases over coral 🪸"
     },
     "water_quality": 9,
     "swim": 9,
@@ -30,7 +30,7 @@
     "wave_note": "calm",
     "surfing": 0,
     "snorkeling_note": "good",
-    "water_quality_note": ""
+    "water_quality_note": "Provisional estimate — not lab-tested; live water quality later"
   },
   "ecosystem": {
     "animals": [],
@@ -40,8 +40,8 @@
     "wave": "calm",
     "snorkeling": "good",
     "swimming": "good",
-    "depth_profile": "Rocky shoreline with reef patches close in; depth increases over coral within 20\u201350 m.",
-    "stone_rocks": "Moderate to extensive \u2014 rocky coast with sandy patches",
+    "depth_profile": "Rocky shoreline with reef patches close in; depth increases over coral within 20–50 m.",
+    "stone_rocks": "Moderate to extensive — rocky coast with sandy patches",
     "sand": "white coral sand",
     "crowds": "low",
     "access": "Free roadside parking between Palm Beach and Boca Catalina",
