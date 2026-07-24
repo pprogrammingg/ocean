@@ -11,7 +11,7 @@ Audience-first ocean exploration & stewardship site. Hub paths: `/shop`, `/explo
 
 1. **Concise only.** No filler comments, redundant docstrings, or verbose explanations.
 2. **No redundancy.** Reuse existing logic and data paths — never duplicate blocks or near-duplicate JSON.
-3. **Verify against spec.** Read `readmap.json` for epic/story AI prompts and data paths. Read `ocean-love.json` for mission, distribution phases, and brand.
+3. **Verify against spec.** Read `roadmap.json` for theme `next_tasks` / `done_tasks`.
 4. **Match existing patterns.** Read surrounding code/data before generating. Mirror naming, schema, and fetch conventions.
 5. **Scope.** Implement exactly what was asked — no extra flags, helpers, or unrequested features.
 
@@ -46,7 +46,7 @@ Beach `ecosystem` arrays hold marine-life **slugs** — fetch cards from `data/e
 - **Lazy-load everything:** `fetch()` index JSON first; load detail JSON only on user action (country → zone → beach → species card).
 - Never `fetch()` all beaches, all species, or all countries' detail in one page load.
 - Static site: `web/` + `data/` — no Node in production (GitHub Pages).
-- Local preview: `python3 -m http.server 8765` from repo root → `/web/beaches.html`
+- Local preview: `python3 dev/serve.py` from repo root → `/web/index.html` (Home)
 - Optional Node dev server: `dev/server.js.example` (see `dev/README.md`)
 
 ## Commits

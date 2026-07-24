@@ -1,0 +1,76 @@
+[
+  {
+    "theme": "Curiosity",
+    "done_tasks": [
+      "Aruba beaches + ratings UI",
+      "Country marine_overview + species chips",
+      "Digram species shards (pelican, turtle, mahi)",
+      "curiosity/beaches hub (lazy country → zone → beach)",
+      "curiosity/species hub (shard nav + default shard)",
+      "Species postcard overlay from beach chips",
+      "Deep-link chip → overlay → species guide (shard + slug + hash)",
+      "Soft-nav remounts correct data-page (beaches ↔ species)"
+    ],
+    "next_tasks": [
+      "Migrate remaining marine-life into digram shards + images",
+      "Species/habitat context on beach pages (no donate CTAs)",
+      "Habitat profiles",
+      "Per-beach SEO URLs",
+      "Bonaire + Australia beach data",
+      "Destination hub pages",
+      "Live conditions / tide-wave integration",
+      "Global beach graph at scale"
+    ]
+  },
+  {
+    "theme": "Conservation",
+    "done_tasks": [
+      "Conservation stub page + main-nav entry"
+    ],
+    "next_tasks": [
+      "Protect this Beach + threats",
+      "Cleanup map MVP (static JSON)",
+      "Crowd report schema",
+      "Citizen science reporting",
+      "Eco travel & cleanup org directory",
+      "Impact reporting"
+    ]
+  },
+  {
+    "theme": "Conscious Living",
+    "done_tasks": [
+      "Conscious Living stub page (shop.html) + main-nav entry",
+      "Eco shop scuba_gear catalog JSON (data/eco_shop)"
+    ],
+    "next_tasks": [
+      "Browsable eco shop UI from catalog JSON",
+      "Affiliate partners + impact scores on product cards",
+      "Ocean tech directory",
+      "Expand catalogs beyond scuba_gear"
+    ]
+  },
+  {
+    "theme": "Other",
+    "done_tasks": [
+      "Landing page (glossy no-scroll, motto, count-up stats)",
+      "Landing motto: Ocean / Curiosity / Connection / Conscious Living",
+      "Landing motto/stats keep ≥10% gap (desktop + mobile)",
+      "Main nav: Home / Curiosity / Conservation / Conscious Living",
+      "Shared soft-nav + fonts / page moods",
+      "Dev serve.py (no-cache) + check.py"
+    ],
+    "next_tasks": [
+      "localStorage favorites + visit log",
+      "Wildlife sightings & photo galleries",
+      "Travel journals & stories",
+      "Newsletter & saved places",
+      "Membership",
+      "Mobile: audit landing motto/stats spacing across breakpoints",
+      "Mobile: beaches sidebar → bottom sheet / stacked layout",
+      "Mobile: species shard nav + section focus scroll under sticky chrome",
+      "Mobile: touch targets ≥44px (chips, nav, shard letters)",
+      "Mobile: soft-nav + View Transitions perf / reduced-motion pass",
+      "Mobile: conservation & shop stub readability on narrow viewports"
+    ]
+  }
+]

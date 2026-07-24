@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-07-14",
+  "description": "Lightweight search / trie source. No full species bodies — resolve via shard + slug.",
+  "entries": [
+    {
+      "id": "brown-pelican",
+      "name": "Brown Pelican",
+      "scientific_name": "Pelecanus occidentalis",
+      "shard": "br",
+      "type": "animal",
+      "tags": ["bird", "coastal", "diving"],
+      "aliases": ["pelican", "pelícano", "pelikaan"]
+    },
+    {
+      "id": "green-sea-turtle",
+      "name": "Green Sea Turtle",
+      "scientific_name": "Chelonia mydas",
+      "shard": "gr",
+      "type": "animal",
+      "tags": ["reptile", "endangered", "reef", "turtle"],
+      "aliases": ["turtle", "tortuga", "turtuga"]
+    },
+    {
+      "id": "mahi-mahi",
+      "name": "Mahi Mahi",
+      "scientific_name": "Coryphaena hippurus",
+      "shard": "ma",
+      "type": "animal",
+      "tags": ["fish", "pelagic", "sportfishing"],
+      "aliases": ["dorado", "dolphinfish", "mahi"]
+    }
+  ]
+}

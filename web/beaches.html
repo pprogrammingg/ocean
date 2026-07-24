@@ -2,89 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="ocean-data-base" content="../data/">
-  <title>Curiosity — Beaches — ocean-love.xyz</title>
-  <link rel="stylesheet" href="css/ocean.css">
-</head>
-<body data-page="beaches">
-  <header class="site-header">
-    <h1>ocean-love.xyz</h1>
-    <p>Curiosity · Connection · Conservation</p>
-    <nav class="site-nav" aria-label="Main"></nav>
-  </header>
-
-  <main class="layout layout-beaches">
-    <aside class="panel sidebar">
-      <p class="pillar-label">Curiosity</p>
-      <h2>Discover beaches</h2>
-
-      <div class="field">
-        <label for="country-select">Country</label>
-        <select id="country-select">
-          <option value="">Select country…</option>
-        </select>
-        <p id="country-load-status" class="country-load-status" aria-live="polite"></p>
-      </div>
-
-      <div id="country-controls" class="country-controls" hidden>
-        <div class="field search-field">
-          <label for="beach-search">Search</label>
-          <div class="search-input-wrap">
-            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
-              <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-            <input type="search" id="beach-search" placeholder="Name or tag…" autocomplete="off">
-          </div>
-          <ul id="search-results" class="search-results" hidden></ul>
-        </div>
-
-        <div class="field">
-          <label for="zone-select">Zone</label>
-          <select id="zone-select"></select>
-        </div>
-
-        <div id="country-blurb" class="country-blurb"></div>
-
-        <section class="country-overview__section sidebar-beaches">
-          <h2 class="country-section-heading">Beaches</h2>
-          <ul id="beach-list" class="beach-list"></ul>
-        </section>
-      </div>
-
-      <p id="pick-country-hint" class="pick-country-hint">Select a country to browse zones and beaches.</p>
-    </aside>
-
-    <section id="beach-detail" class="panel">
-      <p class="empty-state">Select a beach to see details.</p>
-    </section>
-  </main>
-
+  <title>Redirecting…</title>
   <script>
-    (function () {
-      var el = document.getElementById("country-load-status");
-      if (location.protocol === "file:") {
-        el.textContent = "Use a local server — not file://. From repo root: python3 dev/serve.py then open http://127.0.0.1:8765/web/beaches.html";
-        el.classList.add("country-load-status--error");
-      }
-      window.addEventListener("error", function (e) {
-        el.textContent = "JS error: " + e.message;
-        el.classList.add("country-load-status--error");
-      });
-    })();
+    location.replace("curiosity/beaches.html" + location.search + location.hash);
   </script>
-  <script type="module">
-    const status = document.getElementById("country-load-status");
-    try {
-      const { initPage } = await import("./js/page.js");
-      initPage("curiosity");
-      await import("./js/beaches.js");
-    } catch (err) {
-      status.textContent = "Failed to load app: " + err.message;
-      status.classList.add("country-load-status--error");
-      console.error(err);
-    }
-  </script>
+  <meta http-equiv="refresh" content="0; url=curiosity/beaches.html">
+  <link rel="canonical" href="curiosity/beaches.html">
+</head>
+<body>
+  <p><a href="curiosity/beaches.html">Curiosity — Beaches</a></p>
 </body>
 </html>

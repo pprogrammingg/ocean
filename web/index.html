@@ -1,46 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mood="home">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ocean-data-base" content="../data/">
   <title>ocean-love.xyz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/ocean.css">
 </head>
-<body data-page="home">
-  <header class="site-header">
+<body data-page="home" class="landing">
+  <div class="landing-gloss" aria-hidden="true"></div>
+
+  <header class="site-header landing-header">
     <h1>ocean-love.xyz</h1>
-    <p>Curiosity · Connection · Conservation</p>
     <nav class="site-nav" aria-label="Main"></nav>
   </header>
 
-  <main class="layout">
-    <section class="panel">
-      <h2>Explore the ocean</h2>
-      <p>The ecosystem behind every beach. Discover first, care second, act third.</p>
+  <main class="landing-stage">
+    <h2 class="landing-motto">
+      <span class="landing-motto__line">Ocean</span>
+      <span class="landing-motto__line">Curiosity</span>
+      <span class="landing-motto__line">Connection</span>
+      <span class="landing-motto__line">Conscious Living</span>
+    </h2>
 
-      <div class="pillar-cards">
-        <a class="pillar-card pillar-card--curiosity" href="beaches.html">
-          <span class="pillar-card__verb">Learn</span>
-          <strong>Curiosity</strong>
-          <span>Beaches, species, conditions, maps</span>
-        </a>
-        <a class="pillar-card pillar-card--connection" href="connection.html">
-          <span class="pillar-card__verb">Feel</span>
-          <strong>Connection</strong>
-          <span>Favorites, sightings, stories, belonging</span>
-        </a>
-        <a class="pillar-card pillar-card--conservation" href="conservation.html">
-          <span class="pillar-card__verb">Act</span>
-          <strong>Conservation</strong>
-          <span>Cleanups, citizen science, impact</span>
-        </a>
-      </div>
-    </section>
+    <aside class="landing-stats" aria-label="Catalog at a glance">
+      <p class="landing-stats__eyebrow">Available to explore</p>
+      <ul class="landing-stats__list">
+        <li>
+          <span class="landing-stats__value" data-stat="beaches" data-target="0">0</span>
+          <span class="landing-stats__label">Beaches</span>
+        </li>
+        <li>
+          <span class="landing-stats__value" data-stat="species" data-target="0">0</span>
+          <span class="landing-stats__label">Species</span>
+        </li>
+        <li>
+          <span class="landing-stats__value" data-stat="ecovillages" data-target="0">0</span>
+          <span class="landing-stats__label">Ecovillages</span>
+        </li>
+      </ul>
+    </aside>
   </main>
 
   <script type="module">
-    import { initPage } from "./js/page.js";
-    initPage("home");
+    import { bootCurrentPage } from "./js/boot-page.js";
+    bootCurrentPage();
   </script>
 </body>
 </html>

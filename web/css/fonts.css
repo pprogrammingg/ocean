@@ -1,0 +1,17 @@
+/**
+ * Font tokens + load — edit THIS FILE only to change site fonts.
+ *
+ * 1. Update the Google Fonts @import URL (weights you need).
+ * 2. Set --font-display / --font-body / --font-motto.
+ */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600;1,9..144,700&display=swap");
+
+:root {
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Soft italic display — elegant, barely cursive */
+  --font-motto: "Fraunces", Georgia, "Times New Roman", serif;
+
+  --font-serif: var(--font-display);
+  --font-sans: var(--font-body);
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "shard": "gr",
+  "species": [
+    {
+      "id": "green-sea-turtle",
+      "shard": "gr",
+      "type": "animal",
+      "popular_name": "Green Sea Turtle",
+      "scientific_name": "Chelonia mydas",
+      "translations": {
+        "es": "Tortuga verde",
+        "pap": "Turtuga verd"
+      },
+      "tags": ["reptile", "endangered", "reef", "turtle"],
+      "dwelling_habits": {
+        "dwelling": "Warm shallow seas — coral reefs, seagrass beds, and calm lagoons. Nests on sandy beaches; hatchlings scramble to the water at night.",
+        "food": "Adults prefer seagrass and algae (they are mostly vegetarian). Young turtles snack more widely, including jellies and small invertebrates.",
+        "feeding": "Grazes like a lawnmower on the seafloor, often resting between bites on sandy patches snorkelers can spot.",
+        "mating": "Mates in the water near nesting beaches. Females return to lay eggs in sandy pits — hundreds of eggs, many trips per season.",
+        "socializing": "Usually solitary travelers, but groups gather on good grazing flats. They recognize some feeding spots across years."
+      },
+      "fun_facts": [
+        "They are not named for a green shell — the fat under the shell is greenish from all that salad.",
+        "A turtle can hold its breath for hours while napping underwater… which makes “hold still for the photo” their specialty."
+      ],
+      "images": [
+        {
+          "role": "hero",
+          "src": "media/species/green-sea-turtle/hero.webp",
+          "alt": "Green sea turtle"
+        }
+      ],
+      "conservation_status": "Endangered (IUCN)"
+    }
+  ]
+}

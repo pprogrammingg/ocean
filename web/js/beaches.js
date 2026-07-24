@@ -2,6 +2,7 @@ import { fetchJSON, explorePath } from "./api.js";
 import { escapeHtml } from "./html.js";
 import { renderBeachDetail } from "./render-beach.js";
 import { renderCountryOverview, hydrateCountrySpecies } from "./render-country.js";
+import { bindSpeciesOverlay } from "./species-overlay.js";
 import { CountryTrie } from "./trie.js";
 
 let els = {};
@@ -284,7 +285,21 @@ async function openSearchResult({ path, zone }) {
   }
 }
 
-async function init() {
+let pageAbort = null;
+
+export function startBeachesPage() {
+  pageAbort?.abort();
+  pageAbort = new AbortController();
+  const { signal } = pageAbort;
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => init(signal), { once: true, signal });
+  } else {
+    init(signal);
+  }
+}
+
+async function init(signal) {
   bindElements();
 
   if (!els.country) {
@@ -296,39 +311,37 @@ async function init() {
 
   try {
     const index = await fetchJSON(explorePath("countries.json"));
+    if (signal?.aborted) return;
+
     state.countries = index.countries;
     populateCountries(state.countries);
     setCountryControlsVisible(false);
     setCountryStatus("");
 
-    els.country.addEventListener("change", onCountryChange);
-    els.zone.addEventListener("change", onZoneChange);
-    els.search.addEventListener("input", onSearchInput);
-    els.search.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") hideSearchResults();
-    });
-    document.addEventListener("click", (event) => {
-      if (!event.target.closest(".search-field")) hideSearchResults();
-    });
+    els.country.addEventListener("change", onCountryChange, { signal });
+    els.zone.addEventListener("change", onZoneChange, { signal });
+    els.search.addEventListener("input", onSearchInput, { signal });
+    els.search.addEventListener(
+      "keydown",
+      (event) => {
+        if (event.key === "Escape") hideSearchResults();
+      },
+      { signal }
+    );
+    document.addEventListener(
+      "click",
+      (event) => {
+        if (!event.target.closest(".search-field")) hideSearchResults();
+      },
+      { signal }
+    );
+    bindSpeciesOverlay();
   } catch (error) {
+    if (signal?.aborted) return;
     setCountryStatus(error.message, true);
     showError(error.message);
     showSidebarError(
-      `Could not load countries. From repo root run: python3 dev/serve.py then open http://127.0.0.1:8765/web/beaches.html`
+      `Could not load countries. From repo root run: python3 dev/serve.py then open http://127.0.0.1:8765/web/curiosity/beaches.html`
     );
   }
 }
-
-let pageStarted = false;
-
-function startBeachesPage() {
-  if (pageStarted) return;
-  pageStarted = true;
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init, { once: true });
-  } else {
-    init();
-  }
-}
-
-startBeachesPage();

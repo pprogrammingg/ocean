@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "shard": "br",
+  "species": [
+    {
+      "id": "brown-pelican",
+      "shard": "br",
+      "type": "animal",
+      "popular_name": "Brown Pelican",
+      "scientific_name": "Pelecanus occidentalis",
+      "translations": {
+        "es": "Pelícano pardo",
+        "pap": "Pelikaan bruin"
+      },
+      "tags": ["bird", "coastal", "diving"],
+      "dwelling_habits": {
+        "dwelling": "Roosts and nests on coastal islands, mangroves, and rocky points. Hunts in shallow nearshore water along reefs and beaches.",
+        "food": "Mostly small schooling fish — menhaden, anchovies, sardines — scooped in a stretchy throat pouch.",
+        "feeding": "Plunge-dives from the air, then drains water from the pouch before swallowing. Kids: it looks like a cartoon spoon with wings.",
+        "mating": "Pairs build stick nests in colonies; both parents take turns guarding chicks that hatch looking like fuzzy dinosaurs.",
+        "socializing": "Often fishes alone but roosts in chatty groups — a line of pelicans in V-formation is a Caribbean classic."
+      },
+      "fun_facts": [
+        "Its pouch can hold more fish soup than its belly — dinner is a two-step: catch, drain, gulp.",
+        "After nearly vanishing where pesticides thinned eggshells, brown pelicans made a comeback once those chemicals were banned."
+      ],
+      "images": [
+        {
+          "role": "hero",
+          "src": "media/species/brown-pelican/hero.webp",
+          "alt": "Brown pelican"
+        }
+      ],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

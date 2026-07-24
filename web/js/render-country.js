@@ -42,9 +42,8 @@ function renderRatingsBlock(overview) {
 }
 
 function renderSpeciesChip(record, slug) {
-  const label = record?.name || slug.replace(/-/g, " ");
-  const title = record?.name ? ` title="${escapeHtml(record.name)}"` : "";
-  return `<span class="species-chip"${title}>${escapeHtml(label)}</span>`;
+  const label = record?.popular_name || record?.name || slug.replace(/-/g, " ");
+  return `<button type="button" class="species-chip" data-species-slug="${escapeHtml(slug)}" title="${escapeHtml(label)}">${escapeHtml(label)}</button>`;
 }
 
 export async function hydrateCountrySpecies(container, slugs = []) {

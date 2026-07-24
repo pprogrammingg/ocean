@@ -8,7 +8,7 @@ Safari looks fine. Use this instead during local dev:
 
   python3 dev/serve.py
 
-Open http://127.0.0.1:8765/web/beaches.html
+Open http://127.0.0.1:8765/web/index.html
 """
 from __future__ import annotations
 
@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 NO_CACHE_EXT = {".html", ".css", ".js", ".json", ".mjs"}
 DEFAULT_PORT = 8765
 HOST = os.environ.get("HOST", "127.0.0.1")
+HOME_PATH = "/web/index.html"
 
 
 class DevHandler(SimpleHTTPRequestHandler):
@@ -33,6 +34,15 @@ class DevHandler(SimpleHTTPRequestHandler):
             self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
             self.send_header("Pragma", "no-cache")
         super().end_headers()
+
+    def do_GET(self):
+        path = self.path.split("?", 1)[0]
+        if path in ("", "/"):
+            self.send_response(302)
+            self.send_header("Location", HOME_PATH)
+            self.end_headers()
+            return
+        return super().do_GET()
 
 
 def pick_port(start: int) -> int:
@@ -58,7 +68,7 @@ def main() -> int:
         return 1
 
     server = HTTPServer((HOST, port), DevHandler)
-    url = f"http://{HOST}:{port}/web/beaches.html"
+    url = f"http://{HOST}:{port}{HOME_PATH}"
     if port != requested:
         print(f"Port {requested} busy — using {port}")
     print(f"Dev server (no-cache): {url}")

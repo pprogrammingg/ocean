@@ -58,22 +58,22 @@ def collect_js_graph(entry: Path, seen: set[Path] | None = None) -> set[Path]:
 
 def check_web() -> None:
     print("Web")
-    html_path = WEB / "beaches.html"
+    html_path = WEB / "curiosity" / "beaches.html"
     if not html_path.is_file():
-        fail("missing web/beaches.html")
+        fail("missing web/curiosity/beaches.html")
         return
 
     html = html_path.read_text(encoding="utf-8")
-    for needle in ('id="country-select"', 'name="ocean-data-base"', 'content="../data/"'):
+    for needle in ('id="country-select"', 'name="ocean-data-base"', 'content="../../data/"'):
         if needle not in html:
-            fail(f"beaches.html missing {needle!r}")
+            fail(f"curiosity/beaches.html missing {needle!r}")
         else:
-            ok(f"beaches.html has {needle}")
+            ok(f"curiosity/beaches.html has {needle}")
 
     if re.search(r"\?v=\d+", html):
-        fail("beaches.html uses ?v= cache-bust query strings")
+        fail("curiosity/beaches.html uses ?v= cache-bust query strings")
     else:
-        ok("beaches.html has no ?v= query strings")
+        ok("curiosity/beaches.html has no ?v= query strings")
 
     meta_match = re.search(r'name="ocean-data-base"\s+content="([^"]+)"', html)
     if meta_match:
@@ -84,16 +84,29 @@ def check_web() -> None:
         else:
             ok(f"data path {data_base}explore/countries.json resolves on disk")
 
-    js_files = collect_js_graph(WEB / "js" / "beaches.js")
-    js_files.add((WEB / "js" / "page.js").resolve())
+    if (WEB / "curiosity" / "species.html").is_file():
+        ok("web/curiosity/species.html")
+    else:
+        fail("missing web/curiosity/species.html")
+
+    js_files = collect_js_graph(WEB / "js" / "boot-page.js")
     for path in sorted(js_files):
         ok(f"JS module {path.relative_to(ROOT).as_posix()}")
 
     css = WEB / "css" / "ocean.css"
+    fonts = WEB / "css" / "fonts.css"
     if css.is_file():
         ok("css/ocean.css")
     else:
         fail("missing web/css/ocean.css")
+    if fonts.is_file():
+        text = fonts.read_text(encoding="utf-8")
+        if "--font-display" in text and "--font-body" in text:
+            ok("css/fonts.css has display/body tokens")
+        else:
+            fail("css/fonts.css missing --font-display / --font-body")
+    else:
+        fail("missing web/css/fonts.css")
 
 
 def check_countries() -> list[dict]:
@@ -160,6 +173,47 @@ def verify_country(country: dict) -> None:
                 fail(f"{cid}: zone {zone['id']} claims beaches but city-beaches.json missing")
 
 
+def check_species_shards() -> None:
+    print("Species shards")
+    index = read_json("data/education/species/index.json")
+    search = read_json("data/education/species/search-index.json")
+    if not index or not search:
+        return
+
+    shards = index.get("shards") or []
+    if not shards:
+        fail("species/index.json has no shards")
+        return
+
+    ok(f"species index lists {len(shards)} shards")
+
+    for shard in shards:
+        sid = shard.get("id")
+        path = shard.get("path") or f"shards/{sid}.json"
+        data = read_json(f"data/education/species/{path}")
+        if not data:
+            continue
+        species = data.get("species") or []
+        if len(species) != shard.get("count"):
+            fail(f"shard {sid}: count {shard.get('count')} != species[] ({len(species)})")
+        else:
+            ok(f"shard {sid}.json — {len(species)} species")
+        for sp in species:
+            for field in ("id", "popular_name", "scientific_name", "dwelling_habits", "fun_facts"):
+                if field not in sp:
+                    fail(f"{sp.get('id', sid)}: missing {field}")
+            expected = "".join(c for c in (sp.get("id") or "") if c.isalnum())[:2]
+            if sid != expected:
+                fail(f"{sp.get('id')}: shard {sid} != derived {expected}")
+
+    required = {"brown-pelican", "green-sea-turtle", "mahi-mahi"}
+    found = {e.get("id") for e in (search.get("entries") or [])}
+    missing = required - found
+    if missing:
+        fail(f"search-index missing {sorted(missing)}")
+    else:
+        ok("search-index includes pelican, turtle, mahi-mahi")
+
 def check_aruba_chain() -> None:
     print("Lazy-load chain (Aruba)")
     meta = read_json("data/explore/aruba/country.json")
@@ -201,6 +255,8 @@ def main() -> int:
     countries = check_countries()
     print()
     check_aruba_chain()
+    print()
+    check_species_shards()
 
     print()
     if issues:

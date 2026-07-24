@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "shard": "ma",
+  "species": [
+    {
+      "id": "mahi-mahi",
+      "shard": "ma",
+      "type": "animal",
+      "popular_name": "Mahi Mahi",
+      "scientific_name": "Coryphaena hippurus",
+      "translations": {
+        "es": "Dorado",
+        "pap": "Mahi mahi"
+      },
+      "tags": ["fish", "pelagic", "sportfishing"],
+      "dwelling_habits": {
+        "dwelling": "Open tropical oceans — floatsam lines, weed patches, and buoy shadows. Rarely a beach tourist; you’ll meet them farther offshore or on a plate.",
+        "food": "Fast hunters of flying fish, squid, and whatever smaller fish hide under floating debris.",
+        "feeding": "Accelerates like a sports car — chase, slash, gulp. Flashy gold-green colors intensify when they hunt or fight.",
+        "mating": "Grows up shockingly fast and breeds often; big males (bulls) sport a high blunt forehead that kids compare to a swimming doorstop.",
+        "socializing": "Often travel in pairs or small groups under the same bit of debris — roommates with fins."
+      },
+      "fun_facts": [
+        "“Mahi mahi” means “strong-strong” in Hawaiian — and they live up to the double name with double attitude.",
+        "They change colors like mood rings when excited… which is most of the time they’re around anglers."
+      ],
+      "images": [
+        {
+          "role": "hero",
+          "src": "media/species/mahi-mahi/hero.webp",
+          "alt": "Mahi mahi"
+        }
+      ],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

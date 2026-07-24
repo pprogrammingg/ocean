@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-07-14",
+  "description": "Species shard registry. Shard key = first 2 letters of slug. Hub nav loads this file only; records live in shards/{id}.json.",
+  "shard_rule": "slug_prefix_2",
+  "max_per_shard": 50,
+  "shards": [
+    { "id": "br", "path": "shards/br.json", "count": 1, "label": "Br" },
+    { "id": "gr", "path": "shards/gr.json", "count": 1, "label": "Gr" },
+    { "id": "ma", "path": "shards/ma.json", "count": 1, "label": "Ma" }
+  ]
+}

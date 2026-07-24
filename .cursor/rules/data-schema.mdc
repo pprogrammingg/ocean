@@ -50,15 +50,19 @@ Use kebab-case slugs for ids. `live_rating` scores are 0–10 integers where num
 | `best_seasons` | string[] | Visiting seasons |
 | `species` | string[] | Slug refs only — resolve via marine-life paths |
 
-## Education / marine life
+## Education / species (preferred)
 
 | File | Purpose |
 |------|---------|
-| `marine-life/index.json` | Category registry |
-| `animals/index.json` / `plants/index.json` | Card index with `path` |
-| `{slug}.json` | Species card for UI pages |
+| `species/index.json` | Shard registry for hub nav (`id`, `path`, `count`) — no full records |
+| `species/search-index.json` | Trie source: slug, names, tags, `shard` — no full records |
+| `species/shards/{prefix}.json` | Up to ~50 full records; `prefix` = first 2 letters of slug |
 
-Cross-ref beaches → species via slug only (no embedded duplicates). UI lazy-loads each `{slug}.json` when rendering ecosystem or country species chips.
+**Shard rule:** `shardId = slug.replace(/[^a-z0-9]/g,"").slice(0,2)` — UI derives shard from slug (no index fetch to open a card).
+
+Cross-ref beaches/countries → species by **slug only**. Overlay/hub fetch one shard file on demand.
+
+Legacy `marine-life/{animals\|plants}/{slug}.json` remains a fallback until migrated.
 
 ## Eco Shop
 

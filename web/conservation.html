@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mood="conservation">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Conservation — ocean-love.xyz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/ocean.css">
 </head>
 <body data-page="conservation">
   <header class="site-header">
     <h1>ocean-love.xyz</h1>
-    <p>Curiosity · Connection · Conservation</p>
     <nav class="site-nav" aria-label="Main"></nav>
   </header>
 
@@ -19,13 +20,13 @@
       <h2>Protect what you care about</h2>
       <p>Conservation is active — cleanups, volunteering, citizen science, donations, and ethical gear. Not the homepage, but the natural next step after you fall in love with a place.</p>
       <p class="coming-soon">Coming soon: cleanup map, Protect this Beach, crowd reports, impact tracking, eco shop, ocean tech directory.</p>
-      <p class="home-cta"><a href="beaches.html">← Start with Curiosity (discover beaches)</a></p>
+      <p class="home-cta"><a href="curiosity/beaches.html">← Start with Curiosity (discover beaches)</a></p>
     </section>
   </main>
 
   <script type="module">
-    import { initPage } from "./js/page.js";
-    initPage("conservation");
+    import { bootCurrentPage } from "./js/boot-page.js";
+    bootCurrentPage();
   </script>
 </body>
 </html>

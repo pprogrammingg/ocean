@@ -24,3 +24,15 @@ export function explorePath(...segments) {
 export function marineLifePath(type, slug) {
   return `education/marine-life/${type}/${slug}.json`;
 }
+
+export function speciesIndexPath() {
+  return "education/species/index.json";
+}
+
+export function speciesSearchIndexPath() {
+  return "education/species/search-index.json";
+}
+
+export function speciesShardPath(shardId) {
+  return `education/species/shards/${shardId}.json`;
+}
