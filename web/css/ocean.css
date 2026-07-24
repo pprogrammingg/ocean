@@ -174,23 +174,31 @@ a:hover { text-decoration: underline; }
 .site-nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 1.25rem;
   margin-top: var(--header-nav-gap);
   font-family: var(--font-body);
   font-size: var(--nav-font-size);
+  line-height: 1.25;
 }
 
 /*
  * Shared chrome nav links (main row + Curiosity subnav).
  * Default: ocean mid, no underline. Hover: underline + ocean deep.
+ * All labels share one vertical center line (active scale grows from mid).
  */
 .site-nav a,
 .curiosity-subnav a {
+  display: inline-flex;
+  align-items: center;
   color: var(--ocean-mid);
   font-weight: 700;
+  font-size: 1em;
+  line-height: 1.25;
   text-decoration: none;
   text-underline-offset: 0.32em;
   text-decoration-thickness: 0.1em;
+  transform-origin: center center;
   transition: color 0.2s ease;
 }
 
@@ -208,7 +216,9 @@ a:hover { text-decoration: underline; }
 .curiosity-subnav a[aria-current="page"] {
   color: var(--ocean-deep);
   font-weight: 900;
-  font-size: 1.1em;
+  /* Same layout box as siblings; 10% stronger via scale from center */
+  font-size: 1em;
+  transform: scale(1.1);
   text-decoration: none;
 }
 
@@ -930,11 +940,14 @@ select:disabled {
 /* --- Curiosity subnav (Beaches | Species) --- */
 .curiosity-subnav {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 1rem;
   padding: 0.55rem 1.5rem;
   border-bottom: 1px solid var(--border);
   background: rgba(250, 252, 255, 0.92);
   font-size: 0.875rem;
+  line-height: 1.25;
 }
 
 /* link styles: shared with .site-nav a (see Header) */

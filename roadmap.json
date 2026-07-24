@@ -12,6 +12,7 @@
       "Soft-nav remounts correct data-page (beaches ↔ species)"
     ],
     "next_tasks": [
+      "Clicking beach slug scrolls main pane to top of beach content",
       "Migrate remaining marine-life into digram shards + images",
       "Species/habitat context on beach pages (no donate CTAs)",
       "Habitat profiles",
