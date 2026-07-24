@@ -1,9 +1,57 @@
 import { fetchJSON, explorePath } from "./api.js";
+import { webRoot } from "./nav.js";
 
 /** Tune count-up: start this fraction of the final value (0.5 = 50% less). */
 const COUNT_START_FRACTION = 0.5;
 /** Total animation length in ms. */
 const COUNT_DURATION_MS = 1100;
+
+const BG_INTERVAL_MS = 10000;
+const BG_SLIDES = ["bg-1.webp", "bg-2.webp", "bg-4.webp"];
+
+let bgTimer = null;
+
+function stopLandingBg() {
+  if (bgTimer != null) {
+    clearInterval(bgTimer);
+    bgTimer = null;
+  }
+}
+
+/** Crossfade landing backgrounds every 10s. Respects reduced-motion (static first). */
+function startLandingBg() {
+  stopLandingBg();
+  const host = document.querySelector(".landing-bg");
+  if (!host) return;
+
+  const root = webRoot();
+  const urls = BG_SLIDES.map((name) => `${root}media/landing/${name}`);
+  host.replaceChildren();
+
+  const slides = urls.map((url, i) => {
+    const el = document.createElement("div");
+    el.className = "landing-bg__slide" + (i === 0 ? " is-active" : "");
+    el.style.backgroundImage = `url("${url}")`;
+    host.appendChild(el);
+    return el;
+  });
+
+  // Prefetch remaining images
+  urls.slice(1).forEach((url) => {
+    const img = new Image();
+    img.src = url;
+  });
+
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce || slides.length < 2) return;
+
+  let index = 0;
+  bgTimer = setInterval(() => {
+    slides[index].classList.remove("is-active");
+    index = (index + 1) % slides.length;
+    slides[index].classList.add("is-active");
+  }, BG_INTERVAL_MS);
+}
 
 async function loadStats() {
   const [countries, search, animals, plants] = await Promise.all([
@@ -56,6 +104,7 @@ function animateCount(el, target, durationMs = COUNT_DURATION_MS) {
 }
 
 export async function startHomePage() {
+  startLandingBg();
   try {
     const stats = await loadStats();
     for (const [key, target] of Object.entries(stats)) {
