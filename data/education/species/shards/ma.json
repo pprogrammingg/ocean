@@ -3,6 +3,35 @@
   "shard": "ma",
   "species": [
     {
+      "id": "magnificent-frigatebird",
+      "shard": "ma",
+      "type": "animal",
+      "popular_name": "Magnificent Frigatebird",
+      "scientific_name": "Fregata magnificens",
+      "translations": {
+        "es": "Fragata",
+        "pap": "Man-o-war bird"
+      },
+      "tags": [
+        "bird",
+        "pelagic",
+        "coastal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Roosts on mangroves and cliffs; soars over coastal water all day.",
+        "food": "Fish snatched from the surface — and snacks stolen from other birds.",
+        "feeding": "Pirate of the sky: harasses boobies until they drop a catch.",
+        "mating": "Males inflate a huge red throat balloon to impress.",
+        "socializing": "Colonies argue loudly; in air they look like flying Ws."
+      },
+      "fun_facts": [
+        "They can soar for hours without flapping — ocean hang-gliders.",
+        "Feathers aren’t very waterproof, so they rarely land on the sea."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
       "id": "mahi-mahi",
       "shard": "ma",
       "type": "animal",
@@ -12,7 +41,11 @@
         "es": "Dorado",
         "pap": "Mahi mahi"
       },
-      "tags": ["fish", "pelagic", "sportfishing"],
+      "tags": [
+        "fish",
+        "pelagic",
+        "sportfishing"
+      ],
       "dwelling_habits": {
         "dwelling": "Open tropical oceans — floatsam lines, weed patches, and buoy shadows. Rarely a beach tourist; you’ll meet them farther offshore or on a plate.",
         "food": "Fast hunters of flying fish, squid, and whatever smaller fish hide under floating debris.",
@@ -32,6 +65,34 @@
         }
       ],
       "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "manatee-grass",
+      "shard": "ma",
+      "type": "plant",
+      "popular_name": "Manatee Grass",
+      "scientific_name": "Syringodium filiforme",
+      "translations": {
+        "es": "Hierba de manatí",
+        "pap": "Manati grass"
+      },
+      "tags": [
+        "seagrass",
+        "meadow"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Aruba and ABC lagoons — often mixed with turtle grass in clear shallows.",
+        "food": "Photosynthesis with cylindrical noodle-like leaves.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Leaves look like green spaghetti waving in the current.",
+        "Part of Aruba’s native seagrass mix with turtle grass and shoal grass."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
     }
   ]
 }

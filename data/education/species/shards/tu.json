@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "tu",
+  "species": [
+    {
+      "id": "turtle-grass",
+      "shard": "tu",
+      "type": "plant",
+      "popular_name": "Turtle Grass",
+      "scientific_name": "Thalassia testudinum",
+      "translations": {
+        "es": "Hierba de tortuga",
+        "pap": "Sea grass"
+      },
+      "tags": [
+        "seagrass",
+        "nursery",
+        "meadow"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Sandy shallows forming wide underwater meadows.",
+        "food": "The pasture of the coastal sea.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Named because green turtles mow it like a salad bar.",
+        "Seagrass beds store carbon in sediment — blue-carbon heroes."
+      ],
+      "images": [],
+      "conservation_status": "Threatened locally"
+    }
+  ]
+}

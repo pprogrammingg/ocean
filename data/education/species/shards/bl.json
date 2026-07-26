@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "shard": "bl",
+  "species": [
+    {
+      "id": "black-mangrove",
+      "shard": "bl",
+      "type": "plant",
+      "popular_name": "Black Mangrove",
+      "scientific_name": "Avicennia germinans",
+      "translations": {
+        "es": "Mangle negro",
+        "pap": "Mangel pretu"
+      },
+      "tags": [
+        "mangrove",
+        "coastal",
+        "tidal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Higher intertidal mudflats behind red mangroves.",
+        "food": "Photosynthesis; snorkel roots (pneumatophores) breathe air.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Leaves can excrete salt crystals you can taste.",
+        "Pneumatophores are the mangrove’s snorkels at low tide."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "blue-parrotfish",
+      "shard": "bl",
+      "type": "animal",
+      "popular_name": "Blue Parrotfish",
+      "scientific_name": "Scarus coeruleus",
+      "translations": {
+        "es": "Loro azul",
+        "pap": "Prikichi blauw"
+      },
+      "tags": [
+        "fish",
+        "reef",
+        "herbivore",
+        "parrotfish"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Shallow reefs and rubble where algae grows thick.",
+        "food": "Algae and coral rock scraped with fused teeth.",
+        "feeding": "Loud crunching you can sometimes hear underwater.",
+        "mating": "Aggregates to spawn; colors flash during courtship.",
+        "socializing": "Often in loose schools sweeping a reef face."
+      },
+      "fun_facts": [
+        "Big blues look painted with one giant watercolor wash.",
+        "Their beak is many teeth fused into a chisel."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "blue-tang",
+      "shard": "bl",
+      "type": "animal",
+      "popular_name": "Blue Tang",
+      "scientific_name": "Acanthurus coeruleus",
+      "translations": {
+        "es": "Cirujano azul",
+        "pap": "Blowtang"
+      },
+      "tags": [
+        "fish",
+        "reef",
+        "herbivore"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Caribbean coral reefs and rocky shallows where algae coats the rock.",
+        "food": "Turf algae and film scraped from reef surfaces.",
+        "feeding": "Pecks and scrapes with a small beak-like mouth — a living reef janitor.",
+        "mating": "Spawns in groups over the reef at dusk; eggs drift with the current.",
+        "socializing": "Juveniles are bright yellow loners; adults may school or keep a cleaning circuit."
+      },
+      "fun_facts": [
+        "Kids know this look from cartoon reefs — the real fish prefers salad to adventure.",
+        "Those scalpels at the tail base are real: don’t grab a tang."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

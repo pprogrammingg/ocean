@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "re",
+  "species": [
+    {
+      "id": "red-mangrove",
+      "shard": "re",
+      "type": "plant",
+      "popular_name": "Red Mangrove",
+      "scientific_name": "Rhizophora mangle",
+      "translations": {
+        "es": "Mangle rojo",
+        "pap": "Mangel rood"
+      },
+      "tags": [
+        "mangrove",
+        "nursery",
+        "coastal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Prop-root forests along tidal shores and lagoon edges.",
+        "food": "Filters salt at the roots; makes sugar with sunlight.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Kids call the prop roots underwater stilts — and they’re right.",
+        "A living breakwater that also stores carbon in muddy soils."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

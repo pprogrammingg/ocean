@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "shard": "el",
+  "species": [
+    {
+      "id": "elkhorn-coral",
+      "shard": "el",
+      "type": "animal",
+      "popular_name": "Elkhorn Coral",
+      "scientific_name": "Acropora palmata",
+      "translations": {
+        "es": "Coral cuerno de alce",
+        "pap": "Koral eland"
+      },
+      "tags": [
+        "coral",
+        "reef",
+        "endangered",
+        "builder"
+      ],
+      "dwelling_habits": {
+        "dwelling": "High-energy shallow reef crests where waves break.",
+        "food": "Symbiotic algae plus captured plankton.",
+        "feeding": "Daylight partners (zooxanthellae) live inside the tissue.",
+        "mating": "Synchronized night spawning releases egg–sperm bundles.",
+        "socializing": "Antler-like thickets shelter countless fish."
+      },
+      "fun_facts": [
+        "Named for branches like elk antlers — Caribbean reef architecture.",
+        "Critically endangered after disease and bleaching waves."
+      ],
+      "images": [],
+      "conservation_status": "Critically Endangered (IUCN)"
+    }
+  ]
+}

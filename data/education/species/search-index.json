@@ -1,16 +1,315 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-25",
   "description": "Lightweight search / trie source. No full species bodies — resolve via shard + slug.",
   "entries": [
+    {
+      "id": "batophora-algae",
+      "name": "Batophora Algae",
+      "scientific_name": "Batophora oerstedii",
+      "shard": "ba",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "lagoon"
+      ],
+      "aliases": [
+        "batophora"
+      ]
+    },
+    {
+      "id": "black-mangrove",
+      "name": "Black Mangrove",
+      "scientific_name": "Avicennia germinans",
+      "shard": "bl",
+      "type": "plant",
+      "tags": [
+        "mangrove",
+        "coastal",
+        "tidal"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "blue-parrotfish",
+      "name": "Blue Parrotfish",
+      "scientific_name": "Scarus coeruleus",
+      "shard": "bl",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "reef",
+        "herbivore",
+        "parrotfish"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "blue-tang",
+      "name": "Blue Tang",
+      "scientific_name": "Acanthurus coeruleus",
+      "shard": "bl",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "reef",
+        "herbivore"
+      ],
+      "aliases": [
+        "blue surgeonfish",
+        "Atlantic blue tang"
+      ]
+    },
+    {
+      "id": "bottlenose-dolphin",
+      "name": "Bottlenose Dolphin",
+      "scientific_name": "Tursiops truncatus",
+      "shard": "bo",
+      "type": "animal",
+      "tags": [
+        "mammal",
+        "cetacean",
+        "coastal"
+      ],
+      "aliases": [
+        "dolphin",
+        "delfín"
+      ]
+    },
+    {
+      "id": "brain-coral",
+      "name": "Brain Coral",
+      "scientific_name": "Diploria labyrinthiformis",
+      "shard": "br",
+      "type": "animal",
+      "tags": [
+        "coral",
+        "reef",
+        "builder"
+      ],
+      "aliases": [
+        "diploria"
+      ]
+    },
     {
       "id": "brown-pelican",
       "name": "Brown Pelican",
       "scientific_name": "Pelecanus occidentalis",
       "shard": "br",
       "type": "animal",
-      "tags": ["bird", "coastal", "diving"],
-      "aliases": ["pelican", "pelícano", "pelikaan"]
+      "tags": [
+        "bird",
+        "coastal",
+        "diving"
+      ],
+      "aliases": [
+        "pelican",
+        "pelícano",
+        "pelikaan"
+      ]
+    },
+    {
+      "id": "buttonwood",
+      "name": "Buttonwood",
+      "scientific_name": "Conocarpus erectus",
+      "shard": "bu",
+      "type": "plant",
+      "tags": [
+        "mangrove",
+        "coastal",
+        "transition"
+      ],
+      "aliases": [
+        "buttonwood mangrove"
+      ]
+    },
+    {
+      "id": "caribbean-flamingo",
+      "name": "Caribbean Flamingo",
+      "scientific_name": "Phoenicopterus ruber",
+      "shard": "ca",
+      "type": "animal",
+      "tags": [
+        "bird",
+        "coastal",
+        "lagoon"
+      ],
+      "aliases": [
+        "flamingo",
+        "flamenco"
+      ]
+    },
+    {
+      "id": "caribbean-reef-octopus",
+      "name": "Caribbean Reef Octopus",
+      "scientific_name": "Octopus briareus",
+      "shard": "ca",
+      "type": "animal",
+      "tags": [
+        "cephalopod",
+        "reef",
+        "nocturnal"
+      ],
+      "aliases": [
+        "octopus",
+        "pulpo"
+      ]
+    },
+    {
+      "id": "caribbean-reef-shark",
+      "name": "Caribbean Reef Shark",
+      "scientific_name": "Carcharhinus perezi",
+      "shard": "ca",
+      "type": "animal",
+      "tags": [
+        "shark",
+        "reef",
+        "predator"
+      ],
+      "aliases": [
+        "reef shark"
+      ]
+    },
+    {
+      "id": "caribbean-spiny-lobster",
+      "name": "Caribbean Spiny Lobster",
+      "scientific_name": "Panulirus argus",
+      "shard": "ca",
+      "type": "animal",
+      "tags": [
+        "crustacean",
+        "reef",
+        "nocturnal"
+      ],
+      "aliases": [
+        "spiny lobster",
+        "langosta",
+        "lobster"
+      ]
+    },
+    {
+      "id": "elkhorn-coral",
+      "name": "Elkhorn Coral",
+      "scientific_name": "Acropora palmata",
+      "shard": "el",
+      "type": "animal",
+      "tags": [
+        "coral",
+        "reef",
+        "endangered",
+        "builder"
+      ],
+      "aliases": [
+        "acropora"
+      ]
+    },
+    {
+      "id": "fire-coral",
+      "name": "Fire Coral",
+      "scientific_name": "Millepora complanata",
+      "shard": "fi",
+      "type": "animal",
+      "tags": [
+        "cnidarian",
+        "reef",
+        "hydrocoral"
+      ],
+      "aliases": [
+        "millepora",
+        "blade fire coral"
+      ]
+    },
+    {
+      "id": "flamingo-tongue-snail",
+      "name": "Flamingo Tongue Snail",
+      "scientific_name": "Cyphoma gibbosum",
+      "shard": "fl",
+      "type": "animal",
+      "tags": [
+        "mollusk",
+        "reef",
+        "colorful"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "french-angelfish",
+      "name": "French Angelfish",
+      "scientific_name": "Pomacanthus paru",
+      "shard": "fr",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "reef",
+        "pair-bonding"
+      ],
+      "aliases": [
+        "french angel"
+      ]
+    },
+    {
+      "id": "french-grunt",
+      "name": "French Grunt",
+      "scientific_name": "Haemulon flavolineatum",
+      "shard": "fr",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "reef",
+        "schooling"
+      ],
+      "aliases": [
+        "grunt",
+        "ronco"
+      ]
+    },
+    {
+      "id": "great-barracuda",
+      "name": "Great Barracuda",
+      "scientific_name": "Sphyraena barracuda",
+      "shard": "gr",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "predator",
+        "reef"
+      ],
+      "aliases": [
+        "barracuda",
+        "picuda"
+      ]
+    },
+    {
+      "id": "green-feather-algae",
+      "name": "Green Feather Algae",
+      "scientific_name": "Caulerpa sertularioides",
+      "shard": "gr",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "aliases": [
+        "caulerpa"
+      ]
+    },
+    {
+      "id": "green-moray",
+      "name": "Green Moray",
+      "scientific_name": "Gymnothorax funebris",
+      "shard": "gr",
+      "type": "animal",
+      "tags": [
+        "eel",
+        "reef",
+        "nocturnal"
+      ],
+      "aliases": [
+        "moray",
+        "moray eel"
+      ]
     },
     {
       "id": "green-sea-turtle",
@@ -18,8 +317,129 @@
       "scientific_name": "Chelonia mydas",
       "shard": "gr",
       "type": "animal",
-      "tags": ["reptile", "endangered", "reef", "turtle"],
-      "aliases": ["turtle", "tortuga", "turtuga"]
+      "tags": [
+        "reptile",
+        "endangered",
+        "reef",
+        "turtle"
+      ],
+      "aliases": [
+        "turtle",
+        "tortuga",
+        "turtuga"
+      ]
+    },
+    {
+      "id": "halimeda",
+      "name": "Halimeda",
+      "scientific_name": "Halimeda opuntia",
+      "shard": "ha",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "calcified",
+        "sand-maker"
+      ],
+      "aliases": [
+        "calcareous green algae"
+      ]
+    },
+    {
+      "id": "halophila-seagrass",
+      "name": "Halophila Seagrass",
+      "scientific_name": "Halophila stipulacea",
+      "shard": "ha",
+      "type": "plant",
+      "tags": [
+        "seagrass",
+        "meadow",
+        "invasive"
+      ],
+      "aliases": [
+        "halophila",
+        "invasive seagrass"
+      ]
+    },
+    {
+      "id": "hawksbill-turtle",
+      "name": "Hawksbill Turtle",
+      "scientific_name": "Eretmochelys imbricata",
+      "shard": "ha",
+      "type": "animal",
+      "tags": [
+        "reptile",
+        "turtle",
+        "endangered",
+        "reef"
+      ],
+      "aliases": [
+        "carey",
+        "hawksbill"
+      ]
+    },
+    {
+      "id": "laughing-gull",
+      "name": "Laughing Gull",
+      "scientific_name": "Leucophaeus atricilla",
+      "shard": "la",
+      "type": "animal",
+      "tags": [
+        "bird",
+        "coastal",
+        "beach"
+      ],
+      "aliases": [
+        "gull"
+      ]
+    },
+    {
+      "id": "loggerhead-turtle",
+      "name": "Loggerhead Turtle",
+      "scientific_name": "Caretta caretta",
+      "shard": "lo",
+      "type": "animal",
+      "tags": [
+        "reptile",
+        "turtle",
+        "endangered"
+      ],
+      "aliases": [
+        "loggerhead"
+      ]
+    },
+    {
+      "id": "long-spined-sea-urchin",
+      "name": "Long-Spined Sea Urchin",
+      "scientific_name": "Diadema antillarum",
+      "shard": "lo",
+      "type": "animal",
+      "tags": [
+        "echinoderm",
+        "reef",
+        "herbivore"
+      ],
+      "aliases": [
+        "diadema",
+        "sea urchin",
+        "urchin"
+      ]
+    },
+    {
+      "id": "magnificent-frigatebird",
+      "name": "Magnificent Frigatebird",
+      "scientific_name": "Fregata magnificens",
+      "shard": "ma",
+      "type": "animal",
+      "tags": [
+        "bird",
+        "pelagic",
+        "coastal"
+      ],
+      "aliases": [
+        "frigatebird",
+        "man-o-war bird"
+      ]
     },
     {
       "id": "mahi-mahi",
@@ -27,8 +447,371 @@
       "scientific_name": "Coryphaena hippurus",
       "shard": "ma",
       "type": "animal",
-      "tags": ["fish", "pelagic", "sportfishing"],
-      "aliases": ["dorado", "dolphinfish", "mahi"]
+      "tags": [
+        "fish",
+        "pelagic",
+        "sportfishing"
+      ],
+      "aliases": [
+        "dorado",
+        "dolphinfish",
+        "mahi"
+      ]
+    },
+    {
+      "id": "manatee-grass",
+      "name": "Manatee Grass",
+      "scientific_name": "Syringodium filiforme",
+      "shard": "ma",
+      "type": "plant",
+      "tags": [
+        "seagrass",
+        "meadow"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "mermaids-fan",
+      "name": "Mermaid's Fan",
+      "scientific_name": "Udotea flabellum",
+      "shard": "me",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "aliases": [
+        "udotea"
+      ]
+    },
+    {
+      "id": "mermaids-wine-glass",
+      "name": "Mermaid's Wine Glass",
+      "scientific_name": "Acetabularia crenulata",
+      "shard": "me",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "single-cell"
+      ],
+      "aliases": [
+        "acetabularia"
+      ]
+    },
+    {
+      "id": "nurse-shark",
+      "name": "Nurse Shark",
+      "scientific_name": "Ginglymostoma cirratum",
+      "shard": "nu",
+      "type": "animal",
+      "tags": [
+        "shark",
+        "reef",
+        "nocturnal"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "queen-angelfish",
+      "name": "Queen Angelfish",
+      "scientific_name": "Holacanthus ciliaris",
+      "shard": "qu",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "reef",
+        "colorful"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "queen-conch",
+      "name": "Queen Conch",
+      "scientific_name": "Aliger gigas",
+      "shard": "qu",
+      "type": "animal",
+      "tags": [
+        "mollusk",
+        "seagrass",
+        "endangered"
+      ],
+      "aliases": [
+        "conch",
+        "carrucho",
+        "karkó"
+      ]
+    },
+    {
+      "id": "red-mangrove",
+      "name": "Red Mangrove",
+      "scientific_name": "Rhizophora mangle",
+      "shard": "re",
+      "type": "plant",
+      "tags": [
+        "mangrove",
+        "nursery",
+        "coastal"
+      ],
+      "aliases": [
+        "mangle rojo",
+        "mangrove"
+      ]
+    },
+    {
+      "id": "royal-tern",
+      "name": "Royal Tern",
+      "scientific_name": "Thalasseus maximus",
+      "shard": "ro",
+      "type": "animal",
+      "tags": [
+        "bird",
+        "coastal",
+        "diving"
+      ],
+      "aliases": [
+        "tern"
+      ]
+    },
+    {
+      "id": "sargassum",
+      "name": "Sargassum",
+      "scientific_name": "Sargassum natans",
+      "shard": "sa",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "pelagic",
+        "floating"
+      ],
+      "aliases": [
+        "sargazo",
+        "gulfweed"
+      ]
+    },
+    {
+      "id": "saucer-blade-algae",
+      "name": "Saucer Blade Algae",
+      "scientific_name": "Avrainvillea asarifolia",
+      "shard": "sa",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "aliases": [
+        "avrainvillea"
+      ]
+    },
+    {
+      "id": "sea-grapes",
+      "name": "Sea Grapes",
+      "scientific_name": "Coccoloba uvifera",
+      "shard": "se",
+      "type": "plant",
+      "tags": [
+        "coastal",
+        "dune",
+        "tree"
+      ],
+      "aliases": [
+        "seagrape",
+        "uva de playa"
+      ]
+    },
+    {
+      "id": "sea-lettuce",
+      "name": "Sea Lettuce",
+      "scientific_name": "Ulva lactuca",
+      "shard": "se",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "intertidal"
+      ],
+      "aliases": [
+        "ulva"
+      ]
+    },
+    {
+      "id": "shaving-brush-algae",
+      "name": "Shaving Brush Algae",
+      "scientific_name": "Penicillus capitatus",
+      "shard": "sh",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "aliases": [
+        "penicillus"
+      ]
+    },
+    {
+      "id": "shoal-grass",
+      "name": "Shoal Grass",
+      "scientific_name": "Halodule wrightii",
+      "shard": "sh",
+      "type": "plant",
+      "tags": [
+        "seagrass",
+        "pioneer",
+        "meadow"
+      ],
+      "aliases": [
+        "halodule"
+      ]
+    },
+    {
+      "id": "southern-stingray",
+      "name": "Southern Stingray",
+      "scientific_name": "Hypanus americanus",
+      "shard": "so",
+      "type": "animal",
+      "tags": [
+        "ray",
+        "sand",
+        "benthic"
+      ],
+      "aliases": [
+        "stingray"
+      ]
+    },
+    {
+      "id": "spotted-eagle-ray",
+      "name": "Spotted Eagle Ray",
+      "scientific_name": "Aetobatus narinari",
+      "shard": "sp",
+      "type": "animal",
+      "tags": [
+        "ray",
+        "reef",
+        "graceful"
+      ],
+      "aliases": [
+        "eagle ray"
+      ]
+    },
+    {
+      "id": "spotted-moray",
+      "name": "Spotted Moray",
+      "scientific_name": "Gymnothorax moringa",
+      "shard": "sp",
+      "type": "animal",
+      "tags": [
+        "eel",
+        "reef",
+        "nocturnal"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "staghorn-coral",
+      "name": "Staghorn Coral",
+      "scientific_name": "Acropora cervicornis",
+      "shard": "st",
+      "type": "animal",
+      "tags": [
+        "coral",
+        "reef",
+        "endangered",
+        "builder"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "stoplight-parrotfish",
+      "name": "Stoplight Parrotfish",
+      "scientific_name": "Sparisoma viride",
+      "shard": "st",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "reef",
+        "herbivore",
+        "parrotfish"
+      ],
+      "aliases": [
+        "parrotfish",
+        "green parrotfish"
+      ]
+    },
+    {
+      "id": "turtle-grass",
+      "name": "Turtle Grass",
+      "scientific_name": "Thalassia testudinum",
+      "shard": "tu",
+      "type": "plant",
+      "tags": [
+        "seagrass",
+        "nursery",
+        "meadow"
+      ],
+      "aliases": [
+        "thalassia",
+        "seagrass"
+      ]
+    },
+    {
+      "id": "white-mangrove",
+      "name": "White Mangrove",
+      "scientific_name": "Laguncularia racemosa",
+      "shard": "wh",
+      "type": "plant",
+      "tags": [
+        "mangrove",
+        "coastal"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "white-scroll-algae",
+      "name": "White Scroll Algae",
+      "scientific_name": "Padina boergesenii",
+      "shard": "wh",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "brown",
+        "calcified"
+      ],
+      "aliases": [
+        "padina"
+      ]
+    },
+    {
+      "id": "y-branched-algae",
+      "name": "Y-Branched Algae",
+      "scientific_name": "Dictyota menstrualis",
+      "shard": "yb",
+      "type": "plant",
+      "tags": [
+        "algae",
+        "brown",
+        "reef"
+      ],
+      "aliases": [
+        "dictyota"
+      ]
+    },
+    {
+      "id": "yellowtail-snapper",
+      "name": "Yellowtail Snapper",
+      "scientific_name": "Ocyurus chrysurus",
+      "shard": "ye",
+      "type": "animal",
+      "tags": [
+        "fish",
+        "reef",
+        "snapper"
+      ],
+      "aliases": [
+        "rabirrubia"
+      ]
     }
   ]
 }

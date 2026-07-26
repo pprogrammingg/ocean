@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "nu",
+  "species": [
+    {
+      "id": "nurse-shark",
+      "shard": "nu",
+      "type": "animal",
+      "popular_name": "Nurse Shark",
+      "scientific_name": "Ginglymostoma cirratum",
+      "translations": {
+        "es": "Tiburón gata",
+        "pap": "Tiburón nurse"
+      },
+      "tags": [
+        "shark",
+        "reef",
+        "nocturnal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Rests under ledges by day; patrols reefs at night.",
+        "food": "Lobsters, crabs, and sleepy fish sucked up like a vacuum.",
+        "feeding": "Barbels by the mouth feel for prey in crevices.",
+        "mating": "Eggs hatch inside the mother (ovoviviparous).",
+        "socializing": "Daytime piles can look like a sleepy shark slumber party."
+      },
+      "fun_facts": [
+        "Gentle unless provoked — don’t pull tails for a photo.",
+        "They can sit still for hours, pumping water over their gills."
+      ],
+      "images": [],
+      "conservation_status": "Vulnerable (IUCN)"
+    }
+  ]
+}

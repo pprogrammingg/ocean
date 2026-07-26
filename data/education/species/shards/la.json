@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "la",
+  "species": [
+    {
+      "id": "laughing-gull",
+      "shard": "la",
+      "type": "animal",
+      "popular_name": "Laughing Gull",
+      "scientific_name": "Leucophaeus atricilla",
+      "translations": {
+        "es": "Gaviota reidora",
+        "pap": "Meeuw"
+      },
+      "tags": [
+        "bird",
+        "coastal",
+        "beach"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Beaches, docks, and parking lots with a view of fries.",
+        "food": "Fish, crabs, scraps — opportunistic beach comedians.",
+        "feeding": "Pecks the wrack line; also follows boats for handouts.",
+        "mating": "Nests in colonies on sandy islands.",
+        "socializing": "Named for a laugh-like call that fills every pier."
+      },
+      "fun_facts": [
+        "That ‘ha-ha-ha’ call is why they’re never quiet vacation guests.",
+        "Summer black hoods molt to a winter smudge."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

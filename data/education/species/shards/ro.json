@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "ro",
+  "species": [
+    {
+      "id": "royal-tern",
+      "shard": "ro",
+      "type": "animal",
+      "popular_name": "Royal Tern",
+      "scientific_name": "Thalasseus maximus",
+      "translations": {
+        "es": "Charrán real",
+        "pap": "Stern"
+      },
+      "tags": [
+        "bird",
+        "coastal",
+        "diving"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Beaches and inlets; rests in neat lines facing the wind.",
+        "food": "Small fish dive-caught from a hover.",
+        "feeding": "Plunge-dives with a splash and a triumphant swallow.",
+        "mating": "Colony nesters on sandy scrapes.",
+        "socializing": "Crested royalty posing for beach photos."
+      },
+      "fun_facts": [
+        "The shaggy black crest looks like it woke up fabulous.",
+        "Often stands with bills into the breeze like weather vanes."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "shard": "ca",
+  "species": [
+    {
+      "id": "caribbean-flamingo",
+      "shard": "ca",
+      "type": "animal",
+      "popular_name": "Caribbean Flamingo",
+      "scientific_name": "Phoenicopterus ruber",
+      "translations": {
+        "es": "Flamenco",
+        "pap": "Flamengu"
+      },
+      "tags": [
+        "bird",
+        "coastal",
+        "lagoon"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Salty lagoons and shallow flats with muddy bottoms.",
+        "food": "Shrimp and microbes that dye feathers pink-orange.",
+        "feeding": "Upside-down bill filters tiny food from water.",
+        "mating": "Colony nesters with dramatic group dances.",
+        "socializing": "Huge pink flocks are a Caribbean postcard come alive."
+      },
+      "fun_facts": [
+        "You are what you eat — without pink prey, feathers fade.",
+        "Those ‘backward knees’ are mostly ankles."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "caribbean-reef-octopus",
+      "shard": "ca",
+      "type": "animal",
+      "popular_name": "Caribbean Reef Octopus",
+      "scientific_name": "Octopus briareus",
+      "translations": {
+        "es": "Pulpo de arrecife",
+        "pap": "Octopus"
+      },
+      "tags": [
+        "cephalopod",
+        "reef",
+        "nocturnal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Reef crevices and rubble; masters of hide-and-seek.",
+        "food": "Crabs and snails drilled or pulled apart.",
+        "feeding": "Arms explore cracks while the body stays tucked.",
+        "mating": "Female guards eggs; male uses a specialized arm.",
+        "socializing": "Solitary geniuses with soft-body escape art."
+      },
+      "fun_facts": [
+        "Color and texture change in a blink — living camouflage.",
+        "Three hearts and blue blood keep the alien vibes strong."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": "caribbean-reef-shark",
+      "shard": "ca",
+      "type": "animal",
+      "popular_name": "Caribbean Reef Shark",
+      "scientific_name": "Carcharhinus perezi",
+      "translations": {
+        "es": "Tiburón de arrecife",
+        "pap": "Tiburón di rif"
+      },
+      "tags": [
+        "shark",
+        "reef",
+        "predator"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Drop-offs and reef walls with clear water and current.",
+        "food": "Reef fish and rays.",
+        "feeding": "Curious inspector that may circle divers — give space.",
+        "mating": "Live-bearing with small litters.",
+        "socializing": "Often alone or in loose groups along a wall."
+      },
+      "fun_facts": [
+        "A classic reef-shark silhouette for Caribbean wall dives.",
+        "Healthy shark numbers usually mean a healthy reef pantry."
+      ],
+      "images": [],
+      "conservation_status": "Endangered (IUCN)"
+    },
+    {
+      "id": "caribbean-spiny-lobster",
+      "shard": "ca",
+      "type": "animal",
+      "popular_name": "Caribbean Spiny Lobster",
+      "scientific_name": "Panulirus argus",
+      "translations": {
+        "es": "Langosta",
+        "pap": "Kreef"
+      },
+      "tags": [
+        "crustacean",
+        "reef",
+        "nocturnal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Under coral ledges by day; marches across sand at night.",
+        "food": "Snails, crabs, and carrion.",
+        "feeding": "Antennae-first explorer of the night reef.",
+        "mating": "Females carry eggs under the tail like an orange berry cluster.",
+        "socializing": "Famous for single-file migration queues across the seafloor."
+      },
+      "fun_facts": [
+        "No big claws — defense is spines and a fast tail flip.",
+        "Long antennae combine touch and smell."
+      ],
+      "images": [],
+      "conservation_status": "Data Deficient (IUCN)"
+    }
+  ]
+}

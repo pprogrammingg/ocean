@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "shard": "sa",
+  "species": [
+    {
+      "id": "sargassum",
+      "shard": "sa",
+      "type": "plant",
+      "popular_name": "Sargassum",
+      "scientific_name": "Sargassum natans",
+      "translations": {
+        "es": "Sargazo",
+        "pap": "Sargassum"
+      },
+      "tags": [
+        "algae",
+        "pelagic",
+        "floating"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Floats in open-ocean windrows; sometimes blankets beaches.",
+        "food": "Photosynthesis at the sea surface.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Berry-like gas bladders keep the golden weed afloat.",
+        "Offshore it’s wildlife habitat; huge beach piles need careful cleanup."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": "saucer-blade-algae",
+      "shard": "sa",
+      "type": "plant",
+      "popular_name": "Saucer Blade Algae",
+      "scientific_name": "Avrainvillea asarifolia",
+      "translations": {
+        "es": "Alga platillo",
+        "pap": "Saucer algae"
+      },
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Sandy and muddy shallows near Aruba mangroves and lagoons.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Soft green blades look like little saucers or lily pads on the sand.",
+        "Documented in Aruba mangrove-lagoon biodiversity surveys."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

@@ -6,14 +6,18 @@
 import { escapeHtml } from "./html.js";
 import { fetchSpeciesRecord, shardIdFromSlug } from "./species.js";
 import { renderSpeciesPostcard } from "./render-species.js";
+import { mountParallaxHero } from "./parallax-hero.js";
 
 let root = null;
 let lastFocus = null;
 let bound = false;
 let openedWithPush = false;
+let disposeParallax = null;
 
 /** Soft-nav wipes body — drop detached overlay node so the next open recreates it. */
 export function resetSpeciesOverlayDom() {
+  disposeParallax?.();
+  disposeParallax = null;
   root = null;
   lastFocus = null;
   openedWithPush = false;
@@ -54,6 +58,8 @@ function setSpeciesParam(slug) {
 
 function hideOverlay() {
   if (!root) return;
+  disposeParallax?.();
+  disposeParallax = null;
   root.hidden = true;
   document.body.classList.remove("species-overlay-open");
   if (lastFocus?.focus) lastFocus.focus();
@@ -67,7 +73,6 @@ export async function openSpeciesOverlay(slug, { push = true } = {}) {
   content.innerHTML = `<p class="loading">Loading species…</p>`;
   el.hidden = false;
   document.body.classList.add("species-overlay-open");
-  el.querySelector(".species-overlay__close")?.focus();
 
   if (push && speciesParam() !== slug) {
     history.pushState({ species: slug }, "", setSpeciesParam(slug));
@@ -78,13 +83,22 @@ export async function openSpeciesOverlay(slug, { push = true } = {}) {
 
   try {
     const record = await fetchSpeciesRecord(slug);
+    disposeParallax?.();
     content.innerHTML = renderSpeciesPostcard(record, {
       shardId: record?.shard || shardIdFromSlug(slug),
     });
     const title = content.querySelector(".species-postcard__title");
     if (title) title.id = "species-overlay-title";
+    disposeParallax = mountParallaxHero(content);
+    const closeBtn =
+      content.querySelector(".species-postcard__close") ||
+      el.querySelector(".species-overlay__close");
+    closeBtn?.focus();
   } catch (err) {
+    disposeParallax?.();
+    disposeParallax = null;
     content.innerHTML = `<p class="empty-state">Could not load species: ${escapeHtml(err.message)}</p>`;
+    el.querySelector(".species-overlay__close")?.focus();
   }
 }
 

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "shard": "st",
+  "species": [
+    {
+      "id": "staghorn-coral",
+      "shard": "st",
+      "type": "animal",
+      "popular_name": "Staghorn Coral",
+      "scientific_name": "Acropora cervicornis",
+      "translations": {
+        "es": "Coral cuerno de ciervo",
+        "pap": "Koral hert"
+      },
+      "tags": [
+        "coral",
+        "reef",
+        "endangered",
+        "builder"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Back-reef and lagoon patches with branching thickets.",
+        "food": "Energy from symbiotic algae plus night zooplankton.",
+        "feeding": "Polyps open more at night to snag tiny prey.",
+        "mating": "Mass spawning events timed to lunar cycles.",
+        "socializing": "Nursery structure for juvenile reef fish."
+      },
+      "fun_facts": [
+        "Looks like underwater deer antlers in dense gardens.",
+        "Restoration nurseries grow fragments to replant reefs."
+      ],
+      "images": [],
+      "conservation_status": "Critically Endangered (IUCN)"
+    },
+    {
+      "id": "stoplight-parrotfish",
+      "shard": "st",
+      "type": "animal",
+      "popular_name": "Stoplight Parrotfish",
+      "scientific_name": "Sparisoma viride",
+      "translations": {
+        "es": "Loro semáforo",
+        "pap": "Prikichi"
+      },
+      "tags": [
+        "fish",
+        "reef",
+        "herbivore",
+        "parrotfish"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Seagrass beds and coral reefs; sleeps in a mucus cocoon by night.",
+        "food": "Algae scraped from rock and dead coral.",
+        "feeding": "Beak bites leave pale scrapes; sand in their waste helps build beaches.",
+        "mating": "Complex sex change: some females become bright terminal-phase males.",
+        "socializing": "Daytime grazing groups; night solo sleepers in slimy sleeping bags."
+      },
+      "fun_facts": [
+        "Much soft white beach sand started as parrotfish poop — glamorous, right?",
+        "The ‘stoplight’ name nods to red, yellow, and green color phases."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "bo",
+  "species": [
+    {
+      "id": "bottlenose-dolphin",
+      "shard": "bo",
+      "type": "animal",
+      "popular_name": "Bottlenose Dolphin",
+      "scientific_name": "Tursiops truncatus",
+      "translations": {
+        "es": "Delfín nariz de botella",
+        "pap": "Dolfijn"
+      },
+      "tags": [
+        "mammal",
+        "cetacean",
+        "coastal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Bays, channels, and nearshore blue water in social groups.",
+        "food": "Fish and squid hunted with teamwork and echolocation.",
+        "feeding": "Herding, mud-ring feeding, and clever local tricks.",
+        "mating": "Calves stay with mothers for years learning dolphin school.",
+        "socializing": "Pods chat with clicks and whistles — ocean gossip."
+      },
+      "fun_facts": [
+        "Each dolphin may have a unique whistle ‘name’ friends recognize.",
+        "They sleep with one eye open — half the brain naps at a time."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "ba",
+  "species": [
+    {
+      "id": "batophora-algae",
+      "shard": "ba",
+      "type": "plant",
+      "popular_name": "Batophora Algae",
+      "scientific_name": "Batophora oerstedii",
+      "translations": {
+        "es": "Batophora",
+        "pap": "Batophora"
+      },
+      "tags": [
+        "algae",
+        "green",
+        "lagoon"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Quiet hypersaline and mangrove-edge waters of the southern Caribbean, including ABC shores.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Bead-like green stalks common in warm, calm Caribbean shallows.",
+        "Often shares lagoon floors with seagrass and mangrove peat around Aruba."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

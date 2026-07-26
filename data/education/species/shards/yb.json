@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "yb",
+  "species": [
+    {
+      "id": "y-branched-algae",
+      "shard": "yb",
+      "type": "plant",
+      "popular_name": "Y-Branched Algae",
+      "scientific_name": "Dictyota menstrualis",
+      "translations": {
+        "es": "Alga dicotómica",
+        "pap": "Dictyota"
+      },
+      "tags": [
+        "algae",
+        "brown",
+        "reef"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Reef flats and rocky shallows with Y-shaped tips.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Each tip forks like a tiny letter Y — easy underwater ID.",
+        "Can form soft brown carpets after nutrient pulses."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "shard": "sh",
+  "species": [
+    {
+      "id": "shaving-brush-algae",
+      "shard": "sh",
+      "type": "plant",
+      "popular_name": "Shaving Brush Algae",
+      "scientific_name": "Penicillus capitatus",
+      "translations": {
+        "es": "Brocha de afeitar",
+        "pap": "Penicillus"
+      },
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Sandy bottoms; a stalk topped with a soft green brush.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Named because it looks like an old-fashioned shaving brush.",
+        "Holdfast anchors it in shifting sand like a tiny tree."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": "shoal-grass",
+      "shard": "sh",
+      "type": "plant",
+      "popular_name": "Shoal Grass",
+      "scientific_name": "Halodule wrightii",
+      "translations": {
+        "es": "Hierba de bajío",
+        "pap": "Shoal grass"
+      },
+      "tags": [
+        "seagrass",
+        "pioneer",
+        "meadow"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Disturbed or shallow flats; a pioneer seagrass.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Thin blades make it the fine grass of Caribbean shallows.",
+        "Often first to reclaim bare sand after storms or anchors."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

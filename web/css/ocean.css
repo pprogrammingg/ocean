@@ -1,6 +1,7 @@
 /* ocean-love.xyz — base tokens, layout, shared components, beaches page */
 
 @import url("fonts.css");
+@import url("parallax-card.css");
 
 /* --- Tokens --- */
 :root {
@@ -1006,6 +1007,26 @@ body.species-overlay-open {
   animation: species-card-in 0.28s ease;
 }
 
+.species-overlay__dialog:has(.parallax-stage--postcard) {
+  width: auto;
+  max-width: none;
+  max-height: none;
+  overflow: visible;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0.5rem;
+}
+
+.species-overlay__dialog:has(.parallax-stage--postcard) .species-overlay__close {
+  display: none;
+}
+
+.species-overlay__dialog:has(.parallax-stage--postcard) .species-overlay__content {
+  clear: none;
+}
+
 .species-overlay__close {
   position: sticky;
   top: 0.5rem;
@@ -1197,6 +1218,88 @@ html.soft-nav-fallback-in body {
   color: var(--muted);
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+/* Full postcard as trading-card plate */
+.species-postcard--parallax {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--foam);
+  color: var(--ink);
+  overflow: hidden;
+  position: relative;
+}
+
+.species-postcard__close {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  z-index: 4;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--ocean-deep);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(10, 61, 92, 0.18);
+  pointer-events: auto;
+}
+
+.species-postcard__close:hover {
+  background: #fff;
+}
+
+.species-postcard--parallax .species-hero {
+  flex: 0 0 40%;
+  aspect-ratio: auto;
+  min-height: 0;
+}
+
+.species-postcard--parallax .species-postcard__body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 0.65rem 0.9rem 0.85rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.species-postcard--parallax .species-postcard__title {
+  font-size: 1.25rem;
+  line-height: 1.15;
+}
+
+.species-postcard--parallax .species-postcard__sci {
+  font-size: 0.8rem;
+  margin: 0.15rem 0 0.35rem;
+}
+
+.species-postcard--parallax .species-postcard__trans {
+  font-size: 0.75rem;
+  margin: 0 0 0.45rem;
+}
+
+.species-postcard--parallax .species-postcard__heading {
+  margin: 0.55rem 0 0.25rem;
+  font-size: 0.7rem;
+}
+
+.species-postcard--parallax .species-habits {
+  gap: 0.4rem;
+}
+
+.species-postcard--parallax .species-habits dd,
+.species-postcard--parallax .species-facts {
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.species-postcard--parallax .species-postcard__actions {
+  margin: 0.75rem 0 0;
+  padding-top: 0.65rem;
 }
 
 /* --- Species hub page --- */

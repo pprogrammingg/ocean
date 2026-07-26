@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "fl",
+  "species": [
+    {
+      "id": "flamingo-tongue-snail",
+      "shard": "fl",
+      "type": "animal",
+      "popular_name": "Flamingo Tongue Snail",
+      "scientific_name": "Cyphoma gibbosum",
+      "translations": {
+        "es": "Lengua de flamenco",
+        "pap": "Flamingo tongue"
+      },
+      "tags": [
+        "mollusk",
+        "reef",
+        "colorful"
+      ],
+      "dwelling_habits": {
+        "dwelling": "On soft corals and sea fans it slowly eats.",
+        "food": "Live tissue of gorgonians.",
+        "feeding": "Mantle flaps cover the shell with leopard-like spots.",
+        "mating": "Lays egg capsules on the same fans it grazes.",
+        "socializing": "Tiny living jewelry — look, don’t pocket."
+      },
+      "fun_facts": [
+        "The spots are soft mantle tissue, not paint on the shell.",
+        "When threatened, the mantle retracts and the shell looks plain cream."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { escapeHtml } from "./html.js";
 import { speciesHubUrl } from "./species.js";
 import { webRoot } from "./nav.js";
+import { postcardParallaxEnabled, renderPostcardParallaxShell } from "./parallax-hero.js";
 
 /** Resolve media path relative to web/ from any page depth. */
 function mediaSrc(src) {
@@ -56,8 +57,13 @@ function factsList(facts = []) {
     </ul>`;
 }
 
+function findHeroImage(record) {
+  return (record.images || []).find((img) => img && (img.role === "hero" || img.src));
+}
+
+/** Plain hero — species guide page and default postcard. */
 function imageHero(record) {
-  const hero = (record.images || []).find((img) => img && (img.role === "hero" || img.src));
+  const hero = findHeroImage(record);
   if (!hero?.src) {
     return `<div class="species-hero species-hero--empty" aria-hidden="true"><span>Photo coming soon</span></div>`;
   }
@@ -65,12 +71,7 @@ function imageHero(record) {
   return `<div class="species-hero"><img src="${escapeHtml(src)}" alt="${escapeHtml(hero.alt || record.popular_name)}" loading="lazy" decoding="async"></div>`;
 }
 
-/** Compact postcard body for overlay */
-export function renderSpeciesPostcard(record, { shardId } = {}) {
-  if (!record) {
-    return `<p class="empty-state empty-state--inline">Species not found.</p>`;
-  }
-
+function postcardInner(record, { shardId } = {}) {
   const name = record.popular_name || record.name || "Unknown";
   const trans = translationLine(record.translations);
   const resolvedShard = record.shard || shardId;
@@ -78,7 +79,6 @@ export function renderSpeciesPostcard(record, { shardId } = {}) {
   const shardNote = resolvedShard;
 
   return `
-    <article class="species-postcard" data-slug="${escapeHtml(record.id)}">
       ${imageHero(record)}
       <div class="species-postcard__body">
         <p class="species-postcard__shard">Shard <strong>${escapeHtml(String(shardNote || "").toUpperCase())}</strong></p>
@@ -100,8 +100,29 @@ export function renderSpeciesPostcard(record, { shardId } = {}) {
         <p class="species-postcard__actions">
           <a class="species-postcard__hub" href="${escapeHtml(hub)}">Open in species guide →</a>
         </p>
-      </div>
+      </div>`;
+}
+
+/** Compact postcard body for overlay */
+export function renderSpeciesPostcard(record, { shardId } = {}) {
+  if (!record) {
+    return `<p class="empty-state empty-state--inline">Species not found.</p>`;
+  }
+
+  const inner = postcardInner(record, { shardId });
+  const article = `
+    <article class="species-postcard" data-slug="${escapeHtml(record.id)}">
+      ${inner}
     </article>`;
+
+  if (!postcardParallaxEnabled(record)) return article;
+
+  return renderPostcardParallaxShell(
+    `<article class="species-postcard species-postcard--parallax" data-slug="${escapeHtml(record.id)}">
+      <button type="button" class="species-postcard__close" data-species-close aria-label="Close">×</button>
+      ${inner}
+    </article>`
+  );
 }
 
 /** Full section for dedicated species page */

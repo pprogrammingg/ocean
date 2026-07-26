@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "shard": "sp",
+  "species": [
+    {
+      "id": "spotted-eagle-ray",
+      "shard": "sp",
+      "type": "animal",
+      "popular_name": "Spotted Eagle Ray",
+      "scientific_name": "Aetobatus narinari",
+      "translations": {
+        "es": "Chucho pintado",
+        "pap": "Raya águila"
+      },
+      "tags": [
+        "ray",
+        "reef",
+        "graceful"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Sandy flats and reef passes; sometimes leaps clear of the water.",
+        "food": "Clams, snails, and crabs crushed with plate-like teeth.",
+        "feeding": "Digs in sand with a duck-like snout, then crunches lunch.",
+        "mating": "Live-bearing; pups arrive ready to swim.",
+        "socializing": "May cruise alone or in elegant small squadrons."
+      },
+      "fun_facts": [
+        "Polka dots on a flying carpet — one of the ocean’s best costumes.",
+        "Those leaps might shake off remoras… or just show off."
+      ],
+      "images": [],
+      "conservation_status": "Near Threatened (IUCN)"
+    },
+    {
+      "id": "spotted-moray",
+      "shard": "sp",
+      "type": "animal",
+      "popular_name": "Spotted Moray",
+      "scientific_name": "Gymnothorax moringa",
+      "translations": {
+        "es": "Morena pintada",
+        "pap": "Morena spikkel"
+      },
+      "tags": [
+        "eel",
+        "reef",
+        "nocturnal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Coral heads and rocky holes across Caribbean reefs.",
+        "food": "Crustaceans and small fish.",
+        "feeding": "Night hunter with a leopard-print tuxedo.",
+        "mating": "Pelagic larvae ride currents to new reefs.",
+        "socializing": "Usually one eel per favorite hole."
+      },
+      "fun_facts": [
+        "Spots help it vanish against dappled reef light.",
+        "Open-mouth look is breathing, not a threat display."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

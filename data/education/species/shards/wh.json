@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "shard": "wh",
+  "species": [
+    {
+      "id": "white-mangrove",
+      "shard": "wh",
+      "type": "plant",
+      "popular_name": "White Mangrove",
+      "scientific_name": "Laguncularia racemosa",
+      "translations": {
+        "es": "Mangle blanco",
+        "pap": "Mangel blanku"
+      },
+      "tags": [
+        "mangrove",
+        "coastal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Landward edge of mangrove belts on less soggy soils.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Look for two tiny bumps at the leaf stalk — salt exit doors.",
+        "Less famous than red mangrove, still vital shoreline habitat."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "white-scroll-algae",
+      "shard": "wh",
+      "type": "plant",
+      "popular_name": "White Scroll Algae",
+      "scientific_name": "Padina boergesenii",
+      "translations": {
+        "es": "Alga abanico",
+        "pap": "Padina"
+      },
+      "tags": [
+        "algae",
+        "brown",
+        "calcified"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Rocky shallows; fan lobes often dusted with white chalk.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Looks like a rolled paper fan dipped in powdered sugar.",
+        "Calcium carbonate on the surface helps it feel stiff."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

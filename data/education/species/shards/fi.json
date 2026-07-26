@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "fi",
+  "species": [
+    {
+      "id": "fire-coral",
+      "shard": "fi",
+      "type": "animal",
+      "popular_name": "Fire Coral",
+      "scientific_name": "Millepora complanata",
+      "translations": {
+        "es": "Coral de fuego",
+        "pap": "Vuurkoraal"
+      },
+      "tags": [
+        "cnidarian",
+        "reef",
+        "hydrocoral"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Shallow Aruba reef crests and flats — blade-like yellow-tan colonies in surge.",
+        "food": "Symbiotic algae plus plankton stung by tiny polyps.",
+        "feeding": "Looks like coral but is a hydrozoan relative of jellyfish.",
+        "mating": "Releases medusae; also spreads by colony growth.",
+        "socializing": "Forms nursery structure for juvenile reef fish on Aruba’s leeward shallows."
+      },
+      "fun_facts": [
+        "Touching it feels like a bee sting — admire with eyes, not fingers.",
+        "Common on Aruba’s shallow reef islands alongside elkhorn stands."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

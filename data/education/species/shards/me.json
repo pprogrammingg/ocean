@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "shard": "me",
+  "species": [
+    {
+      "id": "mermaids-fan",
+      "shard": "me",
+      "type": "plant",
+      "popular_name": "Mermaid's Fan",
+      "scientific_name": "Udotea flabellum",
+      "translations": {
+        "es": "Abanico de sirena",
+        "pap": "Mermaid fan"
+      },
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Sandy reef flats and seagrass edges.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Named for looking like a mermaid dropped her fan.",
+        "Calcified tissues help it stand upright in surge."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": "mermaids-wine-glass",
+      "shard": "me",
+      "type": "plant",
+      "popular_name": "Mermaid's Wine Glass",
+      "scientific_name": "Acetabularia crenulata",
+      "translations": {
+        "es": "Copa de sirena",
+        "pap": "Wine glass algae"
+      },
+      "tags": [
+        "algae",
+        "green",
+        "single-cell"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Shallow rocky and sandy Caribbean bottoms.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Mostly one giant cell with a stem and a tiny cup — biology magic.",
+        "Looks like a field of miniature champagne glasses."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

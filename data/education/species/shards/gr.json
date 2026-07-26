@@ -3,6 +3,93 @@
   "shard": "gr",
   "species": [
     {
+      "id": "great-barracuda",
+      "shard": "gr",
+      "type": "animal",
+      "popular_name": "Great Barracuda",
+      "scientific_name": "Sphyraena barracuda",
+      "translations": {
+        "es": "Picuda",
+        "pap": "Barracuda"
+      },
+      "tags": [
+        "fish",
+        "predator",
+        "reef"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Reef edges, seagrass, and nearshore blue water — still as a spear.",
+        "food": "Fish ambushed with a burst of speed.",
+        "feeding": "Hangs motionless, then rockets forward.",
+        "mating": "Broadcast spawners in open water.",
+        "socializing": "Young school; big adults often hunt alone."
+      },
+      "fun_facts": [
+        "Usually ignore people — shiny jewelry interests them more than you do.",
+        "Teeth point backward: once a fish is in, it’s not swimming out."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "green-feather-algae",
+      "shard": "gr",
+      "type": "plant",
+      "popular_name": "Green Feather Algae",
+      "scientific_name": "Caulerpa sertularioides",
+      "translations": {
+        "es": "Alga pluma",
+        "pap": "Feather algae"
+      },
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Sand and reef flats; feather-like fronds from runners.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Feathery fronds sprout from a creeping stolon like underground stems.",
+        "Related species can be invasive outside their home range."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": "green-moray",
+      "shard": "gr",
+      "type": "animal",
+      "popular_name": "Green Moray",
+      "scientific_name": "Gymnothorax funebris",
+      "translations": {
+        "es": "Morena verde",
+        "pap": "Morena"
+      },
+      "tags": [
+        "eel",
+        "reef",
+        "nocturnal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Reef holes and wrecks; head often peeking from a den.",
+        "food": "Fish, crabs, and octopus hunted at night.",
+        "feeding": "Ambush from a crevice; pharyngeal jaws pull prey in.",
+        "mating": "Open-water larval stage before settling on a reef.",
+        "socializing": "Looks angry when breathing — open mouth is gill work."
+      },
+      "fun_facts": [
+        "The green color is a mucus coat over brownish skin.",
+        "Give dens space; a surprised moray has a strong bite."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
       "id": "green-sea-turtle",
       "shard": "gr",
       "type": "animal",
@@ -12,7 +99,12 @@
         "es": "Tortuga verde",
         "pap": "Turtuga verd"
       },
-      "tags": ["reptile", "endangered", "reef", "turtle"],
+      "tags": [
+        "reptile",
+        "endangered",
+        "reef",
+        "turtle"
+      ],
       "dwelling_habits": {
         "dwelling": "Warm shallow seas — coral reefs, seagrass beds, and calm lagoons. Nests on sandy beaches; hatchlings scramble to the water at night.",
         "food": "Adults prefer seagrass and algae (they are mostly vegetarian). Young turtles snack more widely, including jellies and small invertebrates.",

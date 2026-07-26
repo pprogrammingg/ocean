@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "shard": "qu",
+  "species": [
+    {
+      "id": "queen-angelfish",
+      "shard": "qu",
+      "type": "animal",
+      "popular_name": "Queen Angelfish",
+      "scientific_name": "Holacanthus ciliaris",
+      "translations": {
+        "es": "Ángel reina",
+        "pap": "Queen angel"
+      },
+      "tags": [
+        "fish",
+        "reef",
+        "colorful"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Clear Caribbean reefs with caves and coral heads for shelter.",
+        "food": "Mostly sponges, plus algae and small invertebrates.",
+        "feeding": "Picks carefully at sponges — royalty with a picky menu.",
+        "mating": "Pairs defend a home stretch of reef.",
+        "socializing": "Shy of snorkelers but curious from a polite distance."
+      },
+      "fun_facts": [
+        "A blue crown-like spot on the head earns the royal nickname.",
+        "One of the brightest billboards on a healthy reef."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "queen-conch",
+      "shard": "qu",
+      "type": "animal",
+      "popular_name": "Queen Conch",
+      "scientific_name": "Aliger gigas",
+      "translations": {
+        "es": "Carrucho",
+        "pap": "Karkó"
+      },
+      "tags": [
+        "mollusk",
+        "seagrass",
+        "endangered"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Seagrass beds and sandy shallows.",
+        "food": "Algae and organic film grazed with a rasping tongue.",
+        "feeding": "Slow lawnmower of the grass beds.",
+        "mating": "Egg strands look like sandy spaghetti on the bottom.",
+        "socializing": "Overharvested in many places — check local rules."
+      },
+      "fun_facts": [
+        "The pink shell interior is a Caribbean icon.",
+        "They hop-lurch forward on a strong muscular foot."
+      ],
+      "images": [],
+      "conservation_status": "CITES / depleted in many areas"
+    }
+  ]
+}

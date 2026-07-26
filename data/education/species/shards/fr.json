@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "shard": "fr",
+  "species": [
+    {
+      "id": "french-angelfish",
+      "shard": "fr",
+      "type": "animal",
+      "popular_name": "French Angelfish",
+      "scientific_name": "Pomacanthus paru",
+      "translations": {
+        "es": "Ángel francés",
+        "pap": "Angel francés"
+      },
+      "tags": [
+        "fish",
+        "reef",
+        "pair-bonding"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Coral reefs and wreck edges from snorkel depths to deeper drop-offs.",
+        "food": "Sponges, tunicates, and algae picked from the reef.",
+        "feeding": "Pairs patrol a territory, nipping sponges that other fish ignore.",
+        "mating": "Usually close pairs that swim flank to flank.",
+        "socializing": "Juveniles are bold black-and-yellow cleaners; adults stay close as a duo."
+      },
+      "fun_facts": [
+        "Young French angels run tiny cleaning stations — a spa day for bigger fish.",
+        "Yellow bars fade as they grow into elegant black-and-gold adults."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "french-grunt",
+      "shard": "fr",
+      "type": "animal",
+      "popular_name": "French Grunt",
+      "scientific_name": "Haemulon flavolineatum",
+      "translations": {
+        "es": "Ronco francés",
+        "pap": "French grunt"
+      },
+      "tags": [
+        "fish",
+        "reef",
+        "schooling"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Aruba reef edges, mangrove channels, and sandy patches near coral heads.",
+        "food": "Small crustaceans and worms taken from sand at night.",
+        "feeding": "Daytime schools hover over the reef; nighttime they fan out to forage.",
+        "mating": "Spawns in groups; larvae settle back to shallow nurseries.",
+        "socializing": "Classic yellow-striped schools — a staple snorkel sight around the ABC islands."
+      },
+      "fun_facts": [
+        "Named for the grunting sounds they make with teeth and swim bladder.",
+        "Often share daytime hangouts with other grunt species over the same coral head."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

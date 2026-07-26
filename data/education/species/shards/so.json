@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "so",
+  "species": [
+    {
+      "id": "southern-stingray",
+      "shard": "so",
+      "type": "animal",
+      "popular_name": "Southern Stingray",
+      "scientific_name": "Hypanus americanus",
+      "translations": {
+        "es": "Raya látigo",
+        "pap": "Raya"
+      },
+      "tags": [
+        "ray",
+        "sand",
+        "benthic"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Buried in sand flats — often only eyes and spiracles show.",
+        "food": "Worms, crabs, and clams found by electro-sense.",
+        "feeding": "Flips sand with wingbeats, then vacuums hidden snacks.",
+        "mating": "Live-bearing; nursery flats can hold many young rays.",
+        "socializing": "Mostly solitary couch potatoes of the seafloor."
+      },
+      "fun_facts": [
+        "Shuffle your feet in sand — a polite knock so rays can scoot away.",
+        "The barb is defense, not a hunting spear."
+      ],
+      "images": [],
+      "conservation_status": "Near Threatened (IUCN)"
+    }
+  ]
+}

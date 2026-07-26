@@ -1,12 +1,189 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-25",
   "description": "Species shard registry. Shard key = first 2 letters of slug. Hub nav loads this file only; records live in shards/{id}.json.",
   "shard_rule": "slug_prefix_2",
   "max_per_shard": 50,
   "shards": [
-    { "id": "br", "path": "shards/br.json", "count": 1, "label": "Br" },
-    { "id": "gr", "path": "shards/gr.json", "count": 1, "label": "Gr" },
-    { "id": "ma", "path": "shards/ma.json", "count": 1, "label": "Ma" }
+    {
+      "id": "ba",
+      "path": "shards/ba.json",
+      "count": 1,
+      "label": "Ba"
+    },
+    {
+      "id": "bl",
+      "path": "shards/bl.json",
+      "count": 3,
+      "label": "Bl"
+    },
+    {
+      "id": "bo",
+      "path": "shards/bo.json",
+      "count": 1,
+      "label": "Bo"
+    },
+    {
+      "id": "br",
+      "path": "shards/br.json",
+      "count": 2,
+      "label": "Br"
+    },
+    {
+      "id": "bu",
+      "path": "shards/bu.json",
+      "count": 1,
+      "label": "Bu"
+    },
+    {
+      "id": "ca",
+      "path": "shards/ca.json",
+      "count": 4,
+      "label": "Ca"
+    },
+    {
+      "id": "el",
+      "path": "shards/el.json",
+      "count": 1,
+      "label": "El"
+    },
+    {
+      "id": "fi",
+      "path": "shards/fi.json",
+      "count": 1,
+      "label": "Fi"
+    },
+    {
+      "id": "fl",
+      "path": "shards/fl.json",
+      "count": 1,
+      "label": "Fl"
+    },
+    {
+      "id": "fr",
+      "path": "shards/fr.json",
+      "count": 2,
+      "label": "Fr"
+    },
+    {
+      "id": "gr",
+      "path": "shards/gr.json",
+      "count": 4,
+      "label": "Gr"
+    },
+    {
+      "id": "ha",
+      "path": "shards/ha.json",
+      "count": 3,
+      "label": "Ha"
+    },
+    {
+      "id": "la",
+      "path": "shards/la.json",
+      "count": 1,
+      "label": "La"
+    },
+    {
+      "id": "lo",
+      "path": "shards/lo.json",
+      "count": 2,
+      "label": "Lo"
+    },
+    {
+      "id": "ma",
+      "path": "shards/ma.json",
+      "count": 3,
+      "label": "Ma"
+    },
+    {
+      "id": "me",
+      "path": "shards/me.json",
+      "count": 2,
+      "label": "Me"
+    },
+    {
+      "id": "nu",
+      "path": "shards/nu.json",
+      "count": 1,
+      "label": "Nu"
+    },
+    {
+      "id": "qu",
+      "path": "shards/qu.json",
+      "count": 2,
+      "label": "Qu"
+    },
+    {
+      "id": "re",
+      "path": "shards/re.json",
+      "count": 1,
+      "label": "Re"
+    },
+    {
+      "id": "ro",
+      "path": "shards/ro.json",
+      "count": 1,
+      "label": "Ro"
+    },
+    {
+      "id": "sa",
+      "path": "shards/sa.json",
+      "count": 2,
+      "label": "Sa"
+    },
+    {
+      "id": "se",
+      "path": "shards/se.json",
+      "count": 2,
+      "label": "Se"
+    },
+    {
+      "id": "sh",
+      "path": "shards/sh.json",
+      "count": 2,
+      "label": "Sh"
+    },
+    {
+      "id": "so",
+      "path": "shards/so.json",
+      "count": 1,
+      "label": "So"
+    },
+    {
+      "id": "sp",
+      "path": "shards/sp.json",
+      "count": 2,
+      "label": "Sp"
+    },
+    {
+      "id": "st",
+      "path": "shards/st.json",
+      "count": 2,
+      "label": "St"
+    },
+    {
+      "id": "tu",
+      "path": "shards/tu.json",
+      "count": 1,
+      "label": "Tu"
+    },
+    {
+      "id": "wh",
+      "path": "shards/wh.json",
+      "count": 2,
+      "label": "Wh"
+    },
+    {
+      "id": "yb",
+      "path": "shards/yb.json",
+      "count": 1,
+      "label": "Yb"
+    },
+    {
+      "id": "ye",
+      "path": "shards/ye.json",
+      "count": 1,
+      "label": "Ye"
+    }
   ]
 }

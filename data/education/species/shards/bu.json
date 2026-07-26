@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "shard": "bu",
+  "species": [
+    {
+      "id": "buttonwood",
+      "shard": "bu",
+      "type": "plant",
+      "popular_name": "Buttonwood",
+      "scientific_name": "Conocarpus erectus",
+      "translations": {
+        "es": "Mangle botón",
+        "pap": "Buttonwood"
+      },
+      "tags": [
+        "mangrove",
+        "coastal",
+        "transition"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Drier edges of mangrove forests and coastal thickets.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Not always feet-in-water, but still part of the mangrove crew.",
+        "Silver-leaf varieties shimmer in coastal wind."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    }
+  ]
+}

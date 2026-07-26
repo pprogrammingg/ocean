@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "shard": "se",
+  "species": [
+    {
+      "id": "sea-grapes",
+      "shard": "se",
+      "type": "plant",
+      "popular_name": "Sea Grapes",
+      "scientific_name": "Coccoloba uvifera",
+      "translations": {
+        "es": "Uva de playa",
+        "pap": "Griffin"
+      },
+      "tags": [
+        "coastal",
+        "dune",
+        "tree"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Beach berms and coastal thickets just above the tide.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Round leaves and grape-like fruit clusters line many Caribbean roads.",
+        "A windbreak tree that loves salt spray."
+      ],
+      "images": [],
+      "conservation_status": "Least Concern (IUCN)"
+    },
+    {
+      "id": "sea-lettuce",
+      "shard": "se",
+      "type": "plant",
+      "popular_name": "Sea Lettuce",
+      "scientific_name": "Ulva lactuca",
+      "translations": {
+        "es": "Lechuga de mar",
+        "pap": "Sea lettuce"
+      },
+      "tags": [
+        "algae",
+        "green",
+        "intertidal"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Rocks, tide pools, and nutrient-rich shallows.",
+        "food": "Photosynthetic primary producer.",
+        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
+        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      },
+      "fun_facts": [
+        "Looks like plastic lettuce glued to rocks — but it’s alive.",
+        "Sheets can be only a few cells thick and still thrive."
+      ],
+      "images": [],
+      "conservation_status": "Not Evaluated"
+    }
+  ]
+}

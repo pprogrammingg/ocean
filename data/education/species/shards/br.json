@@ -3,6 +3,35 @@
   "shard": "br",
   "species": [
     {
+      "id": "brain-coral",
+      "shard": "br",
+      "type": "animal",
+      "popular_name": "Brain Coral",
+      "scientific_name": "Diploria labyrinthiformis",
+      "translations": {
+        "es": "Coral cerebro",
+        "pap": "Koral brein"
+      },
+      "tags": [
+        "coral",
+        "reef",
+        "builder"
+      ],
+      "dwelling_habits": {
+        "dwelling": "Reef flats and slopes as boulder-like domes.",
+        "food": "Symbiotic algae plus trapped plankton.",
+        "feeding": "Maze-like valleys house rows of polyps.",
+        "mating": "Broadcast spawning on warm summer nights.",
+        "socializing": "Slow growers that can live for centuries."
+      },
+      "fun_facts": [
+        "The maze pattern looks like a brain — animals living in stone.",
+        "Touching coral can hurt living tissue — fins up, hands off."
+      ],
+      "images": [],
+      "conservation_status": "Near Threatened (IUCN)"
+    },
+    {
       "id": "brown-pelican",
       "shard": "br",
       "type": "animal",
@@ -12,7 +41,11 @@
         "es": "Pelícano pardo",
         "pap": "Pelikaan bruin"
       },
-      "tags": ["bird", "coastal", "diving"],
+      "tags": [
+        "bird",
+        "coastal",
+        "diving"
+      ],
       "dwelling_habits": {
         "dwelling": "Roosts and nests on coastal islands, mangroves, and rocky points. Hunts in shallow nearshore water along reefs and beaches.",
         "food": "Mostly small schooling fish — menhaden, anchovies, sardines — scooped in a stretchy throat pouch.",
