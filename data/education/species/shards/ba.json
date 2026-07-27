@@ -28,7 +28,13 @@
         "Bead-like green stalks common in warm, calm Caribbean shallows.",
         "Often shares lagoon floors with seagrass and mangrove peat around Aruba."
       ],
-      "images": [],
+      "images": [
+        {
+          "role": "hero",
+          "src": "media/species/batophora-algae/hero.webp",
+          "alt": "Batophora algae"
+        }
+      ],
       "conservation_status": "Not Evaluated"
     }
   ]

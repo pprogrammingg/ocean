@@ -36,7 +36,7 @@ export function renderSiteNav(active) {
     { id: "home", href: `${root}index.html`, label: "Home" },
     { id: "curiosity", href: `${root}curiosity/beaches.html`, label: "Curiosity" },
     { id: "conservation", href: `${root}conservation.html`, label: "Conservation" },
-    { id: "shop", href: `${root}shop.html`, label: "Conscious Living" },
+    { id: "shop", href: `${root}shop.html`, label: "Ocean Lifestyle" },
   ];
 
   nav.innerHTML = items

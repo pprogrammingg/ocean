@@ -28,7 +28,13 @@
         "The maze pattern looks like a brain — animals living in stone.",
         "Touching coral can hurt living tissue — fins up, hands off."
       ],
-      "images": [],
+      "images": [
+        {
+          "role": "hero",
+          "src": "media/species/brain-coral/hero.webp",
+          "alt": "Brain coral"
+        }
+      ],
       "conservation_status": "Near Threatened (IUCN)"
     },
     {

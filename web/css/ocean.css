@@ -26,6 +26,10 @@
   --nav-font-size: 1.05rem; /* 0.875 × 1.2 */
   --header-padding: 1.1rem 1.5rem 0.85rem;
   --header-nav-gap: 0.65rem;
+  --nav-link-gap: 2.5rem;
+  /* Top chrome: blues ~10% stronger than --ocean-mid / --ocean-deep */
+  --nav-link: #17607c;
+  --nav-link-active: #093753;
 }
 
 /* Tablet+ ~25% larger than mobile base (another ~13% on top of prior bump) */
@@ -156,7 +160,7 @@ a:hover { text-decoration: underline; }
 .site-header {
   padding: var(--header-padding);
   border-bottom: 1px solid var(--border);
-  background: rgba(250, 252, 255, 0.85);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
@@ -170,13 +174,15 @@ a:hover { text-decoration: underline; }
   font-weight: var(--brand-title-weight);
   letter-spacing: -0.02em;
   line-height: 1.2;
+  /* Match first nav link text start (Fraunces sidebearing vs DM Sans) */
+  margin-inline-start: -0.04em;
 }
 
 .site-nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1.25rem;
+  gap: var(--nav-link-gap);
   margin-top: var(--header-nav-gap);
   font-family: var(--font-body);
   font-size: var(--nav-font-size);
@@ -186,20 +192,20 @@ a:hover { text-decoration: underline; }
 /*
  * Shared chrome nav links (main row + Curiosity subnav).
  * Default: ocean mid, no underline. Hover: underline + ocean deep.
- * All labels share one vertical center line (active scale grows from mid).
+ * Active scale grows from the left so Home stays under OCEAN19.
  */
 .site-nav a,
 .curiosity-subnav a {
   display: inline-flex;
   align-items: center;
-  color: var(--ocean-mid);
+  color: var(--nav-link, #17607c);
   font-weight: 700;
   font-size: 1em;
   line-height: 1.25;
   text-decoration: none;
   text-underline-offset: 0.32em;
   text-decoration-thickness: 0.1em;
-  transform-origin: center center;
+  transform-origin: left center;
   transition: color 0.2s ease;
 }
 
@@ -207,17 +213,17 @@ a:hover { text-decoration: underline; }
 .curiosity-subnav a:hover,
 .site-nav a:focus-visible,
 .curiosity-subnav a:focus-visible {
-  color: var(--ocean-deep);
+  color: var(--nav-link-active, #093753);
   text-decoration: underline;
-  text-decoration-color: var(--ocean-deep);
+  text-decoration-color: var(--nav-link-active, #093753);
   outline: none;
 }
 
 .site-nav a[aria-current="page"],
 .curiosity-subnav a[aria-current="page"] {
-  color: var(--ocean-deep);
+  color: var(--nav-link-active, #093753);
   font-weight: 900;
-  /* Same layout box as siblings; 10% stronger via scale from center */
+  /* Same layout box as siblings; grow from left so edges stay aligned */
   font-size: 1em;
   transform: scale(1.1);
   text-decoration: none;
@@ -226,7 +232,7 @@ a:hover { text-decoration: underline; }
 .site-nav a[aria-current="page"]:hover,
 .curiosity-subnav a[aria-current="page"]:hover {
   text-decoration: underline;
-  text-decoration-color: var(--ocean-deep);
+  text-decoration-color: var(--nav-link-active, #093753);
 }
 
 .pillar-label {
@@ -946,7 +952,7 @@ select:disabled {
   gap: 1rem;
   padding: 0.55rem 1.5rem;
   border-bottom: 1px solid var(--border);
-  background: rgba(250, 252, 255, 0.92);
+  background: rgba(255, 255, 255, 0.96);
   font-size: var(--nav-font-size);
   line-height: 1.25;
 }
@@ -1410,7 +1416,7 @@ body.landing {
   color: var(--ocean-deep);
 }
 
-/* Full-bleed photo slideshow; uniform dim for motto readability */
+/* Full-bleed photo slideshow; light navy wash — keep motto readable */
 .landing-bg {
   pointer-events: none;
   position: fixed;
@@ -1418,6 +1424,7 @@ body.landing {
   z-index: 0;
   overflow: hidden;
   background: #0a3d5c;
+  --landing-dim: 0.16;
 }
 
 .landing-bg__slide {
@@ -1439,7 +1446,8 @@ body.landing {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: rgba(10, 61, 92, 0.48);
+  background: rgba(10, 61, 92, var(--landing-dim));
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1462,8 +1470,8 @@ body.landing {
 .landing-header {
   position: relative;
   z-index: 2;
-  background: rgba(247, 251, 254, 0.55);
-  border-bottom: 1px solid rgba(10, 61, 92, 0.06);
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid rgba(10, 61, 92, 0.08);
   backdrop-filter: blur(14px) saturate(1.2);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset;
 }

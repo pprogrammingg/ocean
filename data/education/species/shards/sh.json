@@ -28,7 +28,13 @@
         "Named because it looks like an old-fashioned shaving brush.",
         "Holdfast anchors it in shifting sand like a tiny tree."
       ],
-      "images": [],
+      "images": [
+        {
+          "role": "hero",
+          "src": "media/species/shaving-brush-algae/hero.webp",
+          "alt": "Shaving brush algae"
+        }
+      ],
       "conservation_status": "Not Evaluated"
     },
     {
