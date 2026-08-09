@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "shard": "in",
+  "places": [
+    {
+      "id": "inani-himchari-strip",
+      "shard": "in",
+      "name": "Inani–Himchari strip",
+      "country_id": "bangladesh",
+      "country": "Bangladesh",
+      "region": "Cox's Bazar",
+      "coordinates": {
+        "lat": 24.458147,
+        "lng": 91.954778,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 4,
+        "eco": 5,
+        "swim": 4,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$5k–$145k",
+        "low": 5000,
+        "high": 145000,
+        "mid": 75000,
+        "parcel": "3–5"
+      },
+      "note": "Highland fog some mornings; coast clears by noon.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "cox-s"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "inhaca-portuguese-island",
+      "shard": "in",
+      "name": "Inhaca / Portuguese Island",
+      "country_id": "mozambique",
+      "country": "Mozambique",
+      "region": "Maputo",
+      "coordinates": {
+        "lat": -15.547615,
+        "lng": 36.618102,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 1,
+        "eco": 4,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$3k–$130k",
+        "low": 3000,
+        "high": 130000,
+        "mid": 66500,
+        "parcel": "3–5"
+      },
+      "note": "Coconut palm economy: food + thatch + shade in one.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "maputo"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

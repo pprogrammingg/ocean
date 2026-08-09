@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "yb",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "yb",
       "type": "plant",
       "popular_name": "Y-Branched Algae",
+      "taxonomy": "Plant · Algae · Brown",
       "scientific_name": "Dictyota menstrualis",
-      "translations": {
-        "es": "Alga dicotómica",
-        "pap": "Dictyota"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Dictyota"
+        },
+        "english": "Y-Branched Algae",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Alga dicotómica"
+          }
+        ]
       },
-      "tags": [
-        "algae",
-        "brown",
-        "reef"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef flats and rocky shallows with Y-shaped tips.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Leave living plants where they grow; reduce nutrient runoff when you can.",
+        "caution_against": "Don’t uproot algae or seagrass for aquariums without permits.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Reef flats and rocky shallows with Y-shaped tips. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Each tip forks like a tiny letter Y — easy underwater ID.",
         "Can form soft brown carpets after nutrient pulses."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "algae",
+        "brown",
+        "reef"
+      ]
     }
   ]
 }

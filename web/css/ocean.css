@@ -86,6 +86,7 @@ html {
 html[data-mood="home"] { background-color: #e8f2f8; }
 html[data-mood="beaches"] { background-color: #f7efe4; }
 html[data-mood="species"] { background-color: #eef6f2; }
+html[data-mood="habitat"] { background-color: #eef4ef; }
 html[data-mood="conservation"] { background-color: #eaf3ee; }
 html[data-mood="shop"] { background-color: #f3f6f2; }
 html[data-mood="connection"] { background-color: #eef3f7; }
@@ -117,6 +118,13 @@ html[data-mood="species"]::before {
     radial-gradient(ellipse 55% 48% at 86% 18%, rgba(90, 158, 140, 0.22), transparent 55%),
     radial-gradient(ellipse 45% 40% at 62% 42%, rgba(210, 232, 220, 0.5), transparent 58%),
     radial-gradient(ellipse 40% 35% at 30% 25%, rgba(196, 168, 120, 0.12), transparent 60%);
+}
+
+html[data-mood="habitat"]::before {
+  background-image:
+    radial-gradient(ellipse 65% 55% at 16% 22%, rgba(47, 93, 58, 0.16), transparent 55%),
+    radial-gradient(ellipse 60% 50% at 88% 75%, rgba(26, 107, 138, 0.14), transparent 55%),
+    radial-gradient(ellipse 45% 40% at 52% 48%, rgba(180, 210, 190, 0.35), transparent 58%);
 }
 
 html[data-mood="conservation"]::before {
@@ -1129,26 +1137,88 @@ html.soft-nav-fallback-in body {
   color: var(--ocean-deep);
 }
 
-.species-postcard__sci,
-.species-section__sci {
-  margin: 0.25rem 0 0.5rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.species-postcard__trans,
-.species-section__trans {
-  margin: 0 0 0.75rem;
-  font-size: 0.8125rem;
-  color: var(--ink);
-}
-
 .species-postcard__heading {
   margin: 1rem 0 0.4rem;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--muted);
+}
+
+.species-subheading {
+  margin: 0.85rem 0 0.35rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ocean-mid);
+}
+
+.species-meta {
+  margin: 0 0 0.35rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.species-meta div {
+  margin: 0;
+}
+
+.species-meta dt {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ocean-mid);
+  margin: 0 0 0.1rem;
+}
+
+.species-meta dd {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.species-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.65rem;
+  margin: 0 0 0.65rem;
+  font-size: 0.875rem;
+}
+
+.species-status__label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  width: 100%;
+}
+
+.species-status strong {
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.species-status--good strong { color: #1f6b4a; }
+.species-status--bad strong { color: #9a5b12; }
+.species-status--critical strong { color: #9b1c1c; }
+.species-status--extinct strong { color: #4a4a4a; }
+
+.species-note {
+  margin: 0 0 0.55rem;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.species-note__label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ocean-mid);
+  margin-bottom: 0.15rem;
 }
 
 .species-card__body {
@@ -1278,30 +1348,37 @@ html.soft-nav-fallback-in body {
   line-height: 1.15;
 }
 
-.species-postcard--parallax .species-postcard__sci {
-  font-size: 0.8rem;
-  margin: 0.15rem 0 0.35rem;
-}
-
-.species-postcard--parallax .species-postcard__trans {
-  font-size: 0.75rem;
-  margin: 0 0 0.45rem;
-}
-
 .species-postcard--parallax .species-postcard__heading {
   margin: 0.55rem 0 0.25rem;
   font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.species-postcard--parallax .species-subheading,
+.species-postcard--parallax .species-meta dt,
+.species-postcard--parallax .species-note__label,
+.species-postcard--parallax .species-status__label,
+.species-postcard--parallax .species-habits dt {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.species-postcard--parallax .species-meta dd,
+.species-postcard--parallax .species-note,
+.species-postcard--parallax .species-habits dd,
+.species-postcard--parallax .species-facts {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.88);
 }
 
 .species-postcard--parallax .species-habits {
   gap: 0.4rem;
 }
 
-.species-postcard--parallax .species-habits dd,
-.species-postcard--parallax .species-facts {
-  font-size: 0.78rem;
-  line-height: 1.35;
-}
+.species-postcard--parallax .species-status--good strong { color: #7ddea8; }
+.species-postcard--parallax .species-status--bad strong { color: #f0c27a; }
+.species-postcard--parallax .species-status--critical strong { color: #f5a3a3; }
+.species-postcard--parallax .species-status--extinct strong { color: #c8c8c8; }
 
 .species-postcard--parallax .species-postcard__actions {
   margin: 0.75rem 0 0;
@@ -1619,4 +1696,12 @@ body.landing {
     font-size: 0.75rem;
   }
 }
+
+/* --- Habitat --- */
+.tag--link {
+  text-decoration: none;
+  background: rgba(26, 107, 138, 0.14);
+  border: 1px solid rgba(26, 107, 138, 0.25);
+}
+.tag--link:hover { background: rgba(26, 107, 138, 0.22); text-decoration: none; }
 

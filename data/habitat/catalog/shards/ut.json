@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "shard": "ut",
+  "places": [
+    {
+      "id": "utila-town-ridge",
+      "shard": "ut",
+      "name": "Utila town ridge",
+      "country_id": "honduras",
+      "country": "Honduras",
+      "region": "Bay Islands",
+      "coordinates": {
+        "lat": 13.029583,
+        "lng": -86.131684,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 3,
+        "eco": 3,
+        "swim": 3,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$5k–$390k",
+        "low": 5000,
+        "high": 390000,
+        "mid": 197500,
+        "parcel": "3–5"
+      },
+      "note": "Whale season doubles traffic—plan quiet months too.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "islands"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

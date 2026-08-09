@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "ro",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "ro",
       "type": "animal",
       "popular_name": "Royal Tern",
+      "taxonomy": "Animal · Bird · Coastal",
       "scientific_name": "Thalasseus maximus",
-      "translations": {
-        "es": "Charrán real",
-        "pap": "Stern"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Stern"
+        },
+        "english": "Royal Tern",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Charrán real"
+          }
+        ]
       },
-      "tags": [
-        "bird",
-        "coastal",
-        "diving"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Beaches and inlets; rests in neat lines facing the wind.",
-        "food": "Small fish dive-caught from a hover.",
-        "feeding": "Plunge-dives with a splash and a triumphant swallow.",
-        "mating": "Colony nesters on sandy scrapes.",
-        "socializing": "Crested royalty posing for beach photos."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Small fish dive-caught from a hover. Plunge-dives with a splash and a triumphant swallow.",
+          "mating": "Colony nesters on sandy scrapes.",
+          "habitat": "Beaches and inlets; rests in neat lines facing the wind. Crested royalty posing for beach photos."
+        }
       },
       "fun_facts": [
         "The shaggy black crest looks like it woke up fabulous.",
         "Often stands with bills into the breeze like weather vanes."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "bird",
+        "coastal",
+        "diving"
+      ]
     }
   ]
 }

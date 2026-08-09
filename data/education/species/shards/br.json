@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "br",
   "species": [
     {
@@ -7,22 +7,30 @@
       "shard": "br",
       "type": "animal",
       "popular_name": "Brain Coral",
+      "taxonomy": "Animal · Coral · Reef",
       "scientific_name": "Diploria labyrinthiformis",
-      "translations": {
-        "es": "Coral cerebro",
-        "pap": "Koral brein"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Koral brein"
+        },
+        "english": "Brain Coral",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Coral cerebro"
+          }
+        ]
       },
-      "tags": [
-        "coral",
-        "reef",
-        "builder"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef flats and slopes as boulder-like domes.",
-        "food": "Symbiotic algae plus trapped plankton.",
-        "feeding": "Maze-like valleys house rows of polyps.",
-        "mating": "Broadcast spawning on warm summer nights.",
-        "socializing": "Slow growers that can live for centuries."
+      "conservation": {
+        "status": "Bad",
+        "help_by": "Use reef-safe sunscreen; choose operators that don’t touch or kick coral.",
+        "caution_against": "Never stand on, break, or collect living coral.",
+        "life_info": {
+          "eating": "Symbiotic algae plus trapped plankton. Maze-like valleys house rows of polyps.",
+          "mating": "Broadcast spawning on warm summer nights.",
+          "habitat": "Reef flats and slopes as boulder-like domes. Slow growers that can live for centuries."
+        }
       },
       "fun_facts": [
         "The maze pattern looks like a brain — animals living in stone.",
@@ -35,29 +43,41 @@
           "alt": "Brain coral"
         }
       ],
-      "conservation_status": "Near Threatened (IUCN)"
+      "tags": [
+        "coral",
+        "reef",
+        "builder"
+      ]
     },
     {
       "id": "brown-pelican",
       "shard": "br",
       "type": "animal",
       "popular_name": "Brown Pelican",
+      "taxonomy": "Animal · Bird · Coastal",
       "scientific_name": "Pelecanus occidentalis",
-      "translations": {
-        "es": "Pelícano pardo",
-        "pap": "Pelikaan bruin"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Pelikaan bruin"
+        },
+        "english": "Brown Pelican",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Pelícano pardo"
+          }
+        ]
       },
-      "tags": [
-        "bird",
-        "coastal",
-        "diving"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Roosts and nests on coastal islands, mangroves, and rocky points. Hunts in shallow nearshore water along reefs and beaches.",
-        "food": "Mostly small schooling fish — menhaden, anchovies, sardines — scooped in a stretchy throat pouch.",
-        "feeding": "Plunge-dives from the air, then drains water from the pouch before swallowing. Kids: it looks like a cartoon spoon with wings.",
-        "mating": "Pairs build stick nests in colonies; both parents take turns guarding chicks that hatch looking like fuzzy dinosaurs.",
-        "socializing": "Often fishes alone but roosts in chatty groups — a line of pelicans in V-formation is a Caribbean classic."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Mostly small schooling fish — menhaden, anchovies, sardines — scooped in a stretchy throat pouch. Plunge-dives from the air, then drains water from the pouch before swallowing. Kids: it looks like a cartoon spoon with wings.",
+          "mating": "Pairs build stick nests in colonies; both parents take turns guarding chicks that hatch looking like fuzzy dinosaurs.",
+          "habitat": "Roosts and nests on coastal islands, mangroves, and rocky points. Hunts in shallow nearshore water along reefs and beaches. Often fishes alone but roosts in chatty groups — a line of pelicans in V-formation is a Caribbean classic."
+        }
       },
       "fun_facts": [
         "Its pouch can hold more fish soup than its belly — dinner is a two-step: catch, drain, gulp.",
@@ -70,7 +90,11 @@
           "alt": "Brown pelican"
         }
       ],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "bird",
+        "coastal",
+        "diving"
+      ]
     }
   ]
 }

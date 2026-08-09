@@ -66,5 +66,11 @@
     "bodyboarding",
     "wild-scenery",
     "photography"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.5365,
+    "lng": -69.942,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "shard": "bo",
+  "places": [
+    {
+      "id": "boca-del-rio",
+      "shard": "bo",
+      "name": "Boca del Rio",
+      "country_id": "peru",
+      "country": "Peru",
+      "region": "Tacna",
+      "coordinates": {
+        "lat": -8.698112,
+        "lng": -72.741733,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 5,
+        "eco": 4,
+        "swim": 5,
+        "total": 16
+      },
+      "land_price_usd": {
+        "label": "$9k–$460k",
+        "low": 9000,
+        "high": 460000,
+        "mid": 234500,
+        "parcel": "3–5"
+      },
+      "note": "Lee side bay: glassy water, good for kids' swimming.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "tacna"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

@@ -62,5 +62,11 @@
     "jeep",
     "dune-views",
     "4x4-adventure"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.478,
+    "lng": -69.91,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

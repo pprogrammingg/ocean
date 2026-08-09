@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "shard": "co",
+  "places": [
+    {
+      "id": "costalegre-chamela",
+      "shard": "co",
+      "name": "Costalegre / Chamela",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Jalisco",
+      "coordinates": {
+        "lat": 15.39493,
+        "lng": -94.064793,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 5,
+        "eco": 3,
+        "swim": 4,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$10k–$600k",
+        "low": 10000,
+        "high": 600000,
+        "mid": 305000,
+        "parcel": "3–5"
+      },
+      "note": "Coral reef nearby: snorkel > surf; check mooring rules.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "high-score",
+        "jalisco"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "cox-s-bazar",
+      "shard": "co",
+      "name": "Cox's Bazar",
+      "country_id": "bangladesh",
+      "country": "Bangladesh",
+      "region": "Cox's Bazar",
+      "coordinates": {
+        "lat": 23.028767,
+        "lng": 91.340218,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 3,
+        "eco": 2,
+        "swim": 5,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$5k–$125k",
+        "low": 5000,
+        "high": 125000,
+        "mid": 65000,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "cox-s",
+        "bazar"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

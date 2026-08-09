@@ -1,0 +1,180 @@
+{
+  "title": "ocean-love.xyz execution strategy",
+  "updated": "2026-08-08",
+  "source_notes": "venture_lock = questionnaire. roadmap.json = actionable queue (capacity + revenue tracks + ruthless tasks). Sister patterns: ../star_rise_sc/roadmap.json. Sister crown research: ../regenerative_habitat",
+  "owns": "Everything for people who love the ocean.",
+
+  "venture_lock": {
+    "north_star": "People never have to look elsewhere to maximize ocean enjoyment — conservation, eco tourism & gear, or regenerative living — without greenwash or extractive markup.",
+    "values": ["Care / stewardship", "Freedom / adventure", "Prosperity / fair trade for creators & locals"],
+    "shame_wall": ["animal cruelty", "pollution / extractive plays", "products with dirty side effects", "overinflated real-estate markup"],
+    "pride_peak": "Regenerative coastal deal closes; funding distributed to builders/designers; ecology + human/ocean coexistence is real and tracked.",
+    "genie_24mo": "In / closing regenerative coastal deals (wealth + distribution to builders)",
+    "next_90_days_energy": "Talking to builders / funders / regenerative designers (≤2 hrs/week, light + fun)",
+    "later_not_now": [
+      "Ocean Ways dock-to-table adventures (amenity after capital)",
+      "Ocean cleaning tech engineering shop (after RE pickup)",
+      "Lonely affiliate grind / tour-ops-as-main-business"
+    ],
+    "software_rule": "Build product software only when aiming at real mass enjoyment (~1M mindset) — no more directionless prototypes.",
+    "repo_split": {
+      "regenerative_habitat": "Base regenerative research index — global/inland/coastal manuscripts, catalog generator, studies. Expand here.",
+      "ocean-love-xyz": "Ocean love face + published near-ocean Habitat slice (swim-friendly places, coastal guides). Not the full regenerative encyclopedia.",
+      "jammin": "Side empire — fair event ticketing → decentralized loyalty (attendance ↔ products ↔ perks) that can eventually feed ocean experiences, regenerative resident life, and other loves. Soccer/amateur is the wedge market, not the pride peak.",
+      "hyperscale-rs": "Sister craft — multi-shard docs + protocol contribution; lives in its own hours, not this ocean block’s queue",
+      "star_rise_sc": "Sister ops pattern source — capacity, ruthless tasks, revenue tracks (not this ocean queue)"
+    },
+    "content_boundary": {
+      "ocean_love_habitat": "near-ocean only (catalog swim≥3; coastal guides Yucatán / Indonesia / Malaysia)",
+      "regenerative_habitat": "full regenerative living lab — can grow global later; sister stays source of truth for research depth"
+    },
+    "empire_map": {
+      "crown": "Regenerative coastal deals (RH) — focus of this ≤2 hr/week roadmap",
+      "side_empire": "JAMMIN — loyalty + fair events rails (own repo/hours)",
+      "protocol_craft": "Hyperscale — docs + contribute (own repo/hours)",
+      "later_amenities": ["Ocean Ways", "ocean cleaning tech", "ocean lifestyle gear rails"],
+      "feed_forward": "JAMMIN loyalty can later plug into ocean experiences and regenerative resident life — not a substitute for the RH crown"
+    }
+  },
+
+  "north_star_energy": {
+    "feel": "Experiment, discovery, prosperity — never factory mode; never alone without a shared-mind tribe",
+    "weekly_hours": { "min": 0, "max": 2 },
+    "session_shapes": ["1×60m", "2×30m"],
+    "max_task_minutes": 60,
+    "win_condition_this_season": "3 real regenerative builder/funder/designer conversations + a written deal-path definition (intro → close → distribute)"
+  },
+
+  "when_user_asks_what_next": {
+    "protocol": [
+      "1. Read roadmap.json: capacity, ruthless_criteria, active_revenue_track, themes done_tasks / next_tasks",
+      "2. A task is READY if every dependency index appears in some theme's done_tasks",
+      "3. Exclude tasks whose description starts with 'Parked:' unless user asks for stretch/future",
+      "4. Prefer READY tasks on active_revenue_track (regenerative_coastal → Regenerative-Habitat)",
+      "5. Pack ≤2h: one 60m task OR two 30m tasks — never a third task that week",
+      "6. Offer PRIMARY (crown track) + optional SPARK (ocean_love_surface) if energy is build/discover/polish",
+      "7. If user names a mood (tired / excited / social / codey), filter by lane",
+      "8. Reject suggestions that violate capacity or ruthless_criteria (no acceptance, >60m, vague)",
+      "9. After they finish, move the task object from next_tasks → done_tasks (or ask the agent to)"
+    ],
+    "lanes": {
+      "build": "code, UI, schema",
+      "discover": "places, species, habitat research joy",
+      "connect": "humans — builders, funders, designers, captains later",
+      "prosper": "deal path, funding distribution, honest money",
+      "polish": "mobile, craft, tiny delights"
+    },
+    "example_answer_shape": {
+      "primary": "RH-connect-CN-01 — List 10 regenerative builders/funders/designers (60m, connect, regenerative_coastal)",
+      "spark": "CUR-beaches-BH-04 — Beach slug scrolls detail to top (30m, polish) if you want a tiny craft win instead of a second connect hour",
+      "why": "Crown path is human deal flow; capacity is 2h max — pack 1×60 or 2×30"
+    }
+  },
+
+  "theme_evaluation": {
+    "Curiosity": {
+      "role": "Love engine — beaches & species make people care",
+      "health": "strong Aruba foundation; spark lane when connect is heavy",
+      "keep_exciting": "species images, habitat blurbs, Bonaire stub",
+      "feeds": ["regenerative place trust", "future resident amenities"]
+    },
+    "Regenerative-Habitat": {
+      "role": "Crown prosperity — regenerative coastal deals + fair distribution to builders",
+      "health": "questionnaire locked Aug 2026; sister repo regenerative_habitat holds land catalog",
+      "keep_exciting": "builder/funder talks, place shortlists, standards without markup theater",
+      "avoid": "listing spam; high-markup brokerage vibe; building tour ops instead of talking"
+    },
+    "Conservation": {
+      "role": "Stewardship with honesty",
+      "health": "stub — talk when it serves regenerative coastline truth",
+      "gate": "ops SaaS / cleaning-tech shop only after capital + repeated pain"
+    },
+    "Ocean-Gear-Shop": {
+      "role": "Later amenity / lifestyle rail — not active crown",
+      "health": "stub + scuba JSON exist; park aggressive affiliate push",
+      "avoid": "forcing Eco Snorkeling as weekly money path"
+    },
+    "Site-Craft": {
+      "role": "Craft & delight",
+      "health": "use as low-pressure spark days",
+      "keep_exciting": "favorites, mobile feel"
+    }
+  },
+
+  "positioning": {
+    "do": "Regenerative coastal living trust + ocean love",
+    "dont": "Generic eco mall · lonely affiliate · markup real estate",
+    "copy_rule": "Coexistence and abundance first — no greenwash, no extractive side hustles",
+    "seo_rule": "When publishing: regenerative coastal living / habitat truth — not 'eco marketplace'"
+  },
+
+  "business_horizons": [
+    {
+      "id": "B4",
+      "name": "Regenerative coastal living (deals + distribution)",
+      "theme": "Regenerative-Habitat",
+      "track": "regenerative_coastal",
+      "horizon": "now",
+      "note": "Crown. Orchestrate trust and capital — not inflated listings."
+    },
+    {
+      "id": "BX",
+      "name": "JAMMIN side empire (fair ticketing → decentralized loyalty)",
+      "repo": "jammin",
+      "horizon": "parallel — own eng hours, not this roadmap’s active_focus",
+      "note": "Wedge: soccer/amateur events. Destiny: loyalty that matches events↔products↔attendance and feeds other ventures (ocean days, resident perks, fair trade).",
+      "feeds": ["ocean experience booking later", "regenerative resident amenities", "product/event loyalty loops"]
+    },
+    {
+      "id": "BY",
+      "name": "Hyperscale protocol craft (multi-shard docs + contribute)",
+      "repo": "hyperscale-rs",
+      "horizon": "parallel — own hours, not this roadmap’s queue",
+      "note": "Great documentation of complex multi-sharding + ways to contribute to the protocol."
+    },
+    {
+      "id": "B1",
+      "name": "Ocean lifestyle rails (gear / booking)",
+      "theme": "Ocean-Gear-Shop",
+      "track": "ocean_gear_later",
+      "horizon": "later",
+      "note": "Amenity after regenerative capital; may plug into JAMMIN loyalty later"
+    },
+    {
+      "id": "B2",
+      "name": "Ocean Ways + resident experiences",
+      "horizon": "later",
+      "needs": ["deal flow or resident base", "captain/crew partners", "optional: JAMMIN booking/loyalty rails"]
+    },
+    {
+      "id": "B3",
+      "name": "Ocean cleaning tech + conservation ops",
+      "horizon": "after RE pickup",
+      "needs": ["capital to manage engineers", "real usage demand"]
+    }
+  ],
+
+  "rituals_not_tasks": [
+    {
+      "id": "RITUAL-learn",
+      "cadence": "weekly ≤15m inside the 2h budget or skip",
+      "description": "Note one thing learned from a builder/funder/designer chat or regenerative_habitat scout"
+    },
+    {
+      "id": "RITUAL-move-done",
+      "cadence": "when a task finishes",
+      "description": "Move task from next_tasks → done_tasks in roadmap.json"
+    }
+  ],
+
+  "sanitization_notes_2026_08_08": [
+    "Capacity locked: ≤2h/week, tasks ≤60m, session shapes 1×60 or 2×30 (star_rise_sc pattern)",
+    "Ruthless criteria: acceptance in description; reject vague / epic / parked-as-primary",
+    "Revenue tracks: regenerative_coastal (focus), ocean_love_surface (spark), ocean_gear_later (parked)",
+    "Locked crown-first path: regenerative coastal deals over tour/affiliate-first",
+    "Sister repo regenerative_habitat is land/catalog home; ocean-love is ocean face + trust voice",
+    "JAMMIN / Hyperscale / Star Rise = own hours, not this ocean queue",
+    "Career/interview prep stays out of this execution roadmap",
+    "Habitat content boundary: ocean-love = near-ocean slice; regenerative_habitat = global regenerative base"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "shard": "ho",
+  "places": [
+    {
+      "id": "holbox-island",
+      "shard": "ho",
+      "name": "Holbox island",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Quintana Roo",
+      "coordinates": {
+        "lat": 31.36103,
+        "lng": -110.268393,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 5,
+        "eco": 1,
+        "swim": 4,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$9k–$530k",
+        "low": 9000,
+        "high": 530000,
+        "mid": 269500,
+        "parcel": "3–5"
+      },
+      "note": "Pacific tide swing: intertidal flats, not classic surf.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "quintana"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "hopkins-village",
+      "shard": "ho",
+      "name": "Hopkins village",
+      "country_id": "belize",
+      "country": "Belize",
+      "region": "Stann Creek",
+      "coordinates": {
+        "lat": 18.263819,
+        "lng": -88.769922,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 5,
+        "eco": 4,
+        "swim": 5,
+        "total": 16
+      },
+      "land_price_usd": {
+        "label": "$20k–$640k",
+        "low": 20000,
+        "high": 640000,
+        "mid": 330000,
+        "parcel": "3–5"
+      },
+      "note": "Whale season doubles traffic—plan quiet months too.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "stann"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

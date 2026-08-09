@@ -74,5 +74,11 @@
     "shore-dive",
     "mangrove-ecosystem",
     "advanced-snorkelers"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.455,
+    "lng": -69.96,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

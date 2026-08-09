@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "mu",
+  "places": [
+    {
+      "id": "munda-lagoon",
+      "shard": "mu",
+      "name": "Munda lagoon",
+      "country_id": "solomon-islands",
+      "country": "Solomon Islands",
+      "region": "Western",
+      "coordinates": {
+        "lat": -6.578858,
+        "lng": 157.841168,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 4,
+        "eco": 1,
+        "swim": 4,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$1.5k–$85k",
+        "low": 1500,
+        "high": 85000,
+        "mid": 43250,
+        "parcel": "3–5"
+      },
+      "note": "Trade-wind side: steady breeze, less mozzies than lee.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "affordable",
+        "western"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

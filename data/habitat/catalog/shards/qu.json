@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "shard": "qu",
+  "places": [
+    {
+      "id": "quibdo-river-lowlands",
+      "shard": "qu",
+      "name": "Quibdó river lowlands",
+      "country_id": "colombia",
+      "country": "Colombia",
+      "region": "Chocó",
+      "coordinates": {
+        "lat": 11.370132,
+        "lng": -70.948604,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 3,
+        "eco": 3,
+        "swim": 3,
+        "total": 10
+      },
+      "land_price_usd": {
+        "label": "$10k–$550k",
+        "low": 10000,
+        "high": 550000,
+        "mid": 280000,
+        "parcel": "3–5"
+      },
+      "note": "Dry forest + coast: strong seasonality, plan water.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "choco"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "quirimbas-ibo-approach",
+      "shard": "qu",
+      "name": "Quirimbas Ibo approach",
+      "country_id": "mozambique",
+      "country": "Mozambique",
+      "region": "Cabo Delgado",
+      "coordinates": {
+        "lat": -15.652436,
+        "lng": 31.297057,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 5,
+        "eco": 5,
+        "swim": 4,
+        "total": 18
+      },
+      "land_price_usd": {
+        "label": "$3.5k–$145k",
+        "low": 3500,
+        "high": 145000,
+        "mid": 74250,
+        "parcel": "3–5"
+      },
+      "note": "Dry forest + coast: strong seasonality, plan water.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "cabo"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

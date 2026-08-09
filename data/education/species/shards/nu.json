@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "nu",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "nu",
       "type": "animal",
       "popular_name": "Nurse Shark",
+      "taxonomy": "Animal · Shark · Reef",
       "scientific_name": "Ginglymostoma cirratum",
-      "translations": {
-        "es": "Tiburón gata",
-        "pap": "Tiburón nurse"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Tiburón nurse"
+        },
+        "english": "Nurse Shark",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Tiburón gata"
+          }
+        ]
       },
-      "tags": [
-        "shark",
-        "reef",
-        "nocturnal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Rests under ledges by day; patrols reefs at night.",
-        "food": "Lobsters, crabs, and sleepy fish sucked up like a vacuum.",
-        "feeding": "Barbels by the mouth feel for prey in crevices.",
-        "mating": "Eggs hatch inside the mother (ovoviviparous).",
-        "socializing": "Daytime piles can look like a sleepy shark slumber party."
+      "conservation": {
+        "status": "Bad",
+        "help_by": "Respect distance on the reef; support healthy fish stocks sharks need.",
+        "caution_against": "Don’t bait, chase, or grab rays and sharks for photos.",
+        "life_info": {
+          "eating": "Lobsters, crabs, and sleepy fish sucked up like a vacuum. Barbels by the mouth feel for prey in crevices.",
+          "mating": "Eggs hatch inside the mother (ovoviviparous).",
+          "habitat": "Rests under ledges by day; patrols reefs at night. Daytime piles can look like a sleepy shark slumber party."
+        }
       },
       "fun_facts": [
         "Gentle unless provoked — don’t pull tails for a photo.",
         "They can sit still for hours, pumping water over their gills."
       ],
       "images": [],
-      "conservation_status": "Vulnerable (IUCN)"
+      "tags": [
+        "shark",
+        "reef",
+        "nocturnal"
+      ]
     }
   ]
 }

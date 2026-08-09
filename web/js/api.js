@@ -1,4 +1,4 @@
-/** Lazy-load JSON from data/ — path set by <meta name="ocean-data-base"> on beaches.html */
+/** Lazy-load JSON from data/ — path set by <meta name="ocean-data-base"> */
 function dataRoot() {
   const base = document.querySelector('meta[name="ocean-data-base"]')?.content?.trim() || "../data/";
   return new URL(base, document.baseURI);
@@ -35,4 +35,8 @@ export function speciesSearchIndexPath() {
 
 export function speciesShardPath(shardId) {
   return `education/species/shards/${shardId}.json`;
+}
+
+export function habitatPath(...segments) {
+  return `habitat/${segments.join("/")}`;
 }

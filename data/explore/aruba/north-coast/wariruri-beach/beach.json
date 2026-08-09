@@ -66,5 +66,11 @@
     "surfer",
     "surfing",
     "remote-scenery"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.575,
+    "lng": -70.0,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

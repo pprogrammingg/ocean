@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-mood="habitat">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ocean-data-base" content="../data/">
+  <title>Habitat — ocean-love.xyz</title>
+  <link rel="stylesheet" href="./css/ocean.css">
+</head>
+<body data-page="habitat">
+  <header class="site-header">
+    <h1>OCEAN19</h1>
+    <nav class="site-nav" aria-label="Main"></nav>
+  </header>
+
+  <nav class="curiosity-subnav" aria-label="Habitat">
+    <a href="#places" id="habitat-mode-places" aria-current="page">Places</a>
+    <a href="#guides" id="habitat-mode-guides">Guides</a>
+    <a href="#terms" id="habitat-mode-terms">Terms</a>
+  </nav>
+
+  <main class="layout layout-beaches">
+    <aside class="panel sidebar">
+      <p class="pillar-label">Coastal regenerative</p>
+      <h2>Live by the ocean</h2>
+      <p id="habitat-load-status" class="country-load-status" aria-live="polite"></p>
+
+      <div id="habitat-places-panel">
+        <div class="field">
+          <label for="habitat-country">Country</label>
+          <select id="habitat-country"><option value="">Select country…</option></select>
+        </div>
+        <div id="habitat-country-controls" class="country-controls" hidden>
+          <div class="field search-field">
+            <label for="habitat-search">Search</label>
+            <div class="search-input-wrap">
+              <input type="search" id="habitat-search" placeholder="Name or tag…" autocomplete="off">
+            </div>
+            <ul id="habitat-search-results" class="search-results" hidden></ul>
+          </div>
+          <ul id="habitat-place-list" class="beach-list"></ul>
+        </div>
+        <p id="habitat-pick-hint" class="pick-country-hint">Select a country for near-ocean places.</p>
+      </div>
+
+      <div id="habitat-guides-panel" hidden>
+        <ul id="habitat-guide-list" class="beach-list"></ul>
+      </div>
+
+      <div id="habitat-terms-panel" hidden>
+        <ul id="habitat-term-list" class="beach-list"></ul>
+      </div>
+    </aside>
+
+    <section id="habitat-detail" class="panel">
+      <p class="empty-state">Select an item.</p>
+    </section>
+  </main>
+
+  <script type="module">
+    import { bootCurrentPage } from "./js/boot-page.js";
+    bootCurrentPage();
+  </script>
+</body>
+</html>

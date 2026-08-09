@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "shard": "li",
+  "places": [
+    {
+      "id": "limbe-down-beach",
+      "shard": "li",
+      "name": "Limbe / Down Beach",
+      "country_id": "cameroon",
+      "country": "Cameroon",
+      "region": "South-West",
+      "coordinates": {
+        "lat": 5.368542,
+        "lng": 10.519017,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 1,
+        "eco": 3,
+        "swim": 3,
+        "total": 9
+      },
+      "land_price_usd": {
+        "label": "$4.5k–$140k",
+        "low": 4500,
+        "high": 140000,
+        "mid": 72250,
+        "parcel": "3–5"
+      },
+      "note": "Highland fog some mornings; coast clears by noon.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "south-west"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "lindi-mtwara-coastal-strip",
+      "shard": "li",
+      "name": "Lindi–Mtwara coastal strip",
+      "country_id": "tanzania",
+      "country": "Tanzania",
+      "region": "Lindi",
+      "coordinates": {
+        "lat": -1.622837,
+        "lng": 31.41389,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 1,
+        "eco": 3,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$5k–$240k",
+        "low": 5000,
+        "high": 240000,
+        "mid": 122500,
+        "parcel": "3–5"
+      },
+      "note": "Eco-lodge cluster nearby: skill share, also price pressure.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "lindi"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "livingston-rio-dulce-mouth",
+      "shard": "li",
+      "name": "Livingston / Río Dulce mouth",
+      "country_id": "guatemala",
+      "country": "Guatemala",
+      "region": "Izabal",
+      "coordinates": {
+        "lat": 13.919232,
+        "lng": -89.363134,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 1,
+        "eco": 3,
+        "swim": 4,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$8k–$395k",
+        "low": 8000,
+        "high": 395000,
+        "mid": 201500,
+        "parcel": "3–5"
+      },
+      "note": "Ferry logistics: cement costs reflect sea freight.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "izabal"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

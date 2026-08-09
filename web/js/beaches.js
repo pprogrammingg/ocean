@@ -285,6 +285,49 @@ async function openSearchResult({ path, zone }) {
   }
 }
 
+/** Habitat → Beaches: ?country=&near=path,path&label= */
+async function applyNearbyDeepLink(signal) {
+  const params = new URLSearchParams(location.search);
+  const countryId = params.get("country");
+  const nearRaw = params.get("near");
+  const label = params.get("label") || "place";
+  if (!countryId || !nearRaw) return;
+
+  const paths = nearRaw.split(",").map((p) => p.trim()).filter(Boolean);
+  if (!paths.length || !state.countries.some((c) => c.id === countryId)) {
+    setCountryStatus(`No beaches linked for “${countryId}”.`, true);
+    return;
+  }
+
+  els.country.value = countryId;
+  await onCountryChange();
+  if (signal?.aborted) return;
+
+  const index = await fetchJSON(explorePath(countryId, "search-index.json"));
+  if (signal?.aborted) return;
+  const byPath = new Map((index.beaches || []).map((b) => [b.path, b]));
+  const nearby = paths.map((p) => byPath.get(p)).filter(Boolean);
+  if (!nearby.length) {
+    setDetail(`<p class="empty-state">No beaches near ${escapeHtml(label)} yet.</p>`);
+    return;
+  }
+
+  setSearchEnabled(false, "Nearby filter");
+  els.zone.innerHTML = `<option value="">Nearby (${nearby.length})</option>`;
+  els.zone.disabled = true;
+  els.countryBlurb.innerHTML = `<p class="pick-country-hint">Near <strong>${escapeHtml(label)}</strong> (~20 km)</p>`;
+  renderBeachList(
+    nearby.map((b) => ({
+      name: b.name,
+      path: b.path,
+      tags: [String(b.zone || "").replace(/-/g, " ")],
+    }))
+  );
+  const first = els.beachList.querySelector("button");
+  if (first) await selectBeach(first, first.dataset.path);
+  setCountryStatus(`${nearby.length} nearby`);
+}
+
 let pageAbort = null;
 
 export function startBeachesPage() {
@@ -336,6 +379,7 @@ async function init(signal) {
       { signal }
     );
     bindSpeciesOverlay();
+    await applyNearbyDeepLink(signal);
   } catch (error) {
     if (signal?.aborted) return;
     setCountryStatus(error.message, true);

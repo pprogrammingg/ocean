@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "so",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "so",
       "type": "animal",
       "popular_name": "Southern Stingray",
+      "taxonomy": "Animal · Ray · Sand",
       "scientific_name": "Hypanus americanus",
-      "translations": {
-        "es": "Raya látigo",
-        "pap": "Raya"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Raya"
+        },
+        "english": "Southern Stingray",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Raya látigo"
+          }
+        ]
       },
-      "tags": [
-        "ray",
-        "sand",
-        "benthic"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Buried in sand flats — often only eyes and spiracles show.",
-        "food": "Worms, crabs, and clams found by electro-sense.",
-        "feeding": "Flips sand with wingbeats, then vacuums hidden snacks.",
-        "mating": "Live-bearing; nursery flats can hold many young rays.",
-        "socializing": "Mostly solitary couch potatoes of the seafloor."
+      "conservation": {
+        "status": "Bad",
+        "help_by": "Respect distance on the reef; support healthy fish stocks sharks need.",
+        "caution_against": "Don’t bait, chase, or grab rays and sharks for photos.",
+        "life_info": {
+          "eating": "Worms, crabs, and clams found by electro-sense. Flips sand with wingbeats, then vacuums hidden snacks.",
+          "mating": "Live-bearing; nursery flats can hold many young rays.",
+          "habitat": "Buried in sand flats — often only eyes and spiracles show. Mostly solitary couch potatoes of the seafloor."
+        }
       },
       "fun_facts": [
         "Shuffle your feet in sand — a polite knock so rays can scoot away.",
         "The barb is defense, not a hunting spear."
       ],
       "images": [],
-      "conservation_status": "Near Threatened (IUCN)"
+      "tags": [
+        "ray",
+        "sand",
+        "benthic"
+      ]
     }
   ]
 }

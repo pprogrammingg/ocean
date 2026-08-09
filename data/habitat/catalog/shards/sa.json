@@ -1,0 +1,361 @@
+{
+  "schema_version": "1.0",
+  "shard": "sa",
+  "places": [
+    {
+      "id": "saadani-national-seashore",
+      "shard": "sa",
+      "name": "Saadani national seashore",
+      "country_id": "tanzania",
+      "country": "Tanzania",
+      "region": "Pwani",
+      "coordinates": {
+        "lat": -6.197011,
+        "lng": 32.178301,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 3,
+        "eco": 1,
+        "swim": 3,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$6k–$220k",
+        "low": 6000,
+        "high": 220000,
+        "mid": 113000,
+        "parcel": "3–5"
+      },
+      "note": "Earthquake + coast: geotech before ridge cuts.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "affordable",
+        "pwani"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "sabancuy-campeche",
+      "shard": "sa",
+      "name": "Sabancuy (Campeche)",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Campeche",
+      "coordinates": {
+        "lat": 24.082165,
+        "lng": -92.558159,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 4,
+        "eco": 2,
+        "swim": 5,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$10k–$590k",
+        "low": 10000,
+        "high": 590000,
+        "mid": 300000,
+        "parcel": "3–5"
+      },
+      "note": "Trade-wind side: steady breeze, less mozzies than lee.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "campeche"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "saly-mbour",
+      "shard": "sa",
+      "name": "Saly–Mbour",
+      "country_id": "senegal",
+      "country": "Senegal",
+      "region": "Thiès",
+      "coordinates": {
+        "lat": 12.308545,
+        "lng": -12.22586,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 1,
+        "eco": 3,
+        "swim": 5,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$7k–$190k",
+        "low": 7000,
+        "high": 190000,
+        "mid": 98500,
+        "parcel": "3–5"
+      },
+      "note": "Dry season burn smoke: air weeks can be harsh.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "thies"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "san-antero",
+      "shard": "sa",
+      "name": "San Antero",
+      "country_id": "colombia",
+      "country": "Colombia",
+      "region": "Córdoba",
+      "coordinates": {
+        "lat": 3.278814,
+        "lng": -69.418413,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 4,
+        "eco": 5,
+        "swim": 4,
+        "total": 17
+      },
+      "land_price_usd": {
+        "label": "$10k–$500k",
+        "low": 10000,
+        "high": 500000,
+        "mid": 255000,
+        "parcel": "3–5"
+      },
+      "note": "Monsoon coast: build for sheet flow, not just rain.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "cordoba"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "san-diego-inland-mesa-near-coast",
+      "shard": "sa",
+      "name": "San Diego inland mesa (near coast)",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "California",
+      "coordinates": {
+        "lat": 41.787528,
+        "lng": -102.658992,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 3,
+        "eco": 3,
+        "swim": 5,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$400k–$3.8M",
+        "low": 400000,
+        "high": 3800000,
+        "mid": 2100000,
+        "parcel": "3–5"
+      },
+      "note": "Calm bay swimming within the catalog radius; fire–water planning is non-optional.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "california"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "san-mateo-santa-cruz-coast-slope",
+      "shard": "sa",
+      "name": "San Mateo / Santa Cruz coast slope",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "California",
+      "coordinates": {
+        "lat": 41.651495,
+        "lng": -101.546981,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 4,
+        "eco": 4,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$250k–$4.5M",
+        "low": 250000,
+        "high": 4500000,
+        "mid": 2375000,
+        "parcel": "3–5"
+      },
+      "note": "Strong small-farm and ecology culture; budgets reflect Bay Area gravity.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "california"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "santa-clara-beach-lots",
+      "shard": "sa",
+      "name": "Santa Clara beach lots",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Coclé",
+      "coordinates": {
+        "lat": 7.227978,
+        "lng": -81.756254,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 4,
+        "eco": 2,
+        "swim": 4,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$20k–$810k",
+        "low": 20000,
+        "high": 810000,
+        "mid": 415000,
+        "parcel": "3–5"
+      },
+      "note": "Mangrove edge: biodiversity high, building setbacks matter.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "cocle"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "sanyang-gunjur",
+      "shard": "sa",
+      "name": "Sanyang / Gunjur",
+      "country_id": "the-gambia",
+      "country": "The Gambia",
+      "region": "West Coast",
+      "coordinates": {
+        "lat": 13.43667,
+        "lng": -14.44967,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 5,
+        "eco": 2,
+        "swim": 3,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$7k–$170k",
+        "low": 7000,
+        "high": 170000,
+        "mid": 88500,
+        "parcel": "3–5"
+      },
+      "note": "Ferry logistics: cement costs reflect sea freight.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "views",
+        "west",
+        "coast"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "sao-tome-north",
+      "shard": "sa",
+      "name": "São Tomé north",
+      "country_id": "sao-tome-and-principe",
+      "country": "São Tomé and Príncipe",
+      "region": "Lobata",
+      "coordinates": {
+        "lat": 1.640994,
+        "lng": 7.296105,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 3,
+        "eco": 3,
+        "swim": 5,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$4k–$135k",
+        "low": 4000,
+        "high": 135000,
+        "mid": 69500,
+        "parcel": "3–5"
+      },
+      "note": "Mangrove edge: biodiversity high, building setbacks matter.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "lobata"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 /**
  * Shared site navigation.
  * Species lives under Curiosity subnav only (not the main row).
- * @param {"home"|"curiosity"|"conservation"|"shop"} active
+ * Habitat is its own hub (heavier regenerative crown).
+ * @param {"home"|"curiosity"|"habitat"|"conservation"|"shop"} active
  */
 
 /** Root-relative prefix to web/ (./ from hub pages, ../ from curiosity/). */
@@ -16,6 +17,8 @@ export function navIdForPage(page) {
     case "beaches":
     case "species":
       return "curiosity";
+    case "habitat":
+      return "habitat";
     case "conservation":
       return "conservation";
     case "shop":
@@ -35,6 +38,7 @@ export function renderSiteNav(active) {
   const items = [
     { id: "home", href: `${root}index.html`, label: "Home" },
     { id: "curiosity", href: `${root}curiosity/beaches.html`, label: "Curiosity" },
+    { id: "habitat", href: `${root}habitat.html`, label: "Habitat" },
     { id: "conservation", href: `${root}conservation.html`, label: "Conservation" },
     { id: "shop", href: `${root}shop.html`, label: "Ocean Lifestyle" },
   ];

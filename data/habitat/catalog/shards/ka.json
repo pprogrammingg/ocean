@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "shard": "ka",
+  "places": [
+    {
+      "id": "kauai-kilauea-north-shore-gateway",
+      "shard": "ka",
+      "name": "Kauai (Kīlauea / North Shore gateway)",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "Hawaii",
+      "coordinates": {
+        "lat": 46.746478,
+        "lng": -110.147892,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 5,
+        "eco": 3,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$180k–$3.5M",
+        "low": 180000,
+        "high": 3500000,
+        "mid": 1840000,
+        "parcel": "3–5"
+      },
+      "note": "Cliff-and-valley drama with premium markets; reef etiquette and flood maps matter.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "hawaii"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

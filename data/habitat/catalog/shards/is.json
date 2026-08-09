@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "shard": "is",
+  "places": [
+    {
+      "id": "isla-negra-ridge",
+      "shard": "is",
+      "name": "Isla Negra ridge",
+      "country_id": "chile",
+      "country": "Chile",
+      "region": "Valparaíso",
+      "coordinates": {
+        "lat": -24.173603,
+        "lng": -73.779439,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 5,
+        "eco": 3,
+        "swim": 5,
+        "total": 18
+      },
+      "land_price_usd": {
+        "label": "$24k–$900k",
+        "low": 24000,
+        "high": 900000,
+        "mid": 462000,
+        "parcel": "3–5"
+      },
+      "note": "Trade-wind side: steady breeze, less mozzies than lee.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "valparaiso"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

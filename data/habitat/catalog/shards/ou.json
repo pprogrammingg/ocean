@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "ou",
+  "places": [
+    {
+      "id": "outer-banks-hatteras-frisco",
+      "shard": "ou",
+      "name": "Outer Banks (Hatteras–Frisco)",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "North Carolina",
+      "coordinates": {
+        "lat": 40.980742,
+        "lng": -108.528947,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 4,
+        "eco": 2,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$90k–$1.4M",
+        "low": 90000,
+        "high": 1400000,
+        "mid": 745000,
+        "parcel": "3–5"
+      },
+      "note": "Barrier island living: erosion, nor’easters, and rental-economy neighbors in the mix.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "north",
+        "carolina"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

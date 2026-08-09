@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "shard": "po",
+  "places": [
+    {
+      "id": "port-aransas-rockport",
+      "shard": "po",
+      "name": "Port Aransas / Rockport",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "Texas",
+      "coordinates": {
+        "lat": 46.665689,
+        "lng": -104.585722,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 2,
+        "eco": 2,
+        "swim": 4,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$40k–$900k",
+        "low": 40000,
+        "high": 900000,
+        "mid": 470000,
+        "parcel": "3–5"
+      },
+      "note": "Gulf warmth and flats; hurricane + flood insurance homework before romantic spreadsheets.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "texas"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "port-dickson-south",
+      "shard": "po",
+      "name": "Port Dickson south",
+      "country_id": "malaysia",
+      "country": "Malaysia",
+      "region": "Negeri Sembilan",
+      "coordinates": {
+        "lat": 1.097911,
+        "lng": 102.223687,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 5,
+        "eco": 3,
+        "swim": 5,
+        "total": 18
+      },
+      "land_price_usd": {
+        "label": "$12k–$660k",
+        "low": 12000,
+        "high": 660000,
+        "mid": 336000,
+        "parcel": "3–5"
+      },
+      "note": "Mangrove edge: biodiversity high, building setbacks matter.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "negeri"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

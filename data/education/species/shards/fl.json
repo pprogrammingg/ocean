@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "fl",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "fl",
       "type": "animal",
       "popular_name": "Flamingo Tongue Snail",
+      "taxonomy": "Animal · Mollusk · Reef",
       "scientific_name": "Cyphoma gibbosum",
-      "translations": {
-        "es": "Lengua de flamenco",
-        "pap": "Flamingo tongue"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Flamingo tongue"
+        },
+        "english": "Flamingo Tongue Snail",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Lengua de flamenco"
+          }
+        ]
       },
-      "tags": [
-        "mollusk",
-        "reef",
-        "colorful"
-      ],
-      "dwelling_habits": {
-        "dwelling": "On soft corals and sea fans it slowly eats.",
-        "food": "Live tissue of gorgonians.",
-        "feeding": "Mantle flaps cover the shell with leopard-like spots.",
-        "mating": "Lays egg capsules on the same fans it grazes.",
-        "socializing": "Tiny living jewelry — look, don’t pocket."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Live tissue of gorgonians. Mantle flaps cover the shell with leopard-like spots.",
+          "mating": "Lays egg capsules on the same fans it grazes.",
+          "habitat": "On soft corals and sea fans it slowly eats. Tiny living jewelry — look, don’t pocket."
+        }
       },
       "fun_facts": [
         "The spots are soft mantle tissue, not paint on the shell.",
         "When threatened, the mantle retracts and the shell looks plain cream."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "mollusk",
+        "reef",
+        "colorful"
+      ]
     }
   ]
 }

@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "shard": "so",
+  "places": [
+    {
+      "id": "soledad-miria",
+      "shard": "so",
+      "name": "Soledad Miria",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Guna Yala",
+      "coordinates": {
+        "lat": 9.418021,
+        "lng": -82.289166,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 5,
+        "eco": 1,
+        "swim": 4,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$20k–$920k",
+        "low": 20000,
+        "high": 920000,
+        "mid": 470000,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "guna",
+        "yala"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "sona-rio-de-jesus",
+      "shard": "so",
+      "name": "Soná / Rio de Jesus",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Veraguas",
+      "coordinates": {
+        "lat": 7.509236,
+        "lng": -77.477207,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 2,
+        "eco": 4,
+        "swim": 4,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$21k–$910k",
+        "low": 21000,
+        "high": 910000,
+        "mid": 465500,
+        "parcel": "3–5"
+      },
+      "note": "Coconut palm economy: food + thatch + shade in one.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "veraguas"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "sonadia-moheshkhali-approach",
+      "shard": "so",
+      "name": "Sonadia / Moheshkhali approach",
+      "country_id": "bangladesh",
+      "country": "Bangladesh",
+      "region": "Cox's Bazar",
+      "coordinates": {
+        "lat": 23.027881,
+        "lng": 89.120308,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 5,
+        "eco": 4,
+        "swim": 5,
+        "total": 19
+      },
+      "land_price_usd": {
+        "label": "$5k–$110k",
+        "low": 5000,
+        "high": 110000,
+        "mid": 57500,
+        "parcel": "3–5"
+      },
+      "note": "Trade-wind side: steady breeze, less mozzies than lee.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "cox-s"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

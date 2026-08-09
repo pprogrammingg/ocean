@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "fa",
+  "places": [
+    {
+      "id": "fakfak-kumpeh-bay",
+      "shard": "fa",
+      "name": "Fakfak / Kumpeh Bay",
+      "country_id": "indonesia",
+      "country": "Indonesia",
+      "region": "West Papua",
+      "coordinates": {
+        "lat": 5.263807,
+        "lng": 120.06203,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 1,
+        "eco": 1,
+        "swim": 5,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$7k–$285k",
+        "low": 7000,
+        "high": 285000,
+        "mid": 146000,
+        "parcel": "3–5"
+      },
+      "note": "Ferry logistics: cement costs reflect sea freight.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "west",
+        "papua"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

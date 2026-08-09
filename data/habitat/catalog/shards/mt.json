@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "shard": "mt",
+  "places": [
+    {
+      "id": "mtwara-mnazi-bay",
+      "shard": "mt",
+      "name": "Mtwara / Mnazi Bay",
+      "country_id": "tanzania",
+      "country": "Tanzania",
+      "region": "Mtwara",
+      "coordinates": {
+        "lat": -1.516008,
+        "lng": 40.113873,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 4,
+        "eco": 4,
+        "swim": 5,
+        "total": 18
+      },
+      "land_price_usd": {
+        "label": "$5k–$240k",
+        "low": 5000,
+        "high": 240000,
+        "mid": 122500,
+        "parcel": "3–5"
+      },
+      "note": "Indigenous land rights: due diligence before marketing fantasy.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "mtwara"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

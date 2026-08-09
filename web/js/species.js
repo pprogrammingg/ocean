@@ -49,18 +49,83 @@ async function fetchLegacyMarineLife(slug) {
   return null;
 }
 
+const LANG_NAMES = { pap: "Papiamento", es: "Spanish", nl: "Dutch", fr: "French", pt: "Portuguese" };
+
+function mapLegacyStatus(raw) {
+  const text = String(raw || "");
+  if (/extinct/i.test(text)) return "Extinct";
+  if (/critically|endangered/i.test(text)) return "Critical";
+  if (/vulnerable|near.?threatened|threatened|cites|depleted/i.test(text)) return "Bad";
+  return "Good";
+}
+
+function languagesFromLegacy(record) {
+  if (record.languages && typeof record.languages === "object") return record.languages;
+  const tr = record.translations || {};
+  const other = [];
+  for (const [code, name] of Object.entries(tr)) {
+    if (code === "pap" || code === "en" || !name) continue;
+    other.push({ lang: LANG_NAMES[code] || code, name });
+    if (other.length >= 3) break;
+  }
+  return {
+    indigenous: { lang: "Papiamento", name: tr.pap || "" },
+    english: record.popular_name || record.name || "",
+    other,
+  };
+}
+
+function conservationFromLegacy(record) {
+  if (record.conservation?.status) {
+    const life = record.conservation.life_info || {};
+    return {
+      status: record.conservation.status,
+      help_by: record.conservation.help_by || "",
+      caution_against: record.conservation.caution_against || "",
+      life_info: {
+        eating: life.eating || "",
+        mating: life.mating || "",
+        habitat: life.habitat || "",
+      },
+    };
+  }
+  const h = record.dwelling_habits;
+  const habits = typeof h === "object" && h ? h : {};
+  const eating = [habits.food, habits.feeding].filter(Boolean).join(" ");
+  const habitat = [habits.dwelling, habits.socializing].filter(Boolean).join(" ");
+  return {
+    status: mapLegacyStatus(record.conservation_status),
+    help_by: "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+    caution_against: "Don’t feed fish, chase animals, or pocket living souvenirs.",
+    life_info: {
+      eating: eating || (typeof h === "string" ? h : ""),
+      mating: habits.mating || "",
+      habitat: habitat || "",
+    },
+  };
+}
+
 /** Normalize shard + legacy shapes for one renderer. */
 export function normalizeRecord(record) {
   if (!record) return null;
+  const popular = record.popular_name || record.name || "";
+  const tags = record.tags || [];
+  const kind = record.type === "plant" ? "Plant" : "Animal";
+  const taxonomy =
+    record.taxonomy ||
+    [kind, ...tags.slice(0, 2).map((t) => String(t).replace(/-/g, " "))].join(" · ");
+
   return {
     ...record,
-    popular_name: record.popular_name || record.name || "",
-    name: record.popular_name || record.name || "",
-    translations: record.translations || {},
-    dwelling_habits: record.dwelling_habits || null,
-    fun_facts: record.fun_facts || [],
+    popular_name: popular,
+    name: popular,
+    taxonomy,
+    scientific_name: record.scientific_name || "",
+    languages: languagesFromLegacy(record),
+    conservation: conservationFromLegacy(record),
+    fun_facts: (record.fun_facts || []).slice(0, 5),
     images: record.images || (record.image ? [record.image] : []),
-    tags: record.tags || [],
+    tags,
     shard: record.shard || (record.id ? shardIdFromSlug(record.id) : undefined),
   };
 }

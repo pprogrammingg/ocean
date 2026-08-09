@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "shard": "ca",
+  "places": [
+    {
+      "id": "cabinda-enclave-coast",
+      "shard": "ca",
+      "name": "Cabinda enclave coast",
+      "country_id": "angola",
+      "country": "Angola",
+      "region": "Cabinda",
+      "coordinates": {
+        "lat": -9.852712,
+        "lng": 18.356984,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 4,
+        "eco": 4,
+        "swim": 3,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$4.5k–$140k",
+        "low": 4500,
+        "high": 140000,
+        "mid": 72250,
+        "parcel": "3–5"
+      },
+      "note": "Monsoon coast: build for sheet flow, not just rain.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "views",
+        "cabinda"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "cabo-corrientes",
+      "shard": "ca",
+      "name": "Cabo Corrientes",
+      "country_id": "colombia",
+      "country": "Colombia",
+      "region": "Chocó",
+      "coordinates": {
+        "lat": 2.022514,
+        "lng": -73.899859,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 1,
+        "eco": 4,
+        "swim": 5,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$12k–$510k",
+        "low": 12000,
+        "high": 510000,
+        "mid": 261000,
+        "parcel": "3–5"
+      },
+      "note": "Eco-lodge cluster nearby: skill share, also price pressure.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "high-score",
+        "choco"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "cabo-polonio-south",
+      "shard": "ca",
+      "name": "Cabo Polonio south",
+      "country_id": "uruguay",
+      "country": "Uruguay",
+      "region": "Rocha",
+      "coordinates": {
+        "lat": -32.286882,
+        "lng": -54.051754,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 2,
+        "eco": 2,
+        "swim": 5,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$18k–$570k",
+        "low": 18000,
+        "high": 570000,
+        "mid": 294000,
+        "parcel": "3–5"
+      },
+      "note": "Indigenous land rights: due diligence before marketing fantasy.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "rocha"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "camana-bay",
+      "shard": "ca",
+      "name": "Camaná bay",
+      "country_id": "peru",
+      "country": "Peru",
+      "region": "Arequipa",
+      "coordinates": {
+        "lat": -5.540104,
+        "lng": -80.020704,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 3,
+        "eco": 1,
+        "swim": 5,
+        "total": 10
+      },
+      "land_price_usd": {
+        "label": "$10k–$410k",
+        "low": 10000,
+        "high": 410000,
+        "mid": 210000,
+        "parcel": "3–5"
+      },
+      "note": "Highland fog some mornings; coast clears by noon.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "arequipa"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "cape-breton-west",
+      "shard": "ca",
+      "name": "Cape Breton west",
+      "country_id": "canada",
+      "country": "Canada",
+      "region": "Nova Scotia",
+      "coordinates": {
+        "lat": 71.90188,
+        "lng": -87.193898,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 4,
+        "eco": 4,
+        "swim": 5,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$31k–$1.6M",
+        "low": 31000,
+        "high": 1620000,
+        "mid": 825500,
+        "parcel": "3–5"
+      },
+      "note": "Coral reef nearby: snorkel > surf; check mooring rules.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "nova"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "carti-sugdup",
+      "shard": "ca",
+      "name": "Cartí Sugdup",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Guna Yala",
+      "coordinates": {
+        "lat": 8.10418,
+        "lng": -77.340201,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 2,
+        "eco": 2,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$20k–$850k",
+        "low": 20000,
+        "high": 850000,
+        "mid": 435000,
+        "parcel": "3–5"
+      },
+      "note": "Monsoon coast: build for sheet flow, not just rain.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "guna",
+        "yala"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

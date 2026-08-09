@@ -65,5 +65,11 @@
     "island",
     "unique-experience",
     "flamingo-encounters"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.542,
+    "lng": -70.062,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "shard": "yu",
+  "places": [
+    {
+      "id": "yumaque",
+      "shard": "yu",
+      "name": "Yumaque",
+      "country_id": "peru",
+      "country": "Peru",
+      "region": "Ica",
+      "coordinates": {
+        "lat": -7.872918,
+        "lng": -80.997689,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 4,
+        "eco": 3,
+        "swim": 5,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$9k–$530k",
+        "low": 9000,
+        "high": 530000,
+        "mid": 269500,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

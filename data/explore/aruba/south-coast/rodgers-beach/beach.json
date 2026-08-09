@@ -64,5 +64,11 @@
     "seclusion",
     "local-atmosphere",
     "quiet-swimming"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.425,
+    "lng": -69.89,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

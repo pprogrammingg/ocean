@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "shard": "pe",
+  "places": [
+    {
+      "id": "pelabuhan-ratu-ciletuh",
+      "shard": "pe",
+      "name": "Pelabuhan Ratu / Ciletuh",
+      "country_id": "indonesia",
+      "country": "Indonesia",
+      "region": "West Java",
+      "coordinates": {
+        "lat": -3.447506,
+        "lng": 98.394647,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 1,
+        "eco": 3,
+        "swim": 5,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$6k–$300k",
+        "low": 6000,
+        "high": 300000,
+        "mid": 153000,
+        "parcel": "3–5"
+      },
+      "note": "Pacific tide swing: intertidal flats, not classic surf.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "west",
+        "java"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "pemba-mozambique-wimbe",
+      "shard": "pe",
+      "name": "Pemba (Mozambique) / Wimbe",
+      "country_id": "mozambique",
+      "country": "Mozambique",
+      "region": "Cabo Delgado",
+      "coordinates": {
+        "lat": -14.309258,
+        "lng": 36.136565,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 5,
+        "eco": 5,
+        "swim": 4,
+        "total": 17
+      },
+      "land_price_usd": {
+        "label": "$3.5k–$145k",
+        "low": 3500,
+        "high": 145000,
+        "mid": 74250,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "cabo"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "pemba-wete-north",
+      "shard": "pe",
+      "name": "Pemba Wete north",
+      "country_id": "tanzania",
+      "country": "Tanzania",
+      "region": "Pemba North",
+      "coordinates": {
+        "lat": -6.243675,
+        "lng": 30.649433,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 1,
+        "eco": 5,
+        "swim": 4,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$6k–$250k",
+        "low": 6000,
+        "high": 250000,
+        "mid": 128000,
+        "parcel": "3–5"
+      },
+      "note": "Pacific tide swing: intertidal flats, not classic surf.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "pemba",
+        "north"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "perhentian-gateway",
+      "shard": "pe",
+      "name": "Perhentian gateway",
+      "country_id": "malaysia",
+      "country": "Malaysia",
+      "region": "Terengganu",
+      "coordinates": {
+        "lat": 5.563968,
+        "lng": 99.978209,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 4,
+        "eco": 2,
+        "swim": 3,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$15k–$650k",
+        "low": 15000,
+        "high": 650000,
+        "mid": 332500,
+        "parcel": "3–5"
+      },
+      "note": "Few paved roads: solar + satellite = realistic stack.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "views",
+        "terengganu"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

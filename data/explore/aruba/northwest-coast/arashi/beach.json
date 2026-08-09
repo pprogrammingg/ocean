@@ -80,5 +80,11 @@
     "calm",
     "sunsets",
     "pelican-watching"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.6125,
+    "lng": -70.0528,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

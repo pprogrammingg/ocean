@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "description": "Habitat place countries — filter index only",
+  "countries": [
+    {
+      "id": "angola",
+      "name": "Angola",
+      "place_count": 2
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "place_count": 4
+    },
+    {
+      "id": "aruba",
+      "name": "Aruba",
+      "place_count": 3
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "place_count": 1
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "place_count": 7
+    },
+    {
+      "id": "belize",
+      "name": "Belize",
+      "place_count": 1
+    },
+    {
+      "id": "cameroon",
+      "name": "Cameroon",
+      "place_count": 1
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "place_count": 1
+    },
+    {
+      "id": "chile",
+      "name": "Chile",
+      "place_count": 3
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "place_count": 1
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "place_count": 7
+    },
+    {
+      "id": "comoros",
+      "name": "Comoros",
+      "place_count": 2
+    },
+    {
+      "id": "cook-islands",
+      "name": "Cook Islands",
+      "place_count": 1
+    },
+    {
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "place_count": 1
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "place_count": 1
+    },
+    {
+      "id": "djibouti",
+      "name": "Djibouti",
+      "place_count": 1
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "place_count": 2
+    },
+    {
+      "id": "greece",
+      "name": "Greece",
+      "place_count": 1
+    },
+    {
+      "id": "guatemala",
+      "name": "Guatemala",
+      "place_count": 1
+    },
+    {
+      "id": "honduras",
+      "name": "Honduras",
+      "place_count": 2
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "place_count": 7
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "place_count": 1
+    },
+    {
+      "id": "kenya",
+      "name": "Kenya",
+      "place_count": 3
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "place_count": 5
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "place_count": 9
+    },
+    {
+      "id": "mozambique",
+      "name": "Mozambique",
+      "place_count": 3
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "place_count": 1
+    },
+    {
+      "id": "nicaragua",
+      "name": "Nicaragua",
+      "place_count": 4
+    },
+    {
+      "id": "panama",
+      "name": "Panama",
+      "place_count": 12
+    },
+    {
+      "id": "peru",
+      "name": "Peru",
+      "place_count": 6
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "place_count": 1
+    },
+    {
+      "id": "senegal",
+      "name": "Senegal",
+      "place_count": 1
+    },
+    {
+      "id": "solomon-islands",
+      "name": "Solomon Islands",
+      "place_count": 1
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "place_count": 1
+    },
+    {
+      "id": "sao-tome-and-principe",
+      "name": "São Tomé and Príncipe",
+      "place_count": 1
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzania",
+      "place_count": 7
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "place_count": 1
+    },
+    {
+      "id": "the-gambia",
+      "name": "The Gambia",
+      "place_count": 1
+    },
+    {
+      "id": "togo",
+      "name": "Togo",
+      "place_count": 1
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "place_count": 1
+    },
+    {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "place_count": 2
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "place_count": 11
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "place_count": 3
+    },
+    {
+      "id": "vanuatu",
+      "name": "Vanuatu",
+      "place_count": 1
+    }
+  ]
+}

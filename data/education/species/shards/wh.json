@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "wh",
   "species": [
     {
@@ -7,57 +7,81 @@
       "shard": "wh",
       "type": "plant",
       "popular_name": "White Mangrove",
+      "taxonomy": "Plant · Mangrove · Coastal",
       "scientific_name": "Laguncularia racemosa",
-      "translations": {
-        "es": "Mangle blanco",
-        "pap": "Mangel blanku"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Mangel blanku"
+        },
+        "english": "White Mangrove",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Mangle blanco"
+          }
+        ]
       },
-      "tags": [
-        "mangrove",
-        "coastal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Landward edge of mangrove belts on less soggy soils.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Protect shoreline buffers; support mangrove restoration projects.",
+        "caution_against": "Don’t clear mangrove roots for beach access or dump trash in lagoons.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Landward edge of mangrove belts on less soggy soils. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Look for two tiny bumps at the leaf stalk — salt exit doors.",
         "Less famous than red mangrove, still vital shoreline habitat."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "mangrove",
+        "coastal"
+      ]
     },
     {
       "id": "white-scroll-algae",
       "shard": "wh",
       "type": "plant",
       "popular_name": "White Scroll Algae",
+      "taxonomy": "Plant · Algae · Brown",
       "scientific_name": "Padina boergesenii",
-      "translations": {
-        "es": "Alga abanico",
-        "pap": "Padina"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Padina"
+        },
+        "english": "White Scroll Algae",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Alga abanico"
+          }
+        ]
       },
-      "tags": [
-        "algae",
-        "brown",
-        "calcified"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Rocky shallows; fan lobes often dusted with white chalk.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Leave living plants where they grow; reduce nutrient runoff when you can.",
+        "caution_against": "Don’t uproot algae or seagrass for aquariums without permits.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Rocky shallows; fan lobes often dusted with white chalk. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Looks like a rolled paper fan dipped in powdered sugar.",
         "Calcium carbonate on the surface helps it feel stiff."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "algae",
+        "brown",
+        "calcified"
+      ]
     }
   ]
 }

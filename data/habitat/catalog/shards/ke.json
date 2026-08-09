@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "shard": "ke",
+  "places": [
+    {
+      "id": "kendari-bay-hinterland",
+      "shard": "ke",
+      "name": "Kendari bay hinterland",
+      "country_id": "indonesia",
+      "country": "Indonesia",
+      "region": "Southeast Sulawesi",
+      "coordinates": {
+        "lat": -0.574988,
+        "lng": 109.524625,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 4,
+        "eco": 2,
+        "swim": 5,
+        "total": 16
+      },
+      "land_price_usd": {
+        "label": "$7k–$240k",
+        "low": 7000,
+        "high": 240000,
+        "mid": 123500,
+        "parcel": "3–5"
+      },
+      "note": "Dry season burn smoke: air weeks can be harsh.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "southeast"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "keta-anloga-lagoon",
+      "shard": "ke",
+      "name": "Keta–Anloga lagoon",
+      "country_id": "ghana",
+      "country": "Ghana",
+      "region": "Volta",
+      "coordinates": {
+        "lat": 9.155618,
+        "lng": -1.504163,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 1,
+        "eco": 2,
+        "swim": 5,
+        "total": 9
+      },
+      "land_price_usd": {
+        "label": "$6k–$185k",
+        "low": 6000,
+        "high": 185000,
+        "mid": 95500,
+        "parcel": "3–5"
+      },
+      "note": "Coral reef nearby: snorkel > surf; check mooring rules.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "volta"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

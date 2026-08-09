@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "shard": "pl",
+  "places": [
+    {
+      "id": "playa-union",
+      "shard": "pl",
+      "name": "Playa Unión",
+      "country_id": "argentina",
+      "country": "Argentina",
+      "region": "Chubut",
+      "coordinates": {
+        "lat": -41.940056,
+        "lng": -72.27282,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 3,
+        "eco": 1,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$11k–$460k",
+        "low": 11000,
+        "high": 460000,
+        "mid": 235500,
+        "parcel": "3–5"
+      },
+      "note": "Trade-wind side: steady breeze, less mozzies than lee.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "chubut"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "playa-venao-valley",
+      "shard": "pl",
+      "name": "Playa Venao valley",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Los Santos",
+      "coordinates": {
+        "lat": 7.382821,
+        "lng": -79.76754,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 2,
+        "eco": 2,
+        "swim": 5,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$21k–$760k",
+        "low": 21000,
+        "high": 760000,
+        "mid": 390500,
+        "parcel": "3–5"
+      },
+      "note": "Monsoon coast: build for sheet flow, not just rain.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "santos"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

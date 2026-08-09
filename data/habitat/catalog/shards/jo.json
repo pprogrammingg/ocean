@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "shard": "jo",
+  "places": [
+    {
+      "id": "jonesville-roatan",
+      "shard": "jo",
+      "name": "Jonesville (Roatán)",
+      "country_id": "honduras",
+      "country": "Honduras",
+      "region": "Bay Islands",
+      "coordinates": {
+        "lat": 13.920496,
+        "lng": -85.964009,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 5,
+        "eco": 2,
+        "swim": 4,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$6k–$315k",
+        "low": 6000,
+        "high": 315000,
+        "mid": 160500,
+        "parcel": "3–5"
+      },
+      "note": "Eco-lodge cluster nearby: skill share, also price pressure.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "islands"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

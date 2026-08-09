@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "sp",
   "species": [
     {
@@ -7,58 +7,82 @@
       "shard": "sp",
       "type": "animal",
       "popular_name": "Spotted Eagle Ray",
+      "taxonomy": "Animal · Ray · Reef",
       "scientific_name": "Aetobatus narinari",
-      "translations": {
-        "es": "Chucho pintado",
-        "pap": "Raya águila"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Raya águila"
+        },
+        "english": "Spotted Eagle Ray",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Chucho pintado"
+          }
+        ]
       },
-      "tags": [
-        "ray",
-        "reef",
-        "graceful"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Sandy flats and reef passes; sometimes leaps clear of the water.",
-        "food": "Clams, snails, and crabs crushed with plate-like teeth.",
-        "feeding": "Digs in sand with a duck-like snout, then crunches lunch.",
-        "mating": "Live-bearing; pups arrive ready to swim.",
-        "socializing": "May cruise alone or in elegant small squadrons."
+      "conservation": {
+        "status": "Bad",
+        "help_by": "Respect distance on the reef; support healthy fish stocks sharks need.",
+        "caution_against": "Don’t bait, chase, or grab rays and sharks for photos.",
+        "life_info": {
+          "eating": "Clams, snails, and crabs crushed with plate-like teeth. Digs in sand with a duck-like snout, then crunches lunch.",
+          "mating": "Live-bearing; pups arrive ready to swim.",
+          "habitat": "Sandy flats and reef passes; sometimes leaps clear of the water. May cruise alone or in elegant small squadrons."
+        }
       },
       "fun_facts": [
         "Polka dots on a flying carpet — one of the ocean’s best costumes.",
         "Those leaps might shake off remoras… or just show off."
       ],
       "images": [],
-      "conservation_status": "Near Threatened (IUCN)"
+      "tags": [
+        "ray",
+        "reef",
+        "graceful"
+      ]
     },
     {
       "id": "spotted-moray",
       "shard": "sp",
       "type": "animal",
       "popular_name": "Spotted Moray",
+      "taxonomy": "Animal · Eel · Reef",
       "scientific_name": "Gymnothorax moringa",
-      "translations": {
-        "es": "Morena pintada",
-        "pap": "Morena spikkel"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Morena spikkel"
+        },
+        "english": "Spotted Moray",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Morena pintada"
+          }
+        ]
       },
-      "tags": [
-        "eel",
-        "reef",
-        "nocturnal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Coral heads and rocky holes across Caribbean reefs.",
-        "food": "Crustaceans and small fish.",
-        "feeding": "Night hunter with a leopard-print tuxedo.",
-        "mating": "Pelagic larvae ride currents to new reefs.",
-        "socializing": "Usually one eel per favorite hole."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Crustaceans and small fish. Night hunter with a leopard-print tuxedo.",
+          "mating": "Pelagic larvae ride currents to new reefs.",
+          "habitat": "Coral heads and rocky holes across Caribbean reefs. Usually one eel per favorite hole."
+        }
       },
       "fun_facts": [
         "Spots help it vanish against dappled reef light.",
         "Open-mouth look is breathing, not a threat display."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "eel",
+        "reef",
+        "nocturnal"
+      ]
     }
   ]
 }

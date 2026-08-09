@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "qu",
   "species": [
     {
@@ -7,58 +7,82 @@
       "shard": "qu",
       "type": "animal",
       "popular_name": "Queen Angelfish",
+      "taxonomy": "Animal · Fish · Reef",
       "scientific_name": "Holacanthus ciliaris",
-      "translations": {
-        "es": "Ángel reina",
-        "pap": "Queen angel"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Queen angel"
+        },
+        "english": "Queen Angelfish",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Ángel reina"
+          }
+        ]
       },
-      "tags": [
-        "fish",
-        "reef",
-        "colorful"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Clear Caribbean reefs with caves and coral heads for shelter.",
-        "food": "Mostly sponges, plus algae and small invertebrates.",
-        "feeding": "Picks carefully at sponges — royalty with a picky menu.",
-        "mating": "Pairs defend a home stretch of reef.",
-        "socializing": "Shy of snorkelers but curious from a polite distance."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Mostly sponges, plus algae and small invertebrates. Picks carefully at sponges — royalty with a picky menu.",
+          "mating": "Pairs defend a home stretch of reef.",
+          "habitat": "Clear Caribbean reefs with caves and coral heads for shelter. Shy of snorkelers but curious from a polite distance."
+        }
       },
       "fun_facts": [
         "A blue crown-like spot on the head earns the royal nickname.",
         "One of the brightest billboards on a healthy reef."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "fish",
+        "reef",
+        "colorful"
+      ]
     },
     {
       "id": "queen-conch",
       "shard": "qu",
       "type": "animal",
       "popular_name": "Queen Conch",
+      "taxonomy": "Animal · Mollusk · Seagrass",
       "scientific_name": "Aliger gigas",
-      "translations": {
-        "es": "Carrucho",
-        "pap": "Karkó"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Karkó"
+        },
+        "english": "Queen Conch",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Carrucho"
+          }
+        ]
       },
-      "tags": [
-        "mollusk",
-        "seagrass",
-        "endangered"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Seagrass beds and sandy shallows.",
-        "food": "Algae and organic film grazed with a rasping tongue.",
-        "feeding": "Slow lawnmower of the grass beds.",
-        "mating": "Egg strands look like sandy spaghetti on the bottom.",
-        "socializing": "Overharvested in many places — check local rules."
+      "conservation": {
+        "status": "Bad",
+        "help_by": "Anchor in sand, not grass; support seagrass-friendly boat habits.",
+        "caution_against": "Don’t drive propellers through meadows or dig up plants.",
+        "life_info": {
+          "eating": "Algae and organic film grazed with a rasping tongue. Slow lawnmower of the grass beds.",
+          "mating": "Egg strands look like sandy spaghetti on the bottom.",
+          "habitat": "Seagrass beds and sandy shallows. Overharvested in many places — check local rules."
+        }
       },
       "fun_facts": [
         "The pink shell interior is a Caribbean icon.",
         "They hop-lurch forward on a strong muscular foot."
       ],
       "images": [],
-      "conservation_status": "CITES / depleted in many areas"
+      "tags": [
+        "mollusk",
+        "seagrass",
+        "endangered"
+      ]
     }
   ]
 }

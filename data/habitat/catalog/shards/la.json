@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "shard": "la",
+  "places": [
+    {
+      "id": "la-bocana",
+      "shard": "la",
+      "name": "La Bocana",
+      "country_id": "colombia",
+      "country": "Colombia",
+      "region": "Nariño",
+      "coordinates": {
+        "lat": 8.629251,
+        "lng": -76.309274,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 1,
+        "eco": 4,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$10k–$600k",
+        "low": 10000,
+        "high": 600000,
+        "mid": 305000,
+        "parcel": "3–5"
+      },
+      "note": "Gulf stream edge: warm water much of the year.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "narino"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "la-paz-el-sargento",
+      "shard": "la",
+      "name": "La Paz / El Sargento",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Baja California Sur",
+      "coordinates": {
+        "lat": 18.303045,
+        "lng": -115.946089,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 1,
+        "eco": 4,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$8k–$520k",
+        "low": 8000,
+        "high": 520000,
+        "mid": 264000,
+        "parcel": "3–5"
+      },
+      "note": "Dry forest + coast: strong seasonality, plan water.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "baja",
+        "california"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "la-tola-san-lorenzo",
+      "shard": "la",
+      "name": "La Tola / San Lorenzo",
+      "country_id": "colombia",
+      "country": "Colombia",
+      "region": "Nariño",
+      "coordinates": {
+        "lat": 2.237254,
+        "lng": -73.075524,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 5,
+        "eco": 2,
+        "swim": 3,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$10k–$550k",
+        "low": 10000,
+        "high": 550000,
+        "mid": 280000,
+        "parcel": "3–5"
+      },
+      "note": "Lee side bay: glassy water, good for kids' swimming.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "views",
+        "affordable",
+        "high-score",
+        "narino"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "la-ventanilla",
+      "shard": "la",
+      "name": "La Ventanilla",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Oaxaca",
+      "coordinates": {
+        "lat": 18.557246,
+        "lng": -94.871315,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 1,
+        "eco": 3,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$9k–$520k",
+        "low": 9000,
+        "high": 520000,
+        "mid": 264500,
+        "parcel": "3–5"
+      },
+      "note": "Dry season burn smoke: air weeks can be harsh.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "oaxaca"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "lamu-shela-dunes",
+      "shard": "la",
+      "name": "Lamu Shela dunes",
+      "country_id": "kenya",
+      "country": "Kenya",
+      "region": "Lamu",
+      "coordinates": {
+        "lat": -1.453931,
+        "lng": 37.869134,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 2,
+        "eco": 1,
+        "swim": 3,
+        "total": 9
+      },
+      "land_price_usd": {
+        "label": "$10k–$295k",
+        "low": 10000,
+        "high": 295000,
+        "mid": 152500,
+        "parcel": "3–5"
+      },
+      "note": "Dry season burn smoke: air weeks can be harsh.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "lamu"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

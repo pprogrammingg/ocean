@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "bl",
+  "places": [
+    {
+      "id": "black-sea-amasra",
+      "shard": "bl",
+      "name": "Black Sea Amasra",
+      "country_id": "turkey",
+      "country": "Turkey",
+      "region": "Bartın",
+      "coordinates": {
+        "lat": 41.944994,
+        "lng": 34.920466,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 3,
+        "eco": 4,
+        "swim": 3,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$17k–$800k",
+        "low": 17000,
+        "high": 800000,
+        "mid": 408500,
+        "parcel": "3–5"
+      },
+      "note": "Indigenous land rights: due diligence before marketing fantasy.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "affordable",
+        "high-score",
+        "bart-n"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

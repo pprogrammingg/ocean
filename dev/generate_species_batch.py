@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -12,6 +13,95 @@ SHARDS = ROOT / "shards"
 
 def shard_id(slug: str) -> str:
     return "".join(c for c in slug.lower() if c.isalnum())[:2]
+
+
+LANG_NAMES = {"pap": "Papiamento", "es": "Spanish", "nl": "Dutch", "fr": "French", "pt": "Portuguese"}
+
+
+def map_status(raw: str) -> str:
+    text = raw or ""
+    if re.search(r"extinct", text, re.I):
+        return "Extinct"
+    if re.search(r"critically|endangered", text, re.I):
+        return "Critical"
+    if re.search(r"vulnerable|near.?threatened|threatened|cites|depleted", text, re.I):
+        return "Bad"
+    return "Good"
+
+
+def taxonomy_line(typ: str, tags: list[str]) -> str:
+    kind = "Animal" if typ == "animal" else "Plant"
+    pick = [t for t in tags if t not in {"endangered", "invasive"}][:2]
+    parts = [kind, *[t.replace("-", " ").title() for t in pick]]
+    out = []
+    for p in parts:
+        if p.lower() not in {x.lower() for x in out}:
+            out.append(p)
+    return " · ".join(out)
+
+
+def languages_block(popular: str, translations: dict | None) -> dict:
+    tr = translations or {}
+    other = []
+    for code, name in tr.items():
+        if code in ("pap", "en") or not name:
+            continue
+        other.append({"lang": LANG_NAMES.get(code, code), "name": name})
+        if len(other) >= 3:
+            break
+    return {
+        "indigenous": {"lang": "Papiamento", "name": tr.get("pap") or ""},
+        "english": popular,
+        "other": other,
+    }
+
+
+def help_caution(tags: list[str], typ: str, status: str, slug: str) -> tuple[str, str]:
+    tagset = set(tags)
+    if "turtle" in tagset or "turtle" in slug:
+        return (
+            "Keep nesting beaches dark and clear; support marine protected areas.",
+            "Never buy turtle products; don’t block crawlways or touch nesting turtles.",
+        )
+    if "shark" in tagset or "ray" in tagset:
+        return (
+            "Respect distance on the reef; support healthy fish stocks sharks need.",
+            "Don’t bait, chase, or grab rays and sharks for photos.",
+        )
+    if "coral" in tagset or "builder" in tagset or "cnidarian" in tagset:
+        return (
+            "Use reef-safe sunscreen; choose operators that don’t touch or kick coral.",
+            "Never stand on, break, or collect living coral.",
+        )
+    if "mangrove" in tagset:
+        return (
+            "Protect shoreline buffers; support mangrove restoration projects.",
+            "Don’t clear mangrove roots for beach access or dump trash in lagoons.",
+        )
+    if "seagrass" in tagset or "meadow" in tagset:
+        return (
+            "Anchor in sand, not grass; support seagrass-friendly boat habits.",
+            "Don’t drive propellers through meadows or dig up plants.",
+        )
+    if status == "Critical":
+        return (
+            "Back local reef and wildlife protection; share accurate stories, not souvenirs.",
+            "Avoid wildlife trade, reckless collecting, and operators that harass animals.",
+        )
+    if status == "Bad":
+        return (
+            "Choose low-impact snorkel habits and support recovery efforts.",
+            "Don’t take shells, fans, or live animals home as trophies.",
+        )
+    if typ == "plant":
+        return (
+            "Leave living plants where they grow; reduce nutrient runoff when you can.",
+            "Don’t uproot algae or seagrass for aquariums without permits.",
+        )
+    return (
+        "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "Don’t feed fish, chase animals, or pocket living souvenirs.",
+    )
 
 
 def sp(
@@ -26,18 +116,31 @@ def sp(
     status: str = "Not Evaluated",
     aliases: list[str] | None = None,
 ):
+    mapped = map_status(status)
+    help_by, caution = help_caution(tags, typ, mapped, id)
+    eating = " ".join(x for x in [habits.get("food"), habits.get("feeding")] if x)
+    habitat = " ".join(x for x in [habits.get("dwelling"), habits.get("socializing")] if x)
     rec = {
         "id": id,
         "shard": shard_id(id),
         "type": typ,
         "popular_name": popular,
+        "taxonomy": taxonomy_line(typ, tags),
         "scientific_name": sci,
-        "translations": translations or {},
-        "tags": tags,
-        "dwelling_habits": habits,
-        "fun_facts": facts,
+        "languages": languages_block(popular, translations),
+        "conservation": {
+            "status": mapped,
+            "help_by": help_by,
+            "caution_against": caution,
+            "life_info": {
+                "eating": eating or "Life details coming soon.",
+                "mating": habits.get("mating") or "Life details coming soon.",
+                "habitat": habitat or "Life details coming soon.",
+            },
+        },
+        "fun_facts": facts[:5],
         "images": [],
-        "conservation_status": status,
+        "tags": tags,
     }
     return rec, {
         "id": id,
@@ -844,7 +947,7 @@ def main():
     for sid in sorted(by_shard.keys()):
         species = sorted(by_shard[sid], key=lambda r: r["id"])
         assert len(species) <= 50, (sid, len(species))
-        doc = {"schema_version": "1.0", "shard": sid, "species": species}
+        doc = {"schema_version": "1.1", "shard": sid, "species": species}
         (SHARDS / f"{sid}.json").write_text(json.dumps(doc, indent=2, ensure_ascii=False) + "\n")
         shard_index.append(
             {

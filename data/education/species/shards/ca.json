@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "ca",
   "species": [
     {
@@ -7,116 +7,164 @@
       "shard": "ca",
       "type": "animal",
       "popular_name": "Caribbean Flamingo",
+      "taxonomy": "Animal · Bird · Coastal",
       "scientific_name": "Phoenicopterus ruber",
-      "translations": {
-        "es": "Flamenco",
-        "pap": "Flamengu"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Flamengu"
+        },
+        "english": "Caribbean Flamingo",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Flamenco"
+          }
+        ]
       },
-      "tags": [
-        "bird",
-        "coastal",
-        "lagoon"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Salty lagoons and shallow flats with muddy bottoms.",
-        "food": "Shrimp and microbes that dye feathers pink-orange.",
-        "feeding": "Upside-down bill filters tiny food from water.",
-        "mating": "Colony nesters with dramatic group dances.",
-        "socializing": "Huge pink flocks are a Caribbean postcard come alive."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Shrimp and microbes that dye feathers pink-orange. Upside-down bill filters tiny food from water.",
+          "mating": "Colony nesters with dramatic group dances.",
+          "habitat": "Salty lagoons and shallow flats with muddy bottoms. Huge pink flocks are a Caribbean postcard come alive."
+        }
       },
       "fun_facts": [
         "You are what you eat — without pink prey, feathers fade.",
         "Those ‘backward knees’ are mostly ankles."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "bird",
+        "coastal",
+        "lagoon"
+      ]
     },
     {
       "id": "caribbean-reef-octopus",
       "shard": "ca",
       "type": "animal",
       "popular_name": "Caribbean Reef Octopus",
+      "taxonomy": "Animal · Cephalopod · Reef",
       "scientific_name": "Octopus briareus",
-      "translations": {
-        "es": "Pulpo de arrecife",
-        "pap": "Octopus"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Octopus"
+        },
+        "english": "Caribbean Reef Octopus",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Pulpo de arrecife"
+          }
+        ]
       },
-      "tags": [
-        "cephalopod",
-        "reef",
-        "nocturnal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef crevices and rubble; masters of hide-and-seek.",
-        "food": "Crabs and snails drilled or pulled apart.",
-        "feeding": "Arms explore cracks while the body stays tucked.",
-        "mating": "Female guards eggs; male uses a specialized arm.",
-        "socializing": "Solitary geniuses with soft-body escape art."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Crabs and snails drilled or pulled apart. Arms explore cracks while the body stays tucked.",
+          "mating": "Female guards eggs; male uses a specialized arm.",
+          "habitat": "Reef crevices and rubble; masters of hide-and-seek. Solitary geniuses with soft-body escape art."
+        }
       },
       "fun_facts": [
         "Color and texture change in a blink — living camouflage.",
         "Three hearts and blue blood keep the alien vibes strong."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "cephalopod",
+        "reef",
+        "nocturnal"
+      ]
     },
     {
       "id": "caribbean-reef-shark",
       "shard": "ca",
       "type": "animal",
       "popular_name": "Caribbean Reef Shark",
+      "taxonomy": "Animal · Shark · Reef",
       "scientific_name": "Carcharhinus perezi",
-      "translations": {
-        "es": "Tiburón de arrecife",
-        "pap": "Tiburón di rif"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Tiburón di rif"
+        },
+        "english": "Caribbean Reef Shark",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Tiburón de arrecife"
+          }
+        ]
       },
-      "tags": [
-        "shark",
-        "reef",
-        "predator"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Drop-offs and reef walls with clear water and current.",
-        "food": "Reef fish and rays.",
-        "feeding": "Curious inspector that may circle divers — give space.",
-        "mating": "Live-bearing with small litters.",
-        "socializing": "Often alone or in loose groups along a wall."
+      "conservation": {
+        "status": "Critical",
+        "help_by": "Respect distance on the reef; support healthy fish stocks sharks need.",
+        "caution_against": "Don’t bait, chase, or grab rays and sharks for photos.",
+        "life_info": {
+          "eating": "Reef fish and rays. Curious inspector that may circle divers — give space.",
+          "mating": "Live-bearing with small litters.",
+          "habitat": "Drop-offs and reef walls with clear water and current. Often alone or in loose groups along a wall."
+        }
       },
       "fun_facts": [
         "A classic reef-shark silhouette for Caribbean wall dives.",
         "Healthy shark numbers usually mean a healthy reef pantry."
       ],
       "images": [],
-      "conservation_status": "Endangered (IUCN)"
+      "tags": [
+        "shark",
+        "reef",
+        "predator"
+      ]
     },
     {
       "id": "caribbean-spiny-lobster",
       "shard": "ca",
       "type": "animal",
       "popular_name": "Caribbean Spiny Lobster",
+      "taxonomy": "Animal · Crustacean · Reef",
       "scientific_name": "Panulirus argus",
-      "translations": {
-        "es": "Langosta",
-        "pap": "Kreef"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Kreef"
+        },
+        "english": "Caribbean Spiny Lobster",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Langosta"
+          }
+        ]
       },
-      "tags": [
-        "crustacean",
-        "reef",
-        "nocturnal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Under coral ledges by day; marches across sand at night.",
-        "food": "Snails, crabs, and carrion.",
-        "feeding": "Antennae-first explorer of the night reef.",
-        "mating": "Females carry eggs under the tail like an orange berry cluster.",
-        "socializing": "Famous for single-file migration queues across the seafloor."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Snails, crabs, and carrion. Antennae-first explorer of the night reef.",
+          "mating": "Females carry eggs under the tail like an orange berry cluster.",
+          "habitat": "Under coral ledges by day; marches across sand at night. Famous for single-file migration queues across the seafloor."
+        }
       },
       "fun_facts": [
         "No big claws — defense is spines and a fast tail flip.",
         "Long antennae combine touch and smell."
       ],
       "images": [],
-      "conservation_status": "Data Deficient (IUCN)"
+      "tags": [
+        "crustacean",
+        "reef",
+        "nocturnal"
+      ]
     }
   ]
 }

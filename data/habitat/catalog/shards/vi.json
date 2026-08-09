@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "shard": "vi",
+  "places": [
+    {
+      "id": "vis-island",
+      "shard": "vi",
+      "name": "Vis island",
+      "country_id": "croatia",
+      "country": "Croatia",
+      "region": "Split-Dalmatia",
+      "coordinates": {
+        "lat": 42.865656,
+        "lng": 15.491349,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 3,
+        "eco": 2,
+        "swim": 4,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$65k–$1.5M",
+        "low": 65000,
+        "high": 1460000,
+        "mid": 762500,
+        "parcel": "3–5"
+      },
+      "note": "Coral reef nearby: snorkel > surf; check mooring rules.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "split-dalmatia"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

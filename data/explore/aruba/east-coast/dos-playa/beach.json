@@ -68,5 +68,11 @@
     "photography",
     "experienced-surfers",
     "arikok-national-park"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.47,
+    "lng": -69.9,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

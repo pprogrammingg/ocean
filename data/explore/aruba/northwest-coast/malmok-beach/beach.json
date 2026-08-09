@@ -59,5 +59,11 @@
     "coral",
     "calm",
     "quiet-west-coast-alternative"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.602,
+    "lng": -70.0465,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

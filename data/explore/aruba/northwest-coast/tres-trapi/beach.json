@@ -68,5 +68,11 @@
     "pelican",
     "sea-turtle-snorkeling",
     "unique-rocky-entry"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.59,
+    "lng": -70.043,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

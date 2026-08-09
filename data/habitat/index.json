@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "description": "Coastal regenerative habitat slice for ocean-love. Wider regenerative living research stays in sister repo regenerative_habitat.",
+  "scope": "near-ocean",
+  "coastal_swim_min": 3,
+  "sister_repo": "../regenerative_habitat",
+  "place_count": 127,
+  "country_count": 44,
+  "shard_count": 72,
+  "guide_count": 3,
+  "glossary_term_count": 17,
+  "paths": {
+    "countries": "countries.json",
+    "search_index": "search-index.json",
+    "catalog_index": "catalog/index.json",
+    "guides_index": "guides/index.json",
+    "glossary": "glossary.json"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "bu",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "bu",
       "type": "plant",
       "popular_name": "Buttonwood",
+      "taxonomy": "Plant · Mangrove · Coastal",
       "scientific_name": "Conocarpus erectus",
-      "translations": {
-        "es": "Mangle botón",
-        "pap": "Buttonwood"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Buttonwood"
+        },
+        "english": "Buttonwood",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Mangle botón"
+          }
+        ]
       },
-      "tags": [
-        "mangrove",
-        "coastal",
-        "transition"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Drier edges of mangrove forests and coastal thickets.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Protect shoreline buffers; support mangrove restoration projects.",
+        "caution_against": "Don’t clear mangrove roots for beach access or dump trash in lagoons.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Drier edges of mangrove forests and coastal thickets. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Not always feet-in-water, but still part of the mangrove crew.",
         "Silver-leaf varieties shimmer in coastal wind."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "mangrove",
+        "coastal",
+        "transition"
+      ]
     }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "shard": "ya",
+  "places": [
+    {
+      "id": "yaviza-river-mouth",
+      "shard": "ya",
+      "name": "Yaviza river mouth",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Darién",
+      "coordinates": {
+        "lat": 7.407461,
+        "lng": -81.007284,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 1,
+        "eco": 3,
+        "swim": 4,
+        "total": 10
+      },
+      "land_price_usd": {
+        "label": "$19k–$670k",
+        "low": 19000,
+        "high": 670000,
+        "mid": 344500,
+        "parcel": "3–5"
+      },
+      "note": "Karst aquifer: cenotes or wells define settlement pattern.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "darien"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

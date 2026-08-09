@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "ha",
   "species": [
     {
@@ -7,89 +7,125 @@
       "shard": "ha",
       "type": "plant",
       "popular_name": "Halimeda",
+      "taxonomy": "Plant · Algae · Green",
       "scientific_name": "Halimeda opuntia",
-      "translations": {
-        "es": "Halimeda",
-        "pap": "Halimeda"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Halimeda"
+        },
+        "english": "Halimeda",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Halimeda"
+          }
+        ]
       },
-      "tags": [
-        "algae",
-        "green",
-        "calcified",
-        "sand-maker"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef flats and lagoons; jointed green coin-like segments.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Leave living plants where they grow; reduce nutrient runoff when you can.",
+        "caution_against": "Don’t uproot algae or seagrass for aquariums without permits.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Reef flats and lagoons; jointed green coin-like segments. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Calcified segments break down into tropical white sand.",
         "Looks like a string of underwater cactus pads."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "algae",
+        "green",
+        "calcified",
+        "sand-maker"
+      ]
     },
     {
       "id": "halophila-seagrass",
       "shard": "ha",
       "type": "plant",
       "popular_name": "Halophila Seagrass",
+      "taxonomy": "Plant · Seagrass · Meadow",
       "scientific_name": "Halophila stipulacea",
-      "translations": {
-        "es": "Halophila",
-        "pap": "Halophila"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Halophila"
+        },
+        "english": "Halophila Seagrass",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Halophila"
+          }
+        ]
       },
-      "tags": [
-        "seagrass",
-        "meadow",
-        "invasive"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Aruba lagoons and seagrass beds — an introduced seagrass now mixed with native meadows.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Anchor in sand, not grass; support seagrass-friendly boat habits.",
+        "caution_against": "Don’t drive propellers through meadows or dig up plants.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Aruba lagoons and seagrass beds — an introduced seagrass now mixed with native meadows. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Arrived in the Caribbean via the Suez–Atlantic route and now grows in Aruba MPAs.",
         "Small oval leaves distinguish it from long-bladed turtle grass."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "seagrass",
+        "meadow",
+        "invasive"
+      ]
     },
     {
       "id": "hawksbill-turtle",
       "shard": "ha",
       "type": "animal",
       "popular_name": "Hawksbill Turtle",
+      "taxonomy": "Animal · Reptile · Turtle",
       "scientific_name": "Eretmochelys imbricata",
-      "translations": {
-        "es": "Tortuga carey",
-        "pap": "Karetturtuga"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Karetturtuga"
+        },
+        "english": "Hawksbill Turtle",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Tortuga carey"
+          }
+        ]
       },
-      "tags": [
-        "reptile",
-        "turtle",
-        "endangered",
-        "reef"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Coral reefs rich in sponges; nests on tropical beaches.",
-        "food": "Sponges — one of the few animals that dine on them.",
-        "feeding": "Narrow beak reaches into reef cracks for sponge bites.",
-        "mating": "Females nest on beaches; hatchlings race to the sea.",
-        "socializing": "Mostly solitary reef wanderers."
+      "conservation": {
+        "status": "Critical",
+        "help_by": "Keep nesting beaches dark and clear; support marine protected areas.",
+        "caution_against": "Never buy turtle products; don’t block crawlways or touch nesting turtles.",
+        "life_info": {
+          "eating": "Sponges — one of the few animals that dine on them. Narrow beak reaches into reef cracks for sponge bites.",
+          "mating": "Females nest on beaches; hatchlings race to the sea.",
+          "habitat": "Coral reefs rich in sponges; nests on tropical beaches. Mostly solitary reef wanderers."
+        }
       },
       "fun_facts": [
         "Named for a hawk-like beak perfect for sponge surgery.",
         "Critically endangered — shell trade and habitat loss hit them hard."
       ],
       "images": [],
-      "conservation_status": "Critically Endangered (IUCN)"
+      "tags": [
+        "reptile",
+        "turtle",
+        "endangered",
+        "reef"
+      ]
     }
   ]
 }

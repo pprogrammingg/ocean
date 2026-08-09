@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "ye",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "ye",
       "type": "animal",
       "popular_name": "Yellowtail Snapper",
+      "taxonomy": "Animal · Fish · Reef",
       "scientific_name": "Ocyurus chrysurus",
-      "translations": {
-        "es": "Rabirrubia",
-        "pap": "Yellowtail"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Yellowtail"
+        },
+        "english": "Yellowtail Snapper",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Rabirrubia"
+          }
+        ]
       },
-      "tags": [
-        "fish",
-        "reef",
-        "snapper"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef edges, wrecks, and sandy channels.",
-        "food": "Small fish, shrimp, and crabs.",
-        "feeding": "Quick dashes from midwater to snap prey.",
-        "mating": "Spawns offshore in groups.",
-        "socializing": "Often schools above the reef like a yellow-striped cloud."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Small fish, shrimp, and crabs. Quick dashes from midwater to snap prey.",
+          "mating": "Spawns offshore in groups.",
+          "habitat": "Reef edges, wrecks, and sandy channels. Often schools above the reef like a yellow-striped cloud."
+        }
       },
       "fun_facts": [
         "The bright yellow tail is a built-in ID badge for snorkelers.",
         "A favorite of divers and dinner menus — follow local catch rules."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "fish",
+        "reef",
+        "snapper"
+      ]
     }
   ]
 }

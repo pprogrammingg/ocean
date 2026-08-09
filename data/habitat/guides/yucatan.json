@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "id": "yucatan",
+  "name": "Yucatán",
+  "country": "Mexico",
+  "tagline": "Coastal & cenote-country regenerative living",
+  "summary": "Near-ocean regenerative habitat on the peninsula: Gulf fringe, mangrove law, fideicomiso belt, and swim-friendly water — with karst that sends rain to the aquifer. Inland hills stay useful for surge distance; the ocean-love slice prioritizes living with the sea, not landlocked campo alone.",
+  "highlights": [
+    {
+      "title": "Coastal fringe (Progreso–Telchac–east)",
+      "text": "Salt air, mangrove rules, hurricane shutters, fideicomiso for many foreign buyers — true ocean adjacency."
+    },
+    {
+      "title": "Valladolid & cenote corridor",
+      "text": "Swim-in-stone sinkholes and limestone care; water protection is the covenant."
+    },
+    {
+      "title": "North & west of Mérida (logistics ring)",
+      "text": "Services + breeze lots within reach of coast; shade and height beat lawn dreams."
+    },
+    {
+      "title": "Interior (optional buffer)",
+      "text": "Surge distance and cooler nights — use as hinterland, not as a substitute for ocean love."
+    }
+  ],
+  "cost_bands": [
+    {
+      "item": "Land (3–5 acres, titled path)",
+      "usd": "~$45k–$250k+",
+      "note": "Coastal / tourist-adjacent higher"
+    },
+    {
+      "item": "Habitat shell",
+      "usd": "~$80k–$220k+",
+      "note": "Corrosion + wind detailing on fringe"
+    },
+    {
+      "item": "Rainwater + filtration",
+      "usd": "~$8k–$35k",
+      "note": "Tank size drives cost"
+    },
+    {
+      "item": "Sewage",
+      "usd": "~$4k–$18k",
+      "note": "Karst setbacks matter"
+    },
+    {
+      "item": "Food forest start",
+      "usd": "~$3k–$15k",
+      "note": "Keep canopy; skip wall-to-wall clear"
+    }
+  ],
+  "tags": [
+    "mexico",
+    "coastal",
+    "karst",
+    "mangrove",
+    "fideicomiso",
+    "cenote"
+  ],
+  "disclaimer": "Coastal regenerative planning sketch — not listings or legal advice. Wider inland research: regenerative_habitat sister repo."
+}

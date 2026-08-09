@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "shard": "ar",
+  "places": [
+    {
+      "id": "aruba-eagle-coast",
+      "shard": "ar",
+      "name": "Eagle Beach coastal edge",
+      "country_id": "aruba",
+      "country": "Aruba",
+      "region": "West coast",
+      "coordinates": {
+        "lat": 12.551,
+        "lng": -70.056,
+        "crs": "EPSG:4326",
+        "precision": "approximate"
+      },
+      "scores": {
+        "price": 2,
+        "views": 4,
+        "eco": 3,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "local market",
+        "low": 0,
+        "high": 0,
+        "mid": 0,
+        "parcel": "varies"
+      },
+      "note": "Low-rise coastal living near calm west-coast swim water — planning stub for ocean-love linkages.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "aruba",
+        "abc"
+      ],
+      "nearby_beaches": [
+        {
+          "id": "eagle-beach",
+          "name": "Eagle Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/eagle-beach/beach.json",
+          "km": 0.2
+        },
+        {
+          "id": "manchebo-beach",
+          "name": "Manchebo Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/manchebo-beach/beach.json",
+          "km": 0.8
+        },
+        {
+          "id": "flamingo-beach",
+          "name": "Flamingo Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/flamingo-beach/beach.json",
+          "km": 1.2
+        },
+        {
+          "id": "druif-beach",
+          "name": "Druif Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/druif-beach/beach.json",
+          "km": 1.8
+        },
+        {
+          "id": "palm-beach",
+          "name": "Palm Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/palm-beach/beach.json",
+          "km": 2.3
+        },
+        {
+          "id": "surfside-beach",
+          "name": "Surfside Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/surfside-beach/beach.json",
+          "km": 4.0
+        },
+        {
+          "id": "tres-trapi",
+          "name": "Tres Trapi",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/tres-trapi/beach.json",
+          "km": 4.6
+        },
+        {
+          "id": "hadicurari",
+          "name": "Hadicurari",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/hadicurari/beach.json",
+          "km": 5.4
+        },
+        {
+          "id": "malmok-beach",
+          "name": "Malmok Beach",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/malmok-beach/beach.json",
+          "km": 5.8
+        },
+        {
+          "id": "boca-catalina",
+          "name": "Boca Catalina",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/boca-catalina/beach.json",
+          "km": 6.1
+        },
+        {
+          "id": "wariruri-beach",
+          "name": "Wariruri Beach",
+          "country_id": "aruba",
+          "zone": "north-coast",
+          "path": "aruba/north-coast/wariruri-beach/beach.json",
+          "km": 6.6
+        },
+        {
+          "id": "arashi",
+          "name": "Arashi",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/arashi/beach.json",
+          "km": 6.8
+        },
+        {
+          "id": "andicuri-beach",
+          "name": "Andicuri Beach",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/andicuri-beach/beach.json",
+          "km": 12.5
+        },
+        {
+          "id": "mangel-halto",
+          "name": "Mangel Halto",
+          "country_id": "aruba",
+          "zone": "south-coast",
+          "path": "aruba/south-coast/mangel-halto/beach.json",
+          "km": 14.9
+        },
+        {
+          "id": "boca-prins",
+          "name": "Boca Prins",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/boca-prins/beach.json",
+          "km": 17.8
+        },
+        {
+          "id": "blackstone-beach",
+          "name": "Blackstone Beach",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/blackstone-beach/beach.json",
+          "km": 18.1
+        },
+        {
+          "id": "dos-playa",
+          "name": "Dos Playa",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/dos-playa/beach.json",
+          "km": 19.2
+        }
+      ],
+      "disclaimer": "Planning stub — not a listing. Nearby beaches linked within ~20 km."
+    },
+    {
+      "id": "aruba-palm-coast",
+      "shard": "ar",
+      "name": "Palm Beach coastal edge",
+      "country_id": "aruba",
+      "country": "Aruba",
+      "region": "West / northwest coast",
+      "coordinates": {
+        "lat": 12.57,
+        "lng": -70.045,
+        "crs": "EPSG:4326",
+        "precision": "approximate"
+      },
+      "scores": {
+        "price": 2,
+        "views": 4,
+        "eco": 3,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "local market",
+        "low": 0,
+        "high": 0,
+        "mid": 0,
+        "parcel": "varies"
+      },
+      "note": "Higher-energy strip near Palm / Malmok snorkel water — planning stub.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "aruba",
+        "abc"
+      ],
+      "nearby_beaches": [
+        {
+          "id": "palm-beach",
+          "name": "Palm Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/palm-beach/beach.json",
+          "km": 0.2
+        },
+        {
+          "id": "tres-trapi",
+          "name": "Tres Trapi",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/tres-trapi/beach.json",
+          "km": 2.2
+        },
+        {
+          "id": "eagle-beach",
+          "name": "Eagle Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/eagle-beach/beach.json",
+          "km": 2.7
+        },
+        {
+          "id": "hadicurari",
+          "name": "Hadicurari",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/hadicurari/beach.json",
+          "km": 3.1
+        },
+        {
+          "id": "manchebo-beach",
+          "name": "Manchebo Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/manchebo-beach/beach.json",
+          "km": 3.2
+        },
+        {
+          "id": "flamingo-beach",
+          "name": "Flamingo Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/flamingo-beach/beach.json",
+          "km": 3.6
+        },
+        {
+          "id": "malmok-beach",
+          "name": "Malmok Beach",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/malmok-beach/beach.json",
+          "km": 3.6
+        },
+        {
+          "id": "boca-catalina",
+          "name": "Boca Catalina",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/boca-catalina/beach.json",
+          "km": 3.9
+        },
+        {
+          "id": "druif-beach",
+          "name": "Druif Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/druif-beach/beach.json",
+          "km": 4.2
+        },
+        {
+          "id": "arashi",
+          "name": "Arashi",
+          "country_id": "aruba",
+          "zone": "northwest-coast",
+          "path": "aruba/northwest-coast/arashi/beach.json",
+          "km": 4.8
+        },
+        {
+          "id": "wariruri-beach",
+          "name": "Wariruri Beach",
+          "country_id": "aruba",
+          "zone": "north-coast",
+          "path": "aruba/north-coast/wariruri-beach/beach.json",
+          "km": 4.9
+        },
+        {
+          "id": "surfside-beach",
+          "name": "Surfside Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/surfside-beach/beach.json",
+          "km": 5.6
+        },
+        {
+          "id": "andicuri-beach",
+          "name": "Andicuri Beach",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/andicuri-beach/beach.json",
+          "km": 11.8
+        },
+        {
+          "id": "mangel-halto",
+          "name": "Mangel Halto",
+          "country_id": "aruba",
+          "zone": "south-coast",
+          "path": "aruba/south-coast/mangel-halto/beach.json",
+          "km": 15.8
+        },
+        {
+          "id": "boca-prins",
+          "name": "Boca Prins",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/boca-prins/beach.json",
+          "km": 17.9
+        },
+        {
+          "id": "blackstone-beach",
+          "name": "Blackstone Beach",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/blackstone-beach/beach.json",
+          "km": 18.1
+        },
+        {
+          "id": "dos-playa",
+          "name": "Dos Playa",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/dos-playa/beach.json",
+          "km": 19.3
+        }
+      ],
+      "disclaimer": "Planning stub — not a listing. Nearby beaches linked within ~20 km."
+    },
+    {
+      "id": "aruba-san-nicolas-south",
+      "shard": "ar",
+      "name": "San Nicolas south shore",
+      "country_id": "aruba",
+      "country": "Aruba",
+      "region": "South coast",
+      "coordinates": {
+        "lat": 12.422,
+        "lng": -69.885,
+        "crs": "EPSG:4326",
+        "precision": "approximate"
+      },
+      "scores": {
+        "price": 3,
+        "views": 3,
+        "eco": 3,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "local market",
+        "low": 0,
+        "high": 0,
+        "mid": 0,
+        "parcel": "varies"
+      },
+      "note": "Near Baby Beach / Rodgers calm lagoons — planning stub.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "aruba",
+        "abc"
+      ],
+      "nearby_beaches": [
+        {
+          "id": "baby-beach",
+          "name": "Baby Beach",
+          "country_id": "aruba",
+          "zone": "south-coast",
+          "path": "aruba/south-coast/baby-beach/beach.json",
+          "km": 0.4
+        },
+        {
+          "id": "rodgers-beach",
+          "name": "Rodgers Beach",
+          "country_id": "aruba",
+          "zone": "south-coast",
+          "path": "aruba/south-coast/rodgers-beach/beach.json",
+          "km": 0.6
+        },
+        {
+          "id": "grapefield-beach",
+          "name": "Grapefield Beach",
+          "country_id": "aruba",
+          "zone": "south-coast",
+          "path": "aruba/south-coast/grapefield-beach/beach.json",
+          "km": 1.9
+        },
+        {
+          "id": "boca-grandi",
+          "name": "Boca Grandi",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/boca-grandi/beach.json",
+          "km": 3.7
+        },
+        {
+          "id": "dos-playa",
+          "name": "Dos Playa",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/dos-playa/beach.json",
+          "km": 5.6
+        },
+        {
+          "id": "boca-prins",
+          "name": "Boca Prins",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/boca-prins/beach.json",
+          "km": 6.8
+        },
+        {
+          "id": "blackstone-beach",
+          "name": "Blackstone Beach",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/blackstone-beach/beach.json",
+          "km": 7.0
+        },
+        {
+          "id": "mangel-halto",
+          "name": "Mangel Halto",
+          "country_id": "aruba",
+          "zone": "south-coast",
+          "path": "aruba/south-coast/mangel-halto/beach.json",
+          "km": 8.9
+        },
+        {
+          "id": "andicuri-beach",
+          "name": "Andicuri Beach",
+          "country_id": "aruba",
+          "zone": "east-coast",
+          "path": "aruba/east-coast/andicuri-beach/beach.json",
+          "km": 14.2
+        },
+        {
+          "id": "surfside-beach",
+          "name": "Surfside Beach",
+          "country_id": "aruba",
+          "zone": "west-coast",
+          "path": "aruba/west-coast/surfside-beach/beach.json",
+          "km": 19.9
+        }
+      ],
+      "disclaimer": "Planning stub — not a listing. Nearby beaches linked within ~20 km."
+    }
+  ]
+}

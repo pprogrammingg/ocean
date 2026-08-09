@@ -73,5 +73,11 @@
     "families-with-young-children",
     "beginner-snorkelers",
     "calm-lagoon-swimming"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.4186,
+    "lng": -69.8831,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

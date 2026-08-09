@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "shard": "ce",
+  "places": [
+    {
+      "id": "cedeira-ortigueira",
+      "shard": "ce",
+      "name": "Cedeira / Ortigueira",
+      "country_id": "spain",
+      "country": "Spain",
+      "region": "Galicia",
+      "coordinates": {
+        "lat": 35.401099,
+        "lng": -0.138545,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 5,
+        "eco": 5,
+        "swim": 3,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$23k–$1.1M",
+        "low": 23000,
+        "high": 1080000,
+        "mid": 551500,
+        "parcel": "3–5"
+      },
+      "note": "Whale season doubles traffic—plan quiet months too.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "views",
+        "galicia"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

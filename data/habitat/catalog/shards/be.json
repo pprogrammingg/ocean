@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "shard": "be",
+  "places": [
+    {
+      "id": "bella-vista-maldonado",
+      "shard": "be",
+      "name": "Bella Vista (Maldonado)",
+      "country_id": "uruguay",
+      "country": "Uruguay",
+      "region": "Maldonado",
+      "coordinates": {
+        "lat": -31.944763,
+        "lng": -57.226416,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 3,
+        "eco": 1,
+        "swim": 3,
+        "total": 8
+      },
+      "land_price_usd": {
+        "label": "$17k–$690k",
+        "low": 17000,
+        "high": 690000,
+        "mid": 353500,
+        "parcel": "3–5"
+      },
+      "note": "Pacific tide swing: intertidal flats, not classic surf.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "maldonado"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "benguela-baia-azul",
+      "shard": "be",
+      "name": "Benguela / Baía Azul",
+      "country_id": "angola",
+      "country": "Angola",
+      "region": "Benguela",
+      "coordinates": {
+        "lat": -11.24345,
+        "lng": 18.39376,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 2,
+        "eco": 1,
+        "swim": 4,
+        "total": 10
+      },
+      "land_price_usd": {
+        "label": "$4k–$125k",
+        "low": 4000,
+        "high": 125000,
+        "mid": 64500,
+        "parcel": "3–5"
+      },
+      "note": "Indigenous land rights: due diligence before marketing fantasy.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "benguela"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

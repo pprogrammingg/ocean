@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "shard": "ik",
+  "places": [
+    {
+      "id": "ikaria",
+      "shard": "ik",
+      "name": "Ikaria",
+      "country_id": "greece",
+      "country": "Greece",
+      "region": "North Aegean",
+      "coordinates": {
+        "lat": 35.134589,
+        "lng": 21.64184,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 1,
+        "eco": 1,
+        "swim": 5,
+        "total": 9
+      },
+      "land_price_usd": {
+        "label": "$35k–$1.5M",
+        "low": 35000,
+        "high": 1480000,
+        "mid": 757500,
+        "parcel": "3–5"
+      },
+      "note": "Gulf stream edge: warm water much of the year.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "north",
+        "aegean"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

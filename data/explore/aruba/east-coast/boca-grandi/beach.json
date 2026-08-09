@@ -61,5 +61,11 @@
     "wild",
     "wind-sports",
     "wild-coast"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.455,
+    "lng": -69.88,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

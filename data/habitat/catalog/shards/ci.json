@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "shard": "ci",
+  "places": [
+    {
+      "id": "ciudad-del-carmen-outer",
+      "shard": "ci",
+      "name": "Ciudad del Carmen outer",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Campeche",
+      "coordinates": {
+        "lat": 16.695256,
+        "lng": -111.577596,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 5,
+        "eco": 5,
+        "swim": 5,
+        "total": 20
+      },
+      "land_price_usd": {
+        "label": "$9k–$660k",
+        "low": 9000,
+        "high": 660000,
+        "mid": 334500,
+        "parcel": "3–5"
+      },
+      "note": "Mangrove edge: biodiversity high, building setbacks matter.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "campeche"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="ocean-data-base" content="../../data/">
   <title>Curiosity — Beaches — ocean-love.xyz</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="../css/ocean.css">
 </head>
 <body data-page="beaches">
@@ -67,29 +65,9 @@
     </section>
   </main>
 
-  <script>
-    (function () {
-      var el = document.getElementById("country-load-status");
-      if (location.protocol === "file:") {
-        el.textContent = "Use a local server — not file://. From repo root: python3 dev/serve.py then open http://127.0.0.1:8765/web/curiosity/beaches.html";
-        el.classList.add("country-load-status--error");
-      }
-      window.addEventListener("error", function (e) {
-        el.textContent = "JS error: " + e.message;
-        el.classList.add("country-load-status--error");
-      });
-    })();
-  </script>
   <script type="module">
-    const status = document.getElementById("country-load-status");
-    try {
-      const { bootCurrentPage } = await import("../js/boot-page.js");
-      await bootCurrentPage();
-    } catch (err) {
-      status.textContent = "Failed to load app: " + err.message;
-      status.classList.add("country-load-status--error");
-      console.error(err);
-    }
+    import { bootCurrentPage } from "../js/boot-page.js";
+    bootCurrentPage();
   </script>
 </body>
 </html>

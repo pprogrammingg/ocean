@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "shard": "sh",
+  "places": [
+    {
+      "id": "shimoni-wasini",
+      "shard": "sh",
+      "name": "Shimoni / Wasini",
+      "country_id": "kenya",
+      "country": "Kenya",
+      "region": "Kwale",
+      "coordinates": {
+        "lat": -2.988386,
+        "lng": 39.581247,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 2,
+        "eco": 5,
+        "swim": 3,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$10k–$360k",
+        "low": 10000,
+        "high": 360000,
+        "mid": 185000,
+        "parcel": "3–5"
+      },
+      "note": "Karst aquifer: cenotes or wells define settlement pattern.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "kwale"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

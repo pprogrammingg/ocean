@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "tu",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "tu",
       "type": "plant",
       "popular_name": "Turtle Grass",
+      "taxonomy": "Plant · Seagrass · Nursery",
       "scientific_name": "Thalassia testudinum",
-      "translations": {
-        "es": "Hierba de tortuga",
-        "pap": "Sea grass"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Sea grass"
+        },
+        "english": "Turtle Grass",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Hierba de tortuga"
+          }
+        ]
       },
-      "tags": [
-        "seagrass",
-        "nursery",
-        "meadow"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Sandy shallows forming wide underwater meadows.",
-        "food": "The pasture of the coastal sea.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Bad",
+        "help_by": "Keep nesting beaches dark and clear; support marine protected areas.",
+        "caution_against": "Never buy turtle products; don’t block crawlways or touch nesting turtles.",
+        "life_info": {
+          "eating": "The pasture of the coastal sea. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Sandy shallows forming wide underwater meadows. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Named because green turtles mow it like a salad bar.",
         "Seagrass beds store carbon in sediment — blue-carbon heroes."
       ],
       "images": [],
-      "conservation_status": "Threatened locally"
+      "tags": [
+        "seagrass",
+        "nursery",
+        "meadow"
+      ]
     }
   ]
 }

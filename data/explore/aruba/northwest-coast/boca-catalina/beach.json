@@ -66,5 +66,11 @@
     "calm",
     "shore-snorkeling",
     "quiet-cove"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.605,
+    "lng": -70.048,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

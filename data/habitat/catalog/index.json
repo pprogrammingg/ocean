@@ -1,0 +1,441 @@
+{
+  "schema_version": "1.0",
+  "shard_rule": "slug_prefix_2",
+  "max_per_shard": 50,
+  "nearby_km": 20,
+  "place_count": 127,
+  "shards": [
+    {
+      "id": "ac",
+      "path": "catalog/shards/ac.json",
+      "count": 1,
+      "label": "AC"
+    },
+    {
+      "id": "ar",
+      "path": "catalog/shards/ar.json",
+      "count": 3,
+      "label": "AR"
+    },
+    {
+      "id": "as",
+      "path": "catalog/shards/as.json",
+      "count": 1,
+      "label": "AS"
+    },
+    {
+      "id": "at",
+      "path": "catalog/shards/at.json",
+      "count": 1,
+      "label": "AT"
+    },
+    {
+      "id": "ba",
+      "path": "catalog/shards/ba.json",
+      "count": 1,
+      "label": "BA"
+    },
+    {
+      "id": "be",
+      "path": "catalog/shards/be.json",
+      "count": 2,
+      "label": "BE"
+    },
+    {
+      "id": "bi",
+      "path": "catalog/shards/bi.json",
+      "count": 2,
+      "label": "BI"
+    },
+    {
+      "id": "bl",
+      "path": "catalog/shards/bl.json",
+      "count": 1,
+      "label": "BL"
+    },
+    {
+      "id": "bo",
+      "path": "catalog/shards/bo.json",
+      "count": 1,
+      "label": "BO"
+    },
+    {
+      "id": "ca",
+      "path": "catalog/shards/ca.json",
+      "count": 6,
+      "label": "CA"
+    },
+    {
+      "id": "ce",
+      "path": "catalog/shards/ce.json",
+      "count": 1,
+      "label": "CE"
+    },
+    {
+      "id": "ch",
+      "path": "catalog/shards/ch.json",
+      "count": 2,
+      "label": "CH"
+    },
+    {
+      "id": "ci",
+      "path": "catalog/shards/ci.json",
+      "count": 1,
+      "label": "CI"
+    },
+    {
+      "id": "cl",
+      "path": "catalog/shards/cl.json",
+      "count": 1,
+      "label": "CL"
+    },
+    {
+      "id": "co",
+      "path": "catalog/shards/co.json",
+      "count": 2,
+      "label": "CO"
+    },
+    {
+      "id": "di",
+      "path": "catalog/shards/di.json",
+      "count": 2,
+      "label": "DI"
+    },
+    {
+      "id": "dj",
+      "path": "catalog/shards/dj.json",
+      "count": 1,
+      "label": "DJ"
+    },
+    {
+      "id": "ef",
+      "path": "catalog/shards/ef.json",
+      "count": 1,
+      "label": "EF"
+    },
+    {
+      "id": "el",
+      "path": "catalog/shards/el.json",
+      "count": 2,
+      "label": "EL"
+    },
+    {
+      "id": "es",
+      "path": "catalog/shards/es.json",
+      "count": 1,
+      "label": "ES"
+    },
+    {
+      "id": "fa",
+      "path": "catalog/shards/fa.json",
+      "count": 1,
+      "label": "FA"
+    },
+    {
+      "id": "fl",
+      "path": "catalog/shards/fl.json",
+      "count": 1,
+      "label": "FL"
+    },
+    {
+      "id": "gr",
+      "path": "catalog/shards/gr.json",
+      "count": 1,
+      "label": "GR"
+    },
+    {
+      "id": "gu",
+      "path": "catalog/shards/gu.json",
+      "count": 1,
+      "label": "GU"
+    },
+    {
+      "id": "ha",
+      "path": "catalog/shards/ha.json",
+      "count": 1,
+      "label": "HA"
+    },
+    {
+      "id": "ho",
+      "path": "catalog/shards/ho.json",
+      "count": 2,
+      "label": "HO"
+    },
+    {
+      "id": "ik",
+      "path": "catalog/shards/ik.json",
+      "count": 1,
+      "label": "IK"
+    },
+    {
+      "id": "in",
+      "path": "catalog/shards/in.json",
+      "count": 2,
+      "label": "IN"
+    },
+    {
+      "id": "is",
+      "path": "catalog/shards/is.json",
+      "count": 1,
+      "label": "IS"
+    },
+    {
+      "id": "ja",
+      "path": "catalog/shards/ja.json",
+      "count": 1,
+      "label": "JA"
+    },
+    {
+      "id": "jo",
+      "path": "catalog/shards/jo.json",
+      "count": 1,
+      "label": "JO"
+    },
+    {
+      "id": "ka",
+      "path": "catalog/shards/ka.json",
+      "count": 1,
+      "label": "KA"
+    },
+    {
+      "id": "ke",
+      "path": "catalog/shards/ke.json",
+      "count": 2,
+      "label": "KE"
+    },
+    {
+      "id": "ko",
+      "path": "catalog/shards/ko.json",
+      "count": 2,
+      "label": "KO"
+    },
+    {
+      "id": "ku",
+      "path": "catalog/shards/ku.json",
+      "count": 4,
+      "label": "KU"
+    },
+    {
+      "id": "la",
+      "path": "catalog/shards/la.json",
+      "count": 5,
+      "label": "LA"
+    },
+    {
+      "id": "li",
+      "path": "catalog/shards/li.json",
+      "count": 3,
+      "label": "LI"
+    },
+    {
+      "id": "lo",
+      "path": "catalog/shards/lo.json",
+      "count": 2,
+      "label": "LO"
+    },
+    {
+      "id": "ma",
+      "path": "catalog/shards/ma.json",
+      "count": 3,
+      "label": "MA"
+    },
+    {
+      "id": "me",
+      "path": "catalog/shards/me.json",
+      "count": 3,
+      "label": "ME"
+    },
+    {
+      "id": "mo",
+      "path": "catalog/shards/mo.json",
+      "count": 4,
+      "label": "MO"
+    },
+    {
+      "id": "mt",
+      "path": "catalog/shards/mt.json",
+      "count": 1,
+      "label": "MT"
+    },
+    {
+      "id": "mu",
+      "path": "catalog/shards/mu.json",
+      "count": 1,
+      "label": "MU"
+    },
+    {
+      "id": "no",
+      "path": "catalog/shards/no.json",
+      "count": 1,
+      "label": "NO"
+    },
+    {
+      "id": "nu",
+      "path": "catalog/shards/nu.json",
+      "count": 1,
+      "label": "NU"
+    },
+    {
+      "id": "od",
+      "path": "catalog/shards/od.json",
+      "count": 1,
+      "label": "OD"
+    },
+    {
+      "id": "or",
+      "path": "catalog/shards/or.json",
+      "count": 1,
+      "label": "OR"
+    },
+    {
+      "id": "ou",
+      "path": "catalog/shards/ou.json",
+      "count": 1,
+      "label": "OU"
+    },
+    {
+      "id": "pa",
+      "path": "catalog/shards/pa.json",
+      "count": 4,
+      "label": "PA"
+    },
+    {
+      "id": "pe",
+      "path": "catalog/shards/pe.json",
+      "count": 4,
+      "label": "PE"
+    },
+    {
+      "id": "pi",
+      "path": "catalog/shards/pi.json",
+      "count": 1,
+      "label": "PI"
+    },
+    {
+      "id": "pl",
+      "path": "catalog/shards/pl.json",
+      "count": 2,
+      "label": "PL"
+    },
+    {
+      "id": "po",
+      "path": "catalog/shards/po.json",
+      "count": 2,
+      "label": "PO"
+    },
+    {
+      "id": "pu",
+      "path": "catalog/shards/pu.json",
+      "count": 3,
+      "label": "PU"
+    },
+    {
+      "id": "qu",
+      "path": "catalog/shards/qu.json",
+      "count": 2,
+      "label": "QU"
+    },
+    {
+      "id": "ra",
+      "path": "catalog/shards/ra.json",
+      "count": 1,
+      "label": "RA"
+    },
+    {
+      "id": "sa",
+      "path": "catalog/shards/sa.json",
+      "count": 9,
+      "label": "SA"
+    },
+    {
+      "id": "sc",
+      "path": "catalog/shards/sc.json",
+      "count": 1,
+      "label": "SC"
+    },
+    {
+      "id": "sh",
+      "path": "catalog/shards/sh.json",
+      "count": 1,
+      "label": "SH"
+    },
+    {
+      "id": "si",
+      "path": "catalog/shards/si.json",
+      "count": 1,
+      "label": "SI"
+    },
+    {
+      "id": "so",
+      "path": "catalog/shards/so.json",
+      "count": 3,
+      "label": "SO"
+    },
+    {
+      "id": "st",
+      "path": "catalog/shards/st.json",
+      "count": 1,
+      "label": "ST"
+    },
+    {
+      "id": "ta",
+      "path": "catalog/shards/ta.json",
+      "count": 1,
+      "label": "TA"
+    },
+    {
+      "id": "te",
+      "path": "catalog/shards/te.json",
+      "count": 1,
+      "label": "TE"
+    },
+    {
+      "id": "to",
+      "path": "catalog/shards/to.json",
+      "count": 1,
+      "label": "TO"
+    },
+    {
+      "id": "tu",
+      "path": "catalog/shards/tu.json",
+      "count": 1,
+      "label": "TU"
+    },
+    {
+      "id": "us",
+      "path": "catalog/shards/us.json",
+      "count": 1,
+      "label": "US"
+    },
+    {
+      "id": "ut",
+      "path": "catalog/shards/ut.json",
+      "count": 1,
+      "label": "UT"
+    },
+    {
+      "id": "vi",
+      "path": "catalog/shards/vi.json",
+      "count": 1,
+      "label": "VI"
+    },
+    {
+      "id": "we",
+      "path": "catalog/shards/we.json",
+      "count": 1,
+      "label": "WE"
+    },
+    {
+      "id": "ya",
+      "path": "catalog/shards/ya.json",
+      "count": 1,
+      "label": "YA"
+    },
+    {
+      "id": "yu",
+      "path": "catalog/shards/yu.json",
+      "count": 1,
+      "label": "YU"
+    }
+  ]
+}

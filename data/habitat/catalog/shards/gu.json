@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "shard": "gu",
+  "places": [
+    {
+      "id": "guanico-quebro",
+      "shard": "gu",
+      "name": "Guánico / Quebro",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Los Santos",
+      "coordinates": {
+        "lat": 8.733442,
+        "lng": -79.61632,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 3,
+        "eco": 2,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$20k–$710k",
+        "low": 20000,
+        "high": 710000,
+        "mid": 365000,
+        "parcel": "3–5"
+      },
+      "note": "Trade-wind side: steady breeze, less mozzies than lee.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "santos"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

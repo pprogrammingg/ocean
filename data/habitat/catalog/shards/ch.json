@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "shard": "ch",
+  "places": [
+    {
+      "id": "chilca",
+      "shard": "ch",
+      "name": "Chilca",
+      "country_id": "peru",
+      "country": "Peru",
+      "region": "Lima",
+      "coordinates": {
+        "lat": -9.417395,
+        "lng": -74.263441,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 5,
+        "eco": 3,
+        "swim": 3,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$10k–$550k",
+        "low": 10000,
+        "high": 550000,
+        "mid": 280000,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "views",
+        "lima"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "chuy-border-beach",
+      "shard": "ch",
+      "name": "Chuy border beach",
+      "country_id": "uruguay",
+      "country": "Uruguay",
+      "region": "Rocha",
+      "coordinates": {
+        "lat": -32.721191,
+        "lng": -54.266322,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 4,
+        "eco": 4,
+        "swim": 4,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$20k–$570k",
+        "low": 20000,
+        "high": 570000,
+        "mid": 295000,
+        "parcel": "3–5"
+      },
+      "note": "Ferry logistics: cement costs reflect sea freight.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "rocha"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

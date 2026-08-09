@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "scope": "coastal",
+  "guides": [
+    {
+      "id": "yucatan",
+      "name": "Yucatán",
+      "country": "Mexico",
+      "tagline": "Coastal & cenote-country regenerative living",
+      "tags": [
+        "mexico",
+        "coastal",
+        "karst",
+        "mangrove",
+        "fideicomiso",
+        "cenote"
+      ],
+      "path": "guides/yucatan.json"
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "country": "Indonesia",
+      "tagline": "Islands, tenure & reef ethics",
+      "tags": [
+        "indonesia",
+        "islands",
+        "coastal",
+        "reef-ethics",
+        "tenure"
+      ],
+      "path": "guides/indonesia.json"
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "country": "Malaysia",
+      "tagline": "Peninsula & Borneo coastal edge",
+      "tags": [
+        "malaysia",
+        "borneo",
+        "coastal",
+        "state-land"
+      ],
+      "path": "guides/malaysia.json"
+    }
+  ]
+}

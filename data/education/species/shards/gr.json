@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "gr",
   "species": [
     {
@@ -7,110 +7,153 @@
       "shard": "gr",
       "type": "animal",
       "popular_name": "Great Barracuda",
+      "taxonomy": "Animal · Fish · Predator",
       "scientific_name": "Sphyraena barracuda",
-      "translations": {
-        "es": "Picuda",
-        "pap": "Barracuda"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Barracuda"
+        },
+        "english": "Great Barracuda",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Picuda"
+          }
+        ]
       },
-      "tags": [
-        "fish",
-        "predator",
-        "reef"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef edges, seagrass, and nearshore blue water — still as a spear.",
-        "food": "Fish ambushed with a burst of speed.",
-        "feeding": "Hangs motionless, then rockets forward.",
-        "mating": "Broadcast spawners in open water.",
-        "socializing": "Young school; big adults often hunt alone."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Fish ambushed with a burst of speed. Hangs motionless, then rockets forward.",
+          "mating": "Broadcast spawners in open water.",
+          "habitat": "Reef edges, seagrass, and nearshore blue water — still as a spear. Young school; big adults often hunt alone."
+        }
       },
       "fun_facts": [
         "Usually ignore people — shiny jewelry interests them more than you do.",
         "Teeth point backward: once a fish is in, it’s not swimming out."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "fish",
+        "predator",
+        "reef"
+      ]
     },
     {
       "id": "green-feather-algae",
       "shard": "gr",
       "type": "plant",
       "popular_name": "Green Feather Algae",
+      "taxonomy": "Plant · Algae · Green",
       "scientific_name": "Caulerpa sertularioides",
-      "translations": {
-        "es": "Alga pluma",
-        "pap": "Feather algae"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Feather algae"
+        },
+        "english": "Green Feather Algae",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Alga pluma"
+          }
+        ]
       },
-      "tags": [
-        "algae",
-        "green",
-        "sand"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Sand and reef flats; feather-like fronds from runners.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Leave living plants where they grow; reduce nutrient runoff when you can.",
+        "caution_against": "Don’t uproot algae or seagrass for aquariums without permits.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Sand and reef flats; feather-like fronds from runners. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Feathery fronds sprout from a creeping stolon like underground stems.",
         "Related species can be invasive outside their home range."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ]
     },
     {
       "id": "green-moray",
       "shard": "gr",
       "type": "animal",
       "popular_name": "Green Moray",
+      "taxonomy": "Animal · Eel · Reef",
       "scientific_name": "Gymnothorax funebris",
-      "translations": {
-        "es": "Morena verde",
-        "pap": "Morena"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Morena"
+        },
+        "english": "Green Moray",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Morena verde"
+          }
+        ]
       },
-      "tags": [
-        "eel",
-        "reef",
-        "nocturnal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef holes and wrecks; head often peeking from a den.",
-        "food": "Fish, crabs, and octopus hunted at night.",
-        "feeding": "Ambush from a crevice; pharyngeal jaws pull prey in.",
-        "mating": "Open-water larval stage before settling on a reef.",
-        "socializing": "Looks angry when breathing — open mouth is gill work."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Fish, crabs, and octopus hunted at night. Ambush from a crevice; pharyngeal jaws pull prey in.",
+          "mating": "Open-water larval stage before settling on a reef.",
+          "habitat": "Reef holes and wrecks; head often peeking from a den. Looks angry when breathing — open mouth is gill work."
+        }
       },
       "fun_facts": [
         "The green color is a mucus coat over brownish skin.",
         "Give dens space; a surprised moray has a strong bite."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "eel",
+        "reef",
+        "nocturnal"
+      ]
     },
     {
       "id": "green-sea-turtle",
       "shard": "gr",
       "type": "animal",
       "popular_name": "Green Sea Turtle",
+      "taxonomy": "Animal · Reptile · Reef",
       "scientific_name": "Chelonia mydas",
-      "translations": {
-        "es": "Tortuga verde",
-        "pap": "Turtuga verd"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Turtuga verd"
+        },
+        "english": "Green Sea Turtle",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Tortuga verde"
+          }
+        ]
       },
-      "tags": [
-        "reptile",
-        "endangered",
-        "reef",
-        "turtle"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Warm shallow seas — coral reefs, seagrass beds, and calm lagoons. Nests on sandy beaches; hatchlings scramble to the water at night.",
-        "food": "Adults prefer seagrass and algae (they are mostly vegetarian). Young turtles snack more widely, including jellies and small invertebrates.",
-        "feeding": "Grazes like a lawnmower on the seafloor, often resting between bites on sandy patches snorkelers can spot.",
-        "mating": "Mates in the water near nesting beaches. Females return to lay eggs in sandy pits — hundreds of eggs, many trips per season.",
-        "socializing": "Usually solitary travelers, but groups gather on good grazing flats. They recognize some feeding spots across years."
+      "conservation": {
+        "status": "Critical",
+        "help_by": "Keep nesting beaches dark and clear; support marine protected areas.",
+        "caution_against": "Never buy turtle products; don’t block crawlways or touch nesting turtles.",
+        "life_info": {
+          "eating": "Adults prefer seagrass and algae (they are mostly vegetarian). Young turtles snack more widely, including jellies and small invertebrates. Grazes like a lawnmower on the seafloor, often resting between bites on sandy patches snorkelers can spot.",
+          "mating": "Mates in the water near nesting beaches. Females return to lay eggs in sandy pits — hundreds of eggs, many trips per season.",
+          "habitat": "Warm shallow seas — coral reefs, seagrass beds, and calm lagoons. Nests on sandy beaches; hatchlings scramble to the water at night. Usually solitary travelers, but groups gather on good grazing flats. They recognize some feeding spots across years."
+        }
       },
       "fun_facts": [
         "They are not named for a green shell — the fat under the shell is greenish from all that salad.",
@@ -123,7 +166,12 @@
           "alt": "Green sea turtle"
         }
       ],
-      "conservation_status": "Endangered (IUCN)"
+      "tags": [
+        "reptile",
+        "endangered",
+        "reef",
+        "turtle"
+      ]
     }
   ]
 }

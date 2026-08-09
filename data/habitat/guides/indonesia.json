@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "indonesia",
+  "name": "Indonesia",
+  "country": "Indonesia",
+  "tagline": "Islands, tenure & reef ethics",
+  "summary": "Archipelago regenerative living next to swimmable sea: monsoon–quake build, foreign tenure paths, and peat/reef ethics. Inland highlands stay in the sister regenerative_habitat research — this guide is for ocean-edge life.",
+  "highlights": [
+    {
+      "title": "Island / coastal tenure",
+      "text": "Lease / PT structures common for foreigners — lawyer early."
+    },
+    {
+      "title": "Salt & monsoon build",
+      "text": "Corrosion, rain, and seismic detailing over catalog dreams."
+    },
+    {
+      "title": "Reef & mangrove ethics",
+      "text": "No harm to reefs, mangroves, or carbon-rich peat for a ‘view.’"
+    }
+  ],
+  "cost_bands": [
+    {
+      "item": "Small coastal land",
+      "usd": "Wide Rp/USD band",
+      "note": "Tourism islands inflate fast"
+    },
+    {
+      "item": "Simple dwelling",
+      "usd": "Local craft vs imported",
+      "note": "Logistics dominate remote islands"
+    }
+  ],
+  "tags": [
+    "indonesia",
+    "islands",
+    "coastal",
+    "reef-ethics",
+    "tenure"
+  ],
+  "disclaimer": "Coastal regenerative planning sketch — not listings or legal advice. Wider inland research: regenerative_habitat sister repo."
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "es",
+  "places": [
+    {
+      "id": "esperance-cape-le-grand",
+      "shard": "es",
+      "name": "Esperance Cape Le Grand",
+      "country_id": "australia",
+      "country": "Australia",
+      "region": "Western Australia",
+      "coordinates": {
+        "lat": -31.539375,
+        "lng": 147.092149,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 5,
+        "eco": 3,
+        "swim": 5,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$70k–$2M",
+        "low": 70000,
+        "high": 2000000,
+        "mid": 1035000,
+        "parcel": "3–5"
+      },
+      "note": "Highland fog some mornings; coast clears by noon.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "western",
+        "australia"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

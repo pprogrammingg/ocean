@@ -59,5 +59,11 @@
     "photography",
     "unique",
     "pebbles"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.482,
+    "lng": -69.905,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

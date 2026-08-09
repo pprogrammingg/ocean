@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "me",
   "species": [
     {
@@ -7,58 +7,82 @@
       "shard": "me",
       "type": "plant",
       "popular_name": "Mermaid's Fan",
+      "taxonomy": "Plant · Algae · Green",
       "scientific_name": "Udotea flabellum",
-      "translations": {
-        "es": "Abanico de sirena",
-        "pap": "Mermaid fan"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Mermaid fan"
+        },
+        "english": "Mermaid's Fan",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Abanico de sirena"
+          }
+        ]
       },
-      "tags": [
-        "algae",
-        "green",
-        "sand"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Sandy reef flats and seagrass edges.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Leave living plants where they grow; reduce nutrient runoff when you can.",
+        "caution_against": "Don’t uproot algae or seagrass for aquariums without permits.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Sandy reef flats and seagrass edges. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Named for looking like a mermaid dropped her fan.",
         "Calcified tissues help it stand upright in surge."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ]
     },
     {
       "id": "mermaids-wine-glass",
       "shard": "me",
       "type": "plant",
       "popular_name": "Mermaid's Wine Glass",
+      "taxonomy": "Plant · Algae · Green",
       "scientific_name": "Acetabularia crenulata",
-      "translations": {
-        "es": "Copa de sirena",
-        "pap": "Wine glass algae"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Wine glass algae"
+        },
+        "english": "Mermaid's Wine Glass",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Copa de sirena"
+          }
+        ]
       },
-      "tags": [
-        "algae",
-        "green",
-        "single-cell"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Shallow rocky and sandy Caribbean bottoms.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Leave living plants where they grow; reduce nutrient runoff when you can.",
+        "caution_against": "Don’t uproot algae or seagrass for aquariums without permits.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Shallow rocky and sandy Caribbean bottoms. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Mostly one giant cell with a stem and a tiny cup — biology magic.",
         "Looks like a field of miniature champagne glasses."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "algae",
+        "green",
+        "single-cell"
+      ]
     }
   ]
 }

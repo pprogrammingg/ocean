@@ -60,5 +60,11 @@
     "calm",
     "quiet-escape",
     "local-picnics"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.43,
+    "lng": -69.87,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

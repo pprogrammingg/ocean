@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "sh",
   "species": [
     {
@@ -7,22 +7,30 @@
       "shard": "sh",
       "type": "plant",
       "popular_name": "Shaving Brush Algae",
+      "taxonomy": "Plant · Algae · Green",
       "scientific_name": "Penicillus capitatus",
-      "translations": {
-        "es": "Brocha de afeitar",
-        "pap": "Penicillus"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Penicillus"
+        },
+        "english": "Shaving Brush Algae",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Brocha de afeitar"
+          }
+        ]
       },
-      "tags": [
-        "algae",
-        "green",
-        "sand"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Sandy bottoms; a stalk topped with a soft green brush.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Leave living plants where they grow; reduce nutrient runoff when you can.",
+        "caution_against": "Don’t uproot algae or seagrass for aquariums without permits.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Sandy bottoms; a stalk topped with a soft green brush. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Named because it looks like an old-fashioned shaving brush.",
@@ -35,36 +43,52 @@
           "alt": "Shaving brush algae"
         }
       ],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "algae",
+        "green",
+        "sand"
+      ]
     },
     {
       "id": "shoal-grass",
       "shard": "sh",
       "type": "plant",
       "popular_name": "Shoal Grass",
+      "taxonomy": "Plant · Seagrass · Pioneer",
       "scientific_name": "Halodule wrightii",
-      "translations": {
-        "es": "Hierba de bajío",
-        "pap": "Shoal grass"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Shoal grass"
+        },
+        "english": "Shoal Grass",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Hierba de bajío"
+          }
+        ]
       },
-      "tags": [
-        "seagrass",
-        "pioneer",
-        "meadow"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Disturbed or shallow flats; a pioneer seagrass.",
-        "food": "Photosynthetic primary producer.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Anchor in sand, not grass; support seagrass-friendly boat habits.",
+        "caution_against": "Don’t drive propellers through meadows or dig up plants.",
+        "life_info": {
+          "eating": "Photosynthetic primary producer. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Disturbed or shallow flats; a pioneer seagrass. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Thin blades make it the fine grass of Caribbean shallows.",
         "Often first to reclaim bare sand after storms or anchors."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "seagrass",
+        "pioneer",
+        "meadow"
+      ]
     }
   ]
 }

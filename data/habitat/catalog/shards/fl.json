@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "shard": "fl",
+  "places": [
+    {
+      "id": "florida-panhandle-navarre-destin-hinterland",
+      "shard": "fl",
+      "name": "Florida Panhandle (Navarre–Destin hinterland)",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "Florida",
+      "coordinates": {
+        "lat": 35.987496,
+        "lng": -67.808811,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 3,
+        "eco": 2,
+        "swim": 5,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$80k–$1.5M",
+        "low": 80000,
+        "high": 1500000,
+        "mid": 790000,
+        "parcel": "3–5"
+      },
+      "note": "Emerald water on calm days; windstorm coverage and dune rules can dominate feasibility.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "florida"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

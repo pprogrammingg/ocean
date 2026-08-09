@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "shard": "te",
+  "places": [
+    {
+      "id": "telchac-puerto",
+      "shard": "te",
+      "name": "Telchac Puerto",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Yucatán",
+      "coordinates": {
+        "lat": 21.39233,
+        "lng": -90.310087,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 1,
+        "eco": 3,
+        "swim": 3,
+        "total": 8
+      },
+      "land_price_usd": {
+        "label": "$9k–$650k",
+        "low": 9000,
+        "high": 650000,
+        "mid": 329500,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "yucatan"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

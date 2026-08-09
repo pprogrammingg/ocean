@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "shard": "tu",
+  "places": [
+    {
+      "id": "tuquillo",
+      "shard": "tu",
+      "name": "Tuquillo",
+      "country_id": "peru",
+      "country": "Peru",
+      "region": "Ancash",
+      "coordinates": {
+        "lat": -16.010287,
+        "lng": -73.542014,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 1,
+        "eco": 5,
+        "swim": 5,
+        "total": 16
+      },
+      "land_price_usd": {
+        "label": "$9k–$560k",
+        "low": 9000,
+        "high": 560000,
+        "mid": 284500,
+        "parcel": "3–5"
+      },
+      "note": "Dry season burn smoke: air weeks can be harsh.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "high-score",
+        "ancash"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

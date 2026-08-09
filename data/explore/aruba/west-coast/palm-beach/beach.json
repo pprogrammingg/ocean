@@ -66,5 +66,11 @@
     "resort-amenities",
     "families",
     "boat-tours"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.5687,
+    "lng": -70.0456,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

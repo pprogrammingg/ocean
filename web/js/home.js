@@ -1,4 +1,4 @@
-import { fetchJSON, explorePath } from "./api.js";
+import { fetchJSON, explorePath, habitatPath } from "./api.js";
 import { webRoot } from "./nav.js";
 
 /** Total animation length in ms. */
@@ -58,11 +58,12 @@ function startLandingBg() {
 }
 
 async function loadStats() {
-  const [countries, search, animals, plants] = await Promise.all([
+  const [countries, search, animals, plants, habitat] = await Promise.all([
     fetchJSON(explorePath("countries.json")),
     fetchJSON("education/species/search-index.json").catch(() => ({ entries: [] })),
     fetchJSON("education/marine-life/animals/index.json").catch(() => ({ items: [] })),
     fetchJSON("education/marine-life/plants/index.json").catch(() => ({ items: [] })),
+    fetchJSON(habitatPath("index.json")).catch(() => ({ place_count: 0 })),
   ]);
 
   const beaches = (countries.countries || []).reduce(
@@ -79,7 +80,7 @@ async function loadStats() {
   return {
     beaches,
     species: speciesIds.size,
-    ecovillages: 0,
+    ecovillages: habitat.place_count || 0,
   };
 }
 

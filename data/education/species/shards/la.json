@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "la",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "la",
       "type": "animal",
       "popular_name": "Laughing Gull",
+      "taxonomy": "Animal · Bird · Coastal",
       "scientific_name": "Leucophaeus atricilla",
-      "translations": {
-        "es": "Gaviota reidora",
-        "pap": "Meeuw"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Meeuw"
+        },
+        "english": "Laughing Gull",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Gaviota reidora"
+          }
+        ]
       },
-      "tags": [
-        "bird",
-        "coastal",
-        "beach"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Beaches, docks, and parking lots with a view of fries.",
-        "food": "Fish, crabs, scraps — opportunistic beach comedians.",
-        "feeding": "Pecks the wrack line; also follows boats for handouts.",
-        "mating": "Nests in colonies on sandy islands.",
-        "socializing": "Named for a laugh-like call that fills every pier."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Fish, crabs, scraps — opportunistic beach comedians. Pecks the wrack line; also follows boats for handouts.",
+          "mating": "Nests in colonies on sandy islands.",
+          "habitat": "Beaches, docks, and parking lots with a view of fries. Named for a laugh-like call that fills every pier."
+        }
       },
       "fun_facts": [
         "That ‘ha-ha-ha’ call is why they’re never quiet vacation guests.",
         "Summer black hoods molt to a winter smudge."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "bird",
+        "coastal",
+        "beach"
+      ]
     }
   ]
 }

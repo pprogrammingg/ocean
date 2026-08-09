@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "shard": "or",
+  "places": [
+    {
+      "id": "orkney-south-isles",
+      "shard": "or",
+      "name": "Orkney South Isles",
+      "country_id": "united-kingdom",
+      "country": "United Kingdom",
+      "region": "Scotland",
+      "coordinates": {
+        "lat": 52.72786,
+        "lng": -7.249317,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 2,
+        "eco": 4,
+        "swim": 4,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$65k–$2M",
+        "low": 65000,
+        "high": 2020000,
+        "mid": 1042500,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "scotland"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

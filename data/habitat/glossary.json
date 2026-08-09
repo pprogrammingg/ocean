@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "term_count": 17,
+  "terms": [
+    {
+      "id": "adobe",
+      "title": "Adobe",
+      "text": "Sun-dried earth blocks or monolithic earth walls. Common in Mexico for centuries; needs good roof overhangs, foundation capillary break, and detailing for driving rain.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "biodigester",
+      "title": "Biodigester",
+      "text": "Anaerobic treatment system that breaks down organic waste and can produce gas for cooking; alternative or complement to septic in rural Mexico where approved.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "bioswale",
+      "title": "Bioswale / rain garden",
+      "text": "Vegetated shallow channel or basin that filters runoff and encourages infiltration—useful for roof overflow and road water on site.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "blackwater",
+      "title": "Blackwater",
+      "text": "Wastewater from toilets and kitchen grease; requires sealed plumbing, septic or biodigester, or municipal sewer where available. Must meet health codes.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "cenote",
+      "title": "Cenote",
+      "text": "Natural sinkhole exposing groundwater in the Yucatán karst. Ecologically sensitive; regulations protect many. Never assume you can drill or discharge near one without permits.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "fideicomiso",
+      "title": "Fideicomiso",
+      "text": "A bank-held trust allowing non-Mexicans to hold residential property in restricted zones (e.g. within 50 km of coast or 100 km of borders). Not legal advice—verify with a notary.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "food-forest",
+      "title": "Food forest",
+      "text": "A layered planting of mostly perennial food and support species (canopy to ground cover) that mimics forest structure, builds soil, and reduces maintenance once established.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "greywater",
+      "title": "Greywater",
+      "text": "Used water from showers, laundry, and sinks (not toilets), redirected to mulch basins or irrigation where law and soil allow. Reduces load on septic or treatment.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "karst",
+      "title": "Karst",
+      "text": "Limestone geology with rapid infiltration and caves. Pollution reaches groundwater quickly; septic fields and chemicals need extra caution.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "mayan-vernacular",
+      "title": "Maya / Yucatec vernacular",
+      "text": "Regional patterns: lime or earth mortars, stone or block bases, steep roofs, high ceilings, cross-ventilation, and sometimes local finishes (e.g. chukum-based renders in parts of the peninsula).",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "passive-solar",
+      "title": "Passive solar",
+      "text": "Using sun, shade, and building shape to heat and cool with minimal mechanical energy. In hot-humid Yucatán, emphasis is usually on shade, cross-ventilation, and roof performance more than winter gain.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "permaculture",
+      "title": "Permaculture",
+      "text": "Design framework for resilient land use: observe, zone spaces by use frequency, integrate water, plants, animals, and structures. Often overlaps with food forests and keyline ideas.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "rainwater-harvesting",
+      "title": "Rainwater harvesting",
+      "text": "Capturing roof runoff into cisterns or tanks, often with first-flush diversion and filtration for domestic use or irrigation. Yucatán’s seasonal rain makes storage sizing critical.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "regenerative-agriculture",
+      "title": "Regenerative agriculture",
+      "text": "Farming and gardening practices focused on soil organic matter, water retention, and biodiversity—e.g. minimal tillage, cover, integrated animals or mulch—scaled here to homestead and multi-acre land.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "regenerative-habitat",
+      "title": "Regenerative habitat",
+      "text": "A dwelling and site approach that aims to improve soil, water, and biodiversity over time—not just “less bad” building. Often pairs local materials, passive comfort, rainwater, and perennial plant systems.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "swale",
+      "title": "Swale",
+      "text": "On-contour ditch and berm to slow runoff and infiltrate water. Useful on sloped lots; on flat karst, infiltration behavior differs—site-specific design matters.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    },
+    {
+      "id": "thermal-mass",
+      "title": "Thermal mass",
+      "text": "Heavy materials (adobe, stone, concrete) that store heat and coolth and release it slowly. Works with—not instead of—insulation, shading, and ventilation in the tropics.",
+      "tags": [
+        "glossary",
+        "coastal"
+      ]
+    }
+  ]
+}

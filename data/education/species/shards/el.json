@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "el",
   "species": [
     {
@@ -7,30 +7,42 @@
       "shard": "el",
       "type": "animal",
       "popular_name": "Elkhorn Coral",
+      "taxonomy": "Animal · Coral · Reef",
       "scientific_name": "Acropora palmata",
-      "translations": {
-        "es": "Coral cuerno de alce",
-        "pap": "Koral eland"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Koral eland"
+        },
+        "english": "Elkhorn Coral",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Coral cuerno de alce"
+          }
+        ]
       },
-      "tags": [
-        "coral",
-        "reef",
-        "endangered",
-        "builder"
-      ],
-      "dwelling_habits": {
-        "dwelling": "High-energy shallow reef crests where waves break.",
-        "food": "Symbiotic algae plus captured plankton.",
-        "feeding": "Daylight partners (zooxanthellae) live inside the tissue.",
-        "mating": "Synchronized night spawning releases egg–sperm bundles.",
-        "socializing": "Antler-like thickets shelter countless fish."
+      "conservation": {
+        "status": "Critical",
+        "help_by": "Use reef-safe sunscreen; choose operators that don’t touch or kick coral.",
+        "caution_against": "Never stand on, break, or collect living coral.",
+        "life_info": {
+          "eating": "Symbiotic algae plus captured plankton. Daylight partners (zooxanthellae) live inside the tissue.",
+          "mating": "Synchronized night spawning releases egg–sperm bundles.",
+          "habitat": "High-energy shallow reef crests where waves break. Antler-like thickets shelter countless fish."
+        }
       },
       "fun_facts": [
         "Named for branches like elk antlers — Caribbean reef architecture.",
         "Critically endangered after disease and bleaching waves."
       ],
       "images": [],
-      "conservation_status": "Critically Endangered (IUCN)"
+      "tags": [
+        "coral",
+        "reef",
+        "endangered",
+        "builder"
+      ]
     }
   ]
 }

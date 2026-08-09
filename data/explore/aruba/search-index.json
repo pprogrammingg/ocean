@@ -21,7 +21,12 @@
         "bodyboarding",
         "wild-scenery",
         "photography"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.5365,
+        "lng": -69.942,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "arashi",
@@ -47,7 +52,12 @@
         "calm",
         "sunsets",
         "pelican-watching"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.6125,
+        "lng": -70.0528,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "baby-beach",
@@ -69,7 +79,12 @@
         "families-with-young-children",
         "beginner-snorkelers",
         "calm-lagoon-swimming"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.4186,
+        "lng": -69.8831,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "blackstone-beach",
@@ -85,7 +100,12 @@
         "photography",
         "unique",
         "pebbles"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.482,
+        "lng": -69.905,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "boca-catalina",
@@ -104,7 +124,12 @@
         "calm",
         "shore-snorkeling",
         "quiet-cove"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.605,
+        "lng": -70.048,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "boca-grandi",
@@ -121,7 +146,12 @@
         "wild",
         "wind-sports",
         "wild-coast"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.455,
+        "lng": -69.88,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "boca-prins",
@@ -139,7 +169,12 @@
         "jeep",
         "dune-views",
         "4x4-adventure"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.478,
+        "lng": -69.91,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "dos-playa",
@@ -159,7 +194,12 @@
         "photography",
         "experienced-surfers",
         "arikok-national-park"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.47,
+        "lng": -69.9,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "druif-beach",
@@ -175,7 +215,12 @@
         "local",
         "quiet-day",
         "cruise-adjacent-visitors"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.535,
+        "lng": -70.06,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "eagle-beach",
@@ -195,7 +240,12 @@
         "white-sand",
         "sunbathing",
         "wide-open-sand"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.5494,
+        "lng": -70.0576,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "flamingo-beach",
@@ -213,7 +263,12 @@
         "island",
         "unique-experience",
         "flamingo-encounters"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.542,
+        "lng": -70.062,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "grapefield-beach",
@@ -230,7 +285,12 @@
         "calm",
         "quiet-escape",
         "local-picnics"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.43,
+        "lng": -69.87,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "hadicurari",
@@ -248,7 +308,12 @@
         "northwest",
         "water-sports",
         "trade-winds"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.598,
+        "lng": -70.045,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "malmok-beach",
@@ -264,7 +329,12 @@
         "coral",
         "calm",
         "quiet-west-coast-alternative"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.602,
+        "lng": -70.0465,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "manchebo-beach",
@@ -281,7 +351,12 @@
         "low-crowd",
         "quiet-relaxation",
         "sunsets"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.545,
+        "lng": -70.06,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "mangel-halto",
@@ -301,7 +376,12 @@
         "shore-dive",
         "mangrove-ecosystem",
         "advanced-snorkelers"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.455,
+        "lng": -69.96,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "palm-beach",
@@ -321,7 +401,12 @@
         "resort-amenities",
         "families",
         "boat-tours"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.5687,
+        "lng": -70.0456,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "rodgers-beach",
@@ -339,7 +424,12 @@
         "seclusion",
         "local-atmosphere",
         "quiet-swimming"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.425,
+        "lng": -69.89,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "surfside-beach",
@@ -356,7 +446,12 @@
         "plane-spotting",
         "cruise-ship-visitors",
         "quick-city-beach-stop"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.52,
+        "lng": -70.038,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "tres-trapi",
@@ -374,7 +469,12 @@
         "pelican",
         "sea-turtle-snorkeling",
         "unique-rocky-entry"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.59,
+        "lng": -70.043,
+        "crs": "EPSG:4326"
+      }
     },
     {
       "id": "wariruri-beach",
@@ -392,7 +492,12 @@
         "surfer",
         "surfing",
         "remote-scenery"
-      ]
+      ],
+      "coordinates": {
+        "lat": 12.575,
+        "lng": -70.0,
+        "crs": "EPSG:4326"
+      }
     }
   ]
 }

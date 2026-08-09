@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "shard": "bi",
+  "places": [
+    {
+      "id": "big-island-puna-hilo-belt",
+      "shard": "bi",
+      "name": "Big Island (Puna / Hilo belt)",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "Hawaii",
+      "coordinates": {
+        "lat": 43.789695,
+        "lng": -85.969496,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 4,
+        "eco": 4,
+        "swim": 4,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$25k–$950k",
+        "low": 25000,
+        "high": 950000,
+        "mid": 487500,
+        "parcel": "3–5"
+      },
+      "note": "Lava zones + wet-side rainfall: insurance, water, and soils are the design brief.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "hawaii"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "big-sur-gateway-carmel-highlands",
+      "shard": "bi",
+      "name": "Big Sur gateway (Carmel Highlands)",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "California",
+      "coordinates": {
+        "lat": 37.328796,
+        "lng": -110.466996,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 5,
+        "eco": 3,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$600k–$6M",
+        "low": 600000,
+        "high": 6000000,
+        "mid": 3300000,
+        "parcel": "3–5"
+      },
+      "note": "Iconic ridgelines and strict environmental process; landslide and road access reality.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "california"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

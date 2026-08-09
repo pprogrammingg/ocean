@@ -31,6 +31,12 @@ export async function bootCurrentPage() {
       await startSpeciesPage();
       break;
     }
+    case "habitat": {
+      initPage("habitat");
+      const { startHabitatPage } = await import(`./habitat.js?${bust}`);
+      await startHabitatPage();
+      break;
+    }
     case "connection":
       initPage("home");
       break;

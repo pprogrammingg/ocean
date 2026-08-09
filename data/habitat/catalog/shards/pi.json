@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "pi",
+  "places": [
+    {
+      "id": "pichilemu",
+      "shard": "pi",
+      "name": "Pichilemu",
+      "country_id": "chile",
+      "country": "Chile",
+      "region": "O'Higgins",
+      "coordinates": {
+        "lat": -51.077702,
+        "lng": -74.812849,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 3,
+        "eco": 5,
+        "swim": 3,
+        "total": 16
+      },
+      "land_price_usd": {
+        "label": "$23k–$900k",
+        "low": 23000,
+        "high": 900000,
+        "mid": 461500,
+        "parcel": "3–5"
+      },
+      "note": "Indigenous land rights: due diligence before marketing fantasy.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "affordable",
+        "high-score",
+        "o-higgins"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

@@ -5,7 +5,7 @@ alwaysApply: true
 
 # ocean-love.xyz
 
-Audience-first ocean exploration & stewardship site. Hub paths: `/shop`, `/explore`, `/cleanup`, `/community`.
+Audience-first ocean exploration & stewardship site. Hub paths: `/curiosity`, `/habitat`, `/shop`, `/conservation`.
 
 ## Output
 
@@ -27,7 +27,10 @@ data/explore/{country}/{city_zone}/city-beaches.json  ← on zone select
 data/explore/{country}/{city_zone}/{beach}/beach.json ← on beach select
 data/explore/{country}/scuba-zones/      (later)
 data/education/marine-life/{animals|plants}/{slug}.json  ← one card per fetch
-data/education/species/index.json → species/data/{shard}.json  ← shard on slug resolve
+data/education/species/index.json → shards/{digram}.json  ← shard on slug resolve
+data/habitat/countries.json + search-index.json ← places filter / trie
+data/habitat/catalog/shards/{digram}.json ← place detail on select (≤50)
+data/habitat/guides/{slug}.json + glossary.json ← on select / terms tab
 data/eco_shop/{category}/catalog.json    ← category index; item detail by ref
 ```
 

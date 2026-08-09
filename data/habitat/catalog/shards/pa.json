@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "shard": "pa",
+  "places": [
+    {
+      "id": "pangani-ushongo",
+      "shard": "pa",
+      "name": "Pangani / Ushongo",
+      "country_id": "tanzania",
+      "country": "Tanzania",
+      "region": "Tanga",
+      "coordinates": {
+        "lat": -10.397268,
+        "lng": 36.169448,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 2,
+        "eco": 4,
+        "swim": 5,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$5k–$230k",
+        "low": 5000,
+        "high": 230000,
+        "mid": 117500,
+        "parcel": "3–5"
+      },
+      "note": "Monsoon coast: build for sheet flow, not just rain.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "high-score",
+        "tanga"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "paquera-ferry-hills",
+      "shard": "pa",
+      "name": "Paquera ferry hills",
+      "country_id": "costa-rica",
+      "country": "Costa Rica",
+      "region": "Puntarenas",
+      "coordinates": {
+        "lat": 8.687561,
+        "lng": -82.714172,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 3,
+        "eco": 4,
+        "swim": 4,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$28k–$1.2M",
+        "low": 28000,
+        "high": 1250000,
+        "mid": 639000,
+        "parcel": "3–5"
+      },
+      "note": "Dry season burn smoke: air weeks can be harsh.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "high-score",
+        "puntarenas"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "paracas-reserve-edge",
+      "shard": "pa",
+      "name": "Paracas reserve edge",
+      "country_id": "peru",
+      "country": "Peru",
+      "region": "Ica",
+      "coordinates": {
+        "lat": -2.539755,
+        "lng": -77.14263,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 4,
+        "eco": 5,
+        "swim": 3,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$10k–$570k",
+        "low": 10000,
+        "high": 570000,
+        "mid": 290000,
+        "parcel": "3–5"
+      },
+      "note": "Whale season doubles traffic—plan quiet months too.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "views",
+        "high-score"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "patenga-karnaphuli-estuary",
+      "shard": "pa",
+      "name": "Patenga / Karnaphuli estuary",
+      "country_id": "bangladesh",
+      "country": "Bangladesh",
+      "region": "Chattogram",
+      "coordinates": {
+        "lat": 24.791887,
+        "lng": 90.817088,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 4,
+        "eco": 2,
+        "swim": 4,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$5k–$145k",
+        "low": 5000,
+        "high": 145000,
+        "mid": 75000,
+        "parcel": "3–5"
+      },
+      "note": "Lee side bay: glassy water, good for kids' swimming.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "views",
+        "affordable",
+        "chattogram"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

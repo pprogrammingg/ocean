@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "shard": "lo",
+  "places": [
+    {
+      "id": "lome-aflao-beach-strip",
+      "shard": "lo",
+      "name": "Lomé Aflao beach strip",
+      "country_id": "togo",
+      "country": "Togo",
+      "region": "Maritime",
+      "coordinates": {
+        "lat": 6.924385,
+        "lng": 1.781463,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 5,
+        "eco": 5,
+        "swim": 4,
+        "total": 17
+      },
+      "land_price_usd": {
+        "label": "$5k–$105k",
+        "low": 5000,
+        "high": 105000,
+        "mid": 55000,
+        "parcel": "3–5"
+      },
+      "note": "Coconut palm economy: food + thatch + shade in one.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "maritime"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "lower-keys-big-pine-area",
+      "shard": "lo",
+      "name": "Lower Keys (Big Pine area)",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "Florida",
+      "coordinates": {
+        "lat": 26.995288,
+        "lng": -113.72732,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 3,
+        "eco": 4,
+        "swim": 5,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$200k–$2.8M",
+        "low": 200000,
+        "high": 2800000,
+        "mid": 1500000,
+        "parcel": "3–5"
+      },
+      "note": "Sensitive ecology and strict building; boating culture often beats “dirt cheap acreage.”",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "florida"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

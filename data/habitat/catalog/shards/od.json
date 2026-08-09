@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "shard": "od",
+  "places": [
+    {
+      "id": "odeceixe",
+      "shard": "od",
+      "name": "Odeceixe",
+      "country_id": "portugal",
+      "country": "Portugal",
+      "region": "Alentejo coast",
+      "coordinates": {
+        "lat": 42.172197,
+        "lng": -7.36879,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 4,
+        "eco": 4,
+        "swim": 4,
+        "total": 16
+      },
+      "land_price_usd": {
+        "label": "$29k–$1.3M",
+        "low": 29000,
+        "high": 1340000,
+        "mid": 684500,
+        "parcel": "3–5"
+      },
+      "note": "Coconut palm economy: food + thatch + shade in one.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "alentejo"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

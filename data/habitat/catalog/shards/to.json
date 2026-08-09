@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "to",
+  "places": [
+    {
+      "id": "tobelo-halmahera-east",
+      "shard": "to",
+      "name": "Tobelo / Halmahera east",
+      "country_id": "indonesia",
+      "country": "Indonesia",
+      "region": "North Maluku",
+      "coordinates": {
+        "lat": -9.77003,
+        "lng": 122.095074,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 4,
+        "eco": 5,
+        "swim": 3,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$6k–$265k",
+        "low": 6000,
+        "high": 265000,
+        "mid": 135500,
+        "parcel": "3–5"
+      },
+      "note": "Few paved roads: solar + satellite = realistic stack.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "views",
+        "north",
+        "maluku"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

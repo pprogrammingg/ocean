@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "shard": "ma",
+  "places": [
+    {
+      "id": "mamitupu-island",
+      "shard": "ma",
+      "name": "Mamitupu island",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Guna Yala",
+      "coordinates": {
+        "lat": 9.650732,
+        "lng": -80.723991,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 4,
+        "eco": 5,
+        "swim": 5,
+        "total": 17
+      },
+      "land_price_usd": {
+        "label": "$19k–$780k",
+        "low": 19000,
+        "high": 780000,
+        "mid": 399500,
+        "parcel": "3–5"
+      },
+      "note": "Dry forest + coast: strong seasonality, plan water.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "high-score",
+        "guna"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "mar-de-las-pampas",
+      "shard": "ma",
+      "name": "Mar de las Pampas",
+      "country_id": "argentina",
+      "country": "Argentina",
+      "region": "Buenos Aires",
+      "coordinates": {
+        "lat": -47.593221,
+        "lng": -56.01791,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 2,
+        "eco": 5,
+        "swim": 4,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$11k–$550k",
+        "low": 11000,
+        "high": 550000,
+        "mid": 280500,
+        "parcel": "3–5"
+      },
+      "note": "Highland fog some mornings; coast clears by noon.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "buenos",
+        "aires"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "mariato-torio",
+      "shard": "ma",
+      "name": "Mariato / Torio",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Veraguas",
+      "coordinates": {
+        "lat": 8.62573,
+        "lng": -78.801072,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 2,
+        "eco": 5,
+        "swim": 3,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$18k–$810k",
+        "low": 18000,
+        "high": 810000,
+        "mid": 414000,
+        "parcel": "3–5"
+      },
+      "note": "Earthquake + coast: geotech before ridge cuts.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "veraguas"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

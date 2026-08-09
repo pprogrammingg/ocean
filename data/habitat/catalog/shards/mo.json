@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "shard": "mo",
+  "places": [
+    {
+      "id": "moheli-itsamia",
+      "shard": "mo",
+      "name": "Moheli Itsamia",
+      "country_id": "comoros",
+      "country": "Comoros",
+      "region": "Moheli",
+      "coordinates": {
+        "lat": -11.321682,
+        "lng": 44.699681,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 5,
+        "eco": 4,
+        "swim": 5,
+        "total": 18
+      },
+      "land_price_usd": {
+        "label": "$7k–$200k",
+        "low": 7000,
+        "high": 200000,
+        "mid": 103500,
+        "parcel": "3–5"
+      },
+      "note": "Eco-lodge cluster nearby: skill share, also price pressure.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "views",
+        "affordable",
+        "high-score",
+        "moheli"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "molokai-west",
+      "shard": "mo",
+      "name": "Molokai west",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "Hawaii",
+      "coordinates": {
+        "lat": 33.018972,
+        "lng": -120.875452,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 2,
+        "eco": 5,
+        "swim": 3,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$30k–$3.2M",
+        "low": 30000,
+        "high": 3180000,
+        "mid": 1605000,
+        "parcel": "3–5"
+      },
+      "note": "Lagoon calmer than open ocean for daily swims.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "hawaii"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "monitos",
+      "shard": "mo",
+      "name": "Moñitos",
+      "country_id": "colombia",
+      "country": "Colombia",
+      "region": "Córdoba",
+      "coordinates": {
+        "lat": 7.841897,
+        "lng": -69.129755,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 1,
+        "eco": 5,
+        "swim": 3,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$12k–$510k",
+        "low": 12000,
+        "high": 510000,
+        "mid": 261000,
+        "parcel": "3–5"
+      },
+      "note": "Monsoon coast: build for sheet flow, not just rain.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "cordoba"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "montelimar-campo",
+      "shard": "mo",
+      "name": "Montelimar campo",
+      "country_id": "nicaragua",
+      "country": "Nicaragua",
+      "region": "Managua",
+      "coordinates": {
+        "lat": 13.369525,
+        "lng": -82.778059,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 2,
+        "eco": 3,
+        "swim": 3,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$7k–$315k",
+        "low": 7000,
+        "high": 315000,
+        "mid": 161000,
+        "parcel": "3–5"
+      },
+      "note": "Karst aquifer: cenotes or wells define settlement pattern.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "managua"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

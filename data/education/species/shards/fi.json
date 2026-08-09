@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "fi",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "fi",
       "type": "animal",
       "popular_name": "Fire Coral",
+      "taxonomy": "Animal · Cnidarian · Reef",
       "scientific_name": "Millepora complanata",
-      "translations": {
-        "es": "Coral de fuego",
-        "pap": "Vuurkoraal"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Vuurkoraal"
+        },
+        "english": "Fire Coral",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Coral de fuego"
+          }
+        ]
       },
-      "tags": [
-        "cnidarian",
-        "reef",
-        "hydrocoral"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Shallow Aruba reef crests and flats — blade-like yellow-tan colonies in surge.",
-        "food": "Symbiotic algae plus plankton stung by tiny polyps.",
-        "feeding": "Looks like coral but is a hydrozoan relative of jellyfish.",
-        "mating": "Releases medusae; also spreads by colony growth.",
-        "socializing": "Forms nursery structure for juvenile reef fish on Aruba’s leeward shallows."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Use reef-safe sunscreen; choose operators that don’t touch or kick coral.",
+        "caution_against": "Never stand on, break, or collect living coral.",
+        "life_info": {
+          "eating": "Symbiotic algae plus plankton stung by tiny polyps. Looks like coral but is a hydrozoan relative of jellyfish.",
+          "mating": "Releases medusae; also spreads by colony growth.",
+          "habitat": "Shallow Aruba reef crests and flats — blade-like yellow-tan colonies in surge. Forms nursery structure for juvenile reef fish on Aruba’s leeward shallows."
+        }
       },
       "fun_facts": [
         "Touching it feels like a bee sting — admire with eyes, not fingers.",
         "Common on Aruba’s shallow reef islands alongside elkhorn stands."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "cnidarian",
+        "reef",
+        "hydrocoral"
+      ]
     }
   ]
 }

@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "shard": "me",
+  "places": [
+    {
+      "id": "mechapa",
+      "shard": "me",
+      "name": "Mechapa",
+      "country_id": "nicaragua",
+      "country": "Nicaragua",
+      "region": "Chinandega",
+      "coordinates": {
+        "lat": 11.837805,
+        "lng": -86.802732,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 5,
+        "eco": 3,
+        "swim": 3,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$6k–$280k",
+        "low": 6000,
+        "high": 280000,
+        "mid": 143000,
+        "parcel": "3–5"
+      },
+      "note": "Eco-lodge cluster nearby: skill share, also price pressure.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "views",
+        "chinandega"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "mendocino-albion-belt",
+      "shard": "me",
+      "name": "Mendocino / Albion belt",
+      "country_id": "united-states",
+      "country": "United States",
+      "region": "California",
+      "coordinates": {
+        "lat": 26.937829,
+        "lng": -121.954058,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 5,
+        "eco": 4,
+        "swim": 3,
+        "total": 14
+      },
+      "land_price_usd": {
+        "label": "$120k–$2.4M",
+        "low": 120000,
+        "high": 2400000,
+        "mid": 1260000,
+        "parcel": "3–5"
+      },
+      "note": "Redwood-meets-sea fog belt; fire + coastal erosion are part of the long plan.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "views",
+        "california"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "merauke-estuary",
+      "shard": "me",
+      "name": "Merauke estuary",
+      "country_id": "indonesia",
+      "country": "Indonesia",
+      "region": "South Papua",
+      "coordinates": {
+        "lat": 1.772858,
+        "lng": 125.801599,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 2,
+        "eco": 2,
+        "swim": 4,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$6k–$250k",
+        "low": 6000,
+        "high": 250000,
+        "mid": 128000,
+        "parcel": "3–5"
+      },
+      "note": "Whale season doubles traffic—plan quiet months too.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "south",
+        "papua"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

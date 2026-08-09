@@ -69,5 +69,11 @@
     "white-sand",
     "sunbathing",
     "wide-open-sand"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.5494,
+    "lng": -70.0576,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

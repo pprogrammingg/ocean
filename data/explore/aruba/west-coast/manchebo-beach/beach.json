@@ -61,5 +61,11 @@
     "low-crowd",
     "quiet-relaxation",
     "sunsets"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.545,
+    "lng": -70.06,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

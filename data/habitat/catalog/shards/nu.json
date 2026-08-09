@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "shard": "nu",
+  "places": [
+    {
+      "id": "nungwi-kendwa",
+      "shard": "nu",
+      "name": "Nungwi / Kendwa",
+      "country_id": "tanzania",
+      "country": "Tanzania",
+      "region": "Zanzibar North",
+      "coordinates": {
+        "lat": -1.357116,
+        "lng": 37.911415,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 2,
+        "eco": 2,
+        "swim": 4,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$5k–$225k",
+        "low": 5000,
+        "high": 225000,
+        "mid": 115000,
+        "parcel": "3–5"
+      },
+      "note": "Lee side bay: glassy water, good for kids' swimming.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "zanzibar",
+        "north"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

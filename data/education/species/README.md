@@ -34,9 +34,15 @@ shardId(slug) = slug.replace(/[^a-z0-9]/g, "").slice(0, 2)
 
 Never embed full species objects in beach/country JSON.
 
-## Record shape
+## Record shape (schema 1.1)
 
-See any file under `shards/`. Fields: `popular_name`, `translations`, `scientific_name`, `dwelling_habits`, `fun_facts`, `images`, `tags`.
+Three sections per species card:
+
+1. **Taxonomy & names** — `taxonomy`, `scientific_name`, `languages` (`indigenous` / `english` / `other` ≤3)
+2. **Conservation notes** — `conservation.status` (`Good` | `Bad` | `Critical` | `Extinct`), `help_by`, `caution_against`, `life_info` (`eating`, `mating`, `habitat`)
+3. **Interesting & fun facts** — `fun_facts` (≤5)
+
+Also: `popular_name`, `images`, `tags`. Migrate with `python3 dev/migrate_species_sections.py`.
 
 ### Images
 

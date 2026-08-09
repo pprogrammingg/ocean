@@ -1,79 +1,1015 @@
 {
   "owns": "Everything for people who love the ocean.",
+  "north_star": {
+    "summary": "Regenerative coastal deals close with fair distribution to builders — ocean love surface keeps people caring.",
+    "weekly_cadence": "Strict 2 hours/week max. Each session = one 60-min task OR two 30-min tasks. No third task."
+  },
+  "capacity": {
+    "hours_per_week_max": 2,
+    "max_task_minutes": 60,
+    "session_shapes": [
+      "1×60m",
+      "2×30m"
+    ],
+    "rule": "If a task needs more than 60 minutes, split it before it enters next_tasks. Never schedule more than 2h in one week."
+  },
+  "ruthless_criteria": {
+    "rule": "A next_task is allowed only if all of the following are true.",
+    "must": [
+      "minutes is 30 or 60",
+      "description states a clear done/acceptance (what exists when finished)",
+      "fits one session shape without a third task that week",
+      "track is set (regenerative_coastal | ocean_love_surface | ocean_gear_later)",
+      "serves active_revenue_track OR is an explicit spark on ocean_love_surface",
+      "not a vague research fog — name the artifact (list, page, JSON, send, note)"
+    ],
+    "reject": [
+      "multi-hour epics",
+      "Parked: tasks offered as primary",
+      "directionless prototypes that ignore software_rule in execution-strategy",
+      "affiliate grind while regenerative_coastal queue has READY connect/prosper work"
+    ]
+  },
+  "revenue_tracks": {
+    "regenerative_coastal": {
+      "role": "Crown cash + meaning — regenerative coastal deals / fair distribution",
+      "status": "active_focus",
+      "themes": [
+        "Regenerative-Habitat"
+      ],
+      "subcategories": [
+        "builder_funder_connect",
+        "deal_path",
+        "trust_voice",
+        "place_scout"
+      ]
+    },
+    "ocean_love_surface": {
+      "role": "Love engine — beaches, species, conservation trust that feeds the crown",
+      "status": "active_secondary",
+      "themes": [
+        "Curiosity",
+        "Conservation",
+        "Site-Craft"
+      ],
+      "subcategories": [
+        "beaches",
+        "species",
+        "habitat_profiles",
+        "conservation_story",
+        "craft_delight"
+      ]
+    },
+    "ocean_gear_later": {
+      "role": "Later amenity / affiliate lifestyle rail — not the weekly money path",
+      "status": "parked",
+      "themes": [
+        "Ocean-Gear-Shop"
+      ],
+      "subcategories": [
+        "eco_snorkeling_content",
+        "affiliate_programs",
+        "shop_ui",
+        "operator_talks"
+      ]
+    }
+  },
+  "task_schema": {
+    "index": "THEME-subtheme-CODE-##  (e.g. OGS-affiliate-AF-02)",
+    "description": "Ruthless + clear — enough to start and finish without guessing; include acceptance criteria in the sentence",
+    "minutes": "30 or 60 (required on next_tasks)",
+    "dependencies": [
+      "full task index strings only; [] if none"
+    ],
+    "lane": "optional — build | discover | connect | prosper | polish",
+    "track": "regenerative_coastal | ocean_love_surface | ocean_gear_later",
+    "recurring": "optional bool — stays in next_tasks; refresh todo checklist each run",
+    "todo": "optional string list for recurring checklists"
+  },
+  "how_next_works": "When asked 'what next': (1) prefer READY tasks on active_revenue_track (regenerative_coastal → RH), (2) pack exactly ≤2h (one 60m or two 30m — never a third task), (3) skip Parked: unless asked, (4) offer PRIMARY from crown track + optional SPARK from ocean_love_surface if energy is build/discover/polish, (5) after finish move task to done_tasks (recurring: leave in next_tasks, tick/update todo). Reject any suggested work that violates capacity or ruthless_criteria.",
+  "active_focus": "Regenerative-Habitat",
+  "active_revenue_track": "regenerative_coastal",
   "themes": [
     {
       "theme": "Curiosity",
+      "acronym": "CUR",
+      "track": "ocean_love_surface",
+      "intent": "Discovery engine — beaches, species, habitats. Makes the ocean feel knowable. Feeds regenerative place trust.",
+      "energy": "high when exploring places/species; spark lane when deal talks are heavy",
       "done_tasks": [
-        "Aruba beaches + ratings UI",
-        "Country marine_overview + species chips",
-        "Digram species shards (pelican, turtle, mahi)",
-        "curiosity/beaches hub (lazy country → zone → beach)",
-        "curiosity/species hub (shard nav + default shard)",
-        "Species postcard overlay from beach chips",
-        "Deep-link chip → overlay → species guide (shard + slug + hash)",
-        "Soft-nav remounts correct data-page (beaches ↔ species)"
+        {
+          "index": "CUR-beaches-BH-01",
+          "description": "Aruba beaches + ratings UI",
+          "dependencies": [],
+          "lane": "build"
+        },
+        {
+          "index": "CUR-beaches-BH-02",
+          "description": "Country marine_overview + species chips",
+          "dependencies": [],
+          "lane": "build"
+        },
+        {
+          "index": "CUR-species-SP-01",
+          "description": "Digram species shards (initial species set)",
+          "dependencies": [],
+          "lane": "build"
+        },
+        {
+          "index": "CUR-beaches-BH-03",
+          "description": "curiosity/beaches hub (lazy country → zone → beach)",
+          "dependencies": [
+            "CUR-beaches-BH-01"
+          ],
+          "lane": "build"
+        },
+        {
+          "index": "CUR-species-SP-02",
+          "description": "curiosity/species hub (shard nav + default shard)",
+          "dependencies": [
+            "CUR-species-SP-01"
+          ],
+          "lane": "build"
+        },
+        {
+          "index": "CUR-species-SP-03",
+          "description": "Species postcard overlay from beach chips",
+          "dependencies": [
+            "CUR-beaches-BH-02",
+            "CUR-species-SP-01"
+          ],
+          "lane": "build"
+        },
+        {
+          "index": "CUR-species-SP-04",
+          "description": "Deep-link chip → overlay → species guide",
+          "dependencies": [
+            "CUR-species-SP-03",
+            "CUR-species-SP-02"
+          ],
+          "lane": "build"
+        },
+        {
+          "index": "CUR-nav-NV-01",
+          "description": "Soft-nav remounts correct data-page (beaches ↔ species)",
+          "dependencies": [],
+          "lane": "polish"
+        },
+        {
+          "index": "CUR-species-SP-08",
+          "description": "Species cards: taxonomy/languages, conservation notes (Good–Extinct), fun facts ≤5",
+          "dependencies": [
+            "CUR-species-SP-03",
+            "CUR-species-SP-04"
+          ],
+          "lane": "build"
+        }
       ],
       "next_tasks": [
-        "Clicking beach slug scrolls main pane to top of beach content",
-        "Migrate remaining marine-life into digram shards + images",
-        "Species/habitat context on beach pages (no donate CTAs)",
-        "Habitat profiles",
-        "Per-beach SEO URLs",
-        "Bonaire + Australia beach data",
-        "Destination hub pages",
-        "Live conditions / tide-wave integration",
-        "Global beach graph at scale"
+        {
+          "index": "CUR-beaches-BH-04",
+          "description": "Beach slug click scrolls #beach-detail (or main pane) to top of beach content. Acceptance: click list item → detail scrolls to top on desktop.",
+          "dependencies": [
+            "CUR-beaches-BH-03"
+          ],
+          "lane": "polish",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-species-SP-05",
+          "description": "Add hero images for next 5 species: place webp under web/media, wire shard image refs. Acceptance: 5 species show hero in postcard/guide.",
+          "dependencies": [
+            "CUR-species-SP-01"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-species-SP-06",
+          "description": "Add hero images for next 5 species (batch 2): webp + shard refs. Acceptance: 5 more species show hero in postcard/guide.",
+          "dependencies": [
+            "CUR-species-SP-05"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-species-SP-07",
+          "description": "Migrate leftover marine-life JSON into digram shards (no new features). Acceptance: no orphan marine-life cards still required by beaches; shards load.",
+          "dependencies": [
+            "CUR-species-SP-01"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-beaches-BH-05",
+          "description": "Add species/habitat blurb on one Aruba beach JSON + render (no donate CTAs). Acceptance: one beach shows blurb with ≥1 species slug chip.",
+          "dependencies": [
+            "CUR-beaches-BH-03",
+            "CUR-species-SP-03"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-habitat-HB-01",
+          "description": "Draft habitat profile schema (reef / seagrass / mangrove) as JSON sketch in notes or data/. Acceptance: fields listed + 1 example object.",
+          "dependencies": [
+            "CUR-beaches-BH-05"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-habitat-HB-02",
+          "description": "Ship one habitat profile page wired to 1–2 Aruba beaches (lazy fetch). Acceptance: open beach → habitat link/section loads profile JSON.",
+          "dependencies": [
+            "CUR-habitat-HB-01"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-seo-SE-01",
+          "description": "Design per-beach URL shape (pretty path, static-friendly) — write decision in 10 lines. Acceptance: chosen pattern + 2 example URLs.",
+          "dependencies": [
+            "CUR-beaches-BH-04"
+          ],
+          "lane": "prosper",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-destination-DS-01",
+          "description": "Bonaire country stub + 1 zone index (discovery trip, not full graph). Acceptance: countries.json entry + country.json + one zone beaches index.",
+          "dependencies": [
+            "CUR-beaches-BH-03"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-destination-DS-02",
+          "description": "Australia country stub only (flag for later — no deep beach dig). Acceptance: countries.json + minimal country.json.",
+          "dependencies": [
+            "CUR-destination-DS-01"
+          ],
+          "lane": "discover",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-destination-DS-03",
+          "description": "Lightweight Aruba destination hub: beaches + species entry points (one HTML or section). Acceptance: reachable from Curiosity with 2 CTAs.",
+          "dependencies": [
+            "CUR-beaches-BH-05",
+            "CUR-species-SP-02"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-live-LV-01",
+          "description": "Spike: static tide/wave fields on one beach JSON + render sample. Acceptance: one beach shows fake/sample fields in UI.",
+          "dependencies": [
+            "CUR-beaches-BH-04"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CUR-scale-SC-01",
+          "description": "Parked: global beach graph at scale (only after Bonaire + SEO shape)",
+          "dependencies": [
+            "CUR-destination-DS-01",
+            "CUR-seo-SE-01"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        }
+      ]
+    },
+    {
+      "theme": "Regenerative-Habitat",
+      "acronym": "RH",
+      "track": "regenerative_coastal",
+      "intent": "Crown prosperity — regenerative coastal deals + fair funding distribution to builders/designers. Sister research lives in regenerative_habitat. No markup theater.",
+      "energy": "connect-first (talks); light trust writing; Ocean Ways & cleaning-tech stay later amenities",
+      "done_tasks": [
+        {
+          "index": "RH-foundation-FO-01",
+          "description": "Lock crown path: regenerative coastal deals over affiliate/tour-first (venture questionnaire)",
+          "dependencies": [],
+          "lane": "prosper"
+        },
+        {
+          "index": "RH-site-UI-01",
+          "description": "Integrate regenerative_habitat into Habitat hub (places shards + guides + glossary)",
+          "dependencies": [
+            "RH-foundation-FO-01"
+          ],
+          "lane": "build"
+        },
+        {
+          "index": "RH-site-UI-02",
+          "description": "Lock coastal-only Habitat slice; sister repo stays global regenerative base",
+          "dependencies": [
+            "RH-site-UI-01"
+          ],
+          "lane": "build"
+        },
+        {
+          "index": "RH-site-UI-03",
+          "description": "swim-near-ocean tag opens nearby beaches (≤20 km) in Curiosity",
+          "dependencies": [
+            "RH-site-UI-02"
+          ],
+          "lane": "build"
+        }
+      ],
+      "next_tasks": [
+        {
+          "index": "RH-connect-CN-01",
+          "description": "List 10 regenerative builders/funders/designers — each row: name, role, org/link, why they matter, warm intro path (or cold). Acceptance: 10 rows in a notes sheet.",
+          "dependencies": [],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-connect-CN-02",
+          "description": "Send outreach to 3 named people from CN-01 (email/DM/intro ask) with one clear ask: coffee or 20-min call about how regenerative deals close. Acceptance: 3 sends logged with date.",
+          "dependencies": [
+            "RH-connect-CN-01"
+          ],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-connect-CN-03",
+          "description": "After 3 chats (or replies), write a 1-page learnings note: pain, capital sources, standards they trust, red flags. Acceptance: one dated note file or sheet tab.",
+          "dependencies": [
+            "RH-connect-CN-02"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-deal-DL-01",
+          "description": "Write personal ‘in a deal’ ladder on one page: intro → diligence → close → distribute to builders (exit criteria per stage). Acceptance: 4 stages with exit criteria each.",
+          "dependencies": [],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-trust-TR-01",
+          "description": "One-pager: Ocean Love × Regenerative Habitat — trust voice, near-ocean slice, no listings, no markup. Acceptance: publishable draft in repo or notes (≤1 page).",
+          "dependencies": [
+            "RH-foundation-FO-01"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-trust-TR-02",
+          "description": "Shortlist 3 catalog places for deeper scout (name, country, swim score, why). Include ≥1 Aruba/Bonaire lens if possible. Acceptance: 3 rows with why.",
+          "dependencies": [
+            "RH-trust-TR-01"
+          ],
+          "lane": "discover",
+          "minutes": 30,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-trust-TR-03",
+          "description": "Draft regenerative standards checklist v0 (ecology + coexistence + fair economics) — bullets only, ≤1 page. Acceptance: checklist with ≥8 items.",
+          "dependencies": [
+            "RH-connect-CN-03",
+            "RH-deal-DL-01"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-amenity-AM-01",
+          "description": "Parked: Ocean Ways dock-to-table pilot sketch (only after capital / resident path opens)",
+          "dependencies": [
+            "RH-connect-CN-03"
+          ],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        },
+        {
+          "index": "RH-amenity-AM-02",
+          "description": "Parked: ocean cleaning tech shop / engineer management sketch (only after RE pickup)",
+          "dependencies": [
+            "RH-deal-DL-01"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "regenerative_coastal"
+        }
       ]
     },
     {
       "theme": "Conservation",
+      "acronym": "CON",
+      "track": "ocean_love_surface",
+      "intent": "Stewardship with truth — help people protect places they just fell in love with. Ops pain before donation platforms.",
+      "energy": "keep human and local; one beach / one org story before platforms",
       "done_tasks": [
-        "Conservation stub page + main-nav entry"
+        {
+          "index": "CON-foundation-FO-01",
+          "description": "Conservation stub page + main-nav entry",
+          "dependencies": [],
+          "lane": "build"
+        }
       ],
       "next_tasks": [
-        "Protect this Beach + threats",
-        "Cleanup map MVP (static JSON)",
-        "Crowd report schema",
-        "Citizen science reporting",
-        "Eco travel & cleanup org directory",
-        "Impact reporting"
+        {
+          "index": "CON-discover-DI-01",
+          "description": "Pick one Aruba place + one real threat story with honest sources (notes only). Acceptance: place name + threat + ≥2 source links.",
+          "dependencies": [],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-beach-PB-01",
+          "description": "Protect-this-beach content block for that beach (threats + care tips) in JSON + render. Acceptance: block visible on that beach page.",
+          "dependencies": [
+            "CON-discover-DI-01",
+            "CUR-beaches-BH-03"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-map-MP-01",
+          "description": "Cleanup map MVP: static JSON + simple pins for one island. Acceptance: page/section shows ≥3 pins from JSON.",
+          "dependencies": [
+            "CON-discover-DI-01"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-talk-TK-01",
+          "description": "List 5 cleanup/reef orgs with accountability notes (site, what they publish). Acceptance: 5 rows — no random DMs yet.",
+          "dependencies": [],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-talk-TK-02",
+          "description": "Reach 2 orgs from TK-01: ask what admin work eats their week. Acceptance: 2 sends logged.",
+          "dependencies": [
+            "CON-talk-TK-01"
+          ],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-schema-SC-01",
+          "description": "Crowd report schema draft (photo + place + date) — design only JSON/fields. Acceptance: schema doc with required vs optional.",
+          "dependencies": [
+            "CON-talk-TK-02"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-directory-DR-01",
+          "description": "Eco travel & cleanup org directory stub — 5 trusted entries in data JSON. Acceptance: stub page or section lists 5.",
+          "dependencies": [
+            "CON-talk-TK-01"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-science-CS-01",
+          "description": "Parked: citizen science reporting UI (after schema + org signal)",
+          "dependencies": [
+            "CON-schema-SC-01",
+            "CON-talk-TK-02"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "CON-impact-IM-01",
+          "description": "Parked: impact reporting for orgs (only if TK chats demand it)",
+          "dependencies": [
+            "CON-talk-TK-02"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        }
       ]
     },
     {
-      "theme": "Ocean Lifestyle",
+      "theme": "Ocean-Gear-Shop",
+      "acronym": "OGS",
+      "track": "ocean_gear_later",
+      "intent": "Later lifestyle rail — gear/booking amenities after regenerative capital. Not the 90-day money path.",
+      "energy": "park aggressive affiliate push; spark only if RH connect energy is full",
       "done_tasks": [
-        "Ocean Lifestyle stub page (shop.html) + main-nav entry",
-        "Eco shop scuba_gear catalog JSON (data/eco_shop)"
+        {
+          "index": "OGS-foundation-FO-01",
+          "description": "Shop stub page (shop.html) + main-nav entry",
+          "dependencies": [],
+          "lane": "build"
+        },
+        {
+          "index": "OGS-shop-UI-01",
+          "description": "Eco shop scuba_gear catalog JSON (data/eco_shop)",
+          "dependencies": [],
+          "lane": "build"
+        }
       ],
       "next_tasks": [
-        "Browsable eco shop UI from catalog JSON",
-        "Affiliate partners + impact scores on product cards",
-        "Ocean tech directory",
-        "Expand catalogs beyond scuba_gear"
+        {
+          "index": "OGS-foundation-FO-02",
+          "description": "Parked: Lock Eco Snorkeling vertical (later amenity — crown is regenerative deals)",
+          "dependencies": [],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-foundation-FO-03",
+          "description": "Fun one-pager: who pays + what they buy before a snorkel trip. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-foundation-FO-02"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-foundation-FO-04",
+          "description": "Rewrite shop copy: performance first, ocean care as bonus. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-foundation-FO-03"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-research-RE-01",
+          "description": "Spy 5 pages ranking for best snorkeling mask / Aruba gear queries. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-foundation-FO-02"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-research-RE-02",
+          "description": "List 10 snorkel-trip product categories worth recommending. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-foundation-FO-02"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-research-RE-03",
+          "description": "Research Amazon Associates + 1 outdoor network (rules & payouts). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-research-RE-02"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-research-RE-04",
+          "description": "Research 3 specialty ocean-brand affiliate programs. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-research-RE-02"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-research-RE-05",
+          "description": "Tiny sheet: program, commission, cookie, content rules. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-research-RE-03",
+            "OGS-research-RE-04"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-01",
+          "description": "Outline batch 1: 5 Aruba snorkel article titles (intentful, exciting). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-research-RE-01",
+            "OGS-foundation-FO-02"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-02",
+          "description": "Ship next 1–2 articles from batch 1 (repeat until 5 live). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-content-CT-01"
+          ],
+          "lane": "discover",
+          "repeat_until": "5 articles from batch 1 published",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-03",
+          "description": "Outline batch 2: 5 more titles (species, safety, gear kits). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-content-CT-02"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-04",
+          "description": "Ship next 1–2 articles from batch 2 (repeat until 5 live). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-content-CT-03"
+          ],
+          "lane": "discover",
+          "repeat_until": "5 articles from batch 2 published",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-05",
+          "description": "Outline batch 3: 5 titles (Bonaire peek or deeper Aruba). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-content-CT-04"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-06",
+          "description": "Ship next 1–2 articles from batch 3 (repeat until 5 live). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-content-CT-05"
+          ],
+          "lane": "discover",
+          "repeat_until": "5 articles from batch 3 published",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-07",
+          "description": "Outline batch 4: 5 titles (gear comparisons people actually search). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-content-CT-06"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-content-CT-08",
+          "description": "Ship next 1–2 articles from batch 4 (repeat until 5 live). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-content-CT-07"
+          ],
+          "lane": "prosper",
+          "repeat_until": "5 articles from batch 4 published",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-affiliate-AF-01",
+          "description": "Shortlist 4–6 affiliate programs that fit Eco Snorkeling. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-research-RE-05"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-affiliate-AF-02",
+          "description": "Apply to first 2–3 affiliate programs. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-affiliate-AF-01",
+            "OGS-content-CT-04"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-affiliate-AF-03",
+          "description": "Apply to next 2–3 affiliate programs. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-affiliate-AF-02",
+            "OGS-content-CT-06"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-affiliate-AF-04",
+          "description": "Choose 12 hero products (better/safer/durable + ocean bonus). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-research-RE-02",
+            "OGS-affiliate-AF-02"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-shop-UI-02",
+          "description": "Browsable shop UI from existing scuba_gear catalog. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-shop-UI-01"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-shop-UI-03",
+          "description": "Snorkel category catalog JSON (lazy index + refs only). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-research-RE-02",
+            "OGS-shop-UI-02"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-shop-UI-04",
+          "description": "Product cards: performance copy, ocean bonus, affiliate slot. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-shop-UI-03",
+            "OGS-affiliate-AF-04"
+          ],
+          "lane": "build",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-shop-UI-05",
+          "description": "Recommended gear on one Aruba beach page (no donate CTA). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-shop-UI-04",
+            "CUR-beaches-BH-05"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-talk-TK-01",
+          "description": "List 10 dive/snorkel operators (Aruba + Bonaire) worth knowing. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-foundation-FO-02"
+          ],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-talk-TK-02",
+          "description": "Message 3 operators: what software/admin annoys you?. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-talk-TK-01"
+          ],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-talk-TK-03",
+          "description": "Message 3 more; capture pains in notes (fuel for later SaaS). Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-talk-TK-02"
+          ],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        },
+        {
+          "index": "OGS-talk-TK-04",
+          "description": "One conversation with reef NGO, tourism board, or marine contact. Acceptance: finish in one sitting ≤60m or split before claiming done.",
+          "dependencies": [
+            "OGS-talk-TK-03"
+          ],
+          "lane": "connect",
+          "minutes": 60,
+          "track": "ocean_gear_later"
+        }
       ]
     },
     {
-      "theme": "Other",
+      "theme": "Site-Craft",
+      "acronym": "SCT",
+      "track": "ocean_love_surface",
+      "intent": "Joyful craft — polish, mobile feel, small delights that make returning fun. Formerly 'Other'.",
+      "energy": "great low-pressure weeks; ship tiny visible wins",
       "done_tasks": [
-        "Landing page (glossy no-scroll, motto, count-up stats)",
-        "Landing motto: Ocean / Curiosity / Conservation / Ocean Lifestyle",
-        "Landing motto/stats keep ≥10% gap (desktop + mobile)",
-        "Main nav: Home / Curiosity / Conservation / Ocean Lifestyle",
-        "Shared soft-nav + fonts / page moods",
-        "Dev serve.py (no-cache) + check.py"
+        {
+          "index": "SCT-landing-LD-01",
+          "description": "Landing page (glossy no-scroll, motto, count-up stats)",
+          "dependencies": [],
+          "lane": "polish"
+        },
+        {
+          "index": "SCT-landing-LD-02",
+          "description": "Landing motto pillars + spacing rules (≥10% gap)",
+          "dependencies": [
+            "SCT-landing-LD-01"
+          ],
+          "lane": "polish"
+        },
+        {
+          "index": "SCT-nav-NV-01",
+          "description": "Main nav: Home / Curiosity / Conservation / Ocean Lifestyle",
+          "dependencies": [],
+          "lane": "polish"
+        },
+        {
+          "index": "SCT-nav-NV-02",
+          "description": "Shared soft-nav + fonts / page moods",
+          "dependencies": [],
+          "lane": "build"
+        },
+        {
+          "index": "SCT-dev-DV-01",
+          "description": "Dev serve.py (no-cache) + check.py",
+          "dependencies": [],
+          "lane": "build"
+        }
       ],
       "next_tasks": [
-        "localStorage favorites + visit log",
-        "Wildlife sightings & photo galleries",
-        "Travel journals & stories",
-        "Newsletter & saved places",
-        "Membership",
-        "Mobile: audit landing motto/stats spacing across breakpoints",
-        "Mobile: beaches sidebar → bottom sheet / stacked layout",
-        "Mobile: species shard nav + section focus scroll under sticky chrome",
-        "Mobile: touch targets ≥44px (chips, nav, shard letters)",
-        "Mobile: soft-nav + View Transitions perf / reduced-motion pass",
-        "Mobile: conservation & shop stub readability on narrow viewports"
+        {
+          "index": "SCT-delight-DL-01",
+          "description": "localStorage favorites for beaches (save + list). Acceptance: star/save on beach persists after reload; list view shows saved.",
+          "dependencies": [
+            "CUR-beaches-BH-03"
+          ],
+          "lane": "polish",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-delight-DL-02",
+          "description": "Simple visit log (last beaches viewed) — personal compass. Acceptance: last ≥5 viewed persist and display.",
+          "dependencies": [
+            "SCT-delight-DL-01"
+          ],
+          "lane": "polish",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-mobile-MB-01",
+          "description": "Mobile: landing motto/stats spacing check on 2 phone widths (notes or CSS fix). Acceptance: no overlap/clip at ~375 and ~390.",
+          "dependencies": [
+            "SCT-landing-LD-02"
+          ],
+          "lane": "polish",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-mobile-MB-02",
+          "description": "Mobile: beaches sidebar → stacked / bottom-sheet friendly layout. Acceptance: usable single column under 640px.",
+          "dependencies": [
+            "CUR-beaches-BH-03"
+          ],
+          "lane": "polish",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-mobile-MB-03",
+          "description": "Mobile: species shard nav + scroll under sticky chrome. Acceptance: shards usable; content not hidden under header.",
+          "dependencies": [
+            "CUR-species-SP-02"
+          ],
+          "lane": "polish",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-mobile-MB-04",
+          "description": "Mobile: touch targets ≥44px on chips, nav, shard letters. Acceptance: spot-check those controls at 375px.",
+          "dependencies": [
+            "SCT-mobile-MB-02"
+          ],
+          "lane": "polish",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-mobile-MB-05",
+          "description": "Mobile: soft-nav + reduced-motion pass. Acceptance: nav works; no motion when prefers-reduced-motion.",
+          "dependencies": [
+            "SCT-nav-NV-02"
+          ],
+          "lane": "polish",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-mobile-MB-06",
+          "description": "Mobile: conservation & shop stub readability on narrow screens. Acceptance: no horizontal scroll; text readable at 375px.",
+          "dependencies": [
+            "CON-foundation-FO-01",
+            "OGS-foundation-FO-01"
+          ],
+          "lane": "polish",
+          "minutes": 30,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-gallery-GL-01",
+          "description": "Parked: wildlife photo gallery experiment (after more species heroes)",
+          "dependencies": [
+            "CUR-species-SP-06"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-stories-ST-01",
+          "description": "Parked: travel journal stub (one personal Aruba note)",
+          "dependencies": [
+            "CUR-destination-DS-03"
+          ],
+          "lane": "discover",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-grow-GR-01",
+          "description": "Parked: newsletter / saved places (after favorites + real traffic)",
+          "dependencies": [
+            "SCT-delight-DL-02",
+            "OGS-affiliate-AF-02"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        },
+        {
+          "index": "SCT-grow-GR-02",
+          "description": "Parked: membership thinking doc (only after affiliate proof)",
+          "dependencies": [
+            "OGS-shop-UI-05"
+          ],
+          "lane": "prosper",
+          "minutes": 60,
+          "track": "ocean_love_surface"
+        }
       ]
     }
   ]

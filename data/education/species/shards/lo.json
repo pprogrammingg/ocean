@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "lo",
   "species": [
     {
@@ -7,58 +7,82 @@
       "shard": "lo",
       "type": "animal",
       "popular_name": "Loggerhead Turtle",
+      "taxonomy": "Animal · Reptile · Turtle",
       "scientific_name": "Caretta caretta",
-      "translations": {
-        "es": "Tortuga boba",
-        "pap": "Turtuga cabezú"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Turtuga cabezú"
+        },
+        "english": "Loggerhead Turtle",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Tortuga boba"
+          }
+        ]
       },
-      "tags": [
-        "reptile",
-        "turtle",
-        "endangered"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Open ocean and coastal bays; powerful jaws for hard prey.",
-        "food": "Crabs, conchs, and other crunchy invertebrates.",
-        "feeding": "Big head and jaws crack shells other turtles can’t.",
-        "mating": "Famous nesting beaches; females may travel huge distances.",
-        "socializing": "Solitary travelers between feeding and nesting grounds."
+      "conservation": {
+        "status": "Bad",
+        "help_by": "Keep nesting beaches dark and clear; support marine protected areas.",
+        "caution_against": "Never buy turtle products; don’t block crawlways or touch nesting turtles.",
+        "life_info": {
+          "eating": "Crabs, conchs, and other crunchy invertebrates. Big head and jaws crack shells other turtles can’t.",
+          "mating": "Famous nesting beaches; females may travel huge distances.",
+          "habitat": "Open ocean and coastal bays; powerful jaws for hard prey. Solitary travelers between feeding and nesting grounds."
+        }
       },
       "fun_facts": [
         "The logger head is packed with muscle for shell-cracking.",
         "Hatchlings use Earth’s magnetic field like a built-in GPS."
       ],
       "images": [],
-      "conservation_status": "Vulnerable (IUCN)"
+      "tags": [
+        "reptile",
+        "turtle",
+        "endangered"
+      ]
     },
     {
       "id": "long-spined-sea-urchin",
       "shard": "lo",
       "type": "animal",
       "popular_name": "Long-Spined Sea Urchin",
+      "taxonomy": "Animal · Echinoderm · Reef",
       "scientific_name": "Diadema antillarum",
-      "translations": {
-        "es": "Erizo negro",
-        "pap": "See-egel"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "See-egel"
+        },
+        "english": "Long-Spined Sea Urchin",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Erizo negro"
+          }
+        ]
       },
-      "tags": [
-        "echinoderm",
-        "reef",
-        "herbivore"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Reef crevices and rocky bottoms; spines wave in the surge.",
-        "food": "Algae — a key grazer that helps coral stay clear.",
-        "feeding": "Night grazing marches across reef rock.",
-        "mating": "Broadcast spawners; larvae drift before settling.",
-        "socializing": "A 1980s die-off changed Caribbean reefs — recovery still matters."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Algae — a key grazer that helps coral stay clear. Night grazing marches across reef rock.",
+          "mating": "Broadcast spawners; larvae drift before settling.",
+          "habitat": "Reef crevices and rocky bottoms; spines wave in the surge. A 1980s die-off changed Caribbean reefs — recovery still matters."
+        }
       },
       "fun_facts": [
         "Step carefully: spines are brittle and painful.",
         "When Diadema vanish, algae can smother coral."
       ],
       "images": [],
-      "conservation_status": "Not Evaluated"
+      "tags": [
+        "echinoderm",
+        "reef",
+        "herbivore"
+      ]
     }
   ]
 }

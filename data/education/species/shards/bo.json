@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "bo",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "bo",
       "type": "animal",
       "popular_name": "Bottlenose Dolphin",
+      "taxonomy": "Animal · Mammal · Cetacean",
       "scientific_name": "Tursiops truncatus",
-      "translations": {
-        "es": "Delfín nariz de botella",
-        "pap": "Dolfijn"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Dolfijn"
+        },
+        "english": "Bottlenose Dolphin",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Delfín nariz de botella"
+          }
+        ]
       },
-      "tags": [
-        "mammal",
-        "cetacean",
-        "coastal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Bays, channels, and nearshore blue water in social groups.",
-        "food": "Fish and squid hunted with teamwork and echolocation.",
-        "feeding": "Herding, mud-ring feeding, and clever local tricks.",
-        "mating": "Calves stay with mothers for years learning dolphin school.",
-        "socializing": "Pods chat with clicks and whistles — ocean gossip."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Give wildlife space; pick reef-safe sunscreen and careful finning.",
+        "caution_against": "Don’t feed fish, chase animals, or pocket living souvenirs.",
+        "life_info": {
+          "eating": "Fish and squid hunted with teamwork and echolocation. Herding, mud-ring feeding, and clever local tricks.",
+          "mating": "Calves stay with mothers for years learning dolphin school.",
+          "habitat": "Bays, channels, and nearshore blue water in social groups. Pods chat with clicks and whistles — ocean gossip."
+        }
       },
       "fun_facts": [
         "Each dolphin may have a unique whistle ‘name’ friends recognize.",
         "They sleep with one eye open — half the brain naps at a time."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "mammal",
+        "cetacean",
+        "coastal"
+      ]
     }
   ]
 }

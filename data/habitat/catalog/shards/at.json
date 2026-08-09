@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "shard": "at",
+  "places": [
+    {
+      "id": "atalaya-tebario",
+      "shard": "at",
+      "name": "Atalaya / Tebario",
+      "country_id": "panama",
+      "country": "Panama",
+      "region": "Veraguas",
+      "coordinates": {
+        "lat": 8.993938,
+        "lng": -80.576823,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 1,
+        "eco": 1,
+        "swim": 5,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$19k–$850k",
+        "low": 19000,
+        "high": 850000,
+        "mid": 434500,
+        "parcel": "3–5"
+      },
+      "note": "Trade-wind side: steady breeze, less mozzies than lee.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "veraguas"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "malaysia",
+  "name": "Malaysia",
+  "country": "Malaysia",
+  "tagline": "Peninsula & Borneo coastal edge",
+  "summary": "State land rules and rainforest-edge design for regenerative living near swimmable water. Full inland / highland depth remains in regenerative_habitat; ocean-love keeps the coastal edge.",
+  "highlights": [
+    {
+      "title": "Coastal & estuary edge",
+      "text": "Swim access, runoff, and wildlife corridors — design with wet seasons."
+    },
+    {
+      "title": "State variation",
+      "text": "Land rules differ by state — don’t generalize from one listing."
+    },
+    {
+      "title": "Strata vs landed",
+      "text": "Different rights; landed has more regenerative landscape room."
+    }
+  ],
+  "cost_bands": [
+    {
+      "item": "Coastal-edge land",
+      "usd": "MYR bands vary by state",
+      "note": "Verify foreign purchase rules"
+    },
+    {
+      "item": "Humidity-first build",
+      "usd": "Envelope + mold detailing",
+      "note": "Climate drives cost more than finish porn"
+    }
+  ],
+  "tags": [
+    "malaysia",
+    "borneo",
+    "coastal",
+    "state-land"
+  ],
+  "disclaimer": "Coastal regenerative planning sketch — not listings or legal advice. Wider inland research: regenerative_habitat sister repo."
+}

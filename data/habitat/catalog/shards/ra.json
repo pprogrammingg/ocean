@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "shard": "ra",
+  "places": [
+    {
+      "id": "rarotonga-south",
+      "shard": "ra",
+      "name": "Rarotonga south",
+      "country_id": "cook-islands",
+      "country": "Cook Islands",
+      "region": "Rarotonga",
+      "coordinates": {
+        "lat": -20.290913,
+        "lng": -158.037242,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 2,
+        "eco": 3,
+        "swim": 5,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$29k–$1.1M",
+        "low": 29000,
+        "high": 1100000,
+        "mid": 564500,
+        "parcel": "3–5"
+      },
+      "note": "Highland fog some mornings; coast clears by noon.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "rarotonga"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

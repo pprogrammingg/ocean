@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "shard": "el",
+  "places": [
+    {
+      "id": "el-cuyo",
+      "shard": "el",
+      "name": "El Cuyo",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Yucatán Gulf",
+      "coordinates": {
+        "lat": 28.234134,
+        "lng": -101.63511,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 3,
+        "eco": 3,
+        "swim": 3,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$10k–$560k",
+        "low": 10000,
+        "high": 560000,
+        "mid": 285000,
+        "parcel": "3–5"
+      },
+      "note": "Gulf stream edge: warm water much of the year.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "affordable",
+        "yucatan",
+        "gulf"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "el-transito",
+      "shard": "el",
+      "name": "El Transito",
+      "country_id": "nicaragua",
+      "country": "Nicaragua",
+      "region": "Managua coast",
+      "coordinates": {
+        "lat": 13.36052,
+        "lng": -85.753717,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 1,
+        "eco": 5,
+        "swim": 4,
+        "total": 11
+      },
+      "land_price_usd": {
+        "label": "$6k–$315k",
+        "low": 6000,
+        "high": 315000,
+        "mid": 160500,
+        "parcel": "3–5"
+      },
+      "note": "Karst aquifer: cenotes or wells define settlement pattern.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "managua",
+        "coast"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

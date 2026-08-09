@@ -61,5 +61,11 @@
     "plane-spotting",
     "cruise-ship-visitors",
     "quick-city-beach-stop"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.52,
+    "lng": -70.038,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

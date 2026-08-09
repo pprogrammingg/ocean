@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "shard": "re",
   "species": [
     {
@@ -7,29 +7,41 @@
       "shard": "re",
       "type": "plant",
       "popular_name": "Red Mangrove",
+      "taxonomy": "Plant · Mangrove · Nursery",
       "scientific_name": "Rhizophora mangle",
-      "translations": {
-        "es": "Mangle rojo",
-        "pap": "Mangel rood"
+      "languages": {
+        "indigenous": {
+          "lang": "Papiamento",
+          "name": "Mangel rood"
+        },
+        "english": "Red Mangrove",
+        "other": [
+          {
+            "lang": "Spanish",
+            "name": "Mangle rojo"
+          }
+        ]
       },
-      "tags": [
-        "mangrove",
-        "nursery",
-        "coastal"
-      ],
-      "dwelling_habits": {
-        "dwelling": "Prop-root forests along tidal shores and lagoon edges.",
-        "food": "Filters salt at the roots; makes sugar with sunlight.",
-        "feeding": "Makes energy from sunlight (and sometimes from clear shallow water light).",
-        "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
-        "socializing": "Forms habitat structure that shelters fish, crabs, and invertebrates."
+      "conservation": {
+        "status": "Good",
+        "help_by": "Protect shoreline buffers; support mangrove restoration projects.",
+        "caution_against": "Don’t clear mangrove roots for beach access or dump trash in lagoons.",
+        "life_info": {
+          "eating": "Filters salt at the roots; makes sugar with sunlight. Makes energy from sunlight (and sometimes from clear shallow water light).",
+          "mating": "Spreads by spores, seeds, propagules, or creeping rhizomes depending on the species.",
+          "habitat": "Prop-root forests along tidal shores and lagoon edges. Forms habitat structure that shelters fish, crabs, and invertebrates."
+        }
       },
       "fun_facts": [
         "Kids call the prop roots underwater stilts — and they’re right.",
         "A living breakwater that also stores carbon in muddy soils."
       ],
       "images": [],
-      "conservation_status": "Least Concern (IUCN)"
+      "tags": [
+        "mangrove",
+        "nursery",
+        "coastal"
+      ]
     }
   ]
 }

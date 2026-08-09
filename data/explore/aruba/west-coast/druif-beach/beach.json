@@ -59,5 +59,11 @@
     "local",
     "quiet-day",
     "cruise-adjacent-visitors"
-  ]
+  ],
+  "coordinates": {
+    "lat": 12.535,
+    "lng": -70.06,
+    "crs": "EPSG:4326",
+    "precision": "approximate"
+  }
 }

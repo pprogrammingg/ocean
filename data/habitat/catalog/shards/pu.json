@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "shard": "pu",
+  "places": [
+    {
+      "id": "puerto-arista",
+      "shard": "pu",
+      "name": "Puerto Arista",
+      "country_id": "mexico",
+      "country": "Mexico",
+      "region": "Chiapas",
+      "coordinates": {
+        "lat": 32.112501,
+        "lng": -97.33472,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 3,
+        "views": 1,
+        "eco": 1,
+        "swim": 5,
+        "total": 10
+      },
+      "land_price_usd": {
+        "label": "$10k–$500k",
+        "low": 10000,
+        "high": 500000,
+        "mid": 255000,
+        "parcel": "3–5"
+      },
+      "note": "Mangrove edge: biodiversity high, building setbacks matter.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "chiapas"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "puerto-raul-marin",
+      "shard": "pu",
+      "name": "Puerto Raúl Marín",
+      "country_id": "chile",
+      "country": "Chile",
+      "region": "Aysén",
+      "coordinates": {
+        "lat": -53.195617,
+        "lng": -69.565932,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 2,
+        "eco": 5,
+        "swim": 4,
+        "total": 15
+      },
+      "land_price_usd": {
+        "label": "$21k–$760k",
+        "low": 21000,
+        "high": 760000,
+        "mid": 390500,
+        "parcel": "3–5"
+      },
+      "note": "Clay soils inland: brick vs import foam decision.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "high-score",
+        "aysen"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "puerto-santa-cruz",
+      "shard": "pu",
+      "name": "Puerto Santa Cruz",
+      "country_id": "argentina",
+      "country": "Argentina",
+      "region": "Santa Cruz",
+      "coordinates": {
+        "lat": -32.531405,
+        "lng": -58.33156,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 1,
+        "eco": 1,
+        "swim": 5,
+        "total": 12
+      },
+      "land_price_usd": {
+        "label": "$10k–$590k",
+        "low": 10000,
+        "high": 590000,
+        "mid": 300000,
+        "parcel": "3–5"
+      },
+      "note": "Indigenous land rights: due diligence before marketing fantasy.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "affordable",
+        "santa",
+        "cruz"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}

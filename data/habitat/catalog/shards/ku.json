@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "shard": "ku",
+  "places": [
+    {
+      "id": "kuakata",
+      "shard": "ku",
+      "name": "Kuakata",
+      "country_id": "bangladesh",
+      "country": "Bangladesh",
+      "region": "Patuakhali",
+      "coordinates": {
+        "lat": 26.227839,
+        "lng": 90.440672,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 4,
+        "views": 5,
+        "eco": 1,
+        "swim": 3,
+        "total": 13
+      },
+      "land_price_usd": {
+        "label": "$6k–$135k",
+        "low": 6000,
+        "high": 135000,
+        "mid": 70500,
+        "parcel": "3–5"
+      },
+      "note": "Dry forest + coast: strong seasonality, plan water.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "views",
+        "affordable",
+        "patuakhali"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "kuakata-lebur-char",
+      "shard": "ku",
+      "name": "Kuakata–Lebur Char",
+      "country_id": "bangladesh",
+      "country": "Bangladesh",
+      "region": "Patuakhali",
+      "coordinates": {
+        "lat": 25.703388,
+        "lng": 92.254483,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 1,
+        "views": 2,
+        "eco": 3,
+        "swim": 4,
+        "total": 10
+      },
+      "land_price_usd": {
+        "label": "$5k–$110k",
+        "low": 5000,
+        "high": 110000,
+        "mid": 57500,
+        "parcel": "3–5"
+      },
+      "note": "Karst aquifer: cenotes or wells define settlement pattern.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "calm-swim",
+        "patuakhali"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "kuala-penyu-menumbok",
+      "shard": "ku",
+      "name": "Kuala Penyu / Menumbok",
+      "country_id": "malaysia",
+      "country": "Malaysia",
+      "region": "Sabah",
+      "coordinates": {
+        "lat": 2.756041,
+        "lng": 117.406778,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 5,
+        "views": 2,
+        "eco": 5,
+        "swim": 5,
+        "total": 17
+      },
+      "land_price_usd": {
+        "label": "$13k–$660k",
+        "low": 13000,
+        "high": 660000,
+        "mid": 336500,
+        "parcel": "3–5"
+      },
+      "note": "Clay soils inland: brick vs import foam decision.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "eco-culture",
+        "calm-swim",
+        "affordable",
+        "high-score",
+        "sabah"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    },
+    {
+      "id": "kuala-rompin-endau",
+      "shard": "ku",
+      "name": "Kuala Rompin / Endau",
+      "country_id": "malaysia",
+      "country": "Malaysia",
+      "region": "Pahang",
+      "coordinates": {
+        "lat": 2.653254,
+        "lng": 108.418611,
+        "crs": "EPSG:4326",
+        "precision": "planning-seed"
+      },
+      "scores": {
+        "price": 2,
+        "views": 1,
+        "eco": 3,
+        "swim": 3,
+        "total": 9
+      },
+      "land_price_usd": {
+        "label": "$14k–$550k",
+        "low": 14000,
+        "high": 550000,
+        "mid": 282000,
+        "parcel": "3–5"
+      },
+      "note": "Coral reef nearby: snorkel > surf; check mooring rules.",
+      "tags": [
+        "coastal",
+        "swim-near-ocean",
+        "3-5-acres",
+        "pahang"
+      ],
+      "nearby_beaches": [],
+      "disclaimer": "Planning sketch — not a listing, appraisal, or legal survey."
+    }
+  ]
+}
